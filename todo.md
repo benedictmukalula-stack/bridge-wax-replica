@@ -10,3 +10,10 @@
 - [x] Implement asset and runtime optimizations without changing the design.
 - [x] Validate build output, route behavior, and visual fidelity.
 - [ ] Save and deliver an optimized checkpoint.
+
+# Generated Image Mapping Correction
+
+- [x] Inspect current page image references and generated asset availability.
+- [x] Wire generated imagery into the site with correct category assignments.
+- [x] Verify page visuals, asset paths, and build integrity.
+- [ ] Save and deliver the corrected image-mapping checkpoint.

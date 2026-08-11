@@ -4,11 +4,7 @@ import { useEffect, useState } from "react";
 import { Link } from "wouter";
 
 const SLIDES = [
-  { src: "/manus-storage/hero-slide-1_6378a909.webp", alt: "Industrial equipment solutions" },
-  { src: "/manus-storage/hero-slide-3_b13f47f0.webp", alt: "Laboratory equipment and glassware" },
-  { src: "/manus-storage/hero-slide-5_94e66062.webp", alt: "Professional laboratory setup" },
-  { src: "/manus-storage/hero-slide-6_6478a9b2.webp", alt: "Essential laboratory tools and safety equipment" },
-  { src: "/manus-storage/hero-slide-8_331008c8.webp", alt: "Advanced laboratory instruments" },
+  { src: "/manus-storage/home-hero_e4f93bdf.webp", alt: "Modern analytical laboratory inside a scientific research facility" },
 ];
 
 export function HeroSlider() {
@@ -18,9 +14,7 @@ export function HeroSlider() {
   return <section className="hero-slider">
     {SLIDES.map((slide, slideIndex) => <div className={`hero-slide ${slideIndex === index ? "visible" : ""}`} key={slide.src}><img src={slide.src} alt={slide.alt} loading={slideIndex === 0 ? "eager" : "lazy"} fetchPriority={slideIndex === 0 ? "high" : "low"} decoding="async" /></div>)}
     <div className="hero-overlay" />
-    <button className="hero-arrow hero-arrow-left" aria-label="Previous slide" onClick={() => move(-1)}><ChevronLeft size={20} /></button>
-    <button className="hero-arrow hero-arrow-right" aria-label="Next slide" onClick={() => move(1)}><ChevronRight size={20} /></button>
-    <div className="hero-markers">{SLIDES.map((slide, slideIndex) => <button key={slide.src} aria-label={`Go to slide ${slideIndex + 1}`} className={slideIndex === index ? "active" : ""} onClick={() => setIndex(slideIndex)} />)}</div>
+    {SLIDES.length > 1 && <><button className="hero-arrow hero-arrow-left" aria-label="Previous slide" onClick={() => move(-1)}><ChevronLeft size={20} /></button><button className="hero-arrow hero-arrow-right" aria-label="Next slide" onClick={() => move(1)}><ChevronRight size={20} /></button><div className="hero-markers">{SLIDES.map((slide, slideIndex) => <button key={slide.src} aria-label={`Go to slide ${slideIndex + 1}`} className={slideIndex === index ? "active" : ""} onClick={() => setIndex(slideIndex)} />)}</div></>}
     <div className="hero-copy content-wrap">
       <span className="eyebrow">We Exceed Our Vision</span>
       <h1>Laboratory Equipment &amp; Industrial Solutions for Africa</h1>

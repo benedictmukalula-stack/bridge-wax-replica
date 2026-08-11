@@ -12,10 +12,10 @@ const CAPABILITIES = [
 ];
 
 const CATEGORIES = [
-  { title: "Laboratory Equipment", src: "/manus-storage/hero-slide-3_b13f47f0.webp" },
-  { title: "Water Analysis Equipment", src: "/manus-storage/cat-water-analysis_dd1b4205.webp" },
-  { title: "Medical Laboratory Equipment", src: "/manus-storage/cat-medical-lab_a76379b2.webp" },
-  { title: "Analytical Instruments", src: "/manus-storage/img-mrclab-equipment_d32cd738.webp" },
+  { title: "Laboratory Equipment", src: "/manus-storage/home-featured-laboratory-retry_027039f2.webp" },
+  { title: "Mining Laboratory", src: "/manus-storage/home-featured-mining-retry_90831ae0.webp" },
+  { title: "Industrial Equipment", src: "/manus-storage/home-featured-industrial-retry_a757c324.webp" },
+  { title: "Technical Support", src: "/manus-storage/home-featured-support-retry_c042ce1b.webp" },
 ];
 
 export default function Home() {
@@ -26,7 +26,7 @@ export default function Home() {
       <section className="section section-white">
         <div className="content-wrap split-layout">
           <div className="image-frame image-frame-square">
-            <img src="/manus-storage/img-alphasophia_f238321d.webp" alt="Bridge Wax laboratory and industrial equipment" loading="lazy" decoding="async" />
+            <img src="/manus-storage/home-about-retry_ee806f7e.webp" alt="Bridge Wax laboratory headquarters reception area" loading="lazy" decoding="async" />
           </div>
           <div className="copy-block">
             <span className="eyebrow">About Bridge Wax</span>
@@ -59,9 +59,9 @@ export default function Home() {
       <section className="section section-white">
         <div className="content-wrap">
           <div className="section-heading">
-            <span className="eyebrow">Our Products</span>
-            <h2>Featured Categories</h2>
-            <p>Explore our range of professional laboratory and industrial equipment.</p>
+            <span className="eyebrow">Our Services</span>
+            <h2>Featured Services</h2>
+            <p>Laboratory, mining, industrial, and technical support capabilities for demanding operations.</p>
           </div>
           <div className="card-grid card-grid-4">
             {CATEGORIES.map((category) => (

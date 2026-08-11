@@ -140,3 +140,10 @@
 - [x] Change catalogue action labels and accessible text to Cart.
 - [x] Verify all product routes and preserve quotation behavior.
 - [ ] Save and deliver the catalogue Cart-label checkpoint.
+
+# Clear Cart Control
+
+- [x] Audit the existing cart drawer clear action and label hierarchy.
+- [x] Rename and style the drawer-wide action as Clear Cart.
+- [x] Verify clearing behavior, header count, and empty-cart state.
+- [ ] Save and deliver the Clear Cart checkpoint.

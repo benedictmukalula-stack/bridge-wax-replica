@@ -198,8 +198,8 @@ h2 { color: var(--ink); font-size: clamp(2rem, 4vw, 3.2rem); line-height: 1.15; 
 .quote-cart-form { display: flex; flex-direction: column; gap: .8rem; border-top: 1px solid var(--border); padding-top: 1.25rem; }
 .quote-cart-form-heading { display: flex; align-items: baseline; justify-content: space-between; gap: 1rem; }
 .quote-cart-form-heading h3 { color: var(--ink); font-size: 1.25rem; }
-.quote-cart-clear { border: 0; background: transparent; color: var(--body-text); font-size: .72rem; font-weight: 700; text-decoration: underline; }
-.quote-cart-clear:hover { color: var(--gold); }
+.quote-cart-clear { display: inline-flex; align-items: center; gap: .35rem; border: 1px solid rgba(159,47,47,.22); border-radius: .35rem; background: #fff; color: #9f2f2f; padding: .4rem .55rem; font-size: .72rem; font-weight: 800; }
+.quote-cart-clear:hover { border-color: #9f2f2f; background: rgba(159,47,47,.06); }
 .quote-cart-form input, .quote-cart-form textarea { width: 100%; border: 1px solid var(--border); border-radius: .35rem; background: #fff; color: var(--ink); outline: 0; padding: .7rem .75rem; font-size: .86rem; transition: border-color .18s ease, box-shadow .18s ease; }
 .quote-cart-form textarea { resize: vertical; min-height: 5rem; }
 .quote-cart-form input:focus, .quote-cart-form textarea:focus { border-color: var(--gold); box-shadow: 0 0 0 3px rgba(200,150,62,.12); }

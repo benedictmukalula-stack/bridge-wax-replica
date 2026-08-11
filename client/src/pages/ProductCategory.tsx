@@ -1,4 +1,4 @@
-/* Indicative catalogue detail page: category-specific product list with provisional codes and clean reference imagery. */
+/* Product catalogue detail page: category-specific product list with codes and clean reference imagery. */
 import { ArrowLeft, Mail } from "lucide-react";
 import { Link, useRoute } from "wouter";
 import { PageHero, PageShell } from "../components/PageShell";
@@ -21,10 +21,10 @@ export default function ProductCategory() {
       <div className="content-wrap">
         <div className="catalogue-topbar">
           <Link href="/products" className="catalogue-back"><ArrowLeft size={15} /> Back to Products</Link>
-          <span className="catalogue-count">{totalProducts} indicative products</span>
+          <span className="catalogue-count">{totalProducts} products</span>
         </div>
-        <div className="catalogue-overview"><div><span>Catalogue type</span><strong>Indicative product range</strong></div><div><span>Entries shown</span><strong>{totalProducts} products</strong></div><div><span>Enquiry route</span><strong>Product-specific</strong></div></div>
-        <div className="catalogue-notice"><strong>Indicative catalogue.</strong> Product codes and descriptions are provisional working entries for layout review and should be replaced with the official Bridge Wax catalogue before publication.</div>
+        <div className="catalogue-overview"><div><span>Catalogue type</span><strong>Product range</strong></div><div><span>Entries shown</span><strong>{totalProducts} products</strong></div><div><span>Enquiry route</span><strong>Product-specific</strong></div></div>
+        <div className="catalogue-notice">Contact us to confirm current specifications, lead times, and availability for each product.</div>
         <div className="catalogue-section"><div className="catalogue-section-heading"><span className="eyebrow">Primary range</span><h2>{catalogue.title}</h2></div><div className="catalogue-grid">
           {catalogue.products.map((product) => <article className="catalogue-card" key={product.code}>
             <div className="catalogue-card-media"><img src={product.image} alt={`${product.name} reference image`} loading="lazy" decoding="async" /></div>

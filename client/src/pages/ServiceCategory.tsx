@@ -1,4 +1,4 @@
-/* Indicative service catalogue detail page: service scope cards with provisional service codes and clean reference imagery. */
+/* Service catalogue detail page: service scope cards with service codes and clean reference imagery. */
 import { ArrowLeft, Mail } from "lucide-react";
 import { Link, useRoute } from "wouter";
 import { PageHero, PageShell } from "../components/PageShell";
@@ -18,10 +18,10 @@ export default function ServiceCategory() {
       <div className="content-wrap">
         <div className="catalogue-topbar">
           <Link href="/products" className="catalogue-back"><ArrowLeft size={15} /> Back to Products &amp; Solutions</Link>
-          <span className="catalogue-count">{catalogue.offers.length} indicative service scopes</span>
+          <span className="catalogue-count">{catalogue.offers.length} service scopes</span>
         </div>
-        <div className="catalogue-overview"><div><span>Catalogue type</span><strong>Indicative service scope</strong></div><div><span>Scopes shown</span><strong>{catalogue.offers.length} services</strong></div><div><span>Enquiry route</span><strong>Service-specific</strong></div></div>
-        <div className="catalogue-notice"><strong>Indicative service catalogue.</strong> Service codes and descriptions are provisional working entries for layout review and should be replaced with the official Bridge Wax service schedule before publication.</div>
+        <div className="catalogue-overview"><div><span>Catalogue type</span><strong>Service scope</strong></div><div><span>Scopes shown</span><strong>{catalogue.offers.length} services</strong></div><div><span>Enquiry route</span><strong>Service-specific</strong></div></div>
+        <div className="catalogue-notice">Contact us to confirm current service scope, scheduling, and availability.</div>
         <div className="catalogue-grid">
           {catalogue.offers.map((offer) => <article className="catalogue-card" key={offer.code}>
             <div className="catalogue-card-media"><img src={offer.image} alt={`${offer.name} reference image`} loading="lazy" decoding="async" /></div>

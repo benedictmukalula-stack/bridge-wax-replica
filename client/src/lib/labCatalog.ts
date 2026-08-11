@@ -1,4 +1,4 @@
-/* Indicative laboratory catalogue content: seven distinct image-backed entries per laboratory section. Replace provisional codes and descriptions with official Bridge Wax data before publication. */
+/* Laboratory catalogue content: seven distinct image-backed entries per laboratory section. */
 export type LabProduct = { code: string; name: string; description: string; image: string };
 export type LabCatalogue = { slug: string; title: string; eyebrow: string; summary: string; image: string; products: LabProduct[] };
 
@@ -9,7 +9,7 @@ const ANALYTICAL = ["/manus-storage/01_24fd30b9.webp", "/manus-storage/02_642d1e
 
 export const LAB_CATALOGUES: Record<string, LabCatalogue> = {
   mining: {
-    slug: "mining", title: "Mining Laboratory Equipment", eyebrow: "Indicative Catalogue · Mining Laboratory",
+    slug: "mining", title: "Mining Laboratory Equipment", eyebrow: "Catalogue · Mining Laboratory",
     summary: "Sample preparation, geological processing, assay support, and laboratory equipment for mining and mineral-analysis workflows.", image: "/manus-storage/laboratory-hero-no-people_36472255.png",
     products: [
       { code: "BW-ML-001", name: "Laboratory Jaw Crusher", description: "Primary sample-size reduction equipment for preparing geological and mineral samples for downstream laboratory work.", image: MINING[0] },
@@ -22,8 +22,8 @@ export const LAB_CATALOGUES: Record<string, LabCatalogue> = {
     ],
   },
   medical: {
-    slug: "medical", title: "Medical Laboratory", eyebrow: "Indicative Catalogue · Clinical Diagnostics",
-    summary: "Indicative clinical laboratory equipment for sample preparation, chemistry, hematology, analysis, and routine diagnostic workflows.", image: "/manus-storage/medical-laboratory-no-people_d3b8525c.png",
+    slug: "medical", title: "Medical Laboratory", eyebrow: "Catalogue · Clinical Diagnostics",
+    summary: "Clinical laboratory equipment for sample preparation, chemistry, hematology, analysis, and routine diagnostic workflows.", image: "/manus-storage/medical-laboratory-no-people_d3b8525c.png",
     products: [
       { code: "BW-MED-001", name: "Automated Chemistry Analyzer", description: "Automated analyzer platform for routine clinical chemistry workflows and repeatable sample processing.", image: MEDICAL[0] },
       { code: "BW-MED-002", name: "Compact Clinical Analyzer", description: "Space-efficient analyzer format for distributed, satellite, and smaller clinical laboratory settings.", image: MEDICAL[1] },
@@ -35,7 +35,7 @@ export const LAB_CATALOGUES: Record<string, LabCatalogue> = {
     ],
   },
   water: {
-    slug: "water", title: "Water Analysis", eyebrow: "Indicative Catalogue · Environmental Testing",
+    slug: "water", title: "Water Analysis", eyebrow: "Catalogue · Environmental Testing",
     summary: "Field and laboratory water-quality equipment for potable, process, environmental, wastewater, and utility-water analysis.", image: "/manus-storage/laboratory-hero-no-people_36472255.png",
     products: [
       { code: "BW-WA-001", name: "Portable pH and Conductivity Meter", description: "Handheld meter format for routine pH and conductivity checks across field and laboratory applications.", image: WATER[0] },
@@ -48,7 +48,7 @@ export const LAB_CATALOGUES: Record<string, LabCatalogue> = {
     ],
   },
   analytical: {
-    slug: "analytical", title: "Analytical Equipment", eyebrow: "Indicative Catalogue · Analytical Chemistry",
+    slug: "analytical", title: "Analytical Equipment", eyebrow: "Catalogue · Analytical Chemistry",
     summary: "Analytical chemistry equipment for precision weighing, elemental analysis, spectroscopy, microscopy, and sample preparation.", image: "/manus-storage/analytical-equipment_e8c6c592.webp",
     products: [
       { code: "BW-AN-001", name: "Precision Laboratory Balance", description: "Precision weighing instrument for laboratory preparation, formulation, and analytical measurement workflows.", image: ANALYTICAL[0] },

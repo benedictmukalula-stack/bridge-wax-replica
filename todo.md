@@ -67,3 +67,7 @@
 - [x] Expand the Water Pumps catalogue and presentation.
 - [x] Validate domestic-pump routing, distinct images, responsive layout, and build integrity.
 - [ ] Save and deliver the expanded Water Pumps checkpoint.
+- [x] Audit catalogue interfaces and datasets for visible “indicative” references.
+- [x] Remove “indicative” labels and provisional notices from product, service, and laboratory catalogues.
+- [x] Verify catalogue copy, routes, and build integrity.
+- [ ] Save and deliver the catalogue copy revision.

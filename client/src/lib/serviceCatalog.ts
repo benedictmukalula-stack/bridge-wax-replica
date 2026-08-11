@@ -1,4 +1,4 @@
-/* Indicative service catalogue content: expanded scope groupings with distinct images per entry. Replace provisional codes and descriptions with the official Bridge Wax service schedule before publication. */
+/* Service catalogue content: expanded scope groupings with distinct images per entry. */
 export type ServiceOffer = { code: string; name: string; description: string; image: string };
 export type ServiceCatalogue = { slug: string; title: string; eyebrow: string; summary: string; image: string; offers: ServiceOffer[] };
 
@@ -11,7 +11,7 @@ const PUMPS_IMAGES = ["/manus-storage/01_01dd4137.webp", "/manus-storage/02_f4fb
 
 export const SERVICE_CATALOGUES: Record<string, ServiceCatalogue> = {
   laboratory: {
-    slug: "laboratory", title: "Laboratory Equipment & Consumables", eyebrow: "Indicative Service Catalogue · Laboratory",
+    slug: "laboratory", title: "Laboratory Equipment & Consumables", eyebrow: "Service Catalogue · Laboratory",
     summary: "Equipment sourcing, consumable supply, installation coordination, and practical support for mining, medical, water, and research laboratories.", image: LAB_IMAGES[0],
     offers: [
       { code: "BW-SVC-LAB-001", name: "Laboratory Equipment Supply", description: "Sourcing and supply coordination for instruments, benches, glassware, balances, microscopes, and supporting equipment.", image: LAB_IMAGES[0] },
@@ -23,7 +23,7 @@ export const SERVICE_CATALOGUES: Record<string, ServiceCatalogue> = {
     ],
   },
   "industrial-testing": {
-    slug: "industrial-testing", title: "Industrial Testing Instruments", eyebrow: "Indicative Service Catalogue · Testing",
+    slug: "industrial-testing", title: "Industrial Testing Instruments", eyebrow: "Service Catalogue · Testing",
     summary: "Selection, supply, and support for inspection and measurement instruments used across plant, pipeline, mining, and maintenance environments.", image: TESTING_IMAGES[0],
     offers: [
       { code: "BW-SVC-NDT-001", name: "Ultrasonic Thickness Testing", description: "Instrument selection and inspection support for non-destructive thickness measurement on compatible materials.", image: TESTING_IMAGES[0] },
@@ -35,7 +35,7 @@ export const SERVICE_CATALOGUES: Record<string, ServiceCatalogue> = {
     ],
   },
   maintenance: {
-    slug: "maintenance", title: "Plant Maintenance & Spares", eyebrow: "Indicative Service Catalogue · Maintenance",
+    slug: "maintenance", title: "Plant Maintenance & Spares", eyebrow: "Service Catalogue · Maintenance",
     summary: "Maintenance support, replacement planning, and industrial spares coordination to help keep production and processing plants operational.", image: MAINTENANCE_IMAGES[0],
     offers: [
       { code: "BW-SVC-MNT-001", name: "Preventive Maintenance Planning", description: "Planned maintenance scope development for rotating equipment, utility systems, and supporting plant assets.", image: MAINTENANCE_IMAGES[0] },
@@ -47,7 +47,7 @@ export const SERVICE_CATALOGUES: Record<string, ServiceCatalogue> = {
     ],
   },
   fabrication: {
-    slug: "fabrication", title: "Fabrication & Repairs", eyebrow: "Indicative Service Catalogue · Workshop",
+    slug: "fabrication", title: "Fabrication & Repairs", eyebrow: "Service Catalogue · Workshop",
     summary: "Workshop fabrication, repairs, refurbishment, and industrial component support for plant and field requirements.", image: FABRICATION_IMAGES[0],
     offers: [
       { code: "BW-SVC-FAB-001", name: "Light Steel Fabrication", description: "Fabrication coordination for brackets, frames, guards, supports, access items, and general steelwork.", image: FABRICATION_IMAGES[0] },
@@ -59,7 +59,7 @@ export const SERVICE_CATALOGUES: Record<string, ServiceCatalogue> = {
     ],
   },
   hdpe: {
-    slug: "hdpe", title: "HDPE Pipe Systems", eyebrow: "Indicative Service Catalogue · Piping",
+    slug: "hdpe", title: "HDPE Pipe Systems", eyebrow: "Service Catalogue · Piping",
     summary: "HDPE piping, fittings, jointing, and installation coordination for water, slurry, mining, and process-reticulation systems.", image: HDPE_IMAGES[0],
     offers: [
       { code: "BW-SVC-HDP-001", name: "HDPE Pipe Supply", description: "Pipe supply planning for water transfer, slurry service, drainage, and industrial reticulation requirements.", image: HDPE_IMAGES[0] },
@@ -71,7 +71,7 @@ export const SERVICE_CATALOGUES: Record<string, ServiceCatalogue> = {
     ],
   },
   pumps: {
-    slug: "pumps", title: "Pumps & Valves", eyebrow: "Indicative Service Catalogue · Flow Control",
+    slug: "pumps", title: "Pumps & Valves", eyebrow: "Service Catalogue · Flow Control",
     summary: "Pump, valve, and flow-control selection for mining, industrial process, water, dewatering, and utility applications.", image: PUMPS_IMAGES[0],
     offers: [
       { code: "BW-SVC-PMP-001", name: "Pump Selection Support", description: "Duty-point and application review support for selecting suitable pump configurations and materials.", image: PUMPS_IMAGES[0] },

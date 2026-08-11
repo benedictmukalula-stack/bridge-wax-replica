@@ -1,4 +1,4 @@
-/* Indicative catalogue content: expanded product groupings with distinct images per entry. Replace provisional codes and descriptions with the official catalogue before publication. */
+/* Product catalogue content: expanded product groupings with distinct images per entry. */
 export type CatalogueProduct = {
   code: string;
   name: string;
@@ -31,7 +31,7 @@ const MACHINERY_IMAGES = [
 
 export const PRODUCT_CATALOGUES: Record<string, ProductCatalogue> = {
   ultrasonic: {
-    slug: "ultrasonic", title: "Ultrasonic Equipment", eyebrow: "Indicative Catalogue · NDT",
+    slug: "ultrasonic", title: "Ultrasonic Equipment", eyebrow: "Catalogue · NDT",
     summary: "Portable and workshop ultrasonic inspection equipment for thickness measurement, calibration, and field condition assessment.", image: ULTRASONIC_IMAGES[0],
     products: [
       { code: "BW-UTG-001", name: "Ultrasonic Thickness Gauge", description: "Handheld thickness measurement instrument for steel, pipe, glass, plastic, and other compatible materials.", image: ULTRASONIC_IMAGES[0] },
@@ -44,7 +44,7 @@ export const PRODUCT_CATALOGUES: Record<string, ProductCatalogue> = {
     ],
   },
   "gas-detection": {
-    slug: "gas-detection", title: "Gas Detection", eyebrow: "Indicative Catalogue · Safety",
+    slug: "gas-detection", title: "Gas Detection", eyebrow: "Catalogue · Safety",
     summary: "Portable and fixed-point gas detection equipment for industrial safety, confined spaces, and process monitoring applications.", image: GAS_IMAGES[0],
     products: [
       { code: "BW-GD-001", name: "Portable Single-Gas Detector", description: "Compact personal monitor for a selected target gas with audible, visual, and vibration alerts.", image: GAS_IMAGES[0] },
@@ -57,7 +57,7 @@ export const PRODUCT_CATALOGUES: Record<string, ProductCatalogue> = {
     ],
   },
   "water-pumps": {
-    slug: "water-pumps", title: "Water Pumps", eyebrow: "Indicative Catalogue · Flow Systems",
+    slug: "water-pumps", title: "Water Pumps", eyebrow: "Catalogue · Flow Systems",
     summary: "Pump and flow-control equipment for water transfer, dewatering, irrigation, process reticulation, industrial utility systems, and domestic water services.", image: PUMP_IMAGES[0],
     products: [
       { code: "BW-WP-001", name: "End-Suction Centrifugal Pump", description: "General-purpose centrifugal pump for clean-water transfer and industrial utility duties.", image: PUMP_IMAGES[0] },
@@ -70,7 +70,7 @@ export const PRODUCT_CATALOGUES: Record<string, ProductCatalogue> = {
     ],
     subsections: [{
       title: "Domestic Pumps",
-      summary: "Indicative household and light-commercial pump solutions for homes, gardens, tanks, boreholes, pressure boosting, and water transfer.",
+      summary: "Household and light-commercial pump solutions for homes, gardens, tanks, boreholes, pressure boosting, and water transfer.",
       products: [
         { code: "BW-DP-001", name: "Domestic Borehole Pump", description: "Slimline submersible pump configuration for borehole and domestic groundwater transfer applications.", image: "/manus-storage/01_1afd5a96.webp" },
         { code: "BW-DP-002", name: "Domestic Submersible Drainage Pump", description: "Compact submersible pump for basements, sumps, pools, rainwater pits, and household drainage duties.", image: "/manus-storage/02_875f568d.webp" },
@@ -84,7 +84,7 @@ export const PRODUCT_CATALOGUES: Record<string, ProductCatalogue> = {
     }],
   },
   "general-machinery": {
-    slug: "general-machinery", title: "General Machinery", eyebrow: "Indicative Catalogue · Industrial Plant",
+    slug: "general-machinery", title: "General Machinery", eyebrow: "Catalogue · Industrial Plant",
     summary: "General-purpose machinery and plant equipment for workshops, production environments, maintenance teams, and site operations.", image: MACHINERY_IMAGES[0],
     products: [
       { code: "BW-GM-001", name: "Industrial Air Compressor", description: "Compressed-air package for workshop tools, instrumentation, cleaning, and production support.", image: MACHINERY_IMAGES[0] },

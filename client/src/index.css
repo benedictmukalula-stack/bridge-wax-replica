@@ -215,6 +215,9 @@ h2 { color: var(--ink); font-size: clamp(2rem, 4vw, 3.2rem); line-height: 1.15; 
 .quote-cart-recipient { margin: 0; color: var(--body-text); font-size: .72rem; line-height: 1.5; }
 .quote-cart-recipient strong { color: var(--ink); }
 .quote-cart-submit { width: 100%; border: 0; }
+.quote-cart-submit:disabled { cursor: wait; opacity: .72; }
+.quote-cart-submission-success { margin: 1rem 0 0; border-left: 3px solid #3d7a4f; background: #f1f8f2; color: #275837; padding: .8rem .9rem; font-size: .82rem; font-weight: 700; line-height: 1.45; }
+.quote-cart-submit-error { display: grid; gap: .7rem; border-left: 3px solid #9f2f2f; background: #fff8f6; color: #7f2424; padding: .8rem .9rem; font-size: .78rem; line-height: 1.45; }
 .quote-cart-empty { display: flex; flex: 1; flex-direction: column; align-items: flex-start; justify-content: center; gap: .8rem; color: var(--body-text); }
 .quote-cart-empty svg { color: var(--gold); }
 .quote-cart-empty h3 { color: var(--ink); font-size: 1.5rem; }

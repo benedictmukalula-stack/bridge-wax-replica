@@ -154,3 +154,14 @@
 - [x] Implement confirmation before clearing all cart items.
 - [x] Verify cancel, confirm, header count, and empty-cart states.
 - [ ] Save and deliver the Clear Cart confirmation checkpoint.
+
+# 1-Grid Domain Email Delivery
+
+- [x] Confirm official 1-grid SMTP requirements and the sender mailbox details.
+- [x] Prepare secure server-side email delivery configuration.
+- [x] Send quotation requests automatically to info@bridgewax.com from bridgewax.com.
+- [x] Verify recipient routing, success and failure states, and browser fallback behavior.
+- [x] Verify cart-form submission displays the automatic-delivery success state.
+- [x] Simulate submission failure and verify the browser email fallback action.
+- [x] Verify that Open email app invokes the prefilled mailto handoff, or document the preview-browser limitation.
+- [ ] Save and deliver the domain email delivery checkpoint.

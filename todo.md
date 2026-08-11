@@ -71,3 +71,7 @@
 - [x] Remove “indicative” labels and provisional notices from product, service, and laboratory catalogues.
 - [x] Verify catalogue copy, routes, and build integrity.
 - [ ] Save and deliver the catalogue copy revision.
+- [x] Audit footer solution labels and service catalogue destinations.
+- [x] Verify all six footer solution links open the correct service catalogues.
+- [x] Run the service-route build and visual checks.
+- [ ] Save and deliver the functional footer catalogue checkpoint.

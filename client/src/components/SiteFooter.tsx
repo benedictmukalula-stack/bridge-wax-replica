@@ -11,12 +11,12 @@ const QUICK_LINKS = [
 ];
 
 const SERVICES = [
-  { label: "Laboratory Equipment & Consumables", href: "/laboratory" },
-  { label: "Industrial Testing Instruments", href: "/products" },
-  { label: "Plant Maintenance & Spares", href: "/products" },
-  { label: "Fabrication & Repairs", href: "/products" },
-  { label: "HDPE Pipe Systems", href: "/products" },
-  { label: "Pumps & Valves", href: "/products" },
+  { label: "Laboratory Equipment & Consumables", href: "/services/laboratory" },
+  { label: "Industrial Testing Instruments", href: "/services/industrial-testing" },
+  { label: "Plant Maintenance & Spares", href: "/services/maintenance" },
+  { label: "Fabrication & Repairs", href: "/services/fabrication" },
+  { label: "HDPE Pipe Systems", href: "/services/hdpe" },
+  { label: "Pumps & Valves", href: "/services/pumps" },
 ];
 
 export function SiteFooter() {

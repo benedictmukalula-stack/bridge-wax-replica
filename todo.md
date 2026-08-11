@@ -44,3 +44,10 @@
 - [x] Implement indicative category catalogues and clean imagery.
 - [x] Validate catalogue content, links, imagery, and build integrity.
 - [ ] Save and deliver the indicative catalogue checkpoint.
+
+# Service Catalogue Feature
+
+- [x] Define indicative service catalogue data and category routes.
+- [x] Implement clickable service cards and service catalogue pages.
+- [x] Validate service routes, content, imagery, and build integrity.
+- [ ] Save and deliver the service catalogue checkpoint.

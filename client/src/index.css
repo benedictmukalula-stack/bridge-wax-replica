@@ -125,7 +125,7 @@ h2 { color: var(--ink); font-size: clamp(2rem, 4vw, 3.2rem); line-height: 1.15; 
 .catalogue-card-body p { margin: 0; color: var(--muted-ink); font-size: .92rem; line-height: 1.6; }
 .catalogue-enquire { display: inline-flex; align-items: center; gap: .4rem; margin-top: 1.1rem; color: var(--ink); font-size: .82rem; font-weight: 800; }
 .empty-catalogue { min-height: 55vh; display: flex; flex-direction: column; align-items: flex-start; justify-content: center; }
-.service-card { overflow: hidden; padding: 0 1.5rem 1.5rem; }
+.service-card { display: block; overflow: hidden; padding: 0 1.5rem 1.5rem; color: inherit; text-decoration: none; }
 .service-card .icon-box { margin-top: 1.5rem; }
 .service-card h3 { margin: 1rem 0 .55rem; }
 .service-card-media { height: 170px; margin: 0 -1.5rem; overflow: hidden; }

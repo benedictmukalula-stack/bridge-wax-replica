@@ -105,3 +105,10 @@
 - [x] Create or select six distinct clean HDPE pipe-system images.
 - [x] Replace the mappings and verify the HDPE catalogue route.
 - [ ] Save and deliver the HDPE imagery checkpoint.
+
+# Product Search Feature
+
+- [x] Define the searchable product index across all product categories and domestic pumps.
+- [x] Implement a responsive accessible product search bar with result navigation.
+- [x] Verify matching behavior, catalogue links, empty states, and mobile layout.
+- [ ] Save and deliver the product-search checkpoint.

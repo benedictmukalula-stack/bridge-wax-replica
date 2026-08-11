@@ -19,6 +19,8 @@ export type ProductCategorySearchResult = {
   productCount: number;
 };
 
+export type SearchNavigationKey = "ArrowDown" | "ArrowUp" | "Home" | "End";
+
 export const PRODUCT_SEARCH_INDEX: ProductSearchResult[] = Object.entries(PRODUCT_CATALOGUES).flatMap(([categorySlug, catalogue]) => [
   ...catalogue.products.map((product) => ({
     ...product,
@@ -63,4 +65,12 @@ export function searchProductCategories(query: string, limit = 6) {
 
 export function listAllProducts(limit = PRODUCT_SEARCH_INDEX.length) {
   return PRODUCT_SEARCH_INDEX.slice(0, limit);
+}
+
+export function getSearchResultIndex(currentIndex: number, resultCount: number, key: SearchNavigationKey): number {
+  if (resultCount < 1) return -1;
+  if (key === "Home") return 0;
+  if (key === "End") return resultCount - 1;
+  if (key === "ArrowDown") return currentIndex < 0 ? 0 : (currentIndex + 1) % resultCount;
+  return currentIndex < 0 ? resultCount - 1 : (currentIndex - 1 + resultCount) % resultCount;
 }

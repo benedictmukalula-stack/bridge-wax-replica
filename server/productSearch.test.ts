@@ -1,5 +1,5 @@
 import { describe, expect, it } from "vitest";
-import { PRODUCT_SEARCH_INDEX, listAllProducts, searchProductCategories, searchProducts } from "../client/src/lib/productSearch";
+import { PRODUCT_SEARCH_INDEX, getSearchResultIndex, listAllProducts, searchProductCategories, searchProducts } from "../client/src/lib/productSearch";
 
 describe("expanded product search index", () => {
   it("finds individual products by product terms and codes", () => {
@@ -16,5 +16,15 @@ describe("expanded product search index", () => {
   it("lists the complete product index for the all-products search mode", () => {
     expect(listAllProducts()).toHaveLength(PRODUCT_SEARCH_INDEX.length);
     expect(listAllProducts(3)).toHaveLength(3);
+  });
+
+  it("moves keyboard selection through search results predictably", () => {
+    expect(getSearchResultIndex(-1, 3, "ArrowDown")).toBe(0);
+    expect(getSearchResultIndex(2, 3, "ArrowDown")).toBe(0);
+    expect(getSearchResultIndex(-1, 3, "ArrowUp")).toBe(2);
+    expect(getSearchResultIndex(0, 3, "ArrowUp")).toBe(2);
+    expect(getSearchResultIndex(1, 3, "Home")).toBe(0);
+    expect(getSearchResultIndex(1, 3, "End")).toBe(2);
+    expect(getSearchResultIndex(0, 0, "ArrowDown")).toBe(-1);
   });
 });

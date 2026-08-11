@@ -211,4 +211,22 @@
 - [x] Render product-specific thumbnail previews in product and all-products search results.
 - [x] Preserve category result navigation and add accessible thumbnail alternatives.
 - [x] Add automated coverage and verify desktop and mobile dropdown presentation.
-- [ ] Save and deliver the search thumbnail enhancement.
+- [x] Save and deliver the search thumbnail enhancement.
+
+# Accessible Search Keyboard Navigation
+
+- [x] Review current search result focus and keyboard event handling.
+- [x] Add Arrow Up/Down selection, Enter activation, and Home/End result movement.
+- [x] Add explicit search exit control and Escape behavior that restores input focus.
+- [x] Add automated coverage and verify keyboard navigation on desktop and mobile search components.
+- [ ] Save and deliver the accessible search navigation update.
+
+# Search Exit Focus-State Correction
+
+- [x] Keep the dropdown closed when the visible Exit control restores focus to the search input.
+
+# Mobile Search Focus and Interaction Coverage
+
+- [x] Ensure Escape reliably restores focus to the mobile search input after closing results.
+- [x] Add component-level coverage for Arrow keys, Enter, Escape, and the visible Exit control.
+- [x] Re-verify keyboard navigation and exit behavior on desktop and mobile search components.

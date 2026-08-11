@@ -20,6 +20,7 @@ export default function ProductCategory() {
           <Link href="/products" className="catalogue-back"><ArrowLeft size={15} /> Back to Products</Link>
           <span className="catalogue-count">{catalogue.products.length} indicative products</span>
         </div>
+        <div className="catalogue-overview"><div><span>Catalogue type</span><strong>Indicative product range</strong></div><div><span>Entries shown</span><strong>{catalogue.products.length} products</strong></div><div><span>Enquiry route</span><strong>Product-specific</strong></div></div>
         <div className="catalogue-notice"><strong>Indicative catalogue.</strong> Product codes and descriptions are provisional working entries for layout review and should be replaced with the official Bridge Wax catalogue before publication.</div>
         <div className="catalogue-grid">
           {catalogue.products.map((product) => <article className="catalogue-card" key={product.code}>

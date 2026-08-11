@@ -51,3 +51,11 @@
 - [x] Implement clickable service cards and service catalogue pages.
 - [x] Validate service routes, content, imagery, and build integrity.
 - [ ] Save and deliver the service catalogue checkpoint.
+
+# Expanded Catalogue Revision
+
+- [x] Audit current catalogue data, imagery, and route structure.
+- [x] Expand product and service datasets with distinct per-entry imagery.
+- [x] Enhance catalogue layouts, navigation, and product/service detail cards.
+- [x] Validate all catalogue routes, image assignments, responsive behavior, and build integrity.
+- [ ] Save and deliver the expanded catalogue checkpoint.

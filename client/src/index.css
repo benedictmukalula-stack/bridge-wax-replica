@@ -115,6 +115,11 @@ h2 { color: var(--ink); font-size: clamp(2rem, 4vw, 3.2rem); line-height: 1.15; 
 .catalogue-back { display: inline-flex; align-items: center; gap: .45rem; color: var(--ink); font-weight: 700; font-size: .9rem; }
 .catalogue-count { color: var(--muted-ink); font-size: .85rem; }
 .catalogue-notice { margin-bottom: 2rem; padding: 1rem 1.15rem; border-left: 3px solid var(--gold); background: var(--cream); color: var(--muted-ink); font-size: .9rem; line-height: 1.6; }
+.catalogue-overview { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); margin-bottom: 1rem; border: 1px solid rgba(23, 34, 45, .12); background: #fff; }
+.catalogue-overview > div { display: grid; gap: .3rem; padding: .9rem 1rem; border-right: 1px solid rgba(23, 34, 45, .1); }
+.catalogue-overview > div:last-child { border-right: 0; }
+.catalogue-overview span { color: var(--muted-ink); font-size: .68rem; font-weight: 800; letter-spacing: .1em; text-transform: uppercase; }
+.catalogue-overview strong { color: var(--ink); font-size: .9rem; }
 .catalogue-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 1.25rem; }
 .catalogue-card { overflow: hidden; background: #fff; border: 1px solid rgba(23, 34, 45, .12); box-shadow: 0 12px 30px rgba(23, 34, 45, .07); }
 .catalogue-card-media { aspect-ratio: 4 / 3; overflow: hidden; background: #f1f3f5; }
@@ -132,7 +137,7 @@ h2 { color: var(--ink); font-size: clamp(2rem, 4vw, 3.2rem); line-height: 1.15; 
 .service-card-media img { width: 100%; height: 100%; object-fit: cover; transition: transform .5s var(--ease-out); }
 .service-card:hover .service-card-media img { transform: scale(1.05); }
 @media (max-width: 900px) { .catalogue-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
-@media (max-width: 620px) { .catalogue-grid { grid-template-columns: 1fr; } .catalogue-topbar { align-items: flex-start; flex-direction: column; } }
+@media (max-width: 620px) { .catalogue-grid { grid-template-columns: 1fr; } .catalogue-topbar { align-items: flex-start; flex-direction: column; } .catalogue-overview { grid-template-columns: 1fr; } .catalogue-overview > div { border-right: 0; border-bottom: 1px solid rgba(23, 34, 45, .1); } .catalogue-overview > div:last-child { border-bottom: 0; } }
 .large-image-media { aspect-ratio: 16 / 9; }
 .large-image-copy { padding: 1.5rem; }
 .large-image-copy h3 { margin: 1rem 0 .55rem; font-size: 1.35rem; }

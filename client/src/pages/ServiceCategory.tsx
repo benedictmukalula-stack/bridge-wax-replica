@@ -20,6 +20,7 @@ export default function ServiceCategory() {
           <Link href="/products" className="catalogue-back"><ArrowLeft size={15} /> Back to Products &amp; Solutions</Link>
           <span className="catalogue-count">{catalogue.offers.length} indicative service scopes</span>
         </div>
+        <div className="catalogue-overview"><div><span>Catalogue type</span><strong>Indicative service scope</strong></div><div><span>Scopes shown</span><strong>{catalogue.offers.length} services</strong></div><div><span>Enquiry route</span><strong>Service-specific</strong></div></div>
         <div className="catalogue-notice"><strong>Indicative service catalogue.</strong> Service codes and descriptions are provisional working entries for layout review and should be replaced with the official Bridge Wax service schedule before publication.</div>
         <div className="catalogue-grid">
           {catalogue.offers.map((offer) => <article className="catalogue-card" key={offer.code}>

@@ -84,3 +84,10 @@
 - [x] Fix incorrect or duplicate individual image mappings.
 - [x] Verify every catalogue image resolves and every route renders correctly.
 - [ ] Save and deliver the verified catalogue-image checkpoint.
+
+# No-Repeated-Catalogue-Images Revision
+
+- [x] Audit every product, service, and laboratory catalogue for repeated image paths.
+- [x] Replace repeated mappings with unique, category-appropriate verified assets.
+- [x] Rebuild and visually verify all affected catalogue routes.
+- [ ] Save and deliver the no-repeat catalogue checkpoint.

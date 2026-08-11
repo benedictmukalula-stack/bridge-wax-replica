@@ -17,16 +17,16 @@ export type ProductCatalogue = {
 };
 
 const ULTRASONIC_IMAGES = [
-  "/manus-storage/01_8d019003.webp", "/manus-storage/02_265ac748.webp", "/manus-storage/03_1b484a3e.webp", "/manus-storage/04_9262f20d.webp", "/manus-storage/05_dc7c1497.webp", "/manus-storage/06_30f8d32b.webp", "/manus-storage/07_5c08564d.webp",
+  "/manus-storage/01_8d019003.webp", "/manus-storage/02_265ac748.webp", "/manus-storage/03_1b484a3e.webp", "/manus-storage/04_9262f20d.webp", "/manus-storage/05_dc7c1497.webp", "/manus-storage/replacement-005_a2d2fdf9.webp", "/manus-storage/replacement-001_4347e7bf.webp",
 ];
 const GAS_IMAGES = [
-  "/manus-storage/01_d398f8c5.webp", "/manus-storage/02_2249379b.webp", "/manus-storage/03_9a793cab.webp", "/manus-storage/04_1be8047a.webp", "/manus-storage/05_d8cef91a.webp", "/manus-storage/06_2402f9da.webp", "/manus-storage/07_a5750834.webp",
+  "/manus-storage/01_d398f8c5.webp", "/manus-storage/02_2249379b.webp", "/manus-storage/03_9a793cab.webp", "/manus-storage/04_1be8047a.webp", "/manus-storage/05_d8cef91a.webp", "/manus-storage/replacement-006_8c45131a.webp", "/manus-storage/replacement-003_11dc0ec7.webp",
 ];
 const PUMP_IMAGES = [
-  "/manus-storage/01_de0b4de4.webp", "/manus-storage/02_ad0df936.webp", "/manus-storage/03_9327dfd6.webp", "/manus-storage/04_fbe2d936.webp", "/manus-storage/05_35256181.webp", "/manus-storage/06_d7ef2fd3.webp", "/manus-storage/07_e8a01119.webp",
+  "/manus-storage/01_de0b4de4.webp", "/manus-storage/02_ad0df936.webp", "/manus-storage/03_9327dfd6.webp", "/manus-storage/04_fbe2d936.webp", "/manus-storage/replacement-004_e548a676.webp", "/manus-storage/replacement-007_ce7e15f3.webp", "/manus-storage/07_e8a01119.webp",
 ];
 const MACHINERY_IMAGES = [
-  "/manus-storage/01_927a9458.webp", "/manus-storage/02_d56b38b6.webp", "/manus-storage/03_b3033e4a.webp", "/manus-storage/04_e6b6a3be.webp", "/manus-storage/05_3b0c4206.webp", "/manus-storage/06_e14a5630.webp", "/manus-storage/07_a3f31355.webp",
+  "/manus-storage/01_927a9458.webp", "/manus-storage/02_d56b38b6.webp", "/manus-storage/03_b3033e4a.webp", "/manus-storage/04_e6b6a3be.webp", "/manus-storage/replacement-002_bba0d202.webp", "/manus-storage/06_e14a5630.webp", "/manus-storage/07_a3f31355.webp",
 ];
 
 export const PRODUCT_CATALOGUES: Record<string, ProductCatalogue> = {

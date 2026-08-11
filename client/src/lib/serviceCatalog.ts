@@ -2,12 +2,12 @@
 export type ServiceOffer = { code: string; name: string; description: string; image: string };
 export type ServiceCatalogue = { slug: string; title: string; eyebrow: string; summary: string; image: string; offers: ServiceOffer[] };
 
-const LAB_IMAGES = ["/manus-storage/01_c027b10e.webp", "/manus-storage/02_867d2dea.webp", "/manus-storage/03_7307db5e.webp", "/manus-storage/04_5058dc87.webp", "/manus-storage/05_cac28030.webp", "/manus-storage/06_47651097.webp"];
-const TESTING_IMAGES = ["/manus-storage/01_984d4500.webp", "/manus-storage/02_abcaed0a.webp", "/manus-storage/03_db014ca0.webp", "/manus-storage/04_17e17a41.webp", "/manus-storage/05_33473fa2.webp", "/manus-storage/06_f725f6ed.webp"];
-const MAINTENANCE_IMAGES = ["/manus-storage/01_db871061.webp", "/manus-storage/02_09221017.webp", "/manus-storage/03_a4247fdf.webp", "/manus-storage/04_2853f552.webp", "/manus-storage/05_6f94992a.webp", "/manus-storage/06_f550bd8a.webp"];
-const FABRICATION_IMAGES = ["/manus-storage/01_a080278d.webp", "/manus-storage/02_12d691ce.webp", "/manus-storage/03_7a9dbe63.webp", "/manus-storage/04_fb87ea2e.webp", "/manus-storage/05_4c55bc22.webp", "/manus-storage/06_03637343.webp"];
-const HDPE_IMAGES = ["/manus-storage/01_cdae4984.webp", "/manus-storage/02_09ff37ec.webp", "/manus-storage/03_8bcb7f5c.webp", "/manus-storage/04_a862ffc0.webp", "/manus-storage/05_c1901b0e.webp", "/manus-storage/06_38eb5f7c.webp"];
-const PUMPS_IMAGES = ["/manus-storage/01_01dd4137.webp", "/manus-storage/02_f4fb89fa.webp", "/manus-storage/03_ad3061c7.webp", "/manus-storage/04_ca827443.webp", "/manus-storage/05_2003a6b3.webp", "/manus-storage/06_2a18bde1.webp"];
+const LAB_IMAGES = ["/manus-storage/01_c027b10e.webp", "/manus-storage/replacement-017_8f43d631.webp", "/manus-storage/replacement-018_57547987.webp", "/manus-storage/04_5058dc87.webp", "/manus-storage/05_cac28030.webp", "/manus-storage/replacement-019_85a0b00f.webp"];
+const TESTING_IMAGES = ["/manus-storage/01_984d4500.webp", "/manus-storage/replacement-011_9c99820f.webp", "/manus-storage/replacement-012_5d22008b.webp", "/manus-storage/04_17e17a41.webp", "/manus-storage/05_33473fa2.webp", "/manus-storage/replacement-013_e8ccdb08.webp"];
+const MAINTENANCE_IMAGES = ["/manus-storage/01_db871061.webp", "/manus-storage/replacement-024_51b157d0.webp", "/manus-storage/replacement-025_41720045.webp", "/manus-storage/04_2853f552.webp", "/manus-storage/05_6f94992a.webp", "/manus-storage/replacement-026_a39cfd5a.webp"];
+const FABRICATION_IMAGES = ["/manus-storage/01_a080278d.webp", "/manus-storage/replacement-014_7caa69be.webp", "/manus-storage/replacement-015_f4a08bb0.webp", "/manus-storage/04_fb87ea2e.webp", "/manus-storage/05_4c55bc22.webp", "/manus-storage/replacement-016_feb04367.webp"];
+const HDPE_IMAGES = ["/manus-storage/01_cdae4984.webp", "/manus-storage/replacement-021_661af155.webp", "/manus-storage/replacement-022_928d3f18.webp", "/manus-storage/04_a862ffc0.webp", "/manus-storage/05_c1901b0e.webp", "/manus-storage/replacement-023_c1b4be11.webp"];
+const PUMPS_IMAGES = ["/manus-storage/01_01dd4137.webp", "/manus-storage/replacement-008_312d0c1e.webp", "/manus-storage/replacement-009_e09edc8c.webp", "/manus-storage/04_ca827443.webp", "/manus-storage/05_2003a6b3.webp", "/manus-storage/replacement-010_f98ff61b.webp"];
 
 export const SERVICE_CATALOGUES: Record<string, ServiceCatalogue> = {
   laboratory: {

@@ -5,7 +5,7 @@ export type LabCatalogue = { slug: string; title: string; eyebrow: string; summa
 const MINING = ["/manus-storage/01_b6e7987f.webp", "/manus-storage/02_d160a79b.webp", "/manus-storage/03_859d1961.webp", "/manus-storage/04_c22f50c0.webp", "/manus-storage/05_0f38681e.webp", "/manus-storage/06_6b89f903.webp", "/manus-storage/07_504c95ed.webp"];
 const MEDICAL = ["/manus-storage/01_388d4546.webp", "/manus-storage/02_607dfacb.webp", "/manus-storage/03_e6a6989e.webp", "/manus-storage/04_0eac3216.webp", "/manus-storage/05_080be389.webp", "/manus-storage/06_85562313.webp", "/manus-storage/07_64ce0d79.webp"];
 const WATER = ["/manus-storage/01_f1e6b469.webp", "/manus-storage/02_949c3f2a.webp", "/manus-storage/03_814b48fa.webp", "/manus-storage/04_6cc0d787.webp", "/manus-storage/05_e769f22a.webp", "/manus-storage/06_afa9d99f.webp", "/manus-storage/07_3e57dfe6.webp"];
-const ANALYTICAL = ["/manus-storage/01_24fd30b9.webp", "/manus-storage/02_642d1e82.webp", "/manus-storage/03_11ac4dd6.webp", "/manus-storage/04_84d66c79.webp", "/manus-storage/05_067fccc0.webp", "/manus-storage/06_4e8f07f5.webp", "/manus-storage/07_042d7ca0.webp"];
+const ANALYTICAL = ["/manus-storage/01_24fd30b9.webp", "/manus-storage/02_642d1e82.webp", "/manus-storage/03_11ac4dd6.webp", "/manus-storage/04_84d66c79.webp", "/manus-storage/05_067fccc0.webp", "/manus-storage/06_4e8f07f5.webp", "/manus-storage/replacement-020_b2f2342a.webp"];
 
 export const LAB_CATALOGUES: Record<string, LabCatalogue> = {
   mining: {

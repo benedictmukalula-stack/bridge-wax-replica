@@ -80,3 +80,7 @@
 - [x] Implement the multi-image hero scroll interaction and mappings.
 - [x] Verify hero imagery, scroll behavior, responsive layout, and build integrity.
 - [ ] Save and deliver the homepage hero checkpoint.
+- [x] Audit catalogue entries, image paths, duplicates, and category assignments.
+- [x] Fix incorrect or duplicate individual image mappings.
+- [x] Verify every catalogue image resolves and every route renders correctly.
+- [ ] Save and deliver the verified catalogue-image checkpoint.

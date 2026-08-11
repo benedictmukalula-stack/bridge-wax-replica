@@ -27,13 +27,13 @@ export default function ProductCategory() {
         <div className="catalogue-notice">Contact us to confirm current specifications, lead times, and availability for each product.</div>
         <div className="catalogue-section"><div className="catalogue-section-heading"><span className="eyebrow">Primary range</span><h2>{catalogue.title}</h2></div><div className="catalogue-grid">
           {catalogue.products.map((product) => <article className="catalogue-card" key={product.code}>
-            <div className="catalogue-card-media"><img src={product.image} alt={`${product.name} reference image`} loading="lazy" decoding="async" /></div>
+            <div className="catalogue-card-media"><img src={product.image} alt={`${product.name} reference image`} loading="eager" decoding="sync" /></div>
             <div className="catalogue-card-body"><span className="catalogue-code">{product.code}</span><h2>{product.name}</h2><p>{product.description}</p><Link href={`/contact?product=${encodeURIComponent(product.name)}`} className="catalogue-enquire">Enquire about this product <Mail size={15} /></Link></div>
           </article>)}
         </div></div>
         {catalogue.subsections?.map((section) => <div className="catalogue-section" key={section.title}><div className="catalogue-section-heading"><span className="eyebrow">Expanded range</span><h2>{section.title}</h2><p>{section.summary}</p></div><div className="catalogue-grid">
           {section.products.map((product) => <article className="catalogue-card" key={product.code}>
-            <div className="catalogue-card-media"><img src={product.image} alt={`${product.name} reference image`} loading="lazy" decoding="async" /></div>
+            <div className="catalogue-card-media"><img src={product.image} alt={`${product.name} reference image`} loading="eager" decoding="sync" /></div>
             <div className="catalogue-card-body"><span className="catalogue-code">{product.code}</span><h2>{product.name}</h2><p>{product.description}</p><Link href={`/contact?product=${encodeURIComponent(product.name)}`} className="catalogue-enquire">Enquire about this product <Mail size={15} /></Link></div>
           </article>)}
         </div></div>)}

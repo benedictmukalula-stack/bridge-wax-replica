@@ -24,7 +24,7 @@ export default function ServiceCategory() {
         <div className="catalogue-notice">Contact us to confirm current service scope, scheduling, and availability.</div>
         <div className="catalogue-grid">
           {catalogue.offers.map((offer) => <article className="catalogue-card" key={offer.code}>
-            <div className="catalogue-card-media"><img src={offer.image} alt={`${offer.name} reference image`} loading="lazy" decoding="async" /></div>
+            <div className="catalogue-card-media"><img src={offer.image} alt={`${offer.name} reference image`} loading="eager" decoding="sync" /></div>
             <div className="catalogue-card-body"><span className="catalogue-code">{offer.code}</span><h2>{offer.name}</h2><p>{offer.description}</p><Link href={`/contact?service=${encodeURIComponent(offer.name)}`} className="catalogue-enquire">Enquire about this service <Mail size={15} /></Link></div>
           </article>)}
         </div>

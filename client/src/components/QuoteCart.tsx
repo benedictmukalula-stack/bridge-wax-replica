@@ -8,7 +8,7 @@ export function AddToQuoteButton({ product }: { product: import("../contexts/Quo
   const { addItem, items, openCart } = useQuoteCart();
   const selected = items.some((item) => item.code === product.code);
   const handleClick = () => selected ? openCart() : addItem(product);
-  return <button type="button" className={selected ? "add-to-quote is-selected" : "add-to-quote"} onClick={handleClick} aria-label={selected ? `${product.name} is in the quotation basket` : `Add ${product.name} to quotation basket`}><ShoppingBag size={14} />{selected ? "In quote basket" : "Add to quote"}</button>;
+  return <button type="button" className={selected ? "add-to-quote is-selected" : "add-to-quote"} onClick={handleClick} aria-label={selected ? `${product.name} is in the cart` : `Add ${product.name} to cart`}><ShoppingBag size={14} />{selected ? "In cart" : "Add to cart"}</button>;
 }
 
 export function QuoteCartButton() {

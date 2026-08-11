@@ -126,3 +126,17 @@
 - [x] Change the header basket label and accessible text from Quote to Cart.
 - [x] Verify desktop and mobile labels while preserving basket interactions.
 - [ ] Save and deliver the header cart-label checkpoint.
+
+# Clean Header Layout Revision
+
+- [ ] Audit header spacing, hierarchy, and responsive constraints.
+- [ ] Refine desktop and mobile header layout styling.
+- [ ] Verify header visuals and preserved search, Cart, Contact, and menu interactions.
+- [ ] Save and deliver the clean-header checkpoint.
+
+# Catalogue Cart Label Revision
+
+- [x] Audit visible quote-selection labels across all product catalogue cards.
+- [x] Change catalogue action labels and accessible text to Cart.
+- [x] Verify all product routes and preserve quotation behavior.
+- [ ] Save and deliver the catalogue Cart-label checkpoint.

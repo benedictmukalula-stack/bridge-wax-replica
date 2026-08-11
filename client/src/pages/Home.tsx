@@ -12,10 +12,10 @@ const CAPABILITIES = [
 ];
 
 const CATEGORIES = [
-  { title: "Laboratory Equipment", src: "/manus-storage/home-featured-laboratory-retry_027039f2.webp" },
-  { title: "Mining Laboratory", src: "/manus-storage/home-featured-mining-retry_90831ae0.webp" },
-  { title: "Industrial Equipment", src: "/manus-storage/home-featured-industrial-retry_a757c324.webp" },
-  { title: "Technical Support", src: "/manus-storage/home-featured-support-retry_c042ce1b.webp" },
+  { title: "Laboratory Equipment", src: "/manus-storage/home-featured-laboratory-no-people_2ecfd627.png" },
+  { title: "Mining Laboratory", src: "/manus-storage/home-featured-mining-no-people_17b91a41.png" },
+  { title: "Industrial Equipment", src: "/manus-storage/home-featured-industrial-no-people_370ecc5a.png" },
+  { title: "Technical Support", src: "/manus-storage/home-featured-support-no-people_0953cb19.png" },
 ];
 
 export default function Home() {

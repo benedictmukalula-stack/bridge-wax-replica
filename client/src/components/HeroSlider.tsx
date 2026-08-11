@@ -4,7 +4,7 @@ import { useEffect, useState } from "react";
 import { Link } from "wouter";
 
 const SLIDES = [
-  { src: "/manus-storage/home-hero_e4f93bdf.webp", alt: "Modern analytical laboratory inside a scientific research facility" },
+  { src: "/manus-storage/home-hero-no-people_2612088f.png", alt: "Empty modern analytical laboratory inside a scientific research facility" },
 ];
 
 export function HeroSlider() {

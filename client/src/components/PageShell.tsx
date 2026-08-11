@@ -8,5 +8,5 @@ export function PageShell({ children }: { children: ReactNode }) {
 }
 
 export function PageHero({ eyebrow, title, subtitle, image }: { eyebrow: string; title: string; subtitle: string; image: string }) {
-  return <section className="page-hero"><img src={image} alt={title} /><div className="page-hero-overlay" /><div className="page-hero-copy"><span className="eyebrow">{eyebrow}</span><h1>{title}</h1><p>{subtitle}</p></div></section>;
+  return <section className="page-hero"><img src={image} alt={title} loading="eager" fetchPriority="high" decoding="async" /><div className="page-hero-overlay" /><div className="page-hero-copy"><span className="eyebrow">{eyebrow}</span><h1>{title}</h1><p>{subtitle}</p></div></section>;
 }

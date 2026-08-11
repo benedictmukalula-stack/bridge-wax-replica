@@ -12,10 +12,10 @@ const CAPABILITIES = [
 ];
 
 const CATEGORIES = [
-  { title: "Laboratory Equipment", src: "/manus-storage/hero-slide-3_3719fc5b.jpg" },
-  { title: "Water Analysis Equipment", src: "/manus-storage/cat-water-analysis_190044a0.jpg" },
-  { title: "Medical Laboratory Equipment", src: "/manus-storage/cat-medical-lab_2ae1d546.jpg" },
-  { title: "Analytical Instruments", src: "/manus-storage/img-mrclab-equipment_f1385f6a.jpg" },
+  { title: "Laboratory Equipment", src: "/manus-storage/hero-slide-3_b13f47f0.webp" },
+  { title: "Water Analysis Equipment", src: "/manus-storage/cat-water-analysis_dd1b4205.webp" },
+  { title: "Medical Laboratory Equipment", src: "/manus-storage/cat-medical-lab_a76379b2.webp" },
+  { title: "Analytical Instruments", src: "/manus-storage/img-mrclab-equipment_d32cd738.webp" },
 ];
 
 export default function Home() {
@@ -26,7 +26,7 @@ export default function Home() {
       <section className="section section-white">
         <div className="content-wrap split-layout">
           <div className="image-frame image-frame-square">
-            <img src="/manus-storage/img-alphasophia_63e9fdd6.png" alt="Bridge Wax laboratory and industrial equipment" />
+            <img src="/manus-storage/img-alphasophia_f238321d.webp" alt="Bridge Wax laboratory and industrial equipment" loading="lazy" decoding="async" />
           </div>
           <div className="copy-block">
             <span className="eyebrow">About Bridge Wax</span>
@@ -66,7 +66,7 @@ export default function Home() {
           <div className="card-grid card-grid-4">
             {CATEGORIES.map((category) => (
               <Link href="/products" className="image-card" key={category.title}>
-                <div className="image-card-media"><img src={category.src} alt={category.title} loading="lazy" /></div>
+                <div className="image-card-media"><img src={category.src} alt={category.title} loading="lazy" decoding="async" /></div>
                 <div className="image-card-copy"><h3>{category.title}</h3></div>
               </Link>
             ))}

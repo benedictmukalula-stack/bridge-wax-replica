@@ -1,11 +1,13 @@
 import { Route, Switch } from "wouter";
+import { lazy, Suspense } from "react";
 import ErrorBoundary from "./components/ErrorBoundary";
 import Home from "./pages/Home";
-import About from "./pages/About";
-import Laboratory from "./pages/Laboratory";
-import Products from "./pages/Products";
-import Contact from "./pages/Contact";
-import NotFound from "./pages/NotFound";
+
+const About = lazy(() => import("./pages/About"));
+const Laboratory = lazy(() => import("./pages/Laboratory"));
+const Products = lazy(() => import("./pages/Products"));
+const Contact = lazy(() => import("./pages/Contact"));
+const NotFound = lazy(() => import("./pages/NotFound"));
 
 
 function Router() {
@@ -32,7 +34,9 @@ function Router() {
 function App() {
   return (
     <ErrorBoundary>
-      <Router />
+      <Suspense fallback={<div className="route-loading" role="status">Loading Bridge Wax…</div>}>
+        <Router />
+      </Suspense>
     </ErrorBoundary>
   );
 }

@@ -36,3 +36,11 @@
 - [x] Inspect current product category data and available imagery.
 - [x] Add Water Pumps and General Machinery categories.
 - [x] Verify the build and save the updated checkpoint.
+
+# Indicative Catalogue Revision
+
+- [x] Define indicative product lists and catalogue data model.
+- [x] Design catalogue sections, routes, and product detail presentation.
+- [x] Implement indicative category catalogues and clean imagery.
+- [x] Validate catalogue content, links, imagery, and build integrity.
+- [ ] Save and deliver the indicative catalogue checkpoint.

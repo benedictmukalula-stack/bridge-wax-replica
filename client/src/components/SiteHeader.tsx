@@ -2,6 +2,8 @@
 import { Menu, X } from "lucide-react";
 import { useEffect, useState } from "react";
 import { Link, useLocation } from "wouter";
+import ProductSearch from "./ProductSearch";
+import { QuoteCartButton } from "./QuoteCart";
 
 const NAV = [
   { label: "Home", href: "/" },
@@ -39,12 +41,15 @@ export function SiteHeader() {
         </div>
 
         <div className="header-actions">
+          <ProductSearch variant="header" />
+          <QuoteCartButton />
           <Link href="/contact" className="button button-gold button-small desktop-contact">Contact</Link>
           <button className="menu-toggle" onClick={() => setOpen((value) => !value)} aria-label={open ? "Close menu" : "Open menu"} aria-expanded={open}>{open ? <X size={23} /> : <Menu size={23} />}</button>
         </div>
       </nav>
       <div className={`mobile-nav ${open ? "open" : ""}`}>
         {[...NAV, { label: "Contact", href: "/contact" }].map((item) => <Link key={item.href} href={item.href} className={isActive(item.href) ? "mobile-nav-link active" : "mobile-nav-link"}>{item.label}</Link>)}
+        <ProductSearch variant="mobile" />
       </div>
     </header>
   );

@@ -5,20 +5,23 @@ import { useMemo, useState } from "react";
 import { Link } from "wouter";
 import { PRODUCT_SEARCH_INDEX, searchProducts } from "../lib/productSearch";
 
-export default function ProductSearch() {
+type ProductSearchProps = { variant?: "section" | "header" | "mobile" };
+
+export default function ProductSearch({ variant = "section" }: ProductSearchProps) {
   const [query, setQuery] = useState("");
-  const results = useMemo(() => searchProducts(query), [query]);
+  const results = useMemo(() => searchProducts(query, variant === "section" ? 8 : 6), [query, variant]);
   const hasQuery = query.trim().length > 0;
+  const compact = variant !== "section";
 
   const clearSearch = () => setQuery("");
 
   return (
-    <div className="product-search-shell">
-      <div className="product-search-copy">
+    <div className={`product-search-shell product-search-${variant}`}>
+      {!compact && <div className="product-search-copy">
         <span className="eyebrow">Find a product</span>
         <h2>Search our product catalogues</h2>
         <p>Search by product name, code, application, or category to reach the right catalogue entry quickly.</p>
-      </div>
+      </div>}
       <div className="product-search-form">
         <div className="product-search-input-wrap">
           <Search size={20} aria-hidden="true" />
@@ -31,7 +34,7 @@ export default function ProductSearch() {
             className="product-search-input"
             type="search"
             aria-label="Search product catalogues"
-            placeholder="Search products, codes, or applications"
+            placeholder={compact ? "Search products…" : "Search products, codes, or applications"}
             autoComplete="off"
           />
           {hasQuery && <button type="button" className="product-search-clear" onClick={clearSearch} aria-label="Clear product search"><X size={18} /></button>}
@@ -43,7 +46,7 @@ export default function ProductSearch() {
               <span className="product-search-result-arrow" aria-hidden="true">→</span>
             </Link>
           )) : <p className="product-search-empty">No catalogue products match “{query}”. Try a product name, code, or broader category term.</p>}
-          {results.length === 8 && <p className="product-search-limit">Showing the first 8 matches from {PRODUCT_SEARCH_INDEX.length} catalogue products.</p>}
+          {results.length === (variant === "section" ? 8 : 6) && <p className="product-search-limit">Showing the first {variant === "section" ? 8 : 6} matches from {PRODUCT_SEARCH_INDEX.length} catalogue products.</p>}
         </div>}
       </div>
     </div>

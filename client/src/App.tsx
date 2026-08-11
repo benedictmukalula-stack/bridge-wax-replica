@@ -1,6 +1,8 @@
 import { Route, Switch } from "wouter";
 import { lazy, Suspense } from "react";
 import ErrorBoundary from "./components/ErrorBoundary";
+import QuoteCart from "./components/QuoteCart";
+import { QuoteCartProvider } from "./contexts/QuoteCartContext";
 import Home from "./pages/Home";
 
 const About = lazy(() => import("./pages/About"));
@@ -40,9 +42,10 @@ function Router() {
 function App() {
   return (
     <ErrorBoundary>
-      <Suspense fallback={<div className="route-loading" role="status">Loading Bridge Wax…</div>}>
-        <Router />
-      </Suspense>
+      <QuoteCartProvider>
+        <Suspense fallback={<div className="route-loading" role="status">Loading Bridge Wax…</div>}><Router /></Suspense>
+        <QuoteCart />
+      </QuoteCartProvider>
     </ErrorBoundary>
   );
 }

@@ -112,3 +112,11 @@
 - [x] Implement a responsive accessible product search bar with result navigation.
 - [x] Verify matching behavior, catalogue links, empty states, and mobile layout.
 - [ ] Save and deliver the product-search checkpoint.
+
+# Header Search and Quotation Cart
+
+- [x] Define shared header search and quotation-cart data flow.
+- [x] Implement persistent quote basket, header controls, and product selection actions.
+- [x] Route the quotation email handoff only to info@bridgewax.com.
+- [x] Verify search, add/remove, quantity, empty-cart, responsive, and email flows.
+- [ ] Save and deliver the header-search and quotation-cart checkpoint.

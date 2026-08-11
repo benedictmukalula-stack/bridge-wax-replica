@@ -3,6 +3,7 @@ import { useEffect } from "react";
 import { ArrowLeft, Mail } from "lucide-react";
 import { Link, useRoute } from "wouter";
 import { PageHero, PageShell } from "../components/PageShell";
+import { AddToQuoteButton } from "../components/QuoteCart";
 import { PRODUCT_CATALOGUES } from "../lib/productCatalog";
 
 export default function ProductCategory() {
@@ -37,13 +38,13 @@ export default function ProductCategory() {
         <div className="catalogue-section"><div className="catalogue-section-heading"><span className="eyebrow">Primary range</span><h2>{catalogue.title}</h2></div><div className="catalogue-grid">
           {catalogue.products.map((product) => <article className="catalogue-card" id={product.code} key={product.code}>
             <div className="catalogue-card-media"><img src={product.image} alt={`${product.name} reference image`} loading="eager" decoding="sync" /></div>
-            <div className="catalogue-card-body"><span className="catalogue-code">{product.code}</span><h2>{product.name}</h2><p>{product.description}</p><Link href={`/contact?product=${encodeURIComponent(product.name)}`} className="catalogue-enquire">Enquire about this product <Mail size={15} /></Link></div>
+            <div className="catalogue-card-body"><span className="catalogue-code">{product.code}</span><h2>{product.name}</h2><p>{product.description}</p><div className="catalogue-card-actions"><Link href={`/contact?product=${encodeURIComponent(product.name)}`} className="catalogue-enquire">Enquire about this product <Mail size={15} /></Link><AddToQuoteButton product={{ ...product, categorySlug: catalogue.slug, categoryTitle: catalogue.title }} /></div></div>
           </article>)}
         </div></div>
         {catalogue.subsections?.map((section) => <div className="catalogue-section" key={section.title}><div className="catalogue-section-heading"><span className="eyebrow">Expanded range</span><h2>{section.title}</h2><p>{section.summary}</p></div><div className="catalogue-grid">
           {section.products.map((product) => <article className="catalogue-card" id={product.code} key={product.code}>
             <div className="catalogue-card-media"><img src={product.image} alt={`${product.name} reference image`} loading="eager" decoding="sync" /></div>
-            <div className="catalogue-card-body"><span className="catalogue-code">{product.code}</span><h2>{product.name}</h2><p>{product.description}</p><Link href={`/contact?product=${encodeURIComponent(product.name)}`} className="catalogue-enquire">Enquire about this product <Mail size={15} /></Link></div>
+            <div className="catalogue-card-body"><span className="catalogue-code">{product.code}</span><h2>{product.name}</h2><p>{product.description}</p><div className="catalogue-card-actions"><Link href={`/contact?product=${encodeURIComponent(product.name)}`} className="catalogue-enquire">Enquire about this product <Mail size={15} /></Link><AddToQuoteButton product={{ ...product, categorySlug: catalogue.slug, categoryTitle: catalogue.title, rangeTitle: section.title }} /></div></div>
           </article>)}
         </div></div>)}
       </div>

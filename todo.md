@@ -24,3 +24,9 @@
 - [x] Generate no-human replacements for active site imagery.
 - [x] Replace site mappings and validate visual and build integrity.
 - [ ] Save and deliver the no-human image checkpoint.
+
+# Featured Category Cleanup
+
+- [x] Inspect featured-category data and page usage.
+- [x] Remove all laboratory-related featured cards.
+- [x] Verify the build and save the corrected checkpoint.

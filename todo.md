@@ -30,3 +30,9 @@
 - [x] Inspect featured-category data and page usage.
 - [x] Remove all laboratory-related featured cards.
 - [x] Verify the build and save the corrected checkpoint.
+
+# Product Category Expansion
+
+- [x] Inspect current product category data and available imagery.
+- [x] Add Water Pumps and General Machinery categories.
+- [x] Verify the build and save the updated checkpoint.

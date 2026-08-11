@@ -75,3 +75,8 @@
 - [x] Verify all six footer solution links open the correct service catalogues.
 - [x] Run the service-route build and visual checks.
 - [ ] Save and deliver the functional footer catalogue checkpoint.
+- [x] Audit the current hero slider and clean laboratory image constraints.
+- [x] Source and prepare clean real laboratory hero images.
+- [x] Implement the multi-image hero scroll interaction and mappings.
+- [x] Verify hero imagery, scroll behavior, responsive layout, and build integrity.
+- [ ] Save and deliver the homepage hero checkpoint.

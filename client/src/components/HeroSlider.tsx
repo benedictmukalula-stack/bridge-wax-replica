@@ -1,17 +1,23 @@
-/* Reference-matched homepage hero: five source slides, six-second rotation, arrows, and gold progress markers. */
+/* Homepage hero: four real laboratory photographs, six-second rotation, arrows, markers, and touch swiping. */
 import { ArrowRight, ChevronLeft, ChevronRight } from "lucide-react";
-import { useEffect, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import { Link } from "wouter";
 
 const SLIDES = [
-  { src: "/manus-storage/home-hero-no-people_2612088f.png", alt: "Empty modern analytical laboratory inside a scientific research facility" },
+  { src: "/manus-storage/lab-analytical-room_14145300.webp", alt: "Real laboratory interior with analytical instruments and clean workstations" },
+  { src: "/manus-storage/lab-microscope_5686b983.webp", alt: "Real laboratory microscope and glassware on a clean workbench" },
+  { src: "/manus-storage/lab-bench_a63ce4b2.webp", alt: "Real laboratory bench with pipettes, balances, and sample containers" },
+  { src: "/manus-storage/lab-medical-equipment_acf3aa81.webp", alt: "Real medical laboratory equipment with microscope and sample analyzer" },
 ];
 
 export function HeroSlider() {
   const [index, setIndex] = useState(0);
+  const touchStart = useRef<number | null>(null);
   useEffect(() => { const timer = window.setInterval(() => setIndex((value) => (value + 1) % SLIDES.length), 6000); return () => window.clearInterval(timer); }, []);
   const move = (direction: number) => setIndex((value) => (value + direction + SLIDES.length) % SLIDES.length);
-  return <section className="hero-slider">
+  const onTouchStart = (event: React.TouchEvent<HTMLElement>) => { touchStart.current = event.touches[0]?.clientX ?? null; };
+  const onTouchEnd = (event: React.TouchEvent<HTMLElement>) => { if (touchStart.current === null) return; const delta = (event.changedTouches[0]?.clientX ?? touchStart.current) - touchStart.current; if (Math.abs(delta) > 45) move(delta > 0 ? -1 : 1); touchStart.current = null; };
+  return <section className="hero-slider" aria-roledescription="carousel" aria-label="Laboratory image showcase" onTouchStart={onTouchStart} onTouchEnd={onTouchEnd}>
     {SLIDES.map((slide, slideIndex) => <div className={`hero-slide ${slideIndex === index ? "visible" : ""}`} key={slide.src}><img src={slide.src} alt={slide.alt} loading={slideIndex === 0 ? "eager" : "lazy"} fetchPriority={slideIndex === 0 ? "high" : "low"} decoding="async" /></div>)}
     <div className="hero-overlay" />
     {SLIDES.length > 1 && <><button className="hero-arrow hero-arrow-left" aria-label="Previous slide" onClick={() => move(-1)}><ChevronLeft size={20} /></button><button className="hero-arrow hero-arrow-right" aria-label="Next slide" onClick={() => move(1)}><ChevronRight size={20} /></button><div className="hero-markers">{SLIDES.map((slide, slideIndex) => <button key={slide.src} aria-label={`Go to slide ${slideIndex + 1}`} className={slideIndex === index ? "active" : ""} onClick={() => setIndex(slideIndex)} />)}</div></>}

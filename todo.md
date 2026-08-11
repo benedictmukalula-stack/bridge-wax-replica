@@ -98,3 +98,10 @@
 - [x] Create or select clean laboratory images containing no people.
 - [x] Replace the affected mappings and verify responsive page visuals.
 - [ ] Save and deliver the laboratory imagery checkpoint.
+
+# HDPE Pipe Imagery Correction
+
+- [x] Audit the HDPE service catalogue for repeated visual imagery.
+- [x] Create or select six distinct clean HDPE pipe-system images.
+- [x] Replace the mappings and verify the HDPE catalogue route.
+- [ ] Save and deliver the HDPE imagery checkpoint.

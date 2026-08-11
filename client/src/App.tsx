@@ -1,18 +1,18 @@
 import { Route, Switch } from "wouter";
-import { lazy, Suspense } from "react";
+import { Suspense } from "react";
 import ErrorBoundary from "./components/ErrorBoundary";
+import Head from "./components/Head";
 import QuoteCart from "./components/QuoteCart";
 import { QuoteCartProvider } from "./contexts/QuoteCartContext";
 import Home from "./pages/Home";
-
-const About = lazy(() => import("./pages/About"));
-const Laboratory = lazy(() => import("./pages/Laboratory"));
-const Products = lazy(() => import("./pages/Products"));
-const ProductCategory = lazy(() => import("./pages/ProductCategory"));
-const ServiceCategory = lazy(() => import("./pages/ServiceCategory"));
-const LabCategory = lazy(() => import("./pages/LabCategory"));
-const Contact = lazy(() => import("./pages/Contact"));
-const NotFound = lazy(() => import("./pages/NotFound"));
+import About from "./pages/About";
+import Contact from "./pages/Contact";
+import LabCategory from "./pages/LabCategory";
+import Laboratory from "./pages/Laboratory";
+import NotFound from "./pages/NotFound";
+import ProductCategory from "./pages/ProductCategory";
+import Products from "./pages/Products";
+import ServiceCategory from "./pages/ServiceCategory";
 
 function Router() {
   // make sure to consider if you need authentication for certain routes
@@ -43,6 +43,7 @@ function App() {
   return (
     <ErrorBoundary>
       <QuoteCartProvider>
+        <Head />
         <Suspense fallback={<div className="route-loading" role="status">Loading Bridge Wax…</div>}><Router /></Suspense>
         <QuoteCart />
       </QuoteCartProvider>

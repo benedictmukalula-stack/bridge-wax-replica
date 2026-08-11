@@ -219,7 +219,7 @@
 - [x] Add Arrow Up/Down selection, Enter activation, and Home/End result movement.
 - [x] Add explicit search exit control and Escape behavior that restores input focus.
 - [x] Add automated coverage and verify keyboard navigation on desktop and mobile search components.
-- [ ] Save and deliver the accessible search navigation update.
+- [x] Save and deliver the accessible search navigation update.
 
 # Search Exit Focus-State Correction
 
@@ -230,3 +230,17 @@
 - [x] Ensure Escape reliably restores focus to the mobile search input after closing results.
 - [x] Add component-level coverage for Arrow keys, Enter, Escape, and the visible Exit control.
 - [x] Re-verify keyboard navigation and exit behavior on desktop and mobile search components.
+
+# SEO Enhancement
+
+- [x] Audit current titles, descriptions, canonical tags, social metadata, structured data, and crawl assets.
+- [x] Add route-level search metadata and robust canonical and social preview support.
+- [x] Add Organization and website structured data with accurate Bridge Wax contact and service information.
+- [x] Add and validate robots.txt and sitemap.xml crawl assets.
+- [x] Add automated coverage and verify production metadata output.
+- [ ] Save and deliver the SEO enhancement.
+
+# Production SEO Rendering Verification
+
+- [x] Add automated integration coverage for the actual rendered SEO head output.
+- [x] Run the built production server and verify home, catalogue, and 404 crawler responses.

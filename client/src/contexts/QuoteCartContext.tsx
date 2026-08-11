@@ -39,12 +39,19 @@ function readStoredItems(): QuoteItem[] {
 }
 
 export function QuoteCartProvider({ children }: { children: ReactNode }) {
-  const [items, setItems] = useState<QuoteItem[]>(readStoredItems);
+  const [items, setItems] = useState<QuoteItem[]>([]);
   const [isOpen, setIsOpen] = useState(false);
+  const [hasRestoredItems, setHasRestoredItems] = useState(false);
 
   useEffect(() => {
+    setItems(readStoredItems());
+    setHasRestoredItems(true);
+  }, []);
+
+  useEffect(() => {
+    if (!hasRestoredItems || typeof window === "undefined") return;
     window.localStorage.setItem(STORAGE_KEY, JSON.stringify(items));
-  }, [items]);
+  }, [hasRestoredItems, items]);
 
   const value = useMemo<QuoteCartContextValue>(() => ({
     items,

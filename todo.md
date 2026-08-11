@@ -238,9 +238,20 @@
 - [x] Add Organization and website structured data with accurate Bridge Wax contact and service information.
 - [x] Add and validate robots.txt and sitemap.xml crawl assets.
 - [x] Add automated coverage and verify production metadata output.
-- [ ] Save and deliver the SEO enhancement.
+- [x] Save and deliver the SEO enhancement.
 
 # Production SEO Rendering Verification
 
 - [x] Add automated integration coverage for the actual rendered SEO head output.
 - [x] Run the built production server and verify home, catalogue, and 404 crawler responses.
+
+# Cart Continue Browsing Destination
+
+- [x] Review the current empty-cart Continue browsing link.
+- [x] Route Continue browsing to the Products & Solutions page.
+- [x] Add coverage and verify empty-cart navigation.
+- [ ] Save and deliver the cart navigation correction.
+
+# Cart Empty-State Component Coverage
+
+- [x] Test Continue browsing from the rendered empty-cart UI, including drawer close and `/products` navigation.

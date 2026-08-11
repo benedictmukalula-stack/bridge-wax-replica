@@ -1,9 +1,12 @@
 /* Bridge Wax design reminder: keep cart selection calm and clear while the server handles delivery from the verified domain mailbox. */
 import { Minus, Plus, Send, ShoppingBag, Trash2, X } from "lucide-react";
 import { useEffect, useState, type FormEvent } from "react";
+import { useLocation } from "wouter";
 import { trpc } from "../lib/trpc";
 import { useQuoteCart } from "../contexts/QuoteCartContext";
 import { quotationSubmissionSuccessMessage } from "../lib/quoteConfirmation";
+
+export const CONTINUE_BROWSING_PATH = "/products";
 
 export function AddToQuoteButton({ product }: { product: import("../contexts/QuoteCartContext").QuoteProduct }) {
   const { addItem, items, openCart } = useQuoteCart();
@@ -19,6 +22,7 @@ export function QuoteCartButton() {
 
 export default function QuoteCart() {
   const { items, isOpen, closeCart, removeItem, setQuantity, clearCart } = useQuoteCart();
+  const [, setLocation] = useLocation();
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [company, setCompany] = useState("");
@@ -53,6 +57,11 @@ export default function QuoteCart() {
     window.location.href = `mailto:info@bridgewax.com?subject=${encodeURIComponent(`Quotation request from ${name}`)}&body=${encodeURIComponent(body)}`;
   };
 
+  const continueBrowsing = () => {
+    closeCart();
+    setLocation(CONTINUE_BROWSING_PATH);
+  };
+
   const submit = async (event: FormEvent<HTMLFormElement>) => {
     event.preventDefault();
     setSubmitError("");
@@ -82,7 +91,7 @@ export default function QuoteCart() {
     <aside className="quote-cart-panel">
       <div className="quote-cart-header"><div><span className="eyebrow">Quotation basket</span><h2 id="quote-cart-title">Your selected products</h2></div><button type="button" className="quote-cart-close" onClick={closeCart} aria-label="Close quotation basket"><X size={21} /></button></div>
       {submitted && <p className="quote-cart-submission-success" role="status">{quotationSubmissionSuccessMessage(email, customerConfirmationSent)}</p>}
-      {items.length === 0 ? <div className="quote-cart-empty"><ShoppingBag size={28} /><h3>Your basket is empty</h3><p>Select products from any catalogue and add them here to request a quotation.</p><button type="button" className="button button-dark" onClick={closeCart}>Continue browsing</button></div> : <>
+      {items.length === 0 ? <div className="quote-cart-empty"><ShoppingBag size={28} /><h3>Your basket is empty</h3><p>Select products from any catalogue and add them here to request a quotation.</p><button type="button" className="button button-dark" onClick={continueBrowsing}>Continue browsing</button></div> : <>
         <div className="quote-cart-items">{items.map((item) => <div className="quote-cart-item" key={item.code}>
           <div className="quote-cart-item-copy"><strong>{item.name}</strong><small>{item.code} · {item.categoryTitle}{item.rangeTitle ? ` · ${item.rangeTitle}` : ""}</small></div>
           <div className="quote-cart-item-actions"><div className="quantity-control"><button type="button" onClick={() => setQuantity(item.code, item.quantity - 1)} aria-label={`Decrease quantity for ${item.name}`}><Minus size={13} /></button><span>{item.quantity}</span><button type="button" onClick={() => setQuantity(item.code, item.quantity + 1)} aria-label={`Increase quantity for ${item.name}`}><Plus size={13} /></button></div><button type="button" className="quote-cart-remove" onClick={() => removeItem(item.code)} aria-label={`Remove ${item.name}`}><Trash2 size={15} /></button></div>

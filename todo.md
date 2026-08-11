@@ -191,3 +191,16 @@
 # Customer Confirmation Success-Copy Regression Test
 
 - [x] Run and record included-test coverage for both cart confirmation-success message outcomes.
+
+# Expanded Product Search
+
+- [x] Review the current search index, product category metadata, and header search interactions.
+- [x] Add search modes for individual products, categories, and all products.
+- [x] Ensure category and all-products results navigate to the correct catalogue destinations.
+- [x] Add automated coverage and verify desktop and mobile search behavior.
+- [x] Save and deliver the expanded product search update.
+
+# Mobile Expanded Search Verification
+
+- [x] Open the mobile menu and verify Products, Categories, and All products modes.
+- [x] Verify mobile category and all-products navigation destinations.

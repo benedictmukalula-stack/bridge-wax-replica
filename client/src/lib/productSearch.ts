@@ -11,6 +11,13 @@ export type ProductSearchResult = {
   rangeTitle?: string;
 };
 
+export type ProductCategorySearchResult = {
+  slug: string;
+  title: string;
+  description: string;
+  productCount: number;
+};
+
 export const PRODUCT_SEARCH_INDEX: ProductSearchResult[] = Object.entries(PRODUCT_CATALOGUES).flatMap(([categorySlug, catalogue]) => [
   ...catalogue.products.map((product) => ({
     ...product,
@@ -25,6 +32,13 @@ export const PRODUCT_SEARCH_INDEX: ProductSearchResult[] = Object.entries(PRODUC
   }))) ?? []),
 ]);
 
+export const PRODUCT_CATEGORY_SEARCH_INDEX: ProductCategorySearchResult[] = Object.entries(PRODUCT_CATALOGUES).map(([slug, catalogue]) => ({
+  slug,
+  title: catalogue.title,
+  description: catalogue.summary,
+  productCount: catalogue.products.length + (catalogue.subsections?.reduce((count, section) => count + section.products.length, 0) ?? 0),
+}));
+
 export function searchProducts(query: string, limit = 8) {
   const normalizedQuery = query.trim().toLocaleLowerCase();
   if (!normalizedQuery) return [];
@@ -35,4 +49,17 @@ export function searchProducts(query: string, limit = 8) {
     .toLocaleLowerCase()
     .includes(normalizedQuery))
     .slice(0, limit);
+}
+
+export function searchProductCategories(query: string, limit = 6) {
+  const normalizedQuery = query.trim().toLocaleLowerCase();
+  const matchingCategories = !normalizedQuery
+    ? PRODUCT_CATEGORY_SEARCH_INDEX
+    : PRODUCT_CATEGORY_SEARCH_INDEX.filter((category) => `${category.title} ${category.description}`.toLocaleLowerCase().includes(normalizedQuery));
+
+  return matchingCategories.slice(0, limit);
+}
+
+export function listAllProducts(limit = PRODUCT_SEARCH_INDEX.length) {
+  return PRODUCT_SEARCH_INDEX.slice(0, limit);
 }

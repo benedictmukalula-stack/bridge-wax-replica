@@ -22,12 +22,17 @@ export default function QuoteCart() {
   const [email, setEmail] = useState("");
   const [company, setCompany] = useState("");
   const [message, setMessage] = useState("");
+  const [showClearConfirm, setShowClearConfirm] = useState(false);
 
   useEffect(() => {
     if (!isOpen) return;
     const previousOverflow = document.body.style.overflow;
     document.body.style.overflow = "hidden";
     return () => { document.body.style.overflow = previousOverflow; };
+  }, [isOpen]);
+
+  useEffect(() => {
+    if (!isOpen) setShowClearConfirm(false);
   }, [isOpen]);
 
   if (!isOpen) return null;
@@ -59,7 +64,7 @@ export default function QuoteCart() {
           <div className="quote-cart-item-copy"><strong>{item.name}</strong><small>{item.code} · {item.categoryTitle}{item.rangeTitle ? ` · ${item.rangeTitle}` : ""}</small></div>
           <div className="quote-cart-item-actions"><div className="quantity-control"><button type="button" onClick={() => setQuantity(item.code, item.quantity - 1)} aria-label={`Decrease quantity for ${item.name}`}><Minus size={13} /></button><span>{item.quantity}</span><button type="button" onClick={() => setQuantity(item.code, item.quantity + 1)} aria-label={`Increase quantity for ${item.name}`}><Plus size={13} /></button></div><button type="button" className="quote-cart-remove" onClick={() => removeItem(item.code)} aria-label={`Remove ${item.name}`}><Trash2 size={15} /></button></div>
         </div>)}</div>
-        <form className="quote-cart-form" onSubmit={submit}><div className="quote-cart-form-heading"><h3>Send request for quotation</h3><button type="button" className="quote-cart-clear" onClick={clearCart} aria-label="Clear cart"><Trash2 size={14} /> Clear Cart</button></div><div className="quote-cart-form-row"><input required value={name} onChange={(event) => setName(event.target.value)} placeholder="Full name" aria-label="Full name" /><input required type="email" value={email} onChange={(event) => setEmail(event.target.value)} placeholder="Email address" aria-label="Email address" /></div><input value={company} onChange={(event) => setCompany(event.target.value)} placeholder="Company (optional)" aria-label="Company" /><textarea value={message} onChange={(event) => setMessage(event.target.value)} rows={3} placeholder="Tell us about your requirements (optional)" aria-label="Additional requirements" /><p className="quote-cart-recipient">Your request will be addressed only to <strong>info@bridgewax.com</strong>.</p><button type="submit" className="button button-gold quote-cart-submit"><Send size={16} /> Send quotation request</button></form>
+        <form className="quote-cart-form" onSubmit={submit}><div className="quote-cart-form-heading"><h3>Send request for quotation</h3><button type="button" className="quote-cart-clear" onClick={() => setShowClearConfirm(true)} aria-label="Clear cart"><Trash2 size={14} /> Clear Cart</button></div>{showClearConfirm && <div className="clear-cart-confirmation" role="alertdialog" aria-labelledby="clear-cart-title" aria-describedby="clear-cart-description"><div><strong id="clear-cart-title">Clear all selected products?</strong><p id="clear-cart-description">This will remove every item from your cart. You can add products again at any time.</p></div><div className="clear-cart-confirmation-actions"><button type="button" className="button button-small button-outline-dark" onClick={() => setShowClearConfirm(false)}>Cancel</button><button type="button" className="button button-small button-danger" onClick={() => { clearCart(); setShowClearConfirm(false); }}>Clear Cart</button></div></div>}<div className="quote-cart-form-row"><input required value={name} onChange={(event) => setName(event.target.value)} placeholder="Full name" aria-label="Full name" /><input required type="email" value={email} onChange={(event) => setEmail(event.target.value)} placeholder="Email address" aria-label="Email address" /></div><input value={company} onChange={(event) => setCompany(event.target.value)} placeholder="Company (optional)" aria-label="Company" /><textarea value={message} onChange={(event) => setMessage(event.target.value)} rows={3} placeholder="Tell us about your requirements (optional)" aria-label="Additional requirements" /><p className="quote-cart-recipient">Your request will be addressed only to <strong>info@bridgewax.com</strong>.</p><button type="submit" className="button button-gold quote-cart-submit"><Send size={16} /> Send quotation request</button></form>
       </>}
     </aside>
   </div>;

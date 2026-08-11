@@ -147,3 +147,10 @@
 - [x] Rename and style the drawer-wide action as Clear Cart.
 - [x] Verify clearing behavior, header count, and empty-cart state.
 - [ ] Save and deliver the Clear Cart checkpoint.
+
+# Clear Cart Confirmation
+
+- [x] Define accessible confirmation dialog copy and cancel behavior.
+- [x] Implement confirmation before clearing all cart items.
+- [x] Verify cancel, confirm, header count, and empty-cart states.
+- [ ] Save and deliver the Clear Cart confirmation checkpoint.

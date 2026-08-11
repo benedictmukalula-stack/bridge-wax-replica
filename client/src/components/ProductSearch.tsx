@@ -77,6 +77,7 @@ export default function ProductSearch({ variant = "section" }: ProductSearchProp
             <p className="product-search-results-heading">{mode === "all" ? hasQuery ? `All product matches for “${query}”` : `Browse all ${PRODUCT_SEARCH_INDEX.length} products` : hasQuery ? `Product matches for “${query}”` : "Start typing to search products"}</p>
             {(hasQuery || mode === "all") && (activeResults.length > 0 ? productResults.map((product) => (
               <Link key={`${product.categorySlug}-${product.code}`} href={`/products/${product.categorySlug}#${product.code}`} className="product-search-result" onClick={clearSearch}>
+                <span className="product-search-result-thumbnail" aria-hidden="true"><img src={product.image} alt="" loading="eager" decoding="async" /></span>
                 <span className="product-search-result-copy"><strong>{product.name}</strong><small>{product.code} · {product.rangeTitle ? `${product.rangeTitle} · ` : ""}{product.categoryTitle}</small></span>
                 <span className="product-search-result-arrow" aria-hidden="true">→</span>
               </Link>

@@ -6,6 +6,7 @@ export type ProductSearchResult = {
   code: string;
   name: string;
   description: string;
+  image: string;
   categorySlug: string;
   categoryTitle: string;
   rangeTitle?: string;

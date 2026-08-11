@@ -120,3 +120,9 @@
 - [x] Route the quotation email handoff only to info@bridgewax.com.
 - [x] Verify search, add/remove, quantity, empty-cart, responsive, and email flows.
 - [ ] Save and deliver the header-search and quotation-cart checkpoint.
+
+# Header Cart Label Revision
+
+- [x] Change the header basket label and accessible text from Quote to Cart.
+- [x] Verify desktop and mobile labels while preserving basket interactions.
+- [ ] Save and deliver the header cart-label checkpoint.

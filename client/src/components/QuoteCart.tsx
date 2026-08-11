@@ -13,7 +13,7 @@ export function AddToQuoteButton({ product }: { product: import("../contexts/Quo
 
 export function QuoteCartButton() {
   const { itemCount, openCart } = useQuoteCart();
-  return <button type="button" className="quote-cart-trigger" onClick={openCart} aria-label={`Open quotation basket${itemCount ? ` with ${itemCount} selected item${itemCount === 1 ? "" : "s"}` : ""}`}><ShoppingBag size={18} /><span>Quote</span>{itemCount > 0 && <b>{itemCount}</b>}</button>;
+  return <button type="button" className="quote-cart-trigger" onClick={openCart} aria-label={`Open cart${itemCount ? ` with ${itemCount} selected item${itemCount === 1 ? "" : "s"}` : ""}`}><ShoppingBag size={18} /><span>Cart</span>{itemCount > 0 && <b>{itemCount}</b>}</button>;
 }
 
 export default function QuoteCart() {

@@ -26,7 +26,7 @@ export default function Home() {
       <section className="section section-white">
         <div className="content-wrap split-layout">
           <div className="image-frame image-frame-square">
-            <img src="/manus-storage/home-about-retry_ee806f7e.webp" alt="Bridge Wax laboratory headquarters reception area" loading="lazy" decoding="async" />
+            <img src="/manus-storage/lab-bench_a63ce4b2.webp" alt="Clean laboratory bench with scientific equipment" loading="lazy" decoding="async" />
           </div>
           <div className="copy-block">
             <span className="eyebrow">About Bridge Wax</span>

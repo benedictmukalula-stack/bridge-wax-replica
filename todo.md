@@ -91,3 +91,10 @@
 - [x] Replace repeated mappings with unique, category-appropriate verified assets.
 - [x] Rebuild and visually verify all affected catalogue routes.
 - [ ] Save and deliver the no-repeat catalogue checkpoint.
+
+# Office-to-Laboratory Imagery Revision
+
+- [x] Audit active office-style image placements and affected pages.
+- [x] Create or select clean laboratory images containing no people.
+- [x] Replace the affected mappings and verify responsive page visuals.
+- [ ] Save and deliver the laboratory imagery checkpoint.

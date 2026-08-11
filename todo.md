@@ -59,3 +59,11 @@
 - [x] Enhance catalogue layouts, navigation, and product/service detail cards.
 - [x] Validate all catalogue routes, image assignments, responsive behavior, and build integrity.
 - [ ] Save and deliver the expanded catalogue checkpoint.
+
+# Domestic Pumps Catalogue Expansion
+
+- [x] Define the domestic-pump catalogue scope and image requirements.
+- [x] Source and prepare distinct domestic-pump product images.
+- [x] Expand the Water Pumps catalogue and presentation.
+- [x] Validate domestic-pump routing, distinct images, responsive layout, and build integrity.
+- [ ] Save and deliver the expanded Water Pumps checkpoint.

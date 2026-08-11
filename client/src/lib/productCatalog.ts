@@ -13,6 +13,7 @@ export type ProductCatalogue = {
   summary: string;
   image: string;
   products: CatalogueProduct[];
+  subsections?: { title: string; summary: string; products: CatalogueProduct[] }[];
 };
 
 const ULTRASONIC_IMAGES = [
@@ -57,7 +58,7 @@ export const PRODUCT_CATALOGUES: Record<string, ProductCatalogue> = {
   },
   "water-pumps": {
     slug: "water-pumps", title: "Water Pumps", eyebrow: "Indicative Catalogue · Flow Systems",
-    summary: "Pump and flow-control equipment for water transfer, dewatering, irrigation, process reticulation, and industrial utility systems.", image: PUMP_IMAGES[0],
+    summary: "Pump and flow-control equipment for water transfer, dewatering, irrigation, process reticulation, industrial utility systems, and domestic water services.", image: PUMP_IMAGES[0],
     products: [
       { code: "BW-WP-001", name: "End-Suction Centrifugal Pump", description: "General-purpose centrifugal pump for clean-water transfer and industrial utility duties.", image: PUMP_IMAGES[0] },
       { code: "BW-WP-002", name: "Submersible Dewatering Pump", description: "Submersible pump configuration for site drainage, construction, and mining dewatering applications.", image: PUMP_IMAGES[1] },
@@ -67,6 +68,20 @@ export const PRODUCT_CATALOGUES: Record<string, ProductCatalogue> = {
       { code: "BW-WP-006", name: "Vertical Turbine Pump", description: "Vertical pump configuration for deep-sump, borehole, and high-volume water transfer installations.", image: PUMP_IMAGES[5] },
       { code: "BW-WP-007", name: "Booster Pump Skid", description: "Packaged booster arrangement for pressure support across utility and process-water networks.", image: PUMP_IMAGES[6] },
     ],
+    subsections: [{
+      title: "Domestic Pumps",
+      summary: "Indicative household and light-commercial pump solutions for homes, gardens, tanks, boreholes, pressure boosting, and water transfer.",
+      products: [
+        { code: "BW-DP-001", name: "Domestic Borehole Pump", description: "Slimline submersible pump configuration for borehole and domestic groundwater transfer applications.", image: "/manus-storage/01_1afd5a96.webp" },
+        { code: "BW-DP-002", name: "Domestic Submersible Drainage Pump", description: "Compact submersible pump for basements, sumps, pools, rainwater pits, and household drainage duties.", image: "/manus-storage/02_875f568d.webp" },
+        { code: "BW-DP-003", name: "Household Pressure Booster Pump", description: "Self-priming booster configuration for improving water pressure at taps, showers, and light domestic points of use.", image: "/manus-storage/03_1ef83617.webp" },
+        { code: "BW-DP-004", name: "Domestic Centrifugal Pump", description: "Compact centrifugal pump for clean-water transfer, garden irrigation, and household utility systems.", image: "/manus-storage/04_a84c9fd6.webp" },
+        { code: "BW-DP-005", name: "Compact 24V Water Booster", description: "Low-voltage booster format for small water systems, solar-assisted setups, caravans, and light utility applications.", image: "/manus-storage/05_06d11134.webp" },
+        { code: "BW-DP-006", name: "Domestic Transfer Pump", description: "Portable transfer pump for moving clean water between tanks, containers, gardens, and utility points.", image: "/manus-storage/06_612b0dab.webp" },
+        { code: "BW-DP-007", name: "Domestic Pressure Controller", description: "Automatic pressure-control accessory for pump start-stop management and stable household water delivery.", image: "/manus-storage/07_aba9b8bf.webp" },
+        { code: "BW-DP-008", name: "Automatic Garden Irrigation Pump", description: "Compact self-priming pump configuration for garden irrigation, sprinklers, and small outdoor water systems.", image: "/manus-storage/08_d82a4e53.webp" },
+      ],
+    }],
   },
   "general-machinery": {
     slug: "general-machinery", title: "General Machinery", eyebrow: "Indicative Catalogue · Industrial Plant",

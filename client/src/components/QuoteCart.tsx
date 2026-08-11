@@ -3,6 +3,7 @@ import { Minus, Plus, Send, ShoppingBag, Trash2, X } from "lucide-react";
 import { useEffect, useState, type FormEvent } from "react";
 import { trpc } from "../lib/trpc";
 import { useQuoteCart } from "../contexts/QuoteCartContext";
+import { quotationSubmissionSuccessMessage } from "../lib/quoteConfirmation";
 
 export function AddToQuoteButton({ product }: { product: import("../contexts/QuoteCartContext").QuoteProduct }) {
   const { addItem, items, openCart } = useQuoteCart();
@@ -25,6 +26,7 @@ export default function QuoteCart() {
   const [showClearConfirm, setShowClearConfirm] = useState(false);
   const [submitError, setSubmitError] = useState("");
   const [submitted, setSubmitted] = useState(false);
+  const [customerConfirmationSent, setCustomerConfirmationSent] = useState(false);
   const quoteRequest = trpc.quoteRequest.send.useMutation();
 
   useEffect(() => {
@@ -39,7 +41,10 @@ export default function QuoteCart() {
   }, [isOpen]);
 
   useEffect(() => {
-    if (items.length > 0) setSubmitted(false);
+    if (items.length > 0) {
+      setSubmitted(false);
+      setCustomerConfirmationSent(false);
+    }
   }, [items.length]);
 
   const openMailtoFallback = () => {
@@ -51,9 +56,10 @@ export default function QuoteCart() {
   const submit = async (event: FormEvent<HTMLFormElement>) => {
     event.preventDefault();
     setSubmitError("");
+    setCustomerConfirmationSent(false);
 
     try {
-      await quoteRequest.mutateAsync({
+      const result = await quoteRequest.mutateAsync({
         name,
         email,
         company: company || undefined,
@@ -62,6 +68,7 @@ export default function QuoteCart() {
       });
       clearCart();
       setSubmitted(true);
+      setCustomerConfirmationSent(result.customerConfirmationSent);
       setRequirements("");
     } catch {
       setSubmitError("We could not send the request automatically. You can use your email app instead.");
@@ -74,7 +81,7 @@ export default function QuoteCart() {
     <button type="button" className="quote-cart-backdrop" onClick={closeCart} aria-label="Close quotation basket" />
     <aside className="quote-cart-panel">
       <div className="quote-cart-header"><div><span className="eyebrow">Quotation basket</span><h2 id="quote-cart-title">Your selected products</h2></div><button type="button" className="quote-cart-close" onClick={closeCart} aria-label="Close quotation basket"><X size={21} /></button></div>
-      {submitted && <p className="quote-cart-submission-success" role="status">Your quotation request has been sent to info@bridgewax.com.</p>}
+      {submitted && <p className="quote-cart-submission-success" role="status">{quotationSubmissionSuccessMessage(email, customerConfirmationSent)}</p>}
       {items.length === 0 ? <div className="quote-cart-empty"><ShoppingBag size={28} /><h3>Your basket is empty</h3><p>Select products from any catalogue and add them here to request a quotation.</p><button type="button" className="button button-dark" onClick={closeCart}>Continue browsing</button></div> : <>
         <div className="quote-cart-items">{items.map((item) => <div className="quote-cart-item" key={item.code}>
           <div className="quote-cart-item-copy"><strong>{item.name}</strong><small>{item.code} · {item.categoryTitle}{item.rangeTitle ? ` · ${item.rangeTitle}` : ""}</small></div>

@@ -40,19 +40,40 @@ export function formatQuotationEmail(input: QuotationEmailInput): string {
   ].join("\n");
 }
 
-export async function sendQuotationEmail(input: QuotationEmailInput): Promise<{ messageId: string }> {
+export function formatCustomerConfirmationEmail(input: QuotationEmailInput): string {
+  const products = input.products
+    .map((product) => `- ${product.name} (${product.code}) — Quantity: ${product.quantity}`)
+    .join("\n");
+
+  return [
+    "Bridge Wax Quotation Request Received",
+    "",
+    `Dear ${input.name},`,
+    "",
+    "Thank you for your quotation request. Our team has received it and will review the products and requirements you provided.",
+    "",
+    "Requested products:",
+    products,
+    "",
+    "We will contact you at this email address with the next steps or a quotation.",
+    "",
+    "Kind regards,",
+    "Bridge Wax",
+    "Laboratory Equipment & Industrial Solutions",
+  ].join("\n");
+}
+
+function createSmtpTransporter() {
   const host = requiredSecret("SMTP_HOST");
   const port = Number(requiredSecret("SMTP_PORT"));
   const username = requiredSecret("SMTP_USERNAME");
   const password = requiredSecret("SMTP_PASSWORD");
-  const from = requiredSecret("SMTP_FROM");
-  const recipient = requiredSecret("SMTP_RECIPIENT");
 
   if (!Number.isInteger(port) || port < 1 || port > 65_535) {
     throw new Error("Email service configuration has an invalid SMTP port");
   }
 
-  const transporter = nodemailer.createTransport({
+  return nodemailer.createTransport({
     host,
     port,
     secure: port === 465,
@@ -62,6 +83,12 @@ export async function sendQuotationEmail(input: QuotationEmailInput): Promise<{ 
     greetingTimeout: 15_000,
     socketTimeout: 20_000,
   });
+}
+
+export async function sendQuotationEmail(input: QuotationEmailInput): Promise<{ messageId: string }> {
+  const from = requiredSecret("SMTP_FROM");
+  const recipient = requiredSecret("SMTP_RECIPIENT");
+  const transporter = createSmtpTransporter();
 
   const result = await transporter.sendMail({
     from,
@@ -73,6 +100,29 @@ export async function sendQuotationEmail(input: QuotationEmailInput): Promise<{ 
 
   if (!result.accepted.includes(recipient)) {
     throw new Error("The quotation email was not accepted by the mail server");
+  }
+
+  return { messageId: result.messageId };
+}
+
+export async function sendCustomerConfirmationEmail(input: QuotationEmailInput): Promise<{ messageId: string }> {
+  const from = requiredSecret("SMTP_FROM");
+  const transporter = createSmtpTransporter();
+
+  const result = await transporter.sendMail({
+    from,
+    to: input.email,
+    replyTo: from,
+    subject: "We received your Bridge Wax quotation request",
+    text: formatCustomerConfirmationEmail(input),
+  });
+
+  const customerAccepted = result.accepted.some((recipient) => {
+    const acceptedAddress = typeof recipient === "string" ? recipient : recipient.address;
+    return acceptedAddress.toLowerCase() === input.email.toLowerCase();
+  });
+  if (!customerAccepted) {
+    throw new Error("The customer confirmation email was not accepted by the mail server");
   }
 
   return { messageId: result.messageId };

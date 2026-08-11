@@ -3,7 +3,7 @@ import { z } from "zod";
 import { getSessionCookieOptions } from "./_core/cookies";
 import { systemRouter } from "./_core/systemRouter";
 import { publicProcedure, router } from "./_core/trpc";
-import { sendQuotationEmail } from "./quoteMailer";
+import { sendCustomerConfirmationEmail, sendQuotationEmail } from "./quoteMailer";
 
 const quoteProductSchema = z.object({
   name: z.string().trim().min(1).max(160),
@@ -38,7 +38,16 @@ export const appRouter = router({
   quoteRequest: router({
     send: publicProcedure.input(quoteRequestSchema).mutation(async ({ input }) => {
       const result = await sendQuotationEmail(input);
-      return { success: true, messageId: result.messageId } as const;
+      let customerConfirmationSent = true;
+
+      try {
+        await sendCustomerConfirmationEmail(input);
+      } catch (error) {
+        customerConfirmationSent = false;
+        console.error("[Quotation] Customer confirmation email could not be sent after internal delivery", error);
+      }
+
+      return { success: true, messageId: result.messageId, customerConfirmationSent } as const;
     }),
   }),
 

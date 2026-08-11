@@ -168,5 +168,26 @@
 
 # Checkpoint Record Reconciliation
 
-- [ ] Save a dedicated checkpoint record for the verified clean-header layout revision.
-- [ ] Deliver the verified 1-grid domain email delivery checkpoint to the user.
+- [x] Save a dedicated checkpoint record for the verified clean-header layout revision.
+- [x] Deliver the verified 1-grid domain email delivery checkpoint to the user.
+
+# Customer Quotation Confirmation Email
+
+- [x] Review the existing quotation mail payload and customer email validation.
+- [x] Send a branded confirmation email to the requester after internal quotation delivery succeeds.
+- [x] Keep the internal delivery to info@bridgewax.com and isolate customer-email failures from it.
+- [x] Add automated coverage and verify successful customer confirmation delivery.
+- [x] Save and deliver the customer confirmation email update.
+
+# Customer Confirmation End-to-End Verification
+
+- [x] Run a controlled confirmation-email delivery test using the approved info@bridgewax.com mailbox and record the outcome.
+
+# Customer Confirmation Flow Verification
+
+- [x] Run the actual quoteRequest procedure with the approved Bridge Wax mailbox and verify both delivery outcomes.
+- [x] Verify the cart’s confirmation-success copy is driven by the confirmation delivery outcome.
+
+# Customer Confirmation Success-Copy Regression Test
+
+- [x] Run and record included-test coverage for both cart confirmation-success message outcomes.

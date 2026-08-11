@@ -8,6 +8,7 @@ const Laboratory = lazy(() => import("./pages/Laboratory"));
 const Products = lazy(() => import("./pages/Products"));
 const ProductCategory = lazy(() => import("./pages/ProductCategory"));
 const ServiceCategory = lazy(() => import("./pages/ServiceCategory"));
+const LabCategory = lazy(() => import("./pages/LabCategory"));
 const Contact = lazy(() => import("./pages/Contact"));
 const NotFound = lazy(() => import("./pages/NotFound"));
 
@@ -18,6 +19,7 @@ function Router() {
       <Route path={"/"} component={Home} />
       <Route path={"/about"} component={About} />
       <Route path={"/laboratory"} component={Laboratory} />
+      <Route path={"/laboratory/:category"} component={LabCategory} />
       <Route path={"/products"} component={Products} />
       <Route path={"/products/:category"} component={ProductCategory} />
       <Route path={"/services/:service"} component={ServiceCategory} />

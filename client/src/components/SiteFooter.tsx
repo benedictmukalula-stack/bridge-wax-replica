@@ -10,7 +10,14 @@ const QUICK_LINKS = [
   { label: "Contact", href: "/contact" },
 ];
 
-const SERVICES = ["Laboratory Equipment & Consumables", "Industrial Testing Instruments", "Plant Maintenance & Spares", "Fabrication & Repairs", "HDPE Pipe Systems", "Pumps & Valves"];
+const SERVICES = [
+  { label: "Laboratory Equipment & Consumables", href: "/laboratory" },
+  { label: "Industrial Testing Instruments", href: "/products" },
+  { label: "Plant Maintenance & Spares", href: "/products" },
+  { label: "Fabrication & Repairs", href: "/products" },
+  { label: "HDPE Pipe Systems", href: "/products" },
+  { label: "Pumps & Valves", href: "/products" },
+];
 
 export function SiteFooter() {
   return (
@@ -23,7 +30,7 @@ export function SiteFooter() {
             <p>Bridge Wax supplies laboratory equipment, mining laboratory solutions, medical laboratory products, analytical instruments and industrial technologies across Zambia and Southern Africa.</p>
           </div>
           <div><h4>Quick Links</h4><ul>{QUICK_LINKS.map((item) => <li key={item.href}><Link href={item.href}>{item.label}</Link></li>)}</ul></div>
-          <div><h4>Our Solutions</h4><ul>{SERVICES.map((service) => <li key={service}><Link href="/products">{service}</Link></li>)}</ul></div>
+          <div><h4>Our Solutions</h4><ul>{SERVICES.map((service) => <li key={service.href + service.label}><Link href={service.href}>{service.label}</Link></li>)}</ul></div>
           <div><h4>Contact Us</h4><div className="footer-contact">
             <span><MapPin size={16} /><span>Stand No. LUS/5180/5181, Chishango Road, Lusaka, Zambia</span></span>
             <a href="tel:+260966892403"><Phone size={16} />+260 96 689 2403</a>

@@ -1,0 +1,258 @@
+
+============================================================
+ BRIDGE WAX — COMPLETE RENDERED IMAGE AUDIT
+============================================================
+
+URL: http://192.168.138.22:4173
+Audit: 2026-08-14T14:30:56.589Z
+
+Pages audited:             20
+Rendered image elements:   193
+Unique image URLs:          106
+Duplicate image URLs:       29
+Catalogue duplicate URLs:   10
+Page-level duplicates:      40
+Failures:                   0
+
+============================================================
+ CATALOGUE DUPLICATE IMAGE RENDERING
+============================================================
+
+❌ http://192.168.138.22:4173/images/products/ultrasonic/ultrasonic-01.jpg
+   Rendered 4 times
+   → /services | Ultrasonic Equipment
+   → /products | Ultrasonic Equipment
+   → /products/ultrasonic | Ultrasonic Equipment
+      CATALOGUE · NDT Ultrasonic Equipment Portable and workshop ultrasonic inspection equipment for thickness measurement, calibration, and field condition assessment.
+   → /products/ultrasonic | Ultrasonic Thickness Gauge reference image
+
+❌ http://192.168.138.22:4173/images/products/gas-detection/gas-detection-01.jpg
+   Rendered 4 times
+   → /services | Gas Detection
+   → /products | Gas Detection
+   → /products/gas-detection | Gas Detection
+      CATALOGUE · SAFETY Gas Detection Portable and fixed-point gas detection equipment for industrial safety, confined spaces, and process monitoring applications.
+   → /products/gas-detection | Portable Single-Gas Detector reference image
+
+❌ http://192.168.138.22:4173/images/products/water-pumps/water-pump-01.webp
+   Rendered 5 times
+   → /services | Water Pumps
+   → /products | Water Pumps
+   → /products/water-pumps | Water Pumps
+      CATALOGUE · FLOW SYSTEMS Water Pumps Pump and flow-control equipment for water transfer, dewatering, irrigation, process reticulation, industrial utility systems, and domestic water services.
+   → /products/water-pumps | End-Suction Centrifugal Pump reference image
+   → /products/water-pumps | Domestic Borehole Pump reference image
+
+❌ http://192.168.138.22:4173/images/products/general-machinery/general-machinery-01.jpg
+   Rendered 4 times
+   → /services | General Machinery
+   → /products | General Machinery
+   → /products/general-machinery | General Machinery
+      CATALOGUE · INDUSTRIAL PLANT General Machinery General-purpose machinery and plant equipment for workshops, production environments, maintenance teams, and site operations.
+   → /products/general-machinery | Industrial Air Compressor reference image
+
+❌ http://192.168.138.22:4173/images/products/water-pumps/water-pump-02.webp
+   Rendered 2 times
+   → /products/water-pumps | Submersible Dewatering Pump reference image
+   → /products/water-pumps | Domestic Submersible Drainage Pump reference image
+
+❌ http://192.168.138.22:4173/images/products/water-pumps/water-pump-03.webp
+   Rendered 2 times
+   → /products/water-pumps | High-Pressure Multistage Pump reference image
+   → /products/water-pumps | Household Pressure Booster Pump reference image
+
+❌ http://192.168.138.22:4173/images/products/water-pumps/water-pump-04.webp
+   Rendered 2 times
+   → /products/water-pumps | Slurry Transfer Pump reference image
+   → /products/water-pumps | Domestic Centrifugal Pump reference image
+
+❌ http://192.168.138.22:4173/images/products/water-pumps/water-pump-05.webp
+   Rendered 2 times
+   → /products/water-pumps | Pump Control Panel reference image
+   → /products/water-pumps | Compact 24V Water Booster reference image
+
+❌ http://192.168.138.22:4173/images/products/water-pumps/water-pump-06.webp
+   Rendered 2 times
+   → /products/water-pumps | Vertical Turbine Pump reference image
+   → /products/water-pumps | Domestic Transfer Pump reference image
+
+❌ http://192.168.138.22:4173/images/products/water-pumps/water-pump-07.webp
+   Rendered 2 times
+   → /products/water-pumps | Booster Pump Skid reference image
+   → /products/water-pumps | Domestic Pressure Controller reference image
+
+============================================================
+ PAGE-LEVEL DUPLICATES
+============================================================
+
+⚠ /
+  http://192.168.138.22:4173/images/bridge-wax-logo.png
+  Rendered 2 times
+
+⚠ /
+  http://192.168.138.22:4173/images/img-mrclab-equipment.jpg
+  Rendered 2 times
+
+⚠ /about
+  http://192.168.138.22:4173/images/bridge-wax-logo.png
+  Rendered 2 times
+
+⚠ /services
+  http://192.168.138.22:4173/images/bridge-wax-logo.png
+  Rendered 2 times
+
+⚠ /services
+  http://192.168.138.22:4173/images/hero/laboratory-equipment.jpg
+  Rendered 5 times
+
+⚠ /laboratory
+  http://192.168.138.22:4173/images/bridge-wax-logo.png
+  Rendered 2 times
+
+⚠ /products
+  http://192.168.138.22:4173/images/bridge-wax-logo.png
+  Rendered 2 times
+
+⚠ /products
+  http://192.168.138.22:4173/images/hero/laboratory-equipment.jpg
+  Rendered 5 times
+
+⚠ /contact
+  http://192.168.138.22:4173/images/bridge-wax-logo.png
+  Rendered 2 times
+
+⚠ /services/laboratory
+  http://192.168.138.22:4173/images/bridge-wax-logo.png
+  Rendered 2 times
+
+⚠ /services/laboratory
+  http://192.168.138.22:4173/images/services/laboratory/laboratory-01.jpg
+  Rendered 2 times
+
+⚠ /services/industrial-testing
+  http://192.168.138.22:4173/images/bridge-wax-logo.png
+  Rendered 2 times
+
+⚠ /services/industrial-testing
+  http://192.168.138.22:4173/images/services/testing/testing-01.jpg
+  Rendered 2 times
+
+⚠ /services/maintenance
+  http://192.168.138.22:4173/images/bridge-wax-logo.png
+  Rendered 2 times
+
+⚠ /services/maintenance
+  http://192.168.138.22:4173/images/services/maintenance/maintenance-01.jpg
+  Rendered 2 times
+
+⚠ /services/fabrication
+  http://192.168.138.22:4173/images/bridge-wax-logo.png
+  Rendered 2 times
+
+⚠ /services/fabrication
+  http://192.168.138.22:4173/images/services/fabrication/fabrication-01.jpg
+  Rendered 2 times
+
+⚠ /services/hdpe
+  http://192.168.138.22:4173/images/bridge-wax-logo.png
+  Rendered 2 times
+
+⚠ /services/hdpe
+  http://192.168.138.22:4173/images/services/hdpe/hdpe-01.jpg
+  Rendered 2 times
+
+⚠ /services/pumps
+  http://192.168.138.22:4173/images/bridge-wax-logo.png
+  Rendered 2 times
+
+⚠ /services/pumps
+  http://192.168.138.22:4173/images/services/pumps/pumps-01.jpg
+  Rendered 2 times
+
+⚠ /products/ultrasonic
+  http://192.168.138.22:4173/images/bridge-wax-logo.png
+  Rendered 2 times
+
+⚠ /products/ultrasonic
+  http://192.168.138.22:4173/images/products/ultrasonic/ultrasonic-01.jpg
+  Rendered 2 times
+
+⚠ /products/gas-detection
+  http://192.168.138.22:4173/images/bridge-wax-logo.png
+  Rendered 2 times
+
+⚠ /products/gas-detection
+  http://192.168.138.22:4173/images/products/gas-detection/gas-detection-01.jpg
+  Rendered 2 times
+
+⚠ /products/water-pumps
+  http://192.168.138.22:4173/images/bridge-wax-logo.png
+  Rendered 2 times
+
+⚠ /products/water-pumps
+  http://192.168.138.22:4173/images/products/water-pumps/water-pump-01.webp
+  Rendered 3 times
+
+⚠ /products/water-pumps
+  http://192.168.138.22:4173/images/products/water-pumps/water-pump-02.webp
+  Rendered 2 times
+
+⚠ /products/water-pumps
+  http://192.168.138.22:4173/images/products/water-pumps/water-pump-03.webp
+  Rendered 2 times
+
+⚠ /products/water-pumps
+  http://192.168.138.22:4173/images/products/water-pumps/water-pump-04.webp
+  Rendered 2 times
+
+⚠ /products/water-pumps
+  http://192.168.138.22:4173/images/products/water-pumps/water-pump-05.webp
+  Rendered 2 times
+
+⚠ /products/water-pumps
+  http://192.168.138.22:4173/images/products/water-pumps/water-pump-06.webp
+  Rendered 2 times
+
+⚠ /products/water-pumps
+  http://192.168.138.22:4173/images/products/water-pumps/water-pump-07.webp
+  Rendered 2 times
+
+⚠ /products/general-machinery
+  http://192.168.138.22:4173/images/bridge-wax-logo.png
+  Rendered 2 times
+
+⚠ /products/general-machinery
+  http://192.168.138.22:4173/images/products/general-machinery/general-machinery-01.jpg
+  Rendered 2 times
+
+⚠ /laboratory/mining
+  http://192.168.138.22:4173/images/bridge-wax-logo.png
+  Rendered 2 times
+
+⚠ /laboratory/medical
+  http://192.168.138.22:4173/images/bridge-wax-logo.png
+  Rendered 2 times
+
+⚠ /laboratory/water
+  http://192.168.138.22:4173/images/bridge-wax-logo.png
+  Rendered 2 times
+
+⚠ /laboratory/analytical
+  http://192.168.138.22:4173/images/bridge-wax-logo.png
+  Rendered 2 times
+
+⚠ /laboratory/analytical
+  http://192.168.138.22:4173/images/laboratory/analytical/analytical-01.jpg
+  Rendered 2 times
+
+============================================================
+ MANUS / BROKEN IMAGE CHECK
+============================================================
+
+✅ NO IMAGE OR PAGE FAILURES
+
+============================================================
+ FINAL RESULT
+============================================================
+
+⚠ AUDIT WARNING — duplicate catalogue rendering detected.

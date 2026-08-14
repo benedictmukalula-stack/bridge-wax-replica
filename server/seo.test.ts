@@ -15,7 +15,7 @@ describe("Bridge Wax SEO metadata", () => {
     expect(meta.title).toBe("Water Pumps | Bridge Wax Product Catalogue");
     expect(meta.canonicalPath).toBe("/products/water-pumps");
     expect(meta.description).toContain("dewatering");
-    expect(meta.image).toContain("manus-storage");
+    expect(meta.image).toMatch(/\/images\//);
   });
 
   it("marks unknown paths as non-indexable and creates Organization structured data", () => {

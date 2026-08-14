@@ -5,7 +5,7 @@ import { SERVICE_CATALOGUES } from "./lib/serviceCatalog";
 export const SEO_ORIGIN = "https://bridgewax.com";
 export const SEO_SITE_NAME = "Bridge Wax";
 export const SEO_DEFAULT_DESCRIPTION = "Bridge Wax supplies laboratory equipment, mining laboratory solutions, medical laboratory products, analytical instruments, water pumps, industrial equipment, and technical services across Zambia and Southern Africa.";
-export const SEO_DEFAULT_IMAGE = "/manus-storage/lab-analytical-room_14145300.webp";
+export const SEO_DEFAULT_IMAGE = "/images/hero/hero-slide-1.jpg";
 
 export type SeoMeta = {
   title: string;
@@ -30,35 +30,35 @@ const STATIC_META: Record<string, SeoMeta> = {
     title: "About Bridge Wax | Laboratory & Industrial Solutions Supplier",
     description: "Learn about Bridge Wax, a Lusaka-based supplier of laboratory equipment, industrial technologies, technical support, and specialised solutions for Southern Africa.",
     canonicalPath: "/about",
-    image: "/manus-storage/about-laboratory-no-people_4a45f1ea.webp",
+    image: "/images/hero/about.jpg",
     imageAlt: "Clean laboratory environment supplied by Bridge Wax",
   },
   "/laboratory": {
     title: "Laboratory Equipment Solutions | Bridge Wax Zambia",
     description: "Explore mining, medical, water-analysis, and analytical laboratory equipment supplied by Bridge Wax in Zambia and Southern Africa.",
     canonicalPath: "/laboratory",
-    image: "/manus-storage/laboratory-hero-no-people_36472255.png",
+    image: "/images/hero/laboratory.jpg",
     imageAlt: "Laboratory equipment and analytical workstations",
   },
   "/products": {
     title: "Laboratory & Industrial Products | Bridge Wax",
     description: "Browse Bridge Wax product catalogues for ultrasonic equipment, gas detection, water pumps, general machinery, laboratory equipment, and industrial solutions.",
     canonicalPath: "/products",
-    image: "/manus-storage/products-hero_dbc3417d.webp",
+    image: "/images/hero/products.jpg",
     imageAlt: "Bridge Wax laboratory and industrial product range",
   },
   "/services": {
     title: "Technical Services & Industrial Support | Bridge Wax",
     description: "Bridge Wax provides laboratory equipment supply, industrial testing, plant maintenance, fabrication, HDPE pipe systems, pumps, valves, and technical support.",
     canonicalPath: "/services",
-    image: "/manus-storage/products-hero_dbc3417d.webp",
+    image: "/images/hero/products.jpg",
     imageAlt: "Bridge Wax technical services and industrial support",
   },
   "/contact": {
     title: "Contact Bridge Wax | Laboratory & Industrial Solutions",
     description: "Contact Bridge Wax in Lusaka, Zambia for laboratory equipment, industrial solutions, technical support, product catalogues, and quotation requests.",
     canonicalPath: "/contact",
-    image: "/manus-storage/contact-laboratory-no-people_1d9a70dc.webp",
+    image: "/images/hero/contact.jpg",
     imageAlt: "Bridge Wax laboratory solutions contact page",
   },
 };
@@ -130,7 +130,7 @@ export function getStructuredData(meta: SeoMeta) {
       "@type": "Organization",
       name: SEO_SITE_NAME,
       url: SEO_ORIGIN,
-      logo: `${SEO_ORIGIN}/manus-storage/bridge-wax-logo_bf0418bf.png`,
+      logo: `${SEO_ORIGIN}/images/bridge-wax-logo.png`,
       description: SEO_DEFAULT_DESCRIPTION,
       email: "info@bridgewax.com",
       telephone: "+260966892403",

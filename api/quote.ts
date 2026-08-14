@@ -3,7 +3,7 @@ import { z } from "zod";
 import {
   sendQuotationEmail,
   sendCustomerConfirmationEmail,
-} from "../server/quoteMailer";
+} from "../server/quoteMailer.js";
 
 const quoteProductSchema = z.object({
   name: z.string().trim().min(1).max(160),

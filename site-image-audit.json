@@ -1,0 +1,5621 @@
+{
+  "auditTime": "2026-08-14T14:30:56.589Z",
+  "baseUrl": "http://192.168.138.22:4173",
+  "summary": {
+    "pagesAudited": 20,
+    "totalRenderedImages": 193,
+    "uniqueImageUrls": 106,
+    "duplicateImageUrls": 29,
+    "catalogueDuplicateUrls": 10,
+    "pageLevelDuplicateUrls": 40,
+    "failures": 0
+  },
+  "pages": [
+    {
+      "route": "/",
+      "title": "Laboratory Equipment & Industrial Solutions in Zambia | Bridge Wax",
+      "images": [
+        {
+          "index": 0,
+          "src": "http://192.168.138.22:4173/images/bridge-wax-logo.png",
+          "alt": "Bridge Wax logo",
+          "width": 92,
+          "height": 34,
+          "naturalWidth": 544,
+          "naturalHeight": 130,
+          "complete": true,
+          "broken": false,
+          "visible": true,
+          "parentText": ""
+        },
+        {
+          "index": 1,
+          "src": "http://192.168.138.22:4173/images/hero/hero-slide-1.jpg",
+          "alt": "Real laboratory interior with analytical instruments and clean workstations",
+          "width": 1440,
+          "height": 1000,
+          "naturalWidth": 1600,
+          "naturalHeight": 762,
+          "complete": true,
+          "broken": false,
+          "visible": true,
+          "parentText": ""
+        },
+        {
+          "index": 2,
+          "src": "http://192.168.138.22:4173/images/hero/hero-slide-3.jpg",
+          "alt": "Real laboratory microscope and glassware on a clean workbench",
+          "width": 1440,
+          "height": 1000,
+          "naturalWidth": 2560,
+          "naturalHeight": 1441,
+          "complete": true,
+          "broken": false,
+          "visible": true,
+          "parentText": ""
+        },
+        {
+          "index": 3,
+          "src": "http://192.168.138.22:4173/images/img-mrclab-equipment.jpg",
+          "alt": "Real laboratory bench with pipettes, balances, and sample containers",
+          "width": 1440,
+          "height": 1000,
+          "naturalWidth": 800,
+          "naturalHeight": 450,
+          "complete": true,
+          "broken": false,
+          "visible": true,
+          "parentText": ""
+        },
+        {
+          "index": 4,
+          "src": "http://192.168.138.22:4173/images/cat-medical-lab.jpg",
+          "alt": "Real medical laboratory equipment with microscope and sample analyzer",
+          "width": 1440,
+          "height": 1000,
+          "naturalWidth": 1024,
+          "naturalHeight": 1024,
+          "complete": true,
+          "broken": false,
+          "visible": true,
+          "parentText": ""
+        },
+        {
+          "index": 5,
+          "src": "http://192.168.138.22:4173/images/img-mrclab-equipment.jpg",
+          "alt": "Clean laboratory bench with scientific equipment",
+          "width": 540,
+          "height": 540,
+          "naturalWidth": 800,
+          "naturalHeight": 450,
+          "complete": true,
+          "broken": false,
+          "visible": true,
+          "parentText": ""
+        },
+        {
+          "index": 6,
+          "src": "http://192.168.138.22:4173/images/hero/home-laboratory.jpg",
+          "alt": "Laboratory Equipment",
+          "width": 268,
+          "height": 201,
+          "naturalWidth": 0,
+          "naturalHeight": 0,
+          "complete": false,
+          "broken": false,
+          "visible": true,
+          "parentText": ""
+        },
+        {
+          "index": 7,
+          "src": "http://192.168.138.22:4173/images/hero/home-mining.jpg",
+          "alt": "Mining Laboratory",
+          "width": 268,
+          "height": 201,
+          "naturalWidth": 0,
+          "naturalHeight": 0,
+          "complete": false,
+          "broken": false,
+          "visible": true,
+          "parentText": ""
+        },
+        {
+          "index": 8,
+          "src": "http://192.168.138.22:4173/images/hero/home-industrial.jpg",
+          "alt": "Industrial Equipment",
+          "width": 268,
+          "height": 201,
+          "naturalWidth": 0,
+          "naturalHeight": 0,
+          "complete": false,
+          "broken": false,
+          "visible": true,
+          "parentText": ""
+        },
+        {
+          "index": 9,
+          "src": "http://192.168.138.22:4173/images/hero/home-support.png",
+          "alt": "Technical Support",
+          "width": 268,
+          "height": 201,
+          "naturalWidth": 0,
+          "naturalHeight": 0,
+          "complete": false,
+          "broken": false,
+          "visible": true,
+          "parentText": ""
+        },
+        {
+          "index": 10,
+          "src": "http://192.168.138.22:4173/images/bridge-wax-logo.png",
+          "alt": "Bridge Wax logo",
+          "width": 86,
+          "height": 28,
+          "naturalWidth": 544,
+          "naturalHeight": 130,
+          "complete": true,
+          "broken": false,
+          "visible": true,
+          "parentText": ""
+        }
+      ],
+      "backgrounds": []
+    },
+    {
+      "route": "/about",
+      "title": "About Bridge Wax | Laboratory & Industrial Solutions Supplier",
+      "images": [
+        {
+          "index": 0,
+          "src": "http://192.168.138.22:4173/images/bridge-wax-logo.png",
+          "alt": "Bridge Wax logo",
+          "width": 92,
+          "height": 34,
+          "naturalWidth": 544,
+          "naturalHeight": 130,
+          "complete": true,
+          "broken": false,
+          "visible": true,
+          "parentText": ""
+        },
+        {
+          "index": 1,
+          "src": "http://192.168.138.22:4173/images/hero/hero-slide-1.jpg",
+          "alt": "Your Trusted Partner in Scientific & Industrial Solutions",
+          "width": 1440,
+          "height": 600,
+          "naturalWidth": 1600,
+          "naturalHeight": 762,
+          "complete": true,
+          "broken": false,
+          "visible": true,
+          "parentText": "ABOUT BRIDGE WAX Your Trusted Partner in Scientific & Industrial Solutions A leading trading and distribution company headquartered in Lusaka, Zambia, with a branch office in Johannesburg, South Afric"
+        },
+        {
+          "index": 2,
+          "src": "http://192.168.138.22:4173/images/cat-medical-lab.jpg",
+          "alt": "Clean medical laboratory equipment on a laboratory bench",
+          "width": 540,
+          "height": 540,
+          "naturalWidth": 1024,
+          "naturalHeight": 1024,
+          "complete": true,
+          "broken": false,
+          "visible": true,
+          "parentText": ""
+        },
+        {
+          "index": 3,
+          "src": "http://192.168.138.22:4173/images/bridge-wax-logo.png",
+          "alt": "Bridge Wax logo",
+          "width": 86,
+          "height": 28,
+          "naturalWidth": 544,
+          "naturalHeight": 130,
+          "complete": true,
+          "broken": false,
+          "visible": true,
+          "parentText": ""
+        }
+      ],
+      "backgrounds": []
+    },
+    {
+      "route": "/services",
+      "title": "Technical Services & Industrial Support | Bridge Wax",
+      "images": [
+        {
+          "index": 0,
+          "src": "http://192.168.138.22:4173/images/bridge-wax-logo.png",
+          "alt": "Bridge Wax logo",
+          "width": 92,
+          "height": 34,
+          "naturalWidth": 544,
+          "naturalHeight": 130,
+          "complete": true,
+          "broken": false,
+          "visible": true,
+          "parentText": ""
+        },
+        {
+          "index": 1,
+          "src": "http://192.168.138.22:4173/images/hero/products.jpg",
+          "alt": "Equipment, Spares and Technical Solutions",
+          "width": 1440,
+          "height": 600,
+          "naturalWidth": 800,
+          "naturalHeight": 450,
+          "complete": true,
+          "broken": false,
+          "visible": true,
+          "parentText": "PRODUCTS & SOLUTIONS Equipment, Spares and Technical Solutions Explore our range of professional laboratory and industrial equipment, supported by the services and technical expertise behind it."
+        },
+        {
+          "index": 2,
+          "src": "http://192.168.138.22:4173/images/products/ultrasonic/ultrasonic-01.jpg",
+          "alt": "Ultrasonic Equipment",
+          "width": 366,
+          "height": 275,
+          "naturalWidth": 800,
+          "naturalHeight": 450,
+          "complete": true,
+          "broken": false,
+          "visible": true,
+          "parentText": ""
+        },
+        {
+          "index": 3,
+          "src": "http://192.168.138.22:4173/images/products/gas-detection/gas-detection-01.jpg",
+          "alt": "Gas Detection",
+          "width": 366,
+          "height": 275,
+          "naturalWidth": 800,
+          "naturalHeight": 450,
+          "complete": true,
+          "broken": false,
+          "visible": true,
+          "parentText": ""
+        },
+        {
+          "index": 4,
+          "src": "http://192.168.138.22:4173/images/products/water-pumps/water-pump-01.webp",
+          "alt": "Water Pumps",
+          "width": 366,
+          "height": 275,
+          "naturalWidth": 1400,
+          "naturalHeight": 1050,
+          "complete": true,
+          "broken": false,
+          "visible": true,
+          "parentText": ""
+        },
+        {
+          "index": 5,
+          "src": "http://192.168.138.22:4173/images/products/general-machinery/general-machinery-01.jpg",
+          "alt": "General Machinery",
+          "width": 366,
+          "height": 275,
+          "naturalWidth": 800,
+          "naturalHeight": 450,
+          "complete": true,
+          "broken": false,
+          "visible": true,
+          "parentText": ""
+        },
+        {
+          "index": 6,
+          "src": "http://192.168.138.22:4173/images/hero/home-laboratory.jpg",
+          "alt": "Laboratory Equipment & Consumables",
+          "width": 366,
+          "height": 170,
+          "naturalWidth": 0,
+          "naturalHeight": 0,
+          "complete": false,
+          "broken": false,
+          "visible": true,
+          "parentText": ""
+        },
+        {
+          "index": 7,
+          "src": "http://192.168.138.22:4173/images/hero/laboratory-equipment.jpg",
+          "alt": "Industrial Testing Instruments",
+          "width": 366,
+          "height": 170,
+          "naturalWidth": 0,
+          "naturalHeight": 0,
+          "complete": false,
+          "broken": false,
+          "visible": true,
+          "parentText": ""
+        },
+        {
+          "index": 8,
+          "src": "http://192.168.138.22:4173/images/hero/laboratory-equipment.jpg",
+          "alt": "Plant Maintenance & Spares",
+          "width": 366,
+          "height": 170,
+          "naturalWidth": 0,
+          "naturalHeight": 0,
+          "complete": false,
+          "broken": false,
+          "visible": true,
+          "parentText": ""
+        },
+        {
+          "index": 9,
+          "src": "http://192.168.138.22:4173/images/hero/laboratory-equipment.jpg",
+          "alt": "Fabrication & Repairs",
+          "width": 366,
+          "height": 170,
+          "naturalWidth": 0,
+          "naturalHeight": 0,
+          "complete": false,
+          "broken": false,
+          "visible": true,
+          "parentText": ""
+        },
+        {
+          "index": 10,
+          "src": "http://192.168.138.22:4173/images/hero/laboratory-equipment.jpg",
+          "alt": "HDPE Pipe Systems",
+          "width": 366,
+          "height": 170,
+          "naturalWidth": 0,
+          "naturalHeight": 0,
+          "complete": false,
+          "broken": false,
+          "visible": true,
+          "parentText": ""
+        },
+        {
+          "index": 11,
+          "src": "http://192.168.138.22:4173/images/hero/laboratory-equipment.jpg",
+          "alt": "Pumps & Valves",
+          "width": 366,
+          "height": 170,
+          "naturalWidth": 0,
+          "naturalHeight": 0,
+          "complete": false,
+          "broken": false,
+          "visible": true,
+          "parentText": ""
+        },
+        {
+          "index": 12,
+          "src": "http://192.168.138.22:4173/images/bridge-wax-logo.png",
+          "alt": "Bridge Wax logo",
+          "width": 86,
+          "height": 28,
+          "naturalWidth": 544,
+          "naturalHeight": 130,
+          "complete": true,
+          "broken": false,
+          "visible": true,
+          "parentText": ""
+        }
+      ],
+      "backgrounds": []
+    },
+    {
+      "route": "/laboratory",
+      "title": "Laboratory Equipment Solutions | Bridge Wax Zambia",
+      "images": [
+        {
+          "index": 0,
+          "src": "http://192.168.138.22:4173/images/bridge-wax-logo.png",
+          "alt": "Bridge Wax logo",
+          "width": 92,
+          "height": 34,
+          "naturalWidth": 544,
+          "naturalHeight": 130,
+          "complete": true,
+          "broken": false,
+          "visible": true,
+          "parentText": ""
+        },
+        {
+          "index": 1,
+          "src": "http://192.168.138.22:4173/images/hero/laboratory.jpg",
+          "alt": "Laboratory Equipment for Mining, Medical and Water Analysis",
+          "width": 1440,
+          "height": 600,
+          "naturalWidth": 800,
+          "naturalHeight": 450,
+          "complete": true,
+          "broken": false,
+          "visible": true,
+          "parentText": "LABORATORY Laboratory Equipment for Mining, Medical and Water Analysis Mining, medical, water analysis and research laboratory supplies, backed by after-sales service and expert engineering support."
+        },
+        {
+          "index": 2,
+          "src": "http://192.168.138.22:4173/images/laboratory/mining/mining-01.jpg",
+          "alt": "Mining Laboratory Equipment",
+          "width": 562,
+          "height": 316,
+          "naturalWidth": 800,
+          "naturalHeight": 450,
+          "complete": true,
+          "broken": false,
+          "visible": true,
+          "parentText": ""
+        },
+        {
+          "index": 3,
+          "src": "http://192.168.138.22:4173/images/laboratory/medical/medical-01.jpg",
+          "alt": "Medical Laboratory",
+          "width": 562,
+          "height": 316,
+          "naturalWidth": 1024,
+          "naturalHeight": 1024,
+          "complete": true,
+          "broken": false,
+          "visible": true,
+          "parentText": ""
+        },
+        {
+          "index": 4,
+          "src": "http://192.168.138.22:4173/images/laboratory/water/water-01.jpg",
+          "alt": "Water Analysis",
+          "width": 562,
+          "height": 316,
+          "naturalWidth": 1024,
+          "naturalHeight": 1024,
+          "complete": true,
+          "broken": false,
+          "visible": true,
+          "parentText": ""
+        },
+        {
+          "index": 5,
+          "src": "http://192.168.138.22:4173/images/laboratory/analytical/analytical-01.jpg",
+          "alt": "Analytical Equipment",
+          "width": 562,
+          "height": 316,
+          "naturalWidth": 800,
+          "naturalHeight": 450,
+          "complete": true,
+          "broken": false,
+          "visible": true,
+          "parentText": ""
+        },
+        {
+          "index": 6,
+          "src": "http://192.168.138.22:4173/images/bridge-wax-logo.png",
+          "alt": "Bridge Wax logo",
+          "width": 86,
+          "height": 28,
+          "naturalWidth": 544,
+          "naturalHeight": 130,
+          "complete": true,
+          "broken": false,
+          "visible": true,
+          "parentText": ""
+        }
+      ],
+      "backgrounds": []
+    },
+    {
+      "route": "/products",
+      "title": "Laboratory & Industrial Products | Bridge Wax",
+      "images": [
+        {
+          "index": 0,
+          "src": "http://192.168.138.22:4173/images/bridge-wax-logo.png",
+          "alt": "Bridge Wax logo",
+          "width": 92,
+          "height": 34,
+          "naturalWidth": 544,
+          "naturalHeight": 130,
+          "complete": true,
+          "broken": false,
+          "visible": true,
+          "parentText": ""
+        },
+        {
+          "index": 1,
+          "src": "http://192.168.138.22:4173/images/hero/products.jpg",
+          "alt": "Equipment, Spares and Technical Solutions",
+          "width": 1440,
+          "height": 600,
+          "naturalWidth": 800,
+          "naturalHeight": 450,
+          "complete": true,
+          "broken": false,
+          "visible": true,
+          "parentText": "PRODUCTS & SOLUTIONS Equipment, Spares and Technical Solutions Explore our range of professional laboratory and industrial equipment, supported by the services and technical expertise behind it."
+        },
+        {
+          "index": 2,
+          "src": "http://192.168.138.22:4173/images/products/ultrasonic/ultrasonic-01.jpg",
+          "alt": "Ultrasonic Equipment",
+          "width": 366,
+          "height": 275,
+          "naturalWidth": 800,
+          "naturalHeight": 450,
+          "complete": true,
+          "broken": false,
+          "visible": true,
+          "parentText": ""
+        },
+        {
+          "index": 3,
+          "src": "http://192.168.138.22:4173/images/products/gas-detection/gas-detection-01.jpg",
+          "alt": "Gas Detection",
+          "width": 366,
+          "height": 275,
+          "naturalWidth": 800,
+          "naturalHeight": 450,
+          "complete": true,
+          "broken": false,
+          "visible": true,
+          "parentText": ""
+        },
+        {
+          "index": 4,
+          "src": "http://192.168.138.22:4173/images/products/water-pumps/water-pump-01.webp",
+          "alt": "Water Pumps",
+          "width": 366,
+          "height": 275,
+          "naturalWidth": 1400,
+          "naturalHeight": 1050,
+          "complete": true,
+          "broken": false,
+          "visible": true,
+          "parentText": ""
+        },
+        {
+          "index": 5,
+          "src": "http://192.168.138.22:4173/images/products/general-machinery/general-machinery-01.jpg",
+          "alt": "General Machinery",
+          "width": 366,
+          "height": 275,
+          "naturalWidth": 800,
+          "naturalHeight": 450,
+          "complete": true,
+          "broken": false,
+          "visible": true,
+          "parentText": ""
+        },
+        {
+          "index": 6,
+          "src": "http://192.168.138.22:4173/images/hero/home-laboratory.jpg",
+          "alt": "Laboratory Equipment & Consumables",
+          "width": 366,
+          "height": 170,
+          "naturalWidth": 0,
+          "naturalHeight": 0,
+          "complete": false,
+          "broken": false,
+          "visible": true,
+          "parentText": ""
+        },
+        {
+          "index": 7,
+          "src": "http://192.168.138.22:4173/images/hero/laboratory-equipment.jpg",
+          "alt": "Industrial Testing Instruments",
+          "width": 366,
+          "height": 170,
+          "naturalWidth": 0,
+          "naturalHeight": 0,
+          "complete": false,
+          "broken": false,
+          "visible": true,
+          "parentText": ""
+        },
+        {
+          "index": 8,
+          "src": "http://192.168.138.22:4173/images/hero/laboratory-equipment.jpg",
+          "alt": "Plant Maintenance & Spares",
+          "width": 366,
+          "height": 170,
+          "naturalWidth": 0,
+          "naturalHeight": 0,
+          "complete": false,
+          "broken": false,
+          "visible": true,
+          "parentText": ""
+        },
+        {
+          "index": 9,
+          "src": "http://192.168.138.22:4173/images/hero/laboratory-equipment.jpg",
+          "alt": "Fabrication & Repairs",
+          "width": 366,
+          "height": 170,
+          "naturalWidth": 0,
+          "naturalHeight": 0,
+          "complete": false,
+          "broken": false,
+          "visible": true,
+          "parentText": ""
+        },
+        {
+          "index": 10,
+          "src": "http://192.168.138.22:4173/images/hero/laboratory-equipment.jpg",
+          "alt": "HDPE Pipe Systems",
+          "width": 366,
+          "height": 170,
+          "naturalWidth": 0,
+          "naturalHeight": 0,
+          "complete": false,
+          "broken": false,
+          "visible": true,
+          "parentText": ""
+        },
+        {
+          "index": 11,
+          "src": "http://192.168.138.22:4173/images/hero/laboratory-equipment.jpg",
+          "alt": "Pumps & Valves",
+          "width": 366,
+          "height": 170,
+          "naturalWidth": 0,
+          "naturalHeight": 0,
+          "complete": false,
+          "broken": false,
+          "visible": true,
+          "parentText": ""
+        },
+        {
+          "index": 12,
+          "src": "http://192.168.138.22:4173/images/bridge-wax-logo.png",
+          "alt": "Bridge Wax logo",
+          "width": 86,
+          "height": 28,
+          "naturalWidth": 544,
+          "naturalHeight": 130,
+          "complete": true,
+          "broken": false,
+          "visible": true,
+          "parentText": ""
+        }
+      ],
+      "backgrounds": []
+    },
+    {
+      "route": "/contact",
+      "title": "Contact Bridge Wax | Laboratory & Industrial Solutions",
+      "images": [
+        {
+          "index": 0,
+          "src": "http://192.168.138.22:4173/images/bridge-wax-logo.png",
+          "alt": "Bridge Wax logo",
+          "width": 92,
+          "height": 34,
+          "naturalWidth": 544,
+          "naturalHeight": 130,
+          "complete": true,
+          "broken": false,
+          "visible": true,
+          "parentText": ""
+        },
+        {
+          "index": 1,
+          "src": "http://192.168.138.22:4173/images/hero/hero-slide-3.jpg",
+          "alt": "Need Equipment or Technical Support?",
+          "width": 1440,
+          "height": 600,
+          "naturalWidth": 2560,
+          "naturalHeight": 1441,
+          "complete": true,
+          "broken": false,
+          "visible": true,
+          "parentText": "GET STARTED Need Equipment or Technical Support? Contact our team of experts to discuss your requirements and find the right solution for your operation."
+        },
+        {
+          "index": 2,
+          "src": "http://192.168.138.22:4173/images/bridge-wax-logo.png",
+          "alt": "Bridge Wax logo",
+          "width": 86,
+          "height": 28,
+          "naturalWidth": 544,
+          "naturalHeight": 130,
+          "complete": true,
+          "broken": false,
+          "visible": true,
+          "parentText": ""
+        }
+      ],
+      "backgrounds": []
+    },
+    {
+      "route": "/services/laboratory",
+      "title": "Laboratory Equipment & Consumables | Bridge Wax Services",
+      "images": [
+        {
+          "index": 0,
+          "src": "http://192.168.138.22:4173/images/bridge-wax-logo.png",
+          "alt": "Bridge Wax logo",
+          "width": 92,
+          "height": 34,
+          "naturalWidth": 544,
+          "naturalHeight": 130,
+          "complete": true,
+          "broken": false,
+          "visible": true,
+          "parentText": ""
+        },
+        {
+          "index": 1,
+          "src": "http://192.168.138.22:4173/images/services/laboratory/laboratory-01.jpg",
+          "alt": "Laboratory Equipment & Consumables",
+          "width": 1440,
+          "height": 600,
+          "naturalWidth": 800,
+          "naturalHeight": 450,
+          "complete": true,
+          "broken": false,
+          "visible": true,
+          "parentText": "SERVICE CATALOGUE · LABORATORY Laboratory Equipment & Consumables Equipment sourcing, consumable supply, installation coordination, and practical support for mining, medical, water, and research labor"
+        },
+        {
+          "index": 2,
+          "src": "http://192.168.138.22:4173/images/services/laboratory/laboratory-01.jpg",
+          "alt": "Laboratory Equipment Supply reference image",
+          "width": 369,
+          "height": 276,
+          "naturalWidth": 800,
+          "naturalHeight": 450,
+          "complete": true,
+          "broken": false,
+          "visible": true,
+          "parentText": ""
+        },
+        {
+          "index": 3,
+          "src": "http://192.168.138.22:4173/images/services/laboratory/laboratory-02.jpg",
+          "alt": "Laboratory Consumables Supply reference image",
+          "width": 369,
+          "height": 277,
+          "naturalWidth": 800,
+          "naturalHeight": 450,
+          "complete": true,
+          "broken": false,
+          "visible": true,
+          "parentText": ""
+        },
+        {
+          "index": 4,
+          "src": "http://192.168.138.22:4173/images/services/laboratory/laboratory-03.jpg",
+          "alt": "Laboratory Setup Coordination reference image",
+          "width": 369,
+          "height": 276,
+          "naturalWidth": 800,
+          "naturalHeight": 450,
+          "complete": true,
+          "broken": false,
+          "visible": true,
+          "parentText": ""
+        },
+        {
+          "index": 5,
+          "src": "http://192.168.138.22:4173/images/services/laboratory/laboratory-04.jpg",
+          "alt": "Instrument Service Support reference image",
+          "width": 369,
+          "height": 276,
+          "naturalWidth": 800,
+          "naturalHeight": 450,
+          "complete": true,
+          "broken": false,
+          "visible": true,
+          "parentText": ""
+        },
+        {
+          "index": 6,
+          "src": "http://192.168.138.22:4173/images/services/laboratory/laboratory-05.jpg",
+          "alt": "Sample Preparation Workflow Review reference image",
+          "width": 369,
+          "height": 277,
+          "naturalWidth": 800,
+          "naturalHeight": 450,
+          "complete": true,
+          "broken": false,
+          "visible": true,
+          "parentText": ""
+        },
+        {
+          "index": 7,
+          "src": "http://192.168.138.22:4173/images/services/laboratory/laboratory-06.jpg",
+          "alt": "Laboratory Safety Review reference image",
+          "width": 369,
+          "height": 276,
+          "naturalWidth": 800,
+          "naturalHeight": 450,
+          "complete": true,
+          "broken": false,
+          "visible": true,
+          "parentText": ""
+        },
+        {
+          "index": 8,
+          "src": "http://192.168.138.22:4173/images/bridge-wax-logo.png",
+          "alt": "Bridge Wax logo",
+          "width": 86,
+          "height": 28,
+          "naturalWidth": 544,
+          "naturalHeight": 130,
+          "complete": true,
+          "broken": false,
+          "visible": true,
+          "parentText": ""
+        }
+      ],
+      "backgrounds": []
+    },
+    {
+      "route": "/services/industrial-testing",
+      "title": "Industrial Testing Instruments | Bridge Wax Services",
+      "images": [
+        {
+          "index": 0,
+          "src": "http://192.168.138.22:4173/images/bridge-wax-logo.png",
+          "alt": "Bridge Wax logo",
+          "width": 92,
+          "height": 34,
+          "naturalWidth": 544,
+          "naturalHeight": 130,
+          "complete": true,
+          "broken": false,
+          "visible": true,
+          "parentText": ""
+        },
+        {
+          "index": 1,
+          "src": "http://192.168.138.22:4173/images/services/testing/testing-01.jpg",
+          "alt": "Industrial Testing Instruments",
+          "width": 1440,
+          "height": 600,
+          "naturalWidth": 800,
+          "naturalHeight": 450,
+          "complete": true,
+          "broken": false,
+          "visible": true,
+          "parentText": "SERVICE CATALOGUE · TESTING Industrial Testing Instruments Selection, supply, and support for inspection and measurement instruments used across plant, pipeline, mining, and maintenance environments."
+        },
+        {
+          "index": 2,
+          "src": "http://192.168.138.22:4173/images/services/testing/testing-01.jpg",
+          "alt": "Ultrasonic Thickness Testing reference image",
+          "width": 369,
+          "height": 276,
+          "naturalWidth": 800,
+          "naturalHeight": 450,
+          "complete": true,
+          "broken": false,
+          "visible": true,
+          "parentText": ""
+        },
+        {
+          "index": 3,
+          "src": "http://192.168.138.22:4173/images/services/testing/testing-02.jpg",
+          "alt": "Visual Inspection Equipment reference image",
+          "width": 369,
+          "height": 277,
+          "naturalWidth": 800,
+          "naturalHeight": 450,
+          "complete": true,
+          "broken": false,
+          "visible": true,
+          "parentText": ""
+        },
+        {
+          "index": 4,
+          "src": "http://192.168.138.22:4173/images/services/testing/testing-03.jpg",
+          "alt": "Calibration Planning reference image",
+          "width": 369,
+          "height": 276,
+          "naturalWidth": 800,
+          "naturalHeight": 450,
+          "complete": true,
+          "broken": false,
+          "visible": true,
+          "parentText": ""
+        },
+        {
+          "index": 5,
+          "src": "http://192.168.138.22:4173/images/services/testing/testing-04.jpg",
+          "alt": "Field Measurement Support reference image",
+          "width": 369,
+          "height": 276,
+          "naturalWidth": 800,
+          "naturalHeight": 450,
+          "complete": true,
+          "broken": false,
+          "visible": true,
+          "parentText": ""
+        },
+        {
+          "index": 6,
+          "src": "http://192.168.138.22:4173/images/services/testing/testing-05.jpg",
+          "alt": "Inspection Kit Assembly reference image",
+          "width": 369,
+          "height": 277,
+          "naturalWidth": 800,
+          "naturalHeight": 450,
+          "complete": true,
+          "broken": false,
+          "visible": true,
+          "parentText": ""
+        },
+        {
+          "index": 7,
+          "src": "http://192.168.138.22:4173/images/services/testing/testing-06.jpg",
+          "alt": "Test Record Documentation reference image",
+          "width": 369,
+          "height": 276,
+          "naturalWidth": 800,
+          "naturalHeight": 450,
+          "complete": true,
+          "broken": false,
+          "visible": true,
+          "parentText": ""
+        },
+        {
+          "index": 8,
+          "src": "http://192.168.138.22:4173/images/bridge-wax-logo.png",
+          "alt": "Bridge Wax logo",
+          "width": 86,
+          "height": 28,
+          "naturalWidth": 544,
+          "naturalHeight": 130,
+          "complete": true,
+          "broken": false,
+          "visible": true,
+          "parentText": ""
+        }
+      ],
+      "backgrounds": []
+    },
+    {
+      "route": "/services/maintenance",
+      "title": "Plant Maintenance & Spares | Bridge Wax Services",
+      "images": [
+        {
+          "index": 0,
+          "src": "http://192.168.138.22:4173/images/bridge-wax-logo.png",
+          "alt": "Bridge Wax logo",
+          "width": 92,
+          "height": 34,
+          "naturalWidth": 544,
+          "naturalHeight": 130,
+          "complete": true,
+          "broken": false,
+          "visible": true,
+          "parentText": ""
+        },
+        {
+          "index": 1,
+          "src": "http://192.168.138.22:4173/images/services/maintenance/maintenance-01.jpg",
+          "alt": "Plant Maintenance & Spares",
+          "width": 1440,
+          "height": 600,
+          "naturalWidth": 800,
+          "naturalHeight": 450,
+          "complete": true,
+          "broken": false,
+          "visible": true,
+          "parentText": "SERVICE CATALOGUE · MAINTENANCE Plant Maintenance & Spares Maintenance support, replacement planning, and industrial spares coordination to help keep production and processing plants operational."
+        },
+        {
+          "index": 2,
+          "src": "http://192.168.138.22:4173/images/services/maintenance/maintenance-01.jpg",
+          "alt": "Preventive Maintenance Planning reference image",
+          "width": 369,
+          "height": 276,
+          "naturalWidth": 800,
+          "naturalHeight": 450,
+          "complete": true,
+          "broken": false,
+          "visible": true,
+          "parentText": ""
+        },
+        {
+          "index": 3,
+          "src": "http://192.168.138.22:4173/images/services/maintenance/maintenance-02.jpg",
+          "alt": "Critical Spares Sourcing reference image",
+          "width": 369,
+          "height": 277,
+          "naturalWidth": 800,
+          "naturalHeight": 450,
+          "complete": true,
+          "broken": false,
+          "visible": true,
+          "parentText": ""
+        },
+        {
+          "index": 4,
+          "src": "http://192.168.138.22:4173/images/services/maintenance/maintenance-03.jpg",
+          "alt": "Shutdown Support Coordination reference image",
+          "width": 369,
+          "height": 276,
+          "naturalWidth": 800,
+          "naturalHeight": 450,
+          "complete": true,
+          "broken": false,
+          "visible": true,
+          "parentText": ""
+        },
+        {
+          "index": 5,
+          "src": "http://192.168.138.22:4173/images/services/maintenance/maintenance-04.jpg",
+          "alt": "Workshop Repair Support reference image",
+          "width": 369,
+          "height": 276,
+          "naturalWidth": 800,
+          "naturalHeight": 450,
+          "complete": true,
+          "broken": false,
+          "visible": true,
+          "parentText": ""
+        },
+        {
+          "index": 6,
+          "src": "http://192.168.138.22:4173/images/services/maintenance/maintenance-05.jpg",
+          "alt": "Asset Replacement Planning reference image",
+          "width": 369,
+          "height": 277,
+          "naturalWidth": 800,
+          "naturalHeight": 450,
+          "complete": true,
+          "broken": false,
+          "visible": true,
+          "parentText": ""
+        },
+        {
+          "index": 7,
+          "src": "http://192.168.138.22:4173/images/services/maintenance/maintenance-06.jpg",
+          "alt": "Maintenance Store Review reference image",
+          "width": 369,
+          "height": 276,
+          "naturalWidth": 800,
+          "naturalHeight": 450,
+          "complete": true,
+          "broken": false,
+          "visible": true,
+          "parentText": ""
+        },
+        {
+          "index": 8,
+          "src": "http://192.168.138.22:4173/images/bridge-wax-logo.png",
+          "alt": "Bridge Wax logo",
+          "width": 86,
+          "height": 28,
+          "naturalWidth": 544,
+          "naturalHeight": 130,
+          "complete": true,
+          "broken": false,
+          "visible": true,
+          "parentText": ""
+        }
+      ],
+      "backgrounds": []
+    },
+    {
+      "route": "/services/fabrication",
+      "title": "Fabrication & Repairs | Bridge Wax Services",
+      "images": [
+        {
+          "index": 0,
+          "src": "http://192.168.138.22:4173/images/bridge-wax-logo.png",
+          "alt": "Bridge Wax logo",
+          "width": 92,
+          "height": 34,
+          "naturalWidth": 544,
+          "naturalHeight": 130,
+          "complete": true,
+          "broken": false,
+          "visible": true,
+          "parentText": ""
+        },
+        {
+          "index": 1,
+          "src": "http://192.168.138.22:4173/images/services/fabrication/fabrication-01.jpg",
+          "alt": "Fabrication & Repairs",
+          "width": 1440,
+          "height": 600,
+          "naturalWidth": 800,
+          "naturalHeight": 450,
+          "complete": true,
+          "broken": false,
+          "visible": true,
+          "parentText": "SERVICE CATALOGUE · WORKSHOP Fabrication & Repairs Workshop fabrication, repairs, refurbishment, and industrial component support for plant and field requirements."
+        },
+        {
+          "index": 2,
+          "src": "http://192.168.138.22:4173/images/services/fabrication/fabrication-01.jpg",
+          "alt": "Light Steel Fabrication reference image",
+          "width": 369,
+          "height": 276,
+          "naturalWidth": 800,
+          "naturalHeight": 450,
+          "complete": true,
+          "broken": false,
+          "visible": true,
+          "parentText": ""
+        },
+        {
+          "index": 3,
+          "src": "http://192.168.138.22:4173/images/services/fabrication/fabrication-02.jpg",
+          "alt": "Pipe and Fitting Repairs reference image",
+          "width": 369,
+          "height": 277,
+          "naturalWidth": 800,
+          "naturalHeight": 450,
+          "complete": true,
+          "broken": false,
+          "visible": true,
+          "parentText": ""
+        },
+        {
+          "index": 4,
+          "src": "http://192.168.138.22:4173/images/services/fabrication/fabrication-03.jpg",
+          "alt": "Component Refurbishment reference image",
+          "width": 369,
+          "height": 276,
+          "naturalWidth": 800,
+          "naturalHeight": 450,
+          "complete": true,
+          "broken": false,
+          "visible": true,
+          "parentText": ""
+        },
+        {
+          "index": 5,
+          "src": "http://192.168.138.22:4173/images/services/fabrication/fabrication-04.jpg",
+          "alt": "Custom Workshop Builds reference image",
+          "width": 369,
+          "height": 276,
+          "naturalWidth": 800,
+          "naturalHeight": 450,
+          "complete": true,
+          "broken": false,
+          "visible": true,
+          "parentText": ""
+        },
+        {
+          "index": 6,
+          "src": "http://192.168.138.22:4173/images/services/fabrication/fabrication-05.jpg",
+          "alt": "Equipment Guards and Supports reference image",
+          "width": 369,
+          "height": 277,
+          "naturalWidth": 800,
+          "naturalHeight": 450,
+          "complete": true,
+          "broken": false,
+          "visible": true,
+          "parentText": ""
+        },
+        {
+          "index": 7,
+          "src": "http://192.168.138.22:4173/images/services/fabrication/fabrication-06.jpg",
+          "alt": "Repair Scope Assessment reference image",
+          "width": 369,
+          "height": 276,
+          "naturalWidth": 800,
+          "naturalHeight": 450,
+          "complete": true,
+          "broken": false,
+          "visible": true,
+          "parentText": ""
+        },
+        {
+          "index": 8,
+          "src": "http://192.168.138.22:4173/images/bridge-wax-logo.png",
+          "alt": "Bridge Wax logo",
+          "width": 86,
+          "height": 28,
+          "naturalWidth": 544,
+          "naturalHeight": 130,
+          "complete": true,
+          "broken": false,
+          "visible": true,
+          "parentText": ""
+        }
+      ],
+      "backgrounds": []
+    },
+    {
+      "route": "/services/hdpe",
+      "title": "HDPE Pipe Systems | Bridge Wax Services",
+      "images": [
+        {
+          "index": 0,
+          "src": "http://192.168.138.22:4173/images/bridge-wax-logo.png",
+          "alt": "Bridge Wax logo",
+          "width": 92,
+          "height": 34,
+          "naturalWidth": 544,
+          "naturalHeight": 130,
+          "complete": true,
+          "broken": false,
+          "visible": true,
+          "parentText": ""
+        },
+        {
+          "index": 1,
+          "src": "http://192.168.138.22:4173/images/services/hdpe/hdpe-01.jpg",
+          "alt": "HDPE Pipe Systems",
+          "width": 1440,
+          "height": 600,
+          "naturalWidth": 800,
+          "naturalHeight": 450,
+          "complete": true,
+          "broken": false,
+          "visible": true,
+          "parentText": "SERVICE CATALOGUE · PIPING HDPE Pipe Systems HDPE piping, fittings, jointing, and installation coordination for water, slurry, mining, and process-reticulation systems."
+        },
+        {
+          "index": 2,
+          "src": "http://192.168.138.22:4173/images/services/hdpe/hdpe-01.jpg",
+          "alt": "HDPE Pipe Supply reference image",
+          "width": 369,
+          "height": 276,
+          "naturalWidth": 800,
+          "naturalHeight": 450,
+          "complete": true,
+          "broken": false,
+          "visible": true,
+          "parentText": ""
+        },
+        {
+          "index": 3,
+          "src": "http://192.168.138.22:4173/images/services/hdpe/hdpe-02.jpg",
+          "alt": "Fittings and Valves reference image",
+          "width": 369,
+          "height": 277,
+          "naturalWidth": 800,
+          "naturalHeight": 450,
+          "complete": true,
+          "broken": false,
+          "visible": true,
+          "parentText": ""
+        },
+        {
+          "index": 4,
+          "src": "http://192.168.138.22:4173/images/services/hdpe/hdpe-03.jpg",
+          "alt": "Jointing Coordination reference image",
+          "width": 369,
+          "height": 276,
+          "naturalWidth": 800,
+          "naturalHeight": 450,
+          "complete": true,
+          "broken": false,
+          "visible": true,
+          "parentText": ""
+        },
+        {
+          "index": 5,
+          "src": "http://192.168.138.22:4173/images/services/hdpe/hdpe-04.jpg",
+          "alt": "Pipeline Installation Support reference image",
+          "width": 369,
+          "height": 276,
+          "naturalWidth": 800,
+          "naturalHeight": 450,
+          "complete": true,
+          "broken": false,
+          "visible": true,
+          "parentText": ""
+        },
+        {
+          "index": 6,
+          "src": "http://192.168.138.22:4173/images/services/hdpe/hdpe-05.jpg",
+          "alt": "Pressure-Test Planning reference image",
+          "width": 369,
+          "height": 277,
+          "naturalWidth": 800,
+          "naturalHeight": 450,
+          "complete": true,
+          "broken": false,
+          "visible": true,
+          "parentText": ""
+        },
+        {
+          "index": 7,
+          "src": "http://192.168.138.22:4173/images/services/hdpe/hdpe-06.jpg",
+          "alt": "Pipeline Spares and Repairs reference image",
+          "width": 369,
+          "height": 276,
+          "naturalWidth": 800,
+          "naturalHeight": 450,
+          "complete": true,
+          "broken": false,
+          "visible": true,
+          "parentText": ""
+        },
+        {
+          "index": 8,
+          "src": "http://192.168.138.22:4173/images/bridge-wax-logo.png",
+          "alt": "Bridge Wax logo",
+          "width": 86,
+          "height": 28,
+          "naturalWidth": 544,
+          "naturalHeight": 130,
+          "complete": true,
+          "broken": false,
+          "visible": true,
+          "parentText": ""
+        }
+      ],
+      "backgrounds": []
+    },
+    {
+      "route": "/services/pumps",
+      "title": "Pumps & Valves | Bridge Wax Services",
+      "images": [
+        {
+          "index": 0,
+          "src": "http://192.168.138.22:4173/images/bridge-wax-logo.png",
+          "alt": "Bridge Wax logo",
+          "width": 92,
+          "height": 34,
+          "naturalWidth": 544,
+          "naturalHeight": 130,
+          "complete": true,
+          "broken": false,
+          "visible": true,
+          "parentText": ""
+        },
+        {
+          "index": 1,
+          "src": "http://192.168.138.22:4173/images/services/pumps/pumps-01.jpg",
+          "alt": "Pumps & Valves",
+          "width": 1440,
+          "height": 600,
+          "naturalWidth": 800,
+          "naturalHeight": 450,
+          "complete": true,
+          "broken": false,
+          "visible": true,
+          "parentText": "SERVICE CATALOGUE · FLOW CONTROL Pumps & Valves Pump, valve, and flow-control selection for mining, industrial process, water, dewatering, and utility applications."
+        },
+        {
+          "index": 2,
+          "src": "http://192.168.138.22:4173/images/services/pumps/pumps-01.jpg",
+          "alt": "Pump Selection Support reference image",
+          "width": 369,
+          "height": 276,
+          "naturalWidth": 800,
+          "naturalHeight": 450,
+          "complete": true,
+          "broken": false,
+          "visible": true,
+          "parentText": ""
+        },
+        {
+          "index": 3,
+          "src": "http://192.168.138.22:4173/images/services/pumps/pumps-02.jpg",
+          "alt": "Valve Selection Support reference image",
+          "width": 369,
+          "height": 277,
+          "naturalWidth": 800,
+          "naturalHeight": 450,
+          "complete": true,
+          "broken": false,
+          "visible": true,
+          "parentText": ""
+        },
+        {
+          "index": 4,
+          "src": "http://192.168.138.22:4173/images/services/pumps/pumps-03.jpg",
+          "alt": "Dewatering Packages reference image",
+          "width": 369,
+          "height": 276,
+          "naturalWidth": 800,
+          "naturalHeight": 450,
+          "complete": true,
+          "broken": false,
+          "visible": true,
+          "parentText": ""
+        },
+        {
+          "index": 5,
+          "src": "http://192.168.138.22:4173/images/services/pumps/pumps-04.jpg",
+          "alt": "Pump and Valve Spares reference image",
+          "width": 369,
+          "height": 276,
+          "naturalWidth": 800,
+          "naturalHeight": 450,
+          "complete": true,
+          "broken": false,
+          "visible": true,
+          "parentText": ""
+        },
+        {
+          "index": 6,
+          "src": "http://192.168.138.22:4173/images/services/pumps/pumps-05.jpg",
+          "alt": "Flow-System Review reference image",
+          "width": 369,
+          "height": 277,
+          "naturalWidth": 800,
+          "naturalHeight": 450,
+          "complete": true,
+          "broken": false,
+          "visible": true,
+          "parentText": ""
+        },
+        {
+          "index": 7,
+          "src": "http://192.168.138.22:4173/images/services/pumps/pumps-06.jpg",
+          "alt": "Pump Skid Coordination reference image",
+          "width": 369,
+          "height": 276,
+          "naturalWidth": 800,
+          "naturalHeight": 450,
+          "complete": true,
+          "broken": false,
+          "visible": true,
+          "parentText": ""
+        },
+        {
+          "index": 8,
+          "src": "http://192.168.138.22:4173/images/bridge-wax-logo.png",
+          "alt": "Bridge Wax logo",
+          "width": 86,
+          "height": 28,
+          "naturalWidth": 544,
+          "naturalHeight": 130,
+          "complete": true,
+          "broken": false,
+          "visible": true,
+          "parentText": ""
+        }
+      ],
+      "backgrounds": []
+    },
+    {
+      "route": "/products/ultrasonic",
+      "title": "Ultrasonic Equipment | Bridge Wax Product Catalogue",
+      "images": [
+        {
+          "index": 0,
+          "src": "http://192.168.138.22:4173/images/bridge-wax-logo.png",
+          "alt": "Bridge Wax logo",
+          "width": 92,
+          "height": 34,
+          "naturalWidth": 544,
+          "naturalHeight": 130,
+          "complete": true,
+          "broken": false,
+          "visible": true,
+          "parentText": ""
+        },
+        {
+          "index": 1,
+          "src": "http://192.168.138.22:4173/images/products/ultrasonic/ultrasonic-01.jpg",
+          "alt": "Ultrasonic Equipment",
+          "width": 1440,
+          "height": 600,
+          "naturalWidth": 800,
+          "naturalHeight": 450,
+          "complete": true,
+          "broken": false,
+          "visible": true,
+          "parentText": "CATALOGUE · NDT Ultrasonic Equipment Portable and workshop ultrasonic inspection equipment for thickness measurement, calibration, and field condition assessment."
+        },
+        {
+          "index": 2,
+          "src": "http://192.168.138.22:4173/images/products/ultrasonic/ultrasonic-01.jpg",
+          "alt": "Ultrasonic Thickness Gauge reference image",
+          "width": 369,
+          "height": 276,
+          "naturalWidth": 800,
+          "naturalHeight": 450,
+          "complete": true,
+          "broken": false,
+          "visible": true,
+          "parentText": ""
+        },
+        {
+          "index": 3,
+          "src": "http://192.168.138.22:4173/images/products/ultrasonic/ultrasonic-02.jpg",
+          "alt": "Dual-Crystal Probe Kit reference image",
+          "width": 369,
+          "height": 277,
+          "naturalWidth": 800,
+          "naturalHeight": 450,
+          "complete": true,
+          "broken": false,
+          "visible": true,
+          "parentText": ""
+        },
+        {
+          "index": 4,
+          "src": "http://192.168.138.22:4173/images/products/ultrasonic/ultrasonic-03.jpg",
+          "alt": "Calibration Block Set reference image",
+          "width": 369,
+          "height": 276,
+          "naturalWidth": 800,
+          "naturalHeight": 450,
+          "complete": true,
+          "broken": false,
+          "visible": true,
+          "parentText": ""
+        },
+        {
+          "index": 5,
+          "src": "http://192.168.138.22:4173/images/products/ultrasonic/ultrasonic-04.jpg",
+          "alt": "Coating Thickness Gauge reference image",
+          "width": 369,
+          "height": 276,
+          "naturalWidth": 800,
+          "naturalHeight": 450,
+          "complete": true,
+          "broken": false,
+          "visible": true,
+          "parentText": ""
+        },
+        {
+          "index": 6,
+          "src": "http://192.168.138.22:4173/images/products/ultrasonic/ultrasonic-05.jpg",
+          "alt": "Portable NDT Inspection Kit reference image",
+          "width": 369,
+          "height": 277,
+          "naturalWidth": 800,
+          "naturalHeight": 450,
+          "complete": true,
+          "broken": false,
+          "visible": true,
+          "parentText": ""
+        },
+        {
+          "index": 7,
+          "src": "http://192.168.138.22:4173/images/products/ultrasonic/ultrasonic-06.jpg",
+          "alt": "Shear-Wave Probe reference image",
+          "width": 369,
+          "height": 276,
+          "naturalWidth": 800,
+          "naturalHeight": 450,
+          "complete": true,
+          "broken": false,
+          "visible": true,
+          "parentText": ""
+        },
+        {
+          "index": 8,
+          "src": "http://192.168.138.22:4173/images/products/ultrasonic/ultrasonic-07.jpg",
+          "alt": "Couplant Applicator Kit reference image",
+          "width": 369,
+          "height": 276,
+          "naturalWidth": 800,
+          "naturalHeight": 450,
+          "complete": true,
+          "broken": false,
+          "visible": true,
+          "parentText": ""
+        },
+        {
+          "index": 9,
+          "src": "http://192.168.138.22:4173/images/bridge-wax-logo.png",
+          "alt": "Bridge Wax logo",
+          "width": 86,
+          "height": 28,
+          "naturalWidth": 544,
+          "naturalHeight": 130,
+          "complete": true,
+          "broken": false,
+          "visible": true,
+          "parentText": ""
+        }
+      ],
+      "backgrounds": []
+    },
+    {
+      "route": "/products/gas-detection",
+      "title": "Gas Detection | Bridge Wax Product Catalogue",
+      "images": [
+        {
+          "index": 0,
+          "src": "http://192.168.138.22:4173/images/bridge-wax-logo.png",
+          "alt": "Bridge Wax logo",
+          "width": 92,
+          "height": 34,
+          "naturalWidth": 544,
+          "naturalHeight": 130,
+          "complete": true,
+          "broken": false,
+          "visible": true,
+          "parentText": ""
+        },
+        {
+          "index": 1,
+          "src": "http://192.168.138.22:4173/images/products/gas-detection/gas-detection-01.jpg",
+          "alt": "Gas Detection",
+          "width": 1440,
+          "height": 600,
+          "naturalWidth": 800,
+          "naturalHeight": 450,
+          "complete": true,
+          "broken": false,
+          "visible": true,
+          "parentText": "CATALOGUE · SAFETY Gas Detection Portable and fixed-point gas detection equipment for industrial safety, confined spaces, and process monitoring applications."
+        },
+        {
+          "index": 2,
+          "src": "http://192.168.138.22:4173/images/products/gas-detection/gas-detection-01.jpg",
+          "alt": "Portable Single-Gas Detector reference image",
+          "width": 369,
+          "height": 276,
+          "naturalWidth": 800,
+          "naturalHeight": 450,
+          "complete": true,
+          "broken": false,
+          "visible": true,
+          "parentText": ""
+        },
+        {
+          "index": 3,
+          "src": "http://192.168.138.22:4173/images/products/gas-detection/gas-detection-02.jpg",
+          "alt": "Portable Multi-Gas Detector reference image",
+          "width": 369,
+          "height": 277,
+          "naturalWidth": 800,
+          "naturalHeight": 450,
+          "complete": true,
+          "broken": false,
+          "visible": true,
+          "parentText": ""
+        },
+        {
+          "index": 4,
+          "src": "http://192.168.138.22:4173/images/products/gas-detection/gas-detection-03.jpg",
+          "alt": "Pumped Gas Sampling Module reference image",
+          "width": 369,
+          "height": 276,
+          "naturalWidth": 800,
+          "naturalHeight": 450,
+          "complete": true,
+          "broken": false,
+          "visible": true,
+          "parentText": ""
+        },
+        {
+          "index": 5,
+          "src": "http://192.168.138.22:4173/images/products/gas-detection/gas-detection-04.jpg",
+          "alt": "Calibration and Bump-Test Station reference image",
+          "width": 369,
+          "height": 276,
+          "naturalWidth": 800,
+          "naturalHeight": 450,
+          "complete": true,
+          "broken": false,
+          "visible": true,
+          "parentText": ""
+        },
+        {
+          "index": 6,
+          "src": "http://192.168.138.22:4173/images/products/gas-detection/gas-detection-05.jpg",
+          "alt": "Detector Docking Kit reference image",
+          "width": 369,
+          "height": 277,
+          "naturalWidth": 800,
+          "naturalHeight": 450,
+          "complete": true,
+          "broken": false,
+          "visible": true,
+          "parentText": ""
+        },
+        {
+          "index": 7,
+          "src": "http://192.168.138.22:4173/images/products/gas-detection/gas-detection-06.jpg",
+          "alt": "Fixed Gas Transmitter reference image",
+          "width": 369,
+          "height": 276,
+          "naturalWidth": 800,
+          "naturalHeight": 450,
+          "complete": true,
+          "broken": false,
+          "visible": true,
+          "parentText": ""
+        },
+        {
+          "index": 8,
+          "src": "http://192.168.138.22:4173/images/products/gas-detection/gas-detection-07.jpg",
+          "alt": "Area Gas Detection Beacon reference image",
+          "width": 369,
+          "height": 276,
+          "naturalWidth": 800,
+          "naturalHeight": 450,
+          "complete": true,
+          "broken": false,
+          "visible": true,
+          "parentText": ""
+        },
+        {
+          "index": 9,
+          "src": "http://192.168.138.22:4173/images/bridge-wax-logo.png",
+          "alt": "Bridge Wax logo",
+          "width": 86,
+          "height": 28,
+          "naturalWidth": 544,
+          "naturalHeight": 130,
+          "complete": true,
+          "broken": false,
+          "visible": true,
+          "parentText": ""
+        }
+      ],
+      "backgrounds": []
+    },
+    {
+      "route": "/products/water-pumps",
+      "title": "Water Pumps | Bridge Wax Product Catalogue",
+      "images": [
+        {
+          "index": 0,
+          "src": "http://192.168.138.22:4173/images/bridge-wax-logo.png",
+          "alt": "Bridge Wax logo",
+          "width": 92,
+          "height": 34,
+          "naturalWidth": 544,
+          "naturalHeight": 130,
+          "complete": true,
+          "broken": false,
+          "visible": true,
+          "parentText": ""
+        },
+        {
+          "index": 1,
+          "src": "http://192.168.138.22:4173/images/products/water-pumps/water-pump-01.webp",
+          "alt": "Water Pumps",
+          "width": 1440,
+          "height": 600,
+          "naturalWidth": 1400,
+          "naturalHeight": 1050,
+          "complete": true,
+          "broken": false,
+          "visible": true,
+          "parentText": "CATALOGUE · FLOW SYSTEMS Water Pumps Pump and flow-control equipment for water transfer, dewatering, irrigation, process reticulation, industrial utility systems, and domestic water services."
+        },
+        {
+          "index": 2,
+          "src": "http://192.168.138.22:4173/images/products/water-pumps/water-pump-01.webp",
+          "alt": "End-Suction Centrifugal Pump reference image",
+          "width": 369,
+          "height": 276,
+          "naturalWidth": 1400,
+          "naturalHeight": 1050,
+          "complete": true,
+          "broken": false,
+          "visible": true,
+          "parentText": ""
+        },
+        {
+          "index": 3,
+          "src": "http://192.168.138.22:4173/images/products/water-pumps/water-pump-02.webp",
+          "alt": "Submersible Dewatering Pump reference image",
+          "width": 369,
+          "height": 277,
+          "naturalWidth": 1400,
+          "naturalHeight": 1050,
+          "complete": true,
+          "broken": false,
+          "visible": true,
+          "parentText": ""
+        },
+        {
+          "index": 4,
+          "src": "http://192.168.138.22:4173/images/products/water-pumps/water-pump-03.webp",
+          "alt": "High-Pressure Multistage Pump reference image",
+          "width": 369,
+          "height": 276,
+          "naturalWidth": 1400,
+          "naturalHeight": 1050,
+          "complete": true,
+          "broken": false,
+          "visible": true,
+          "parentText": ""
+        },
+        {
+          "index": 5,
+          "src": "http://192.168.138.22:4173/images/products/water-pumps/water-pump-04.webp",
+          "alt": "Slurry Transfer Pump reference image",
+          "width": 369,
+          "height": 276,
+          "naturalWidth": 1400,
+          "naturalHeight": 1050,
+          "complete": true,
+          "broken": false,
+          "visible": true,
+          "parentText": ""
+        },
+        {
+          "index": 6,
+          "src": "http://192.168.138.22:4173/images/products/water-pumps/water-pump-05.webp",
+          "alt": "Pump Control Panel reference image",
+          "width": 369,
+          "height": 277,
+          "naturalWidth": 1400,
+          "naturalHeight": 1050,
+          "complete": true,
+          "broken": false,
+          "visible": true,
+          "parentText": ""
+        },
+        {
+          "index": 7,
+          "src": "http://192.168.138.22:4173/images/products/water-pumps/water-pump-06.webp",
+          "alt": "Vertical Turbine Pump reference image",
+          "width": 369,
+          "height": 276,
+          "naturalWidth": 1400,
+          "naturalHeight": 1050,
+          "complete": true,
+          "broken": false,
+          "visible": true,
+          "parentText": ""
+        },
+        {
+          "index": 8,
+          "src": "http://192.168.138.22:4173/images/products/water-pumps/water-pump-07.webp",
+          "alt": "Booster Pump Skid reference image",
+          "width": 369,
+          "height": 276,
+          "naturalWidth": 1400,
+          "naturalHeight": 1050,
+          "complete": true,
+          "broken": false,
+          "visible": true,
+          "parentText": ""
+        },
+        {
+          "index": 9,
+          "src": "http://192.168.138.22:4173/images/products/water-pumps/water-pump-01.webp",
+          "alt": "Domestic Borehole Pump reference image",
+          "width": 369,
+          "height": 276,
+          "naturalWidth": 1400,
+          "naturalHeight": 1050,
+          "complete": true,
+          "broken": false,
+          "visible": true,
+          "parentText": ""
+        },
+        {
+          "index": 10,
+          "src": "http://192.168.138.22:4173/images/products/water-pumps/water-pump-02.webp",
+          "alt": "Domestic Submersible Drainage Pump reference image",
+          "width": 369,
+          "height": 277,
+          "naturalWidth": 1400,
+          "naturalHeight": 1050,
+          "complete": true,
+          "broken": false,
+          "visible": true,
+          "parentText": ""
+        },
+        {
+          "index": 11,
+          "src": "http://192.168.138.22:4173/images/products/water-pumps/water-pump-03.webp",
+          "alt": "Household Pressure Booster Pump reference image",
+          "width": 369,
+          "height": 276,
+          "naturalWidth": 1400,
+          "naturalHeight": 1050,
+          "complete": true,
+          "broken": false,
+          "visible": true,
+          "parentText": ""
+        },
+        {
+          "index": 12,
+          "src": "http://192.168.138.22:4173/images/products/water-pumps/water-pump-04.webp",
+          "alt": "Domestic Centrifugal Pump reference image",
+          "width": 369,
+          "height": 276,
+          "naturalWidth": 1400,
+          "naturalHeight": 1050,
+          "complete": true,
+          "broken": false,
+          "visible": true,
+          "parentText": ""
+        },
+        {
+          "index": 13,
+          "src": "http://192.168.138.22:4173/images/products/water-pumps/water-pump-05.webp",
+          "alt": "Compact 24V Water Booster reference image",
+          "width": 369,
+          "height": 277,
+          "naturalWidth": 1400,
+          "naturalHeight": 1050,
+          "complete": true,
+          "broken": false,
+          "visible": true,
+          "parentText": ""
+        },
+        {
+          "index": 14,
+          "src": "http://192.168.138.22:4173/images/products/water-pumps/water-pump-06.webp",
+          "alt": "Domestic Transfer Pump reference image",
+          "width": 369,
+          "height": 276,
+          "naturalWidth": 1400,
+          "naturalHeight": 1050,
+          "complete": true,
+          "broken": false,
+          "visible": true,
+          "parentText": ""
+        },
+        {
+          "index": 15,
+          "src": "http://192.168.138.22:4173/images/products/water-pumps/water-pump-07.webp",
+          "alt": "Domestic Pressure Controller reference image",
+          "width": 369,
+          "height": 276,
+          "naturalWidth": 1400,
+          "naturalHeight": 1050,
+          "complete": true,
+          "broken": false,
+          "visible": true,
+          "parentText": ""
+        },
+        {
+          "index": 16,
+          "src": "http://192.168.138.22:4173/images/products/water-pumps/water-pump-08.webp",
+          "alt": "Automatic Garden Irrigation Pump reference image",
+          "width": 369,
+          "height": 277,
+          "naturalWidth": 1400,
+          "naturalHeight": 1050,
+          "complete": true,
+          "broken": false,
+          "visible": true,
+          "parentText": ""
+        },
+        {
+          "index": 17,
+          "src": "http://192.168.138.22:4173/images/bridge-wax-logo.png",
+          "alt": "Bridge Wax logo",
+          "width": 86,
+          "height": 28,
+          "naturalWidth": 544,
+          "naturalHeight": 130,
+          "complete": true,
+          "broken": false,
+          "visible": true,
+          "parentText": ""
+        }
+      ],
+      "backgrounds": []
+    },
+    {
+      "route": "/products/general-machinery",
+      "title": "General Machinery | Bridge Wax Product Catalogue",
+      "images": [
+        {
+          "index": 0,
+          "src": "http://192.168.138.22:4173/images/bridge-wax-logo.png",
+          "alt": "Bridge Wax logo",
+          "width": 92,
+          "height": 34,
+          "naturalWidth": 544,
+          "naturalHeight": 130,
+          "complete": true,
+          "broken": false,
+          "visible": true,
+          "parentText": ""
+        },
+        {
+          "index": 1,
+          "src": "http://192.168.138.22:4173/images/products/general-machinery/general-machinery-01.jpg",
+          "alt": "General Machinery",
+          "width": 1440,
+          "height": 600,
+          "naturalWidth": 800,
+          "naturalHeight": 450,
+          "complete": true,
+          "broken": false,
+          "visible": true,
+          "parentText": "CATALOGUE · INDUSTRIAL PLANT General Machinery General-purpose machinery and plant equipment for workshops, production environments, maintenance teams, and site operations."
+        },
+        {
+          "index": 2,
+          "src": "http://192.168.138.22:4173/images/products/general-machinery/general-machinery-01.jpg",
+          "alt": "Industrial Air Compressor reference image",
+          "width": 369,
+          "height": 276,
+          "naturalWidth": 800,
+          "naturalHeight": 450,
+          "complete": true,
+          "broken": false,
+          "visible": true,
+          "parentText": ""
+        },
+        {
+          "index": 3,
+          "src": "http://192.168.138.22:4173/images/products/general-machinery/general-machinery-02.jpg",
+          "alt": "Diesel Generator Set reference image",
+          "width": 369,
+          "height": 277,
+          "naturalWidth": 800,
+          "naturalHeight": 450,
+          "complete": true,
+          "broken": false,
+          "visible": true,
+          "parentText": ""
+        },
+        {
+          "index": 4,
+          "src": "http://192.168.138.22:4173/images/products/general-machinery/general-machinery-03.jpg",
+          "alt": "Electric Motor Drive Unit reference image",
+          "width": 369,
+          "height": 276,
+          "naturalWidth": 800,
+          "naturalHeight": 450,
+          "complete": true,
+          "broken": false,
+          "visible": true,
+          "parentText": ""
+        },
+        {
+          "index": 5,
+          "src": "http://192.168.138.22:4173/images/products/general-machinery/general-machinery-04.jpg",
+          "alt": "Workshop Bench Grinder reference image",
+          "width": 369,
+          "height": 276,
+          "naturalWidth": 800,
+          "naturalHeight": 450,
+          "complete": true,
+          "broken": false,
+          "visible": true,
+          "parentText": ""
+        },
+        {
+          "index": 6,
+          "src": "http://192.168.138.22:4173/images/products/general-machinery/general-machinery-05.jpg",
+          "alt": "Hydraulic Power Pack reference image",
+          "width": 369,
+          "height": 277,
+          "naturalWidth": 800,
+          "naturalHeight": 450,
+          "complete": true,
+          "broken": false,
+          "visible": true,
+          "parentText": ""
+        },
+        {
+          "index": 7,
+          "src": "http://192.168.138.22:4173/images/products/general-machinery/general-machinery-06.jpg",
+          "alt": "Industrial Pressure Washer reference image",
+          "width": 369,
+          "height": 276,
+          "naturalWidth": 800,
+          "naturalHeight": 450,
+          "complete": true,
+          "broken": false,
+          "visible": true,
+          "parentText": ""
+        },
+        {
+          "index": 8,
+          "src": "http://192.168.138.22:4173/images/products/general-machinery/general-machinery-07.jpg",
+          "alt": "Vibration Monitoring Kit reference image",
+          "width": 369,
+          "height": 276,
+          "naturalWidth": 800,
+          "naturalHeight": 450,
+          "complete": true,
+          "broken": false,
+          "visible": true,
+          "parentText": ""
+        },
+        {
+          "index": 9,
+          "src": "http://192.168.138.22:4173/images/bridge-wax-logo.png",
+          "alt": "Bridge Wax logo",
+          "width": 86,
+          "height": 28,
+          "naturalWidth": 544,
+          "naturalHeight": 130,
+          "complete": true,
+          "broken": false,
+          "visible": true,
+          "parentText": ""
+        }
+      ],
+      "backgrounds": []
+    },
+    {
+      "route": "/laboratory/mining",
+      "title": "Mining Laboratory Equipment | Bridge Wax Laboratory Catalogue",
+      "images": [
+        {
+          "index": 0,
+          "src": "http://192.168.138.22:4173/images/bridge-wax-logo.png",
+          "alt": "Bridge Wax logo",
+          "width": 92,
+          "height": 34,
+          "naturalWidth": 544,
+          "naturalHeight": 130,
+          "complete": true,
+          "broken": false,
+          "visible": true,
+          "parentText": ""
+        },
+        {
+          "index": 1,
+          "src": "http://192.168.138.22:4173/images/hero/laboratory.jpg",
+          "alt": "Mining Laboratory Equipment",
+          "width": 1440,
+          "height": 600,
+          "naturalWidth": 800,
+          "naturalHeight": 450,
+          "complete": true,
+          "broken": false,
+          "visible": true,
+          "parentText": "CATALOGUE · MINING LABORATORY Mining Laboratory Equipment Sample preparation, geological processing, assay support, and laboratory equipment for mining and mineral-analysis workflows."
+        },
+        {
+          "index": 2,
+          "src": "http://192.168.138.22:4173/images/laboratory/mining/mining-01.jpg",
+          "alt": "Laboratory Jaw Crusher reference image",
+          "width": 369,
+          "height": 276,
+          "naturalWidth": 800,
+          "naturalHeight": 450,
+          "complete": true,
+          "broken": false,
+          "visible": true,
+          "parentText": ""
+        },
+        {
+          "index": 3,
+          "src": "http://192.168.138.22:4173/images/laboratory/mining/mining-02.jpg",
+          "alt": "Ring and Puck Mill reference image",
+          "width": 369,
+          "height": 277,
+          "naturalWidth": 800,
+          "naturalHeight": 450,
+          "complete": true,
+          "broken": false,
+          "visible": true,
+          "parentText": ""
+        },
+        {
+          "index": 4,
+          "src": "http://192.168.138.22:4173/images/laboratory/mining/mining-03.jpg",
+          "alt": "Sample Pulveriser reference image",
+          "width": 369,
+          "height": 276,
+          "naturalWidth": 800,
+          "naturalHeight": 450,
+          "complete": true,
+          "broken": false,
+          "visible": true,
+          "parentText": ""
+        },
+        {
+          "index": 5,
+          "src": "http://192.168.138.22:4173/images/laboratory/mining/mining-04.jpg",
+          "alt": "Laboratory Drying Oven reference image",
+          "width": 369,
+          "height": 276,
+          "naturalWidth": 800,
+          "naturalHeight": 450,
+          "complete": true,
+          "broken": false,
+          "visible": true,
+          "parentText": ""
+        },
+        {
+          "index": 6,
+          "src": "http://192.168.138.22:4173/images/laboratory/mining/mining-05.jpg",
+          "alt": "Sample Splitting Station reference image",
+          "width": 369,
+          "height": 277,
+          "naturalWidth": 800,
+          "naturalHeight": 450,
+          "complete": true,
+          "broken": false,
+          "visible": true,
+          "parentText": ""
+        },
+        {
+          "index": 7,
+          "src": "http://192.168.138.22:4173/images/laboratory/mining/mining-06.jpg",
+          "alt": "Fire Assay Furnace reference image",
+          "width": 369,
+          "height": 276,
+          "naturalWidth": 800,
+          "naturalHeight": 450,
+          "complete": true,
+          "broken": false,
+          "visible": true,
+          "parentText": ""
+        },
+        {
+          "index": 8,
+          "src": "http://192.168.138.22:4173/images/laboratory/mining/mining-07.jpg",
+          "alt": "Geological Sample Workstation reference image",
+          "width": 369,
+          "height": 276,
+          "naturalWidth": 800,
+          "naturalHeight": 450,
+          "complete": true,
+          "broken": false,
+          "visible": true,
+          "parentText": ""
+        },
+        {
+          "index": 9,
+          "src": "http://192.168.138.22:4173/images/bridge-wax-logo.png",
+          "alt": "Bridge Wax logo",
+          "width": 86,
+          "height": 28,
+          "naturalWidth": 544,
+          "naturalHeight": 130,
+          "complete": true,
+          "broken": false,
+          "visible": true,
+          "parentText": ""
+        }
+      ],
+      "backgrounds": []
+    },
+    {
+      "route": "/laboratory/medical",
+      "title": "Medical Laboratory | Bridge Wax Laboratory Catalogue",
+      "images": [
+        {
+          "index": 0,
+          "src": "http://192.168.138.22:4173/images/bridge-wax-logo.png",
+          "alt": "Bridge Wax logo",
+          "width": 92,
+          "height": 34,
+          "naturalWidth": 544,
+          "naturalHeight": 130,
+          "complete": true,
+          "broken": false,
+          "visible": true,
+          "parentText": ""
+        },
+        {
+          "index": 1,
+          "src": "http://192.168.138.22:4173/images/laboratory/medical/medical-laboratory.jpg",
+          "alt": "Medical Laboratory",
+          "width": 1440,
+          "height": 600,
+          "naturalWidth": 1024,
+          "naturalHeight": 1024,
+          "complete": true,
+          "broken": false,
+          "visible": true,
+          "parentText": "CATALOGUE · CLINICAL DIAGNOSTICS Medical Laboratory Clinical laboratory equipment for sample preparation, chemistry, hematology, analysis, and routine diagnostic workflows."
+        },
+        {
+          "index": 2,
+          "src": "http://192.168.138.22:4173/images/laboratory/medical/medical-01.jpg",
+          "alt": "Automated Chemistry Analyzer reference image",
+          "width": 369,
+          "height": 276,
+          "naturalWidth": 1024,
+          "naturalHeight": 1024,
+          "complete": true,
+          "broken": false,
+          "visible": true,
+          "parentText": ""
+        },
+        {
+          "index": 3,
+          "src": "http://192.168.138.22:4173/images/laboratory/medical/medical-02.jpg",
+          "alt": "Compact Clinical Analyzer reference image",
+          "width": 369,
+          "height": 277,
+          "naturalWidth": 1024,
+          "naturalHeight": 1024,
+          "complete": true,
+          "broken": false,
+          "visible": true,
+          "parentText": ""
+        },
+        {
+          "index": 4,
+          "src": "http://192.168.138.22:4173/images/laboratory/medical/medical-03.jpg",
+          "alt": "Laboratory Centrifuge reference image",
+          "width": 369,
+          "height": 276,
+          "naturalWidth": 1024,
+          "naturalHeight": 1024,
+          "complete": true,
+          "broken": false,
+          "visible": true,
+          "parentText": ""
+        },
+        {
+          "index": 5,
+          "src": "http://192.168.138.22:4173/images/laboratory/medical/medical-04.jpg",
+          "alt": "Hematology Analyzer reference image",
+          "width": 369,
+          "height": 276,
+          "naturalWidth": 1024,
+          "naturalHeight": 1024,
+          "complete": true,
+          "broken": false,
+          "visible": true,
+          "parentText": ""
+        },
+        {
+          "index": 6,
+          "src": "http://192.168.138.22:4173/images/laboratory/medical/medical-05.jpg",
+          "alt": "Clinical Immunoassay Analyzer reference image",
+          "width": 369,
+          "height": 277,
+          "naturalWidth": 1024,
+          "naturalHeight": 1024,
+          "complete": true,
+          "broken": false,
+          "visible": true,
+          "parentText": ""
+        },
+        {
+          "index": 7,
+          "src": "http://192.168.138.22:4173/images/laboratory/medical/medical-06.jpg",
+          "alt": "Sample Preparation Workstation reference image",
+          "width": 369,
+          "height": 276,
+          "naturalWidth": 1024,
+          "naturalHeight": 1024,
+          "complete": true,
+          "broken": false,
+          "visible": true,
+          "parentText": ""
+        },
+        {
+          "index": 8,
+          "src": "http://192.168.138.22:4173/images/laboratory/medical/medical-07.jpg",
+          "alt": "Laboratory Cooling Centrifuge reference image",
+          "width": 369,
+          "height": 276,
+          "naturalWidth": 1024,
+          "naturalHeight": 1024,
+          "complete": true,
+          "broken": false,
+          "visible": true,
+          "parentText": ""
+        },
+        {
+          "index": 9,
+          "src": "http://192.168.138.22:4173/images/bridge-wax-logo.png",
+          "alt": "Bridge Wax logo",
+          "width": 86,
+          "height": 28,
+          "naturalWidth": 544,
+          "naturalHeight": 130,
+          "complete": true,
+          "broken": false,
+          "visible": true,
+          "parentText": ""
+        }
+      ],
+      "backgrounds": []
+    },
+    {
+      "route": "/laboratory/water",
+      "title": "Water Analysis | Bridge Wax Laboratory Catalogue",
+      "images": [
+        {
+          "index": 0,
+          "src": "http://192.168.138.22:4173/images/bridge-wax-logo.png",
+          "alt": "Bridge Wax logo",
+          "width": 92,
+          "height": 34,
+          "naturalWidth": 544,
+          "naturalHeight": 130,
+          "complete": true,
+          "broken": false,
+          "visible": true,
+          "parentText": ""
+        },
+        {
+          "index": 1,
+          "src": "http://192.168.138.22:4173/images/hero/laboratory.jpg",
+          "alt": "Water Analysis",
+          "width": 1440,
+          "height": 600,
+          "naturalWidth": 800,
+          "naturalHeight": 450,
+          "complete": true,
+          "broken": false,
+          "visible": true,
+          "parentText": "CATALOGUE · ENVIRONMENTAL TESTING Water Analysis Field and laboratory water-quality equipment for potable, process, environmental, wastewater, and utility-water analysis."
+        },
+        {
+          "index": 2,
+          "src": "http://192.168.138.22:4173/images/laboratory/water/water-01.jpg",
+          "alt": "Portable pH and Conductivity Meter reference image",
+          "width": 369,
+          "height": 276,
+          "naturalWidth": 1024,
+          "naturalHeight": 1024,
+          "complete": true,
+          "broken": false,
+          "visible": true,
+          "parentText": ""
+        },
+        {
+          "index": 3,
+          "src": "http://192.168.138.22:4173/images/laboratory/water/water-02.jpg",
+          "alt": "Multi-Parameter Pocket Meter reference image",
+          "width": 369,
+          "height": 277,
+          "naturalWidth": 1024,
+          "naturalHeight": 1024,
+          "complete": true,
+          "broken": false,
+          "visible": true,
+          "parentText": ""
+        },
+        {
+          "index": 4,
+          "src": "http://192.168.138.22:4173/images/laboratory/water/water-03.jpg",
+          "alt": "TDS Water Tester reference image",
+          "width": 369,
+          "height": 276,
+          "naturalWidth": 1024,
+          "naturalHeight": 1024,
+          "complete": true,
+          "broken": false,
+          "visible": true,
+          "parentText": ""
+        },
+        {
+          "index": 5,
+          "src": "http://192.168.138.22:4173/images/laboratory/water/water-04.jpg",
+          "alt": "Portable Water Quality Analyzer reference image",
+          "width": 369,
+          "height": 276,
+          "naturalWidth": 1024,
+          "naturalHeight": 1024,
+          "complete": true,
+          "broken": false,
+          "visible": true,
+          "parentText": ""
+        },
+        {
+          "index": 6,
+          "src": "http://192.168.138.22:4173/images/laboratory/water/water-05.jpg",
+          "alt": "Bench pH and EC Meter reference image",
+          "width": 369,
+          "height": 277,
+          "naturalWidth": 1024,
+          "naturalHeight": 1024,
+          "complete": true,
+          "broken": false,
+          "visible": true,
+          "parentText": ""
+        },
+        {
+          "index": 7,
+          "src": "http://192.168.138.22:4173/images/laboratory/water/water-06.jpg",
+          "alt": "Multi-Parameter Water Analyzer reference image",
+          "width": 369,
+          "height": 276,
+          "naturalWidth": 1024,
+          "naturalHeight": 1024,
+          "complete": true,
+          "broken": false,
+          "visible": true,
+          "parentText": ""
+        },
+        {
+          "index": 8,
+          "src": "http://192.168.138.22:4173/images/laboratory/water/water-07.jpg",
+          "alt": "Digital Water Photometer reference image",
+          "width": 369,
+          "height": 276,
+          "naturalWidth": 1024,
+          "naturalHeight": 1024,
+          "complete": true,
+          "broken": false,
+          "visible": true,
+          "parentText": ""
+        },
+        {
+          "index": 9,
+          "src": "http://192.168.138.22:4173/images/bridge-wax-logo.png",
+          "alt": "Bridge Wax logo",
+          "width": 86,
+          "height": 28,
+          "naturalWidth": 544,
+          "naturalHeight": 130,
+          "complete": true,
+          "broken": false,
+          "visible": true,
+          "parentText": ""
+        }
+      ],
+      "backgrounds": []
+    },
+    {
+      "route": "/laboratory/analytical",
+      "title": "Analytical Equipment | Bridge Wax Laboratory Catalogue",
+      "images": [
+        {
+          "index": 0,
+          "src": "http://192.168.138.22:4173/images/bridge-wax-logo.png",
+          "alt": "Bridge Wax logo",
+          "width": 92,
+          "height": 34,
+          "naturalWidth": 544,
+          "naturalHeight": 130,
+          "complete": true,
+          "broken": false,
+          "visible": true,
+          "parentText": ""
+        },
+        {
+          "index": 1,
+          "src": "http://192.168.138.22:4173/images/laboratory/analytical/analytical-01.jpg",
+          "alt": "Analytical Equipment",
+          "width": 1440,
+          "height": 600,
+          "naturalWidth": 800,
+          "naturalHeight": 450,
+          "complete": true,
+          "broken": false,
+          "visible": true,
+          "parentText": "CATALOGUE · ANALYTICAL CHEMISTRY Analytical Equipment Analytical chemistry equipment for precision weighing, elemental analysis, spectroscopy, microscopy, and sample preparation."
+        },
+        {
+          "index": 2,
+          "src": "http://192.168.138.22:4173/images/laboratory/analytical/analytical-01.jpg",
+          "alt": "Precision Laboratory Balance reference image",
+          "width": 369,
+          "height": 276,
+          "naturalWidth": 800,
+          "naturalHeight": 450,
+          "complete": true,
+          "broken": false,
+          "visible": true,
+          "parentText": ""
+        },
+        {
+          "index": 3,
+          "src": "http://192.168.138.22:4173/images/laboratory/analytical/analytical-02.jpg",
+          "alt": "ICP Mass Spectrometer reference image",
+          "width": 369,
+          "height": 277,
+          "naturalWidth": 800,
+          "naturalHeight": 450,
+          "complete": true,
+          "broken": false,
+          "visible": true,
+          "parentText": ""
+        },
+        {
+          "index": 4,
+          "src": "http://192.168.138.22:4173/images/laboratory/analytical/analytical-03.jpg",
+          "alt": "Analytical Balance reference image",
+          "width": 369,
+          "height": 276,
+          "naturalWidth": 800,
+          "naturalHeight": 450,
+          "complete": true,
+          "broken": false,
+          "visible": true,
+          "parentText": ""
+        },
+        {
+          "index": 5,
+          "src": "http://192.168.138.22:4173/images/laboratory/analytical/analytical-04.jpg",
+          "alt": "ICP Emission Spectrometer reference image",
+          "width": 369,
+          "height": 276,
+          "naturalWidth": 800,
+          "naturalHeight": 450,
+          "complete": true,
+          "broken": false,
+          "visible": true,
+          "parentText": ""
+        },
+        {
+          "index": 6,
+          "src": "http://192.168.138.22:4173/images/laboratory/analytical/analytical-05.jpg",
+          "alt": "Analytical Chemistry Workstation reference image",
+          "width": 369,
+          "height": 277,
+          "naturalWidth": 800,
+          "naturalHeight": 450,
+          "complete": true,
+          "broken": false,
+          "visible": true,
+          "parentText": ""
+        },
+        {
+          "index": 7,
+          "src": "http://192.168.138.22:4173/images/laboratory/analytical/analytical-06.jpg",
+          "alt": "Precision Balance with Draft Shield reference image",
+          "width": 369,
+          "height": 276,
+          "naturalWidth": 800,
+          "naturalHeight": 450,
+          "complete": true,
+          "broken": false,
+          "visible": true,
+          "parentText": ""
+        },
+        {
+          "index": 8,
+          "src": "http://192.168.138.22:4173/images/laboratory/analytical/analytical-07.jpg",
+          "alt": "Microscopy and Sample Preparation Station reference image",
+          "width": 369,
+          "height": 276,
+          "naturalWidth": 800,
+          "naturalHeight": 450,
+          "complete": true,
+          "broken": false,
+          "visible": true,
+          "parentText": ""
+        },
+        {
+          "index": 9,
+          "src": "http://192.168.138.22:4173/images/bridge-wax-logo.png",
+          "alt": "Bridge Wax logo",
+          "width": 86,
+          "height": 28,
+          "naturalWidth": 544,
+          "naturalHeight": 130,
+          "complete": true,
+          "broken": false,
+          "visible": true,
+          "parentText": ""
+        }
+      ],
+      "backgrounds": []
+    }
+  ],
+  "duplicateImages": [
+    {
+      "url": "http://192.168.138.22:4173/images/bridge-wax-logo.png",
+      "count": 40,
+      "usages": [
+        {
+          "page": "/",
+          "alt": "Bridge Wax logo",
+          "parentText": "",
+          "width": 92,
+          "height": 34,
+          "naturalWidth": 544,
+          "naturalHeight": 130
+        },
+        {
+          "page": "/",
+          "alt": "Bridge Wax logo",
+          "parentText": "",
+          "width": 86,
+          "height": 28,
+          "naturalWidth": 544,
+          "naturalHeight": 130
+        },
+        {
+          "page": "/about",
+          "alt": "Bridge Wax logo",
+          "parentText": "",
+          "width": 92,
+          "height": 34,
+          "naturalWidth": 544,
+          "naturalHeight": 130
+        },
+        {
+          "page": "/about",
+          "alt": "Bridge Wax logo",
+          "parentText": "",
+          "width": 86,
+          "height": 28,
+          "naturalWidth": 544,
+          "naturalHeight": 130
+        },
+        {
+          "page": "/services",
+          "alt": "Bridge Wax logo",
+          "parentText": "",
+          "width": 92,
+          "height": 34,
+          "naturalWidth": 544,
+          "naturalHeight": 130
+        },
+        {
+          "page": "/services",
+          "alt": "Bridge Wax logo",
+          "parentText": "",
+          "width": 86,
+          "height": 28,
+          "naturalWidth": 544,
+          "naturalHeight": 130
+        },
+        {
+          "page": "/laboratory",
+          "alt": "Bridge Wax logo",
+          "parentText": "",
+          "width": 92,
+          "height": 34,
+          "naturalWidth": 544,
+          "naturalHeight": 130
+        },
+        {
+          "page": "/laboratory",
+          "alt": "Bridge Wax logo",
+          "parentText": "",
+          "width": 86,
+          "height": 28,
+          "naturalWidth": 544,
+          "naturalHeight": 130
+        },
+        {
+          "page": "/products",
+          "alt": "Bridge Wax logo",
+          "parentText": "",
+          "width": 92,
+          "height": 34,
+          "naturalWidth": 544,
+          "naturalHeight": 130
+        },
+        {
+          "page": "/products",
+          "alt": "Bridge Wax logo",
+          "parentText": "",
+          "width": 86,
+          "height": 28,
+          "naturalWidth": 544,
+          "naturalHeight": 130
+        },
+        {
+          "page": "/contact",
+          "alt": "Bridge Wax logo",
+          "parentText": "",
+          "width": 92,
+          "height": 34,
+          "naturalWidth": 544,
+          "naturalHeight": 130
+        },
+        {
+          "page": "/contact",
+          "alt": "Bridge Wax logo",
+          "parentText": "",
+          "width": 86,
+          "height": 28,
+          "naturalWidth": 544,
+          "naturalHeight": 130
+        },
+        {
+          "page": "/services/laboratory",
+          "alt": "Bridge Wax logo",
+          "parentText": "",
+          "width": 92,
+          "height": 34,
+          "naturalWidth": 544,
+          "naturalHeight": 130
+        },
+        {
+          "page": "/services/laboratory",
+          "alt": "Bridge Wax logo",
+          "parentText": "",
+          "width": 86,
+          "height": 28,
+          "naturalWidth": 544,
+          "naturalHeight": 130
+        },
+        {
+          "page": "/services/industrial-testing",
+          "alt": "Bridge Wax logo",
+          "parentText": "",
+          "width": 92,
+          "height": 34,
+          "naturalWidth": 544,
+          "naturalHeight": 130
+        },
+        {
+          "page": "/services/industrial-testing",
+          "alt": "Bridge Wax logo",
+          "parentText": "",
+          "width": 86,
+          "height": 28,
+          "naturalWidth": 544,
+          "naturalHeight": 130
+        },
+        {
+          "page": "/services/maintenance",
+          "alt": "Bridge Wax logo",
+          "parentText": "",
+          "width": 92,
+          "height": 34,
+          "naturalWidth": 544,
+          "naturalHeight": 130
+        },
+        {
+          "page": "/services/maintenance",
+          "alt": "Bridge Wax logo",
+          "parentText": "",
+          "width": 86,
+          "height": 28,
+          "naturalWidth": 544,
+          "naturalHeight": 130
+        },
+        {
+          "page": "/services/fabrication",
+          "alt": "Bridge Wax logo",
+          "parentText": "",
+          "width": 92,
+          "height": 34,
+          "naturalWidth": 544,
+          "naturalHeight": 130
+        },
+        {
+          "page": "/services/fabrication",
+          "alt": "Bridge Wax logo",
+          "parentText": "",
+          "width": 86,
+          "height": 28,
+          "naturalWidth": 544,
+          "naturalHeight": 130
+        },
+        {
+          "page": "/services/hdpe",
+          "alt": "Bridge Wax logo",
+          "parentText": "",
+          "width": 92,
+          "height": 34,
+          "naturalWidth": 544,
+          "naturalHeight": 130
+        },
+        {
+          "page": "/services/hdpe",
+          "alt": "Bridge Wax logo",
+          "parentText": "",
+          "width": 86,
+          "height": 28,
+          "naturalWidth": 544,
+          "naturalHeight": 130
+        },
+        {
+          "page": "/services/pumps",
+          "alt": "Bridge Wax logo",
+          "parentText": "",
+          "width": 92,
+          "height": 34,
+          "naturalWidth": 544,
+          "naturalHeight": 130
+        },
+        {
+          "page": "/services/pumps",
+          "alt": "Bridge Wax logo",
+          "parentText": "",
+          "width": 86,
+          "height": 28,
+          "naturalWidth": 544,
+          "naturalHeight": 130
+        },
+        {
+          "page": "/products/ultrasonic",
+          "alt": "Bridge Wax logo",
+          "parentText": "",
+          "width": 92,
+          "height": 34,
+          "naturalWidth": 544,
+          "naturalHeight": 130
+        },
+        {
+          "page": "/products/ultrasonic",
+          "alt": "Bridge Wax logo",
+          "parentText": "",
+          "width": 86,
+          "height": 28,
+          "naturalWidth": 544,
+          "naturalHeight": 130
+        },
+        {
+          "page": "/products/gas-detection",
+          "alt": "Bridge Wax logo",
+          "parentText": "",
+          "width": 92,
+          "height": 34,
+          "naturalWidth": 544,
+          "naturalHeight": 130
+        },
+        {
+          "page": "/products/gas-detection",
+          "alt": "Bridge Wax logo",
+          "parentText": "",
+          "width": 86,
+          "height": 28,
+          "naturalWidth": 544,
+          "naturalHeight": 130
+        },
+        {
+          "page": "/products/water-pumps",
+          "alt": "Bridge Wax logo",
+          "parentText": "",
+          "width": 92,
+          "height": 34,
+          "naturalWidth": 544,
+          "naturalHeight": 130
+        },
+        {
+          "page": "/products/water-pumps",
+          "alt": "Bridge Wax logo",
+          "parentText": "",
+          "width": 86,
+          "height": 28,
+          "naturalWidth": 544,
+          "naturalHeight": 130
+        },
+        {
+          "page": "/products/general-machinery",
+          "alt": "Bridge Wax logo",
+          "parentText": "",
+          "width": 92,
+          "height": 34,
+          "naturalWidth": 544,
+          "naturalHeight": 130
+        },
+        {
+          "page": "/products/general-machinery",
+          "alt": "Bridge Wax logo",
+          "parentText": "",
+          "width": 86,
+          "height": 28,
+          "naturalWidth": 544,
+          "naturalHeight": 130
+        },
+        {
+          "page": "/laboratory/mining",
+          "alt": "Bridge Wax logo",
+          "parentText": "",
+          "width": 92,
+          "height": 34,
+          "naturalWidth": 544,
+          "naturalHeight": 130
+        },
+        {
+          "page": "/laboratory/mining",
+          "alt": "Bridge Wax logo",
+          "parentText": "",
+          "width": 86,
+          "height": 28,
+          "naturalWidth": 544,
+          "naturalHeight": 130
+        },
+        {
+          "page": "/laboratory/medical",
+          "alt": "Bridge Wax logo",
+          "parentText": "",
+          "width": 92,
+          "height": 34,
+          "naturalWidth": 544,
+          "naturalHeight": 130
+        },
+        {
+          "page": "/laboratory/medical",
+          "alt": "Bridge Wax logo",
+          "parentText": "",
+          "width": 86,
+          "height": 28,
+          "naturalWidth": 544,
+          "naturalHeight": 130
+        },
+        {
+          "page": "/laboratory/water",
+          "alt": "Bridge Wax logo",
+          "parentText": "",
+          "width": 92,
+          "height": 34,
+          "naturalWidth": 544,
+          "naturalHeight": 130
+        },
+        {
+          "page": "/laboratory/water",
+          "alt": "Bridge Wax logo",
+          "parentText": "",
+          "width": 86,
+          "height": 28,
+          "naturalWidth": 544,
+          "naturalHeight": 130
+        },
+        {
+          "page": "/laboratory/analytical",
+          "alt": "Bridge Wax logo",
+          "parentText": "",
+          "width": 92,
+          "height": 34,
+          "naturalWidth": 544,
+          "naturalHeight": 130
+        },
+        {
+          "page": "/laboratory/analytical",
+          "alt": "Bridge Wax logo",
+          "parentText": "",
+          "width": 86,
+          "height": 28,
+          "naturalWidth": 544,
+          "naturalHeight": 130
+        }
+      ]
+    },
+    {
+      "url": "http://192.168.138.22:4173/images/hero/hero-slide-1.jpg",
+      "count": 2,
+      "usages": [
+        {
+          "page": "/",
+          "alt": "Real laboratory interior with analytical instruments and clean workstations",
+          "parentText": "",
+          "width": 1440,
+          "height": 1000,
+          "naturalWidth": 1600,
+          "naturalHeight": 762
+        },
+        {
+          "page": "/about",
+          "alt": "Your Trusted Partner in Scientific & Industrial Solutions",
+          "parentText": "ABOUT BRIDGE WAX Your Trusted Partner in Scientific & Industrial Solutions A leading trading and distribution company headquartered in Lusaka, Zambia, with a branch office in Johannesburg, South Afric",
+          "width": 1440,
+          "height": 600,
+          "naturalWidth": 1600,
+          "naturalHeight": 762
+        }
+      ]
+    },
+    {
+      "url": "http://192.168.138.22:4173/images/hero/hero-slide-3.jpg",
+      "count": 2,
+      "usages": [
+        {
+          "page": "/",
+          "alt": "Real laboratory microscope and glassware on a clean workbench",
+          "parentText": "",
+          "width": 1440,
+          "height": 1000,
+          "naturalWidth": 2560,
+          "naturalHeight": 1441
+        },
+        {
+          "page": "/contact",
+          "alt": "Need Equipment or Technical Support?",
+          "parentText": "GET STARTED Need Equipment or Technical Support? Contact our team of experts to discuss your requirements and find the right solution for your operation.",
+          "width": 1440,
+          "height": 600,
+          "naturalWidth": 2560,
+          "naturalHeight": 1441
+        }
+      ]
+    },
+    {
+      "url": "http://192.168.138.22:4173/images/img-mrclab-equipment.jpg",
+      "count": 2,
+      "usages": [
+        {
+          "page": "/",
+          "alt": "Real laboratory bench with pipettes, balances, and sample containers",
+          "parentText": "",
+          "width": 1440,
+          "height": 1000,
+          "naturalWidth": 800,
+          "naturalHeight": 450
+        },
+        {
+          "page": "/",
+          "alt": "Clean laboratory bench with scientific equipment",
+          "parentText": "",
+          "width": 540,
+          "height": 540,
+          "naturalWidth": 800,
+          "naturalHeight": 450
+        }
+      ]
+    },
+    {
+      "url": "http://192.168.138.22:4173/images/cat-medical-lab.jpg",
+      "count": 2,
+      "usages": [
+        {
+          "page": "/",
+          "alt": "Real medical laboratory equipment with microscope and sample analyzer",
+          "parentText": "",
+          "width": 1440,
+          "height": 1000,
+          "naturalWidth": 1024,
+          "naturalHeight": 1024
+        },
+        {
+          "page": "/about",
+          "alt": "Clean medical laboratory equipment on a laboratory bench",
+          "parentText": "",
+          "width": 540,
+          "height": 540,
+          "naturalWidth": 1024,
+          "naturalHeight": 1024
+        }
+      ]
+    },
+    {
+      "url": "http://192.168.138.22:4173/images/hero/home-laboratory.jpg",
+      "count": 3,
+      "usages": [
+        {
+          "page": "/",
+          "alt": "Laboratory Equipment",
+          "parentText": "",
+          "width": 268,
+          "height": 201,
+          "naturalWidth": 0,
+          "naturalHeight": 0
+        },
+        {
+          "page": "/services",
+          "alt": "Laboratory Equipment & Consumables",
+          "parentText": "",
+          "width": 366,
+          "height": 170,
+          "naturalWidth": 0,
+          "naturalHeight": 0
+        },
+        {
+          "page": "/products",
+          "alt": "Laboratory Equipment & Consumables",
+          "parentText": "",
+          "width": 366,
+          "height": 170,
+          "naturalWidth": 0,
+          "naturalHeight": 0
+        }
+      ]
+    },
+    {
+      "url": "http://192.168.138.22:4173/images/hero/products.jpg",
+      "count": 2,
+      "usages": [
+        {
+          "page": "/services",
+          "alt": "Equipment, Spares and Technical Solutions",
+          "parentText": "PRODUCTS & SOLUTIONS Equipment, Spares and Technical Solutions Explore our range of professional laboratory and industrial equipment, supported by the services and technical expertise behind it.",
+          "width": 1440,
+          "height": 600,
+          "naturalWidth": 800,
+          "naturalHeight": 450
+        },
+        {
+          "page": "/products",
+          "alt": "Equipment, Spares and Technical Solutions",
+          "parentText": "PRODUCTS & SOLUTIONS Equipment, Spares and Technical Solutions Explore our range of professional laboratory and industrial equipment, supported by the services and technical expertise behind it.",
+          "width": 1440,
+          "height": 600,
+          "naturalWidth": 800,
+          "naturalHeight": 450
+        }
+      ]
+    },
+    {
+      "url": "http://192.168.138.22:4173/images/products/ultrasonic/ultrasonic-01.jpg",
+      "count": 4,
+      "usages": [
+        {
+          "page": "/services",
+          "alt": "Ultrasonic Equipment",
+          "parentText": "",
+          "width": 366,
+          "height": 275,
+          "naturalWidth": 800,
+          "naturalHeight": 450
+        },
+        {
+          "page": "/products",
+          "alt": "Ultrasonic Equipment",
+          "parentText": "",
+          "width": 366,
+          "height": 275,
+          "naturalWidth": 800,
+          "naturalHeight": 450
+        },
+        {
+          "page": "/products/ultrasonic",
+          "alt": "Ultrasonic Equipment",
+          "parentText": "CATALOGUE · NDT Ultrasonic Equipment Portable and workshop ultrasonic inspection equipment for thickness measurement, calibration, and field condition assessment.",
+          "width": 1440,
+          "height": 600,
+          "naturalWidth": 800,
+          "naturalHeight": 450
+        },
+        {
+          "page": "/products/ultrasonic",
+          "alt": "Ultrasonic Thickness Gauge reference image",
+          "parentText": "",
+          "width": 369,
+          "height": 276,
+          "naturalWidth": 800,
+          "naturalHeight": 450
+        }
+      ]
+    },
+    {
+      "url": "http://192.168.138.22:4173/images/products/gas-detection/gas-detection-01.jpg",
+      "count": 4,
+      "usages": [
+        {
+          "page": "/services",
+          "alt": "Gas Detection",
+          "parentText": "",
+          "width": 366,
+          "height": 275,
+          "naturalWidth": 800,
+          "naturalHeight": 450
+        },
+        {
+          "page": "/products",
+          "alt": "Gas Detection",
+          "parentText": "",
+          "width": 366,
+          "height": 275,
+          "naturalWidth": 800,
+          "naturalHeight": 450
+        },
+        {
+          "page": "/products/gas-detection",
+          "alt": "Gas Detection",
+          "parentText": "CATALOGUE · SAFETY Gas Detection Portable and fixed-point gas detection equipment for industrial safety, confined spaces, and process monitoring applications.",
+          "width": 1440,
+          "height": 600,
+          "naturalWidth": 800,
+          "naturalHeight": 450
+        },
+        {
+          "page": "/products/gas-detection",
+          "alt": "Portable Single-Gas Detector reference image",
+          "parentText": "",
+          "width": 369,
+          "height": 276,
+          "naturalWidth": 800,
+          "naturalHeight": 450
+        }
+      ]
+    },
+    {
+      "url": "http://192.168.138.22:4173/images/products/water-pumps/water-pump-01.webp",
+      "count": 5,
+      "usages": [
+        {
+          "page": "/services",
+          "alt": "Water Pumps",
+          "parentText": "",
+          "width": 366,
+          "height": 275,
+          "naturalWidth": 1400,
+          "naturalHeight": 1050
+        },
+        {
+          "page": "/products",
+          "alt": "Water Pumps",
+          "parentText": "",
+          "width": 366,
+          "height": 275,
+          "naturalWidth": 1400,
+          "naturalHeight": 1050
+        },
+        {
+          "page": "/products/water-pumps",
+          "alt": "Water Pumps",
+          "parentText": "CATALOGUE · FLOW SYSTEMS Water Pumps Pump and flow-control equipment for water transfer, dewatering, irrigation, process reticulation, industrial utility systems, and domestic water services.",
+          "width": 1440,
+          "height": 600,
+          "naturalWidth": 1400,
+          "naturalHeight": 1050
+        },
+        {
+          "page": "/products/water-pumps",
+          "alt": "End-Suction Centrifugal Pump reference image",
+          "parentText": "",
+          "width": 369,
+          "height": 276,
+          "naturalWidth": 1400,
+          "naturalHeight": 1050
+        },
+        {
+          "page": "/products/water-pumps",
+          "alt": "Domestic Borehole Pump reference image",
+          "parentText": "",
+          "width": 369,
+          "height": 276,
+          "naturalWidth": 1400,
+          "naturalHeight": 1050
+        }
+      ]
+    },
+    {
+      "url": "http://192.168.138.22:4173/images/products/general-machinery/general-machinery-01.jpg",
+      "count": 4,
+      "usages": [
+        {
+          "page": "/services",
+          "alt": "General Machinery",
+          "parentText": "",
+          "width": 366,
+          "height": 275,
+          "naturalWidth": 800,
+          "naturalHeight": 450
+        },
+        {
+          "page": "/products",
+          "alt": "General Machinery",
+          "parentText": "",
+          "width": 366,
+          "height": 275,
+          "naturalWidth": 800,
+          "naturalHeight": 450
+        },
+        {
+          "page": "/products/general-machinery",
+          "alt": "General Machinery",
+          "parentText": "CATALOGUE · INDUSTRIAL PLANT General Machinery General-purpose machinery and plant equipment for workshops, production environments, maintenance teams, and site operations.",
+          "width": 1440,
+          "height": 600,
+          "naturalWidth": 800,
+          "naturalHeight": 450
+        },
+        {
+          "page": "/products/general-machinery",
+          "alt": "Industrial Air Compressor reference image",
+          "parentText": "",
+          "width": 369,
+          "height": 276,
+          "naturalWidth": 800,
+          "naturalHeight": 450
+        }
+      ]
+    },
+    {
+      "url": "http://192.168.138.22:4173/images/hero/laboratory-equipment.jpg",
+      "count": 10,
+      "usages": [
+        {
+          "page": "/services",
+          "alt": "Industrial Testing Instruments",
+          "parentText": "",
+          "width": 366,
+          "height": 170,
+          "naturalWidth": 0,
+          "naturalHeight": 0
+        },
+        {
+          "page": "/services",
+          "alt": "Plant Maintenance & Spares",
+          "parentText": "",
+          "width": 366,
+          "height": 170,
+          "naturalWidth": 0,
+          "naturalHeight": 0
+        },
+        {
+          "page": "/services",
+          "alt": "Fabrication & Repairs",
+          "parentText": "",
+          "width": 366,
+          "height": 170,
+          "naturalWidth": 0,
+          "naturalHeight": 0
+        },
+        {
+          "page": "/services",
+          "alt": "HDPE Pipe Systems",
+          "parentText": "",
+          "width": 366,
+          "height": 170,
+          "naturalWidth": 0,
+          "naturalHeight": 0
+        },
+        {
+          "page": "/services",
+          "alt": "Pumps & Valves",
+          "parentText": "",
+          "width": 366,
+          "height": 170,
+          "naturalWidth": 0,
+          "naturalHeight": 0
+        },
+        {
+          "page": "/products",
+          "alt": "Industrial Testing Instruments",
+          "parentText": "",
+          "width": 366,
+          "height": 170,
+          "naturalWidth": 0,
+          "naturalHeight": 0
+        },
+        {
+          "page": "/products",
+          "alt": "Plant Maintenance & Spares",
+          "parentText": "",
+          "width": 366,
+          "height": 170,
+          "naturalWidth": 0,
+          "naturalHeight": 0
+        },
+        {
+          "page": "/products",
+          "alt": "Fabrication & Repairs",
+          "parentText": "",
+          "width": 366,
+          "height": 170,
+          "naturalWidth": 0,
+          "naturalHeight": 0
+        },
+        {
+          "page": "/products",
+          "alt": "HDPE Pipe Systems",
+          "parentText": "",
+          "width": 366,
+          "height": 170,
+          "naturalWidth": 0,
+          "naturalHeight": 0
+        },
+        {
+          "page": "/products",
+          "alt": "Pumps & Valves",
+          "parentText": "",
+          "width": 366,
+          "height": 170,
+          "naturalWidth": 0,
+          "naturalHeight": 0
+        }
+      ]
+    },
+    {
+      "url": "http://192.168.138.22:4173/images/hero/laboratory.jpg",
+      "count": 3,
+      "usages": [
+        {
+          "page": "/laboratory",
+          "alt": "Laboratory Equipment for Mining, Medical and Water Analysis",
+          "parentText": "LABORATORY Laboratory Equipment for Mining, Medical and Water Analysis Mining, medical, water analysis and research laboratory supplies, backed by after-sales service and expert engineering support.",
+          "width": 1440,
+          "height": 600,
+          "naturalWidth": 800,
+          "naturalHeight": 450
+        },
+        {
+          "page": "/laboratory/mining",
+          "alt": "Mining Laboratory Equipment",
+          "parentText": "CATALOGUE · MINING LABORATORY Mining Laboratory Equipment Sample preparation, geological processing, assay support, and laboratory equipment for mining and mineral-analysis workflows.",
+          "width": 1440,
+          "height": 600,
+          "naturalWidth": 800,
+          "naturalHeight": 450
+        },
+        {
+          "page": "/laboratory/water",
+          "alt": "Water Analysis",
+          "parentText": "CATALOGUE · ENVIRONMENTAL TESTING Water Analysis Field and laboratory water-quality equipment for potable, process, environmental, wastewater, and utility-water analysis.",
+          "width": 1440,
+          "height": 600,
+          "naturalWidth": 800,
+          "naturalHeight": 450
+        }
+      ]
+    },
+    {
+      "url": "http://192.168.138.22:4173/images/laboratory/mining/mining-01.jpg",
+      "count": 2,
+      "usages": [
+        {
+          "page": "/laboratory",
+          "alt": "Mining Laboratory Equipment",
+          "parentText": "",
+          "width": 562,
+          "height": 316,
+          "naturalWidth": 800,
+          "naturalHeight": 450
+        },
+        {
+          "page": "/laboratory/mining",
+          "alt": "Laboratory Jaw Crusher reference image",
+          "parentText": "",
+          "width": 369,
+          "height": 276,
+          "naturalWidth": 800,
+          "naturalHeight": 450
+        }
+      ]
+    },
+    {
+      "url": "http://192.168.138.22:4173/images/laboratory/medical/medical-01.jpg",
+      "count": 2,
+      "usages": [
+        {
+          "page": "/laboratory",
+          "alt": "Medical Laboratory",
+          "parentText": "",
+          "width": 562,
+          "height": 316,
+          "naturalWidth": 1024,
+          "naturalHeight": 1024
+        },
+        {
+          "page": "/laboratory/medical",
+          "alt": "Automated Chemistry Analyzer reference image",
+          "parentText": "",
+          "width": 369,
+          "height": 276,
+          "naturalWidth": 1024,
+          "naturalHeight": 1024
+        }
+      ]
+    },
+    {
+      "url": "http://192.168.138.22:4173/images/laboratory/water/water-01.jpg",
+      "count": 2,
+      "usages": [
+        {
+          "page": "/laboratory",
+          "alt": "Water Analysis",
+          "parentText": "",
+          "width": 562,
+          "height": 316,
+          "naturalWidth": 1024,
+          "naturalHeight": 1024
+        },
+        {
+          "page": "/laboratory/water",
+          "alt": "Portable pH and Conductivity Meter reference image",
+          "parentText": "",
+          "width": 369,
+          "height": 276,
+          "naturalWidth": 1024,
+          "naturalHeight": 1024
+        }
+      ]
+    },
+    {
+      "url": "http://192.168.138.22:4173/images/laboratory/analytical/analytical-01.jpg",
+      "count": 3,
+      "usages": [
+        {
+          "page": "/laboratory",
+          "alt": "Analytical Equipment",
+          "parentText": "",
+          "width": 562,
+          "height": 316,
+          "naturalWidth": 800,
+          "naturalHeight": 450
+        },
+        {
+          "page": "/laboratory/analytical",
+          "alt": "Analytical Equipment",
+          "parentText": "CATALOGUE · ANALYTICAL CHEMISTRY Analytical Equipment Analytical chemistry equipment for precision weighing, elemental analysis, spectroscopy, microscopy, and sample preparation.",
+          "width": 1440,
+          "height": 600,
+          "naturalWidth": 800,
+          "naturalHeight": 450
+        },
+        {
+          "page": "/laboratory/analytical",
+          "alt": "Precision Laboratory Balance reference image",
+          "parentText": "",
+          "width": 369,
+          "height": 276,
+          "naturalWidth": 800,
+          "naturalHeight": 450
+        }
+      ]
+    },
+    {
+      "url": "http://192.168.138.22:4173/images/services/laboratory/laboratory-01.jpg",
+      "count": 2,
+      "usages": [
+        {
+          "page": "/services/laboratory",
+          "alt": "Laboratory Equipment & Consumables",
+          "parentText": "SERVICE CATALOGUE · LABORATORY Laboratory Equipment & Consumables Equipment sourcing, consumable supply, installation coordination, and practical support for mining, medical, water, and research labor",
+          "width": 1440,
+          "height": 600,
+          "naturalWidth": 800,
+          "naturalHeight": 450
+        },
+        {
+          "page": "/services/laboratory",
+          "alt": "Laboratory Equipment Supply reference image",
+          "parentText": "",
+          "width": 369,
+          "height": 276,
+          "naturalWidth": 800,
+          "naturalHeight": 450
+        }
+      ]
+    },
+    {
+      "url": "http://192.168.138.22:4173/images/services/testing/testing-01.jpg",
+      "count": 2,
+      "usages": [
+        {
+          "page": "/services/industrial-testing",
+          "alt": "Industrial Testing Instruments",
+          "parentText": "SERVICE CATALOGUE · TESTING Industrial Testing Instruments Selection, supply, and support for inspection and measurement instruments used across plant, pipeline, mining, and maintenance environments.",
+          "width": 1440,
+          "height": 600,
+          "naturalWidth": 800,
+          "naturalHeight": 450
+        },
+        {
+          "page": "/services/industrial-testing",
+          "alt": "Ultrasonic Thickness Testing reference image",
+          "parentText": "",
+          "width": 369,
+          "height": 276,
+          "naturalWidth": 800,
+          "naturalHeight": 450
+        }
+      ]
+    },
+    {
+      "url": "http://192.168.138.22:4173/images/services/maintenance/maintenance-01.jpg",
+      "count": 2,
+      "usages": [
+        {
+          "page": "/services/maintenance",
+          "alt": "Plant Maintenance & Spares",
+          "parentText": "SERVICE CATALOGUE · MAINTENANCE Plant Maintenance & Spares Maintenance support, replacement planning, and industrial spares coordination to help keep production and processing plants operational.",
+          "width": 1440,
+          "height": 600,
+          "naturalWidth": 800,
+          "naturalHeight": 450
+        },
+        {
+          "page": "/services/maintenance",
+          "alt": "Preventive Maintenance Planning reference image",
+          "parentText": "",
+          "width": 369,
+          "height": 276,
+          "naturalWidth": 800,
+          "naturalHeight": 450
+        }
+      ]
+    },
+    {
+      "url": "http://192.168.138.22:4173/images/services/fabrication/fabrication-01.jpg",
+      "count": 2,
+      "usages": [
+        {
+          "page": "/services/fabrication",
+          "alt": "Fabrication & Repairs",
+          "parentText": "SERVICE CATALOGUE · WORKSHOP Fabrication & Repairs Workshop fabrication, repairs, refurbishment, and industrial component support for plant and field requirements.",
+          "width": 1440,
+          "height": 600,
+          "naturalWidth": 800,
+          "naturalHeight": 450
+        },
+        {
+          "page": "/services/fabrication",
+          "alt": "Light Steel Fabrication reference image",
+          "parentText": "",
+          "width": 369,
+          "height": 276,
+          "naturalWidth": 800,
+          "naturalHeight": 450
+        }
+      ]
+    },
+    {
+      "url": "http://192.168.138.22:4173/images/services/hdpe/hdpe-01.jpg",
+      "count": 2,
+      "usages": [
+        {
+          "page": "/services/hdpe",
+          "alt": "HDPE Pipe Systems",
+          "parentText": "SERVICE CATALOGUE · PIPING HDPE Pipe Systems HDPE piping, fittings, jointing, and installation coordination for water, slurry, mining, and process-reticulation systems.",
+          "width": 1440,
+          "height": 600,
+          "naturalWidth": 800,
+          "naturalHeight": 450
+        },
+        {
+          "page": "/services/hdpe",
+          "alt": "HDPE Pipe Supply reference image",
+          "parentText": "",
+          "width": 369,
+          "height": 276,
+          "naturalWidth": 800,
+          "naturalHeight": 450
+        }
+      ]
+    },
+    {
+      "url": "http://192.168.138.22:4173/images/services/pumps/pumps-01.jpg",
+      "count": 2,
+      "usages": [
+        {
+          "page": "/services/pumps",
+          "alt": "Pumps & Valves",
+          "parentText": "SERVICE CATALOGUE · FLOW CONTROL Pumps & Valves Pump, valve, and flow-control selection for mining, industrial process, water, dewatering, and utility applications.",
+          "width": 1440,
+          "height": 600,
+          "naturalWidth": 800,
+          "naturalHeight": 450
+        },
+        {
+          "page": "/services/pumps",
+          "alt": "Pump Selection Support reference image",
+          "parentText": "",
+          "width": 369,
+          "height": 276,
+          "naturalWidth": 800,
+          "naturalHeight": 450
+        }
+      ]
+    },
+    {
+      "url": "http://192.168.138.22:4173/images/products/water-pumps/water-pump-02.webp",
+      "count": 2,
+      "usages": [
+        {
+          "page": "/products/water-pumps",
+          "alt": "Submersible Dewatering Pump reference image",
+          "parentText": "",
+          "width": 369,
+          "height": 277,
+          "naturalWidth": 1400,
+          "naturalHeight": 1050
+        },
+        {
+          "page": "/products/water-pumps",
+          "alt": "Domestic Submersible Drainage Pump reference image",
+          "parentText": "",
+          "width": 369,
+          "height": 277,
+          "naturalWidth": 1400,
+          "naturalHeight": 1050
+        }
+      ]
+    },
+    {
+      "url": "http://192.168.138.22:4173/images/products/water-pumps/water-pump-03.webp",
+      "count": 2,
+      "usages": [
+        {
+          "page": "/products/water-pumps",
+          "alt": "High-Pressure Multistage Pump reference image",
+          "parentText": "",
+          "width": 369,
+          "height": 276,
+          "naturalWidth": 1400,
+          "naturalHeight": 1050
+        },
+        {
+          "page": "/products/water-pumps",
+          "alt": "Household Pressure Booster Pump reference image",
+          "parentText": "",
+          "width": 369,
+          "height": 276,
+          "naturalWidth": 1400,
+          "naturalHeight": 1050
+        }
+      ]
+    },
+    {
+      "url": "http://192.168.138.22:4173/images/products/water-pumps/water-pump-04.webp",
+      "count": 2,
+      "usages": [
+        {
+          "page": "/products/water-pumps",
+          "alt": "Slurry Transfer Pump reference image",
+          "parentText": "",
+          "width": 369,
+          "height": 276,
+          "naturalWidth": 1400,
+          "naturalHeight": 1050
+        },
+        {
+          "page": "/products/water-pumps",
+          "alt": "Domestic Centrifugal Pump reference image",
+          "parentText": "",
+          "width": 369,
+          "height": 276,
+          "naturalWidth": 1400,
+          "naturalHeight": 1050
+        }
+      ]
+    },
+    {
+      "url": "http://192.168.138.22:4173/images/products/water-pumps/water-pump-05.webp",
+      "count": 2,
+      "usages": [
+        {
+          "page": "/products/water-pumps",
+          "alt": "Pump Control Panel reference image",
+          "parentText": "",
+          "width": 369,
+          "height": 277,
+          "naturalWidth": 1400,
+          "naturalHeight": 1050
+        },
+        {
+          "page": "/products/water-pumps",
+          "alt": "Compact 24V Water Booster reference image",
+          "parentText": "",
+          "width": 369,
+          "height": 277,
+          "naturalWidth": 1400,
+          "naturalHeight": 1050
+        }
+      ]
+    },
+    {
+      "url": "http://192.168.138.22:4173/images/products/water-pumps/water-pump-06.webp",
+      "count": 2,
+      "usages": [
+        {
+          "page": "/products/water-pumps",
+          "alt": "Vertical Turbine Pump reference image",
+          "parentText": "",
+          "width": 369,
+          "height": 276,
+          "naturalWidth": 1400,
+          "naturalHeight": 1050
+        },
+        {
+          "page": "/products/water-pumps",
+          "alt": "Domestic Transfer Pump reference image",
+          "parentText": "",
+          "width": 369,
+          "height": 276,
+          "naturalWidth": 1400,
+          "naturalHeight": 1050
+        }
+      ]
+    },
+    {
+      "url": "http://192.168.138.22:4173/images/products/water-pumps/water-pump-07.webp",
+      "count": 2,
+      "usages": [
+        {
+          "page": "/products/water-pumps",
+          "alt": "Booster Pump Skid reference image",
+          "parentText": "",
+          "width": 369,
+          "height": 276,
+          "naturalWidth": 1400,
+          "naturalHeight": 1050
+        },
+        {
+          "page": "/products/water-pumps",
+          "alt": "Domestic Pressure Controller reference image",
+          "parentText": "",
+          "width": 369,
+          "height": 276,
+          "naturalWidth": 1400,
+          "naturalHeight": 1050
+        }
+      ]
+    }
+  ],
+  "catalogueDuplicates": [
+    {
+      "url": "http://192.168.138.22:4173/images/products/ultrasonic/ultrasonic-01.jpg",
+      "count": 4,
+      "usages": [
+        {
+          "page": "/services",
+          "alt": "Ultrasonic Equipment",
+          "parentText": "",
+          "width": 366,
+          "height": 275,
+          "naturalWidth": 800,
+          "naturalHeight": 450
+        },
+        {
+          "page": "/products",
+          "alt": "Ultrasonic Equipment",
+          "parentText": "",
+          "width": 366,
+          "height": 275,
+          "naturalWidth": 800,
+          "naturalHeight": 450
+        },
+        {
+          "page": "/products/ultrasonic",
+          "alt": "Ultrasonic Equipment",
+          "parentText": "CATALOGUE · NDT Ultrasonic Equipment Portable and workshop ultrasonic inspection equipment for thickness measurement, calibration, and field condition assessment.",
+          "width": 1440,
+          "height": 600,
+          "naturalWidth": 800,
+          "naturalHeight": 450
+        },
+        {
+          "page": "/products/ultrasonic",
+          "alt": "Ultrasonic Thickness Gauge reference image",
+          "parentText": "",
+          "width": 369,
+          "height": 276,
+          "naturalWidth": 800,
+          "naturalHeight": 450
+        }
+      ]
+    },
+    {
+      "url": "http://192.168.138.22:4173/images/products/gas-detection/gas-detection-01.jpg",
+      "count": 4,
+      "usages": [
+        {
+          "page": "/services",
+          "alt": "Gas Detection",
+          "parentText": "",
+          "width": 366,
+          "height": 275,
+          "naturalWidth": 800,
+          "naturalHeight": 450
+        },
+        {
+          "page": "/products",
+          "alt": "Gas Detection",
+          "parentText": "",
+          "width": 366,
+          "height": 275,
+          "naturalWidth": 800,
+          "naturalHeight": 450
+        },
+        {
+          "page": "/products/gas-detection",
+          "alt": "Gas Detection",
+          "parentText": "CATALOGUE · SAFETY Gas Detection Portable and fixed-point gas detection equipment for industrial safety, confined spaces, and process monitoring applications.",
+          "width": 1440,
+          "height": 600,
+          "naturalWidth": 800,
+          "naturalHeight": 450
+        },
+        {
+          "page": "/products/gas-detection",
+          "alt": "Portable Single-Gas Detector reference image",
+          "parentText": "",
+          "width": 369,
+          "height": 276,
+          "naturalWidth": 800,
+          "naturalHeight": 450
+        }
+      ]
+    },
+    {
+      "url": "http://192.168.138.22:4173/images/products/water-pumps/water-pump-01.webp",
+      "count": 5,
+      "usages": [
+        {
+          "page": "/services",
+          "alt": "Water Pumps",
+          "parentText": "",
+          "width": 366,
+          "height": 275,
+          "naturalWidth": 1400,
+          "naturalHeight": 1050
+        },
+        {
+          "page": "/products",
+          "alt": "Water Pumps",
+          "parentText": "",
+          "width": 366,
+          "height": 275,
+          "naturalWidth": 1400,
+          "naturalHeight": 1050
+        },
+        {
+          "page": "/products/water-pumps",
+          "alt": "Water Pumps",
+          "parentText": "CATALOGUE · FLOW SYSTEMS Water Pumps Pump and flow-control equipment for water transfer, dewatering, irrigation, process reticulation, industrial utility systems, and domestic water services.",
+          "width": 1440,
+          "height": 600,
+          "naturalWidth": 1400,
+          "naturalHeight": 1050
+        },
+        {
+          "page": "/products/water-pumps",
+          "alt": "End-Suction Centrifugal Pump reference image",
+          "parentText": "",
+          "width": 369,
+          "height": 276,
+          "naturalWidth": 1400,
+          "naturalHeight": 1050
+        },
+        {
+          "page": "/products/water-pumps",
+          "alt": "Domestic Borehole Pump reference image",
+          "parentText": "",
+          "width": 369,
+          "height": 276,
+          "naturalWidth": 1400,
+          "naturalHeight": 1050
+        }
+      ]
+    },
+    {
+      "url": "http://192.168.138.22:4173/images/products/general-machinery/general-machinery-01.jpg",
+      "count": 4,
+      "usages": [
+        {
+          "page": "/services",
+          "alt": "General Machinery",
+          "parentText": "",
+          "width": 366,
+          "height": 275,
+          "naturalWidth": 800,
+          "naturalHeight": 450
+        },
+        {
+          "page": "/products",
+          "alt": "General Machinery",
+          "parentText": "",
+          "width": 366,
+          "height": 275,
+          "naturalWidth": 800,
+          "naturalHeight": 450
+        },
+        {
+          "page": "/products/general-machinery",
+          "alt": "General Machinery",
+          "parentText": "CATALOGUE · INDUSTRIAL PLANT General Machinery General-purpose machinery and plant equipment for workshops, production environments, maintenance teams, and site operations.",
+          "width": 1440,
+          "height": 600,
+          "naturalWidth": 800,
+          "naturalHeight": 450
+        },
+        {
+          "page": "/products/general-machinery",
+          "alt": "Industrial Air Compressor reference image",
+          "parentText": "",
+          "width": 369,
+          "height": 276,
+          "naturalWidth": 800,
+          "naturalHeight": 450
+        }
+      ]
+    },
+    {
+      "url": "http://192.168.138.22:4173/images/products/water-pumps/water-pump-02.webp",
+      "count": 2,
+      "usages": [
+        {
+          "page": "/products/water-pumps",
+          "alt": "Submersible Dewatering Pump reference image",
+          "parentText": "",
+          "width": 369,
+          "height": 277,
+          "naturalWidth": 1400,
+          "naturalHeight": 1050
+        },
+        {
+          "page": "/products/water-pumps",
+          "alt": "Domestic Submersible Drainage Pump reference image",
+          "parentText": "",
+          "width": 369,
+          "height": 277,
+          "naturalWidth": 1400,
+          "naturalHeight": 1050
+        }
+      ]
+    },
+    {
+      "url": "http://192.168.138.22:4173/images/products/water-pumps/water-pump-03.webp",
+      "count": 2,
+      "usages": [
+        {
+          "page": "/products/water-pumps",
+          "alt": "High-Pressure Multistage Pump reference image",
+          "parentText": "",
+          "width": 369,
+          "height": 276,
+          "naturalWidth": 1400,
+          "naturalHeight": 1050
+        },
+        {
+          "page": "/products/water-pumps",
+          "alt": "Household Pressure Booster Pump reference image",
+          "parentText": "",
+          "width": 369,
+          "height": 276,
+          "naturalWidth": 1400,
+          "naturalHeight": 1050
+        }
+      ]
+    },
+    {
+      "url": "http://192.168.138.22:4173/images/products/water-pumps/water-pump-04.webp",
+      "count": 2,
+      "usages": [
+        {
+          "page": "/products/water-pumps",
+          "alt": "Slurry Transfer Pump reference image",
+          "parentText": "",
+          "width": 369,
+          "height": 276,
+          "naturalWidth": 1400,
+          "naturalHeight": 1050
+        },
+        {
+          "page": "/products/water-pumps",
+          "alt": "Domestic Centrifugal Pump reference image",
+          "parentText": "",
+          "width": 369,
+          "height": 276,
+          "naturalWidth": 1400,
+          "naturalHeight": 1050
+        }
+      ]
+    },
+    {
+      "url": "http://192.168.138.22:4173/images/products/water-pumps/water-pump-05.webp",
+      "count": 2,
+      "usages": [
+        {
+          "page": "/products/water-pumps",
+          "alt": "Pump Control Panel reference image",
+          "parentText": "",
+          "width": 369,
+          "height": 277,
+          "naturalWidth": 1400,
+          "naturalHeight": 1050
+        },
+        {
+          "page": "/products/water-pumps",
+          "alt": "Compact 24V Water Booster reference image",
+          "parentText": "",
+          "width": 369,
+          "height": 277,
+          "naturalWidth": 1400,
+          "naturalHeight": 1050
+        }
+      ]
+    },
+    {
+      "url": "http://192.168.138.22:4173/images/products/water-pumps/water-pump-06.webp",
+      "count": 2,
+      "usages": [
+        {
+          "page": "/products/water-pumps",
+          "alt": "Vertical Turbine Pump reference image",
+          "parentText": "",
+          "width": 369,
+          "height": 276,
+          "naturalWidth": 1400,
+          "naturalHeight": 1050
+        },
+        {
+          "page": "/products/water-pumps",
+          "alt": "Domestic Transfer Pump reference image",
+          "parentText": "",
+          "width": 369,
+          "height": 276,
+          "naturalWidth": 1400,
+          "naturalHeight": 1050
+        }
+      ]
+    },
+    {
+      "url": "http://192.168.138.22:4173/images/products/water-pumps/water-pump-07.webp",
+      "count": 2,
+      "usages": [
+        {
+          "page": "/products/water-pumps",
+          "alt": "Booster Pump Skid reference image",
+          "parentText": "",
+          "width": 369,
+          "height": 276,
+          "naturalWidth": 1400,
+          "naturalHeight": 1050
+        },
+        {
+          "page": "/products/water-pumps",
+          "alt": "Domestic Pressure Controller reference image",
+          "parentText": "",
+          "width": 369,
+          "height": 276,
+          "naturalWidth": 1400,
+          "naturalHeight": 1050
+        }
+      ]
+    }
+  ],
+  "pageLevelDuplicates": [
+    {
+      "page": "/",
+      "url": "http://192.168.138.22:4173/images/bridge-wax-logo.png",
+      "count": 2,
+      "usages": [
+        {
+          "index": 0,
+          "src": "http://192.168.138.22:4173/images/bridge-wax-logo.png",
+          "alt": "Bridge Wax logo",
+          "width": 92,
+          "height": 34,
+          "naturalWidth": 544,
+          "naturalHeight": 130,
+          "complete": true,
+          "broken": false,
+          "visible": true,
+          "parentText": ""
+        },
+        {
+          "index": 10,
+          "src": "http://192.168.138.22:4173/images/bridge-wax-logo.png",
+          "alt": "Bridge Wax logo",
+          "width": 86,
+          "height": 28,
+          "naturalWidth": 544,
+          "naturalHeight": 130,
+          "complete": true,
+          "broken": false,
+          "visible": true,
+          "parentText": ""
+        }
+      ]
+    },
+    {
+      "page": "/",
+      "url": "http://192.168.138.22:4173/images/img-mrclab-equipment.jpg",
+      "count": 2,
+      "usages": [
+        {
+          "index": 3,
+          "src": "http://192.168.138.22:4173/images/img-mrclab-equipment.jpg",
+          "alt": "Real laboratory bench with pipettes, balances, and sample containers",
+          "width": 1440,
+          "height": 1000,
+          "naturalWidth": 800,
+          "naturalHeight": 450,
+          "complete": true,
+          "broken": false,
+          "visible": true,
+          "parentText": ""
+        },
+        {
+          "index": 5,
+          "src": "http://192.168.138.22:4173/images/img-mrclab-equipment.jpg",
+          "alt": "Clean laboratory bench with scientific equipment",
+          "width": 540,
+          "height": 540,
+          "naturalWidth": 800,
+          "naturalHeight": 450,
+          "complete": true,
+          "broken": false,
+          "visible": true,
+          "parentText": ""
+        }
+      ]
+    },
+    {
+      "page": "/about",
+      "url": "http://192.168.138.22:4173/images/bridge-wax-logo.png",
+      "count": 2,
+      "usages": [
+        {
+          "index": 0,
+          "src": "http://192.168.138.22:4173/images/bridge-wax-logo.png",
+          "alt": "Bridge Wax logo",
+          "width": 92,
+          "height": 34,
+          "naturalWidth": 544,
+          "naturalHeight": 130,
+          "complete": true,
+          "broken": false,
+          "visible": true,
+          "parentText": ""
+        },
+        {
+          "index": 3,
+          "src": "http://192.168.138.22:4173/images/bridge-wax-logo.png",
+          "alt": "Bridge Wax logo",
+          "width": 86,
+          "height": 28,
+          "naturalWidth": 544,
+          "naturalHeight": 130,
+          "complete": true,
+          "broken": false,
+          "visible": true,
+          "parentText": ""
+        }
+      ]
+    },
+    {
+      "page": "/services",
+      "url": "http://192.168.138.22:4173/images/bridge-wax-logo.png",
+      "count": 2,
+      "usages": [
+        {
+          "index": 0,
+          "src": "http://192.168.138.22:4173/images/bridge-wax-logo.png",
+          "alt": "Bridge Wax logo",
+          "width": 92,
+          "height": 34,
+          "naturalWidth": 544,
+          "naturalHeight": 130,
+          "complete": true,
+          "broken": false,
+          "visible": true,
+          "parentText": ""
+        },
+        {
+          "index": 12,
+          "src": "http://192.168.138.22:4173/images/bridge-wax-logo.png",
+          "alt": "Bridge Wax logo",
+          "width": 86,
+          "height": 28,
+          "naturalWidth": 544,
+          "naturalHeight": 130,
+          "complete": true,
+          "broken": false,
+          "visible": true,
+          "parentText": ""
+        }
+      ]
+    },
+    {
+      "page": "/services",
+      "url": "http://192.168.138.22:4173/images/hero/laboratory-equipment.jpg",
+      "count": 5,
+      "usages": [
+        {
+          "index": 7,
+          "src": "http://192.168.138.22:4173/images/hero/laboratory-equipment.jpg",
+          "alt": "Industrial Testing Instruments",
+          "width": 366,
+          "height": 170,
+          "naturalWidth": 0,
+          "naturalHeight": 0,
+          "complete": false,
+          "broken": false,
+          "visible": true,
+          "parentText": ""
+        },
+        {
+          "index": 8,
+          "src": "http://192.168.138.22:4173/images/hero/laboratory-equipment.jpg",
+          "alt": "Plant Maintenance & Spares",
+          "width": 366,
+          "height": 170,
+          "naturalWidth": 0,
+          "naturalHeight": 0,
+          "complete": false,
+          "broken": false,
+          "visible": true,
+          "parentText": ""
+        },
+        {
+          "index": 9,
+          "src": "http://192.168.138.22:4173/images/hero/laboratory-equipment.jpg",
+          "alt": "Fabrication & Repairs",
+          "width": 366,
+          "height": 170,
+          "naturalWidth": 0,
+          "naturalHeight": 0,
+          "complete": false,
+          "broken": false,
+          "visible": true,
+          "parentText": ""
+        },
+        {
+          "index": 10,
+          "src": "http://192.168.138.22:4173/images/hero/laboratory-equipment.jpg",
+          "alt": "HDPE Pipe Systems",
+          "width": 366,
+          "height": 170,
+          "naturalWidth": 0,
+          "naturalHeight": 0,
+          "complete": false,
+          "broken": false,
+          "visible": true,
+          "parentText": ""
+        },
+        {
+          "index": 11,
+          "src": "http://192.168.138.22:4173/images/hero/laboratory-equipment.jpg",
+          "alt": "Pumps & Valves",
+          "width": 366,
+          "height": 170,
+          "naturalWidth": 0,
+          "naturalHeight": 0,
+          "complete": false,
+          "broken": false,
+          "visible": true,
+          "parentText": ""
+        }
+      ]
+    },
+    {
+      "page": "/laboratory",
+      "url": "http://192.168.138.22:4173/images/bridge-wax-logo.png",
+      "count": 2,
+      "usages": [
+        {
+          "index": 0,
+          "src": "http://192.168.138.22:4173/images/bridge-wax-logo.png",
+          "alt": "Bridge Wax logo",
+          "width": 92,
+          "height": 34,
+          "naturalWidth": 544,
+          "naturalHeight": 130,
+          "complete": true,
+          "broken": false,
+          "visible": true,
+          "parentText": ""
+        },
+        {
+          "index": 6,
+          "src": "http://192.168.138.22:4173/images/bridge-wax-logo.png",
+          "alt": "Bridge Wax logo",
+          "width": 86,
+          "height": 28,
+          "naturalWidth": 544,
+          "naturalHeight": 130,
+          "complete": true,
+          "broken": false,
+          "visible": true,
+          "parentText": ""
+        }
+      ]
+    },
+    {
+      "page": "/products",
+      "url": "http://192.168.138.22:4173/images/bridge-wax-logo.png",
+      "count": 2,
+      "usages": [
+        {
+          "index": 0,
+          "src": "http://192.168.138.22:4173/images/bridge-wax-logo.png",
+          "alt": "Bridge Wax logo",
+          "width": 92,
+          "height": 34,
+          "naturalWidth": 544,
+          "naturalHeight": 130,
+          "complete": true,
+          "broken": false,
+          "visible": true,
+          "parentText": ""
+        },
+        {
+          "index": 12,
+          "src": "http://192.168.138.22:4173/images/bridge-wax-logo.png",
+          "alt": "Bridge Wax logo",
+          "width": 86,
+          "height": 28,
+          "naturalWidth": 544,
+          "naturalHeight": 130,
+          "complete": true,
+          "broken": false,
+          "visible": true,
+          "parentText": ""
+        }
+      ]
+    },
+    {
+      "page": "/products",
+      "url": "http://192.168.138.22:4173/images/hero/laboratory-equipment.jpg",
+      "count": 5,
+      "usages": [
+        {
+          "index": 7,
+          "src": "http://192.168.138.22:4173/images/hero/laboratory-equipment.jpg",
+          "alt": "Industrial Testing Instruments",
+          "width": 366,
+          "height": 170,
+          "naturalWidth": 0,
+          "naturalHeight": 0,
+          "complete": false,
+          "broken": false,
+          "visible": true,
+          "parentText": ""
+        },
+        {
+          "index": 8,
+          "src": "http://192.168.138.22:4173/images/hero/laboratory-equipment.jpg",
+          "alt": "Plant Maintenance & Spares",
+          "width": 366,
+          "height": 170,
+          "naturalWidth": 0,
+          "naturalHeight": 0,
+          "complete": false,
+          "broken": false,
+          "visible": true,
+          "parentText": ""
+        },
+        {
+          "index": 9,
+          "src": "http://192.168.138.22:4173/images/hero/laboratory-equipment.jpg",
+          "alt": "Fabrication & Repairs",
+          "width": 366,
+          "height": 170,
+          "naturalWidth": 0,
+          "naturalHeight": 0,
+          "complete": false,
+          "broken": false,
+          "visible": true,
+          "parentText": ""
+        },
+        {
+          "index": 10,
+          "src": "http://192.168.138.22:4173/images/hero/laboratory-equipment.jpg",
+          "alt": "HDPE Pipe Systems",
+          "width": 366,
+          "height": 170,
+          "naturalWidth": 0,
+          "naturalHeight": 0,
+          "complete": false,
+          "broken": false,
+          "visible": true,
+          "parentText": ""
+        },
+        {
+          "index": 11,
+          "src": "http://192.168.138.22:4173/images/hero/laboratory-equipment.jpg",
+          "alt": "Pumps & Valves",
+          "width": 366,
+          "height": 170,
+          "naturalWidth": 0,
+          "naturalHeight": 0,
+          "complete": false,
+          "broken": false,
+          "visible": true,
+          "parentText": ""
+        }
+      ]
+    },
+    {
+      "page": "/contact",
+      "url": "http://192.168.138.22:4173/images/bridge-wax-logo.png",
+      "count": 2,
+      "usages": [
+        {
+          "index": 0,
+          "src": "http://192.168.138.22:4173/images/bridge-wax-logo.png",
+          "alt": "Bridge Wax logo",
+          "width": 92,
+          "height": 34,
+          "naturalWidth": 544,
+          "naturalHeight": 130,
+          "complete": true,
+          "broken": false,
+          "visible": true,
+          "parentText": ""
+        },
+        {
+          "index": 2,
+          "src": "http://192.168.138.22:4173/images/bridge-wax-logo.png",
+          "alt": "Bridge Wax logo",
+          "width": 86,
+          "height": 28,
+          "naturalWidth": 544,
+          "naturalHeight": 130,
+          "complete": true,
+          "broken": false,
+          "visible": true,
+          "parentText": ""
+        }
+      ]
+    },
+    {
+      "page": "/services/laboratory",
+      "url": "http://192.168.138.22:4173/images/bridge-wax-logo.png",
+      "count": 2,
+      "usages": [
+        {
+          "index": 0,
+          "src": "http://192.168.138.22:4173/images/bridge-wax-logo.png",
+          "alt": "Bridge Wax logo",
+          "width": 92,
+          "height": 34,
+          "naturalWidth": 544,
+          "naturalHeight": 130,
+          "complete": true,
+          "broken": false,
+          "visible": true,
+          "parentText": ""
+        },
+        {
+          "index": 8,
+          "src": "http://192.168.138.22:4173/images/bridge-wax-logo.png",
+          "alt": "Bridge Wax logo",
+          "width": 86,
+          "height": 28,
+          "naturalWidth": 544,
+          "naturalHeight": 130,
+          "complete": true,
+          "broken": false,
+          "visible": true,
+          "parentText": ""
+        }
+      ]
+    },
+    {
+      "page": "/services/laboratory",
+      "url": "http://192.168.138.22:4173/images/services/laboratory/laboratory-01.jpg",
+      "count": 2,
+      "usages": [
+        {
+          "index": 1,
+          "src": "http://192.168.138.22:4173/images/services/laboratory/laboratory-01.jpg",
+          "alt": "Laboratory Equipment & Consumables",
+          "width": 1440,
+          "height": 600,
+          "naturalWidth": 800,
+          "naturalHeight": 450,
+          "complete": true,
+          "broken": false,
+          "visible": true,
+          "parentText": "SERVICE CATALOGUE · LABORATORY Laboratory Equipment & Consumables Equipment sourcing, consumable supply, installation coordination, and practical support for mining, medical, water, and research labor"
+        },
+        {
+          "index": 2,
+          "src": "http://192.168.138.22:4173/images/services/laboratory/laboratory-01.jpg",
+          "alt": "Laboratory Equipment Supply reference image",
+          "width": 369,
+          "height": 276,
+          "naturalWidth": 800,
+          "naturalHeight": 450,
+          "complete": true,
+          "broken": false,
+          "visible": true,
+          "parentText": ""
+        }
+      ]
+    },
+    {
+      "page": "/services/industrial-testing",
+      "url": "http://192.168.138.22:4173/images/bridge-wax-logo.png",
+      "count": 2,
+      "usages": [
+        {
+          "index": 0,
+          "src": "http://192.168.138.22:4173/images/bridge-wax-logo.png",
+          "alt": "Bridge Wax logo",
+          "width": 92,
+          "height": 34,
+          "naturalWidth": 544,
+          "naturalHeight": 130,
+          "complete": true,
+          "broken": false,
+          "visible": true,
+          "parentText": ""
+        },
+        {
+          "index": 8,
+          "src": "http://192.168.138.22:4173/images/bridge-wax-logo.png",
+          "alt": "Bridge Wax logo",
+          "width": 86,
+          "height": 28,
+          "naturalWidth": 544,
+          "naturalHeight": 130,
+          "complete": true,
+          "broken": false,
+          "visible": true,
+          "parentText": ""
+        }
+      ]
+    },
+    {
+      "page": "/services/industrial-testing",
+      "url": "http://192.168.138.22:4173/images/services/testing/testing-01.jpg",
+      "count": 2,
+      "usages": [
+        {
+          "index": 1,
+          "src": "http://192.168.138.22:4173/images/services/testing/testing-01.jpg",
+          "alt": "Industrial Testing Instruments",
+          "width": 1440,
+          "height": 600,
+          "naturalWidth": 800,
+          "naturalHeight": 450,
+          "complete": true,
+          "broken": false,
+          "visible": true,
+          "parentText": "SERVICE CATALOGUE · TESTING Industrial Testing Instruments Selection, supply, and support for inspection and measurement instruments used across plant, pipeline, mining, and maintenance environments."
+        },
+        {
+          "index": 2,
+          "src": "http://192.168.138.22:4173/images/services/testing/testing-01.jpg",
+          "alt": "Ultrasonic Thickness Testing reference image",
+          "width": 369,
+          "height": 276,
+          "naturalWidth": 800,
+          "naturalHeight": 450,
+          "complete": true,
+          "broken": false,
+          "visible": true,
+          "parentText": ""
+        }
+      ]
+    },
+    {
+      "page": "/services/maintenance",
+      "url": "http://192.168.138.22:4173/images/bridge-wax-logo.png",
+      "count": 2,
+      "usages": [
+        {
+          "index": 0,
+          "src": "http://192.168.138.22:4173/images/bridge-wax-logo.png",
+          "alt": "Bridge Wax logo",
+          "width": 92,
+          "height": 34,
+          "naturalWidth": 544,
+          "naturalHeight": 130,
+          "complete": true,
+          "broken": false,
+          "visible": true,
+          "parentText": ""
+        },
+        {
+          "index": 8,
+          "src": "http://192.168.138.22:4173/images/bridge-wax-logo.png",
+          "alt": "Bridge Wax logo",
+          "width": 86,
+          "height": 28,
+          "naturalWidth": 544,
+          "naturalHeight": 130,
+          "complete": true,
+          "broken": false,
+          "visible": true,
+          "parentText": ""
+        }
+      ]
+    },
+    {
+      "page": "/services/maintenance",
+      "url": "http://192.168.138.22:4173/images/services/maintenance/maintenance-01.jpg",
+      "count": 2,
+      "usages": [
+        {
+          "index": 1,
+          "src": "http://192.168.138.22:4173/images/services/maintenance/maintenance-01.jpg",
+          "alt": "Plant Maintenance & Spares",
+          "width": 1440,
+          "height": 600,
+          "naturalWidth": 800,
+          "naturalHeight": 450,
+          "complete": true,
+          "broken": false,
+          "visible": true,
+          "parentText": "SERVICE CATALOGUE · MAINTENANCE Plant Maintenance & Spares Maintenance support, replacement planning, and industrial spares coordination to help keep production and processing plants operational."
+        },
+        {
+          "index": 2,
+          "src": "http://192.168.138.22:4173/images/services/maintenance/maintenance-01.jpg",
+          "alt": "Preventive Maintenance Planning reference image",
+          "width": 369,
+          "height": 276,
+          "naturalWidth": 800,
+          "naturalHeight": 450,
+          "complete": true,
+          "broken": false,
+          "visible": true,
+          "parentText": ""
+        }
+      ]
+    },
+    {
+      "page": "/services/fabrication",
+      "url": "http://192.168.138.22:4173/images/bridge-wax-logo.png",
+      "count": 2,
+      "usages": [
+        {
+          "index": 0,
+          "src": "http://192.168.138.22:4173/images/bridge-wax-logo.png",
+          "alt": "Bridge Wax logo",
+          "width": 92,
+          "height": 34,
+          "naturalWidth": 544,
+          "naturalHeight": 130,
+          "complete": true,
+          "broken": false,
+          "visible": true,
+          "parentText": ""
+        },
+        {
+          "index": 8,
+          "src": "http://192.168.138.22:4173/images/bridge-wax-logo.png",
+          "alt": "Bridge Wax logo",
+          "width": 86,
+          "height": 28,
+          "naturalWidth": 544,
+          "naturalHeight": 130,
+          "complete": true,
+          "broken": false,
+          "visible": true,
+          "parentText": ""
+        }
+      ]
+    },
+    {
+      "page": "/services/fabrication",
+      "url": "http://192.168.138.22:4173/images/services/fabrication/fabrication-01.jpg",
+      "count": 2,
+      "usages": [
+        {
+          "index": 1,
+          "src": "http://192.168.138.22:4173/images/services/fabrication/fabrication-01.jpg",
+          "alt": "Fabrication & Repairs",
+          "width": 1440,
+          "height": 600,
+          "naturalWidth": 800,
+          "naturalHeight": 450,
+          "complete": true,
+          "broken": false,
+          "visible": true,
+          "parentText": "SERVICE CATALOGUE · WORKSHOP Fabrication & Repairs Workshop fabrication, repairs, refurbishment, and industrial component support for plant and field requirements."
+        },
+        {
+          "index": 2,
+          "src": "http://192.168.138.22:4173/images/services/fabrication/fabrication-01.jpg",
+          "alt": "Light Steel Fabrication reference image",
+          "width": 369,
+          "height": 276,
+          "naturalWidth": 800,
+          "naturalHeight": 450,
+          "complete": true,
+          "broken": false,
+          "visible": true,
+          "parentText": ""
+        }
+      ]
+    },
+    {
+      "page": "/services/hdpe",
+      "url": "http://192.168.138.22:4173/images/bridge-wax-logo.png",
+      "count": 2,
+      "usages": [
+        {
+          "index": 0,
+          "src": "http://192.168.138.22:4173/images/bridge-wax-logo.png",
+          "alt": "Bridge Wax logo",
+          "width": 92,
+          "height": 34,
+          "naturalWidth": 544,
+          "naturalHeight": 130,
+          "complete": true,
+          "broken": false,
+          "visible": true,
+          "parentText": ""
+        },
+        {
+          "index": 8,
+          "src": "http://192.168.138.22:4173/images/bridge-wax-logo.png",
+          "alt": "Bridge Wax logo",
+          "width": 86,
+          "height": 28,
+          "naturalWidth": 544,
+          "naturalHeight": 130,
+          "complete": true,
+          "broken": false,
+          "visible": true,
+          "parentText": ""
+        }
+      ]
+    },
+    {
+      "page": "/services/hdpe",
+      "url": "http://192.168.138.22:4173/images/services/hdpe/hdpe-01.jpg",
+      "count": 2,
+      "usages": [
+        {
+          "index": 1,
+          "src": "http://192.168.138.22:4173/images/services/hdpe/hdpe-01.jpg",
+          "alt": "HDPE Pipe Systems",
+          "width": 1440,
+          "height": 600,
+          "naturalWidth": 800,
+          "naturalHeight": 450,
+          "complete": true,
+          "broken": false,
+          "visible": true,
+          "parentText": "SERVICE CATALOGUE · PIPING HDPE Pipe Systems HDPE piping, fittings, jointing, and installation coordination for water, slurry, mining, and process-reticulation systems."
+        },
+        {
+          "index": 2,
+          "src": "http://192.168.138.22:4173/images/services/hdpe/hdpe-01.jpg",
+          "alt": "HDPE Pipe Supply reference image",
+          "width": 369,
+          "height": 276,
+          "naturalWidth": 800,
+          "naturalHeight": 450,
+          "complete": true,
+          "broken": false,
+          "visible": true,
+          "parentText": ""
+        }
+      ]
+    },
+    {
+      "page": "/services/pumps",
+      "url": "http://192.168.138.22:4173/images/bridge-wax-logo.png",
+      "count": 2,
+      "usages": [
+        {
+          "index": 0,
+          "src": "http://192.168.138.22:4173/images/bridge-wax-logo.png",
+          "alt": "Bridge Wax logo",
+          "width": 92,
+          "height": 34,
+          "naturalWidth": 544,
+          "naturalHeight": 130,
+          "complete": true,
+          "broken": false,
+          "visible": true,
+          "parentText": ""
+        },
+        {
+          "index": 8,
+          "src": "http://192.168.138.22:4173/images/bridge-wax-logo.png",
+          "alt": "Bridge Wax logo",
+          "width": 86,
+          "height": 28,
+          "naturalWidth": 544,
+          "naturalHeight": 130,
+          "complete": true,
+          "broken": false,
+          "visible": true,
+          "parentText": ""
+        }
+      ]
+    },
+    {
+      "page": "/services/pumps",
+      "url": "http://192.168.138.22:4173/images/services/pumps/pumps-01.jpg",
+      "count": 2,
+      "usages": [
+        {
+          "index": 1,
+          "src": "http://192.168.138.22:4173/images/services/pumps/pumps-01.jpg",
+          "alt": "Pumps & Valves",
+          "width": 1440,
+          "height": 600,
+          "naturalWidth": 800,
+          "naturalHeight": 450,
+          "complete": true,
+          "broken": false,
+          "visible": true,
+          "parentText": "SERVICE CATALOGUE · FLOW CONTROL Pumps & Valves Pump, valve, and flow-control selection for mining, industrial process, water, dewatering, and utility applications."
+        },
+        {
+          "index": 2,
+          "src": "http://192.168.138.22:4173/images/services/pumps/pumps-01.jpg",
+          "alt": "Pump Selection Support reference image",
+          "width": 369,
+          "height": 276,
+          "naturalWidth": 800,
+          "naturalHeight": 450,
+          "complete": true,
+          "broken": false,
+          "visible": true,
+          "parentText": ""
+        }
+      ]
+    },
+    {
+      "page": "/products/ultrasonic",
+      "url": "http://192.168.138.22:4173/images/bridge-wax-logo.png",
+      "count": 2,
+      "usages": [
+        {
+          "index": 0,
+          "src": "http://192.168.138.22:4173/images/bridge-wax-logo.png",
+          "alt": "Bridge Wax logo",
+          "width": 92,
+          "height": 34,
+          "naturalWidth": 544,
+          "naturalHeight": 130,
+          "complete": true,
+          "broken": false,
+          "visible": true,
+          "parentText": ""
+        },
+        {
+          "index": 9,
+          "src": "http://192.168.138.22:4173/images/bridge-wax-logo.png",
+          "alt": "Bridge Wax logo",
+          "width": 86,
+          "height": 28,
+          "naturalWidth": 544,
+          "naturalHeight": 130,
+          "complete": true,
+          "broken": false,
+          "visible": true,
+          "parentText": ""
+        }
+      ]
+    },
+    {
+      "page": "/products/ultrasonic",
+      "url": "http://192.168.138.22:4173/images/products/ultrasonic/ultrasonic-01.jpg",
+      "count": 2,
+      "usages": [
+        {
+          "index": 1,
+          "src": "http://192.168.138.22:4173/images/products/ultrasonic/ultrasonic-01.jpg",
+          "alt": "Ultrasonic Equipment",
+          "width": 1440,
+          "height": 600,
+          "naturalWidth": 800,
+          "naturalHeight": 450,
+          "complete": true,
+          "broken": false,
+          "visible": true,
+          "parentText": "CATALOGUE · NDT Ultrasonic Equipment Portable and workshop ultrasonic inspection equipment for thickness measurement, calibration, and field condition assessment."
+        },
+        {
+          "index": 2,
+          "src": "http://192.168.138.22:4173/images/products/ultrasonic/ultrasonic-01.jpg",
+          "alt": "Ultrasonic Thickness Gauge reference image",
+          "width": 369,
+          "height": 276,
+          "naturalWidth": 800,
+          "naturalHeight": 450,
+          "complete": true,
+          "broken": false,
+          "visible": true,
+          "parentText": ""
+        }
+      ]
+    },
+    {
+      "page": "/products/gas-detection",
+      "url": "http://192.168.138.22:4173/images/bridge-wax-logo.png",
+      "count": 2,
+      "usages": [
+        {
+          "index": 0,
+          "src": "http://192.168.138.22:4173/images/bridge-wax-logo.png",
+          "alt": "Bridge Wax logo",
+          "width": 92,
+          "height": 34,
+          "naturalWidth": 544,
+          "naturalHeight": 130,
+          "complete": true,
+          "broken": false,
+          "visible": true,
+          "parentText": ""
+        },
+        {
+          "index": 9,
+          "src": "http://192.168.138.22:4173/images/bridge-wax-logo.png",
+          "alt": "Bridge Wax logo",
+          "width": 86,
+          "height": 28,
+          "naturalWidth": 544,
+          "naturalHeight": 130,
+          "complete": true,
+          "broken": false,
+          "visible": true,
+          "parentText": ""
+        }
+      ]
+    },
+    {
+      "page": "/products/gas-detection",
+      "url": "http://192.168.138.22:4173/images/products/gas-detection/gas-detection-01.jpg",
+      "count": 2,
+      "usages": [
+        {
+          "index": 1,
+          "src": "http://192.168.138.22:4173/images/products/gas-detection/gas-detection-01.jpg",
+          "alt": "Gas Detection",
+          "width": 1440,
+          "height": 600,
+          "naturalWidth": 800,
+          "naturalHeight": 450,
+          "complete": true,
+          "broken": false,
+          "visible": true,
+          "parentText": "CATALOGUE · SAFETY Gas Detection Portable and fixed-point gas detection equipment for industrial safety, confined spaces, and process monitoring applications."
+        },
+        {
+          "index": 2,
+          "src": "http://192.168.138.22:4173/images/products/gas-detection/gas-detection-01.jpg",
+          "alt": "Portable Single-Gas Detector reference image",
+          "width": 369,
+          "height": 276,
+          "naturalWidth": 800,
+          "naturalHeight": 450,
+          "complete": true,
+          "broken": false,
+          "visible": true,
+          "parentText": ""
+        }
+      ]
+    },
+    {
+      "page": "/products/water-pumps",
+      "url": "http://192.168.138.22:4173/images/bridge-wax-logo.png",
+      "count": 2,
+      "usages": [
+        {
+          "index": 0,
+          "src": "http://192.168.138.22:4173/images/bridge-wax-logo.png",
+          "alt": "Bridge Wax logo",
+          "width": 92,
+          "height": 34,
+          "naturalWidth": 544,
+          "naturalHeight": 130,
+          "complete": true,
+          "broken": false,
+          "visible": true,
+          "parentText": ""
+        },
+        {
+          "index": 17,
+          "src": "http://192.168.138.22:4173/images/bridge-wax-logo.png",
+          "alt": "Bridge Wax logo",
+          "width": 86,
+          "height": 28,
+          "naturalWidth": 544,
+          "naturalHeight": 130,
+          "complete": true,
+          "broken": false,
+          "visible": true,
+          "parentText": ""
+        }
+      ]
+    },
+    {
+      "page": "/products/water-pumps",
+      "url": "http://192.168.138.22:4173/images/products/water-pumps/water-pump-01.webp",
+      "count": 3,
+      "usages": [
+        {
+          "index": 1,
+          "src": "http://192.168.138.22:4173/images/products/water-pumps/water-pump-01.webp",
+          "alt": "Water Pumps",
+          "width": 1440,
+          "height": 600,
+          "naturalWidth": 1400,
+          "naturalHeight": 1050,
+          "complete": true,
+          "broken": false,
+          "visible": true,
+          "parentText": "CATALOGUE · FLOW SYSTEMS Water Pumps Pump and flow-control equipment for water transfer, dewatering, irrigation, process reticulation, industrial utility systems, and domestic water services."
+        },
+        {
+          "index": 2,
+          "src": "http://192.168.138.22:4173/images/products/water-pumps/water-pump-01.webp",
+          "alt": "End-Suction Centrifugal Pump reference image",
+          "width": 369,
+          "height": 276,
+          "naturalWidth": 1400,
+          "naturalHeight": 1050,
+          "complete": true,
+          "broken": false,
+          "visible": true,
+          "parentText": ""
+        },
+        {
+          "index": 9,
+          "src": "http://192.168.138.22:4173/images/products/water-pumps/water-pump-01.webp",
+          "alt": "Domestic Borehole Pump reference image",
+          "width": 369,
+          "height": 276,
+          "naturalWidth": 1400,
+          "naturalHeight": 1050,
+          "complete": true,
+          "broken": false,
+          "visible": true,
+          "parentText": ""
+        }
+      ]
+    },
+    {
+      "page": "/products/water-pumps",
+      "url": "http://192.168.138.22:4173/images/products/water-pumps/water-pump-02.webp",
+      "count": 2,
+      "usages": [
+        {
+          "index": 3,
+          "src": "http://192.168.138.22:4173/images/products/water-pumps/water-pump-02.webp",
+          "alt": "Submersible Dewatering Pump reference image",
+          "width": 369,
+          "height": 277,
+          "naturalWidth": 1400,
+          "naturalHeight": 1050,
+          "complete": true,
+          "broken": false,
+          "visible": true,
+          "parentText": ""
+        },
+        {
+          "index": 10,
+          "src": "http://192.168.138.22:4173/images/products/water-pumps/water-pump-02.webp",
+          "alt": "Domestic Submersible Drainage Pump reference image",
+          "width": 369,
+          "height": 277,
+          "naturalWidth": 1400,
+          "naturalHeight": 1050,
+          "complete": true,
+          "broken": false,
+          "visible": true,
+          "parentText": ""
+        }
+      ]
+    },
+    {
+      "page": "/products/water-pumps",
+      "url": "http://192.168.138.22:4173/images/products/water-pumps/water-pump-03.webp",
+      "count": 2,
+      "usages": [
+        {
+          "index": 4,
+          "src": "http://192.168.138.22:4173/images/products/water-pumps/water-pump-03.webp",
+          "alt": "High-Pressure Multistage Pump reference image",
+          "width": 369,
+          "height": 276,
+          "naturalWidth": 1400,
+          "naturalHeight": 1050,
+          "complete": true,
+          "broken": false,
+          "visible": true,
+          "parentText": ""
+        },
+        {
+          "index": 11,
+          "src": "http://192.168.138.22:4173/images/products/water-pumps/water-pump-03.webp",
+          "alt": "Household Pressure Booster Pump reference image",
+          "width": 369,
+          "height": 276,
+          "naturalWidth": 1400,
+          "naturalHeight": 1050,
+          "complete": true,
+          "broken": false,
+          "visible": true,
+          "parentText": ""
+        }
+      ]
+    },
+    {
+      "page": "/products/water-pumps",
+      "url": "http://192.168.138.22:4173/images/products/water-pumps/water-pump-04.webp",
+      "count": 2,
+      "usages": [
+        {
+          "index": 5,
+          "src": "http://192.168.138.22:4173/images/products/water-pumps/water-pump-04.webp",
+          "alt": "Slurry Transfer Pump reference image",
+          "width": 369,
+          "height": 276,
+          "naturalWidth": 1400,
+          "naturalHeight": 1050,
+          "complete": true,
+          "broken": false,
+          "visible": true,
+          "parentText": ""
+        },
+        {
+          "index": 12,
+          "src": "http://192.168.138.22:4173/images/products/water-pumps/water-pump-04.webp",
+          "alt": "Domestic Centrifugal Pump reference image",
+          "width": 369,
+          "height": 276,
+          "naturalWidth": 1400,
+          "naturalHeight": 1050,
+          "complete": true,
+          "broken": false,
+          "visible": true,
+          "parentText": ""
+        }
+      ]
+    },
+    {
+      "page": "/products/water-pumps",
+      "url": "http://192.168.138.22:4173/images/products/water-pumps/water-pump-05.webp",
+      "count": 2,
+      "usages": [
+        {
+          "index": 6,
+          "src": "http://192.168.138.22:4173/images/products/water-pumps/water-pump-05.webp",
+          "alt": "Pump Control Panel reference image",
+          "width": 369,
+          "height": 277,
+          "naturalWidth": 1400,
+          "naturalHeight": 1050,
+          "complete": true,
+          "broken": false,
+          "visible": true,
+          "parentText": ""
+        },
+        {
+          "index": 13,
+          "src": "http://192.168.138.22:4173/images/products/water-pumps/water-pump-05.webp",
+          "alt": "Compact 24V Water Booster reference image",
+          "width": 369,
+          "height": 277,
+          "naturalWidth": 1400,
+          "naturalHeight": 1050,
+          "complete": true,
+          "broken": false,
+          "visible": true,
+          "parentText": ""
+        }
+      ]
+    },
+    {
+      "page": "/products/water-pumps",
+      "url": "http://192.168.138.22:4173/images/products/water-pumps/water-pump-06.webp",
+      "count": 2,
+      "usages": [
+        {
+          "index": 7,
+          "src": "http://192.168.138.22:4173/images/products/water-pumps/water-pump-06.webp",
+          "alt": "Vertical Turbine Pump reference image",
+          "width": 369,
+          "height": 276,
+          "naturalWidth": 1400,
+          "naturalHeight": 1050,
+          "complete": true,
+          "broken": false,
+          "visible": true,
+          "parentText": ""
+        },
+        {
+          "index": 14,
+          "src": "http://192.168.138.22:4173/images/products/water-pumps/water-pump-06.webp",
+          "alt": "Domestic Transfer Pump reference image",
+          "width": 369,
+          "height": 276,
+          "naturalWidth": 1400,
+          "naturalHeight": 1050,
+          "complete": true,
+          "broken": false,
+          "visible": true,
+          "parentText": ""
+        }
+      ]
+    },
+    {
+      "page": "/products/water-pumps",
+      "url": "http://192.168.138.22:4173/images/products/water-pumps/water-pump-07.webp",
+      "count": 2,
+      "usages": [
+        {
+          "index": 8,
+          "src": "http://192.168.138.22:4173/images/products/water-pumps/water-pump-07.webp",
+          "alt": "Booster Pump Skid reference image",
+          "width": 369,
+          "height": 276,
+          "naturalWidth": 1400,
+          "naturalHeight": 1050,
+          "complete": true,
+          "broken": false,
+          "visible": true,
+          "parentText": ""
+        },
+        {
+          "index": 15,
+          "src": "http://192.168.138.22:4173/images/products/water-pumps/water-pump-07.webp",
+          "alt": "Domestic Pressure Controller reference image",
+          "width": 369,
+          "height": 276,
+          "naturalWidth": 1400,
+          "naturalHeight": 1050,
+          "complete": true,
+          "broken": false,
+          "visible": true,
+          "parentText": ""
+        }
+      ]
+    },
+    {
+      "page": "/products/general-machinery",
+      "url": "http://192.168.138.22:4173/images/bridge-wax-logo.png",
+      "count": 2,
+      "usages": [
+        {
+          "index": 0,
+          "src": "http://192.168.138.22:4173/images/bridge-wax-logo.png",
+          "alt": "Bridge Wax logo",
+          "width": 92,
+          "height": 34,
+          "naturalWidth": 544,
+          "naturalHeight": 130,
+          "complete": true,
+          "broken": false,
+          "visible": true,
+          "parentText": ""
+        },
+        {
+          "index": 9,
+          "src": "http://192.168.138.22:4173/images/bridge-wax-logo.png",
+          "alt": "Bridge Wax logo",
+          "width": 86,
+          "height": 28,
+          "naturalWidth": 544,
+          "naturalHeight": 130,
+          "complete": true,
+          "broken": false,
+          "visible": true,
+          "parentText": ""
+        }
+      ]
+    },
+    {
+      "page": "/products/general-machinery",
+      "url": "http://192.168.138.22:4173/images/products/general-machinery/general-machinery-01.jpg",
+      "count": 2,
+      "usages": [
+        {
+          "index": 1,
+          "src": "http://192.168.138.22:4173/images/products/general-machinery/general-machinery-01.jpg",
+          "alt": "General Machinery",
+          "width": 1440,
+          "height": 600,
+          "naturalWidth": 800,
+          "naturalHeight": 450,
+          "complete": true,
+          "broken": false,
+          "visible": true,
+          "parentText": "CATALOGUE · INDUSTRIAL PLANT General Machinery General-purpose machinery and plant equipment for workshops, production environments, maintenance teams, and site operations."
+        },
+        {
+          "index": 2,
+          "src": "http://192.168.138.22:4173/images/products/general-machinery/general-machinery-01.jpg",
+          "alt": "Industrial Air Compressor reference image",
+          "width": 369,
+          "height": 276,
+          "naturalWidth": 800,
+          "naturalHeight": 450,
+          "complete": true,
+          "broken": false,
+          "visible": true,
+          "parentText": ""
+        }
+      ]
+    },
+    {
+      "page": "/laboratory/mining",
+      "url": "http://192.168.138.22:4173/images/bridge-wax-logo.png",
+      "count": 2,
+      "usages": [
+        {
+          "index": 0,
+          "src": "http://192.168.138.22:4173/images/bridge-wax-logo.png",
+          "alt": "Bridge Wax logo",
+          "width": 92,
+          "height": 34,
+          "naturalWidth": 544,
+          "naturalHeight": 130,
+          "complete": true,
+          "broken": false,
+          "visible": true,
+          "parentText": ""
+        },
+        {
+          "index": 9,
+          "src": "http://192.168.138.22:4173/images/bridge-wax-logo.png",
+          "alt": "Bridge Wax logo",
+          "width": 86,
+          "height": 28,
+          "naturalWidth": 544,
+          "naturalHeight": 130,
+          "complete": true,
+          "broken": false,
+          "visible": true,
+          "parentText": ""
+        }
+      ]
+    },
+    {
+      "page": "/laboratory/medical",
+      "url": "http://192.168.138.22:4173/images/bridge-wax-logo.png",
+      "count": 2,
+      "usages": [
+        {
+          "index": 0,
+          "src": "http://192.168.138.22:4173/images/bridge-wax-logo.png",
+          "alt": "Bridge Wax logo",
+          "width": 92,
+          "height": 34,
+          "naturalWidth": 544,
+          "naturalHeight": 130,
+          "complete": true,
+          "broken": false,
+          "visible": true,
+          "parentText": ""
+        },
+        {
+          "index": 9,
+          "src": "http://192.168.138.22:4173/images/bridge-wax-logo.png",
+          "alt": "Bridge Wax logo",
+          "width": 86,
+          "height": 28,
+          "naturalWidth": 544,
+          "naturalHeight": 130,
+          "complete": true,
+          "broken": false,
+          "visible": true,
+          "parentText": ""
+        }
+      ]
+    },
+    {
+      "page": "/laboratory/water",
+      "url": "http://192.168.138.22:4173/images/bridge-wax-logo.png",
+      "count": 2,
+      "usages": [
+        {
+          "index": 0,
+          "src": "http://192.168.138.22:4173/images/bridge-wax-logo.png",
+          "alt": "Bridge Wax logo",
+          "width": 92,
+          "height": 34,
+          "naturalWidth": 544,
+          "naturalHeight": 130,
+          "complete": true,
+          "broken": false,
+          "visible": true,
+          "parentText": ""
+        },
+        {
+          "index": 9,
+          "src": "http://192.168.138.22:4173/images/bridge-wax-logo.png",
+          "alt": "Bridge Wax logo",
+          "width": 86,
+          "height": 28,
+          "naturalWidth": 544,
+          "naturalHeight": 130,
+          "complete": true,
+          "broken": false,
+          "visible": true,
+          "parentText": ""
+        }
+      ]
+    },
+    {
+      "page": "/laboratory/analytical",
+      "url": "http://192.168.138.22:4173/images/bridge-wax-logo.png",
+      "count": 2,
+      "usages": [
+        {
+          "index": 0,
+          "src": "http://192.168.138.22:4173/images/bridge-wax-logo.png",
+          "alt": "Bridge Wax logo",
+          "width": 92,
+          "height": 34,
+          "naturalWidth": 544,
+          "naturalHeight": 130,
+          "complete": true,
+          "broken": false,
+          "visible": true,
+          "parentText": ""
+        },
+        {
+          "index": 9,
+          "src": "http://192.168.138.22:4173/images/bridge-wax-logo.png",
+          "alt": "Bridge Wax logo",
+          "width": 86,
+          "height": 28,
+          "naturalWidth": 544,
+          "naturalHeight": 130,
+          "complete": true,
+          "broken": false,
+          "visible": true,
+          "parentText": ""
+        }
+      ]
+    },
+    {
+      "page": "/laboratory/analytical",
+      "url": "http://192.168.138.22:4173/images/laboratory/analytical/analytical-01.jpg",
+      "count": 2,
+      "usages": [
+        {
+          "index": 1,
+          "src": "http://192.168.138.22:4173/images/laboratory/analytical/analytical-01.jpg",
+          "alt": "Analytical Equipment",
+          "width": 1440,
+          "height": 600,
+          "naturalWidth": 800,
+          "naturalHeight": 450,
+          "complete": true,
+          "broken": false,
+          "visible": true,
+          "parentText": "CATALOGUE · ANALYTICAL CHEMISTRY Analytical Equipment Analytical chemistry equipment for precision weighing, elemental analysis, spectroscopy, microscopy, and sample preparation."
+        },
+        {
+          "index": 2,
+          "src": "http://192.168.138.22:4173/images/laboratory/analytical/analytical-01.jpg",
+          "alt": "Precision Laboratory Balance reference image",
+          "width": 369,
+          "height": 276,
+          "naturalWidth": 800,
+          "naturalHeight": 450,
+          "complete": true,
+          "broken": false,
+          "visible": true,
+          "parentText": ""
+        }
+      ]
+    }
+  ],
+  "failures": []
+}

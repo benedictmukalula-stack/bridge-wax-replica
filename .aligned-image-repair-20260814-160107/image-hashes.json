@@ -1,0 +1,180 @@
+{
+  "total_files": 162,
+  "unique_hashes": 46,
+  "duplicate_groups": 19,
+  "duplicates": {
+    "6d91ed23878f2bebc3192402b0691a530b0bdc3f2a9db4251878e36da29066de": [
+      "client/public/images/img-alphasophia.png",
+      "client/public/images/hero/alphasophia.png",
+      "client/public/images/hero/home-support.png"
+    ],
+    "90bd49f57f9cfa3e6b1d0842662369819b2a0faa5c74d08cace740b428a7e709": [
+      "client/public/images/cat-medical-lab.jpg",
+      "client/public/images/laboratory/medical/medical-laboratory.jpg",
+      "client/public/images/laboratory/medical/medical-01.jpg",
+      "client/public/images/laboratory/medical/medical-03.jpg",
+      "client/public/images/laboratory/medical/medical-02.jpg",
+      "client/public/images/laboratory/medical/medical-06.jpg",
+      "client/public/images/laboratory/medical/medical-07.jpg",
+      "client/public/images/laboratory/medical/medical-05.jpg",
+      "client/public/images/laboratory/medical/medical-04.jpg",
+      "client/public/images/hero/home-mining.jpg"
+    ],
+    "d0996b7e131918c2de296133f2ec3b24e4d00e9043803507949faed81e98c59d": [
+      "client/public/images/cat-water-analysis.jpg",
+      "client/public/images/laboratory/water/water-01.jpg",
+      "client/public/images/laboratory/water/water-02.jpg",
+      "client/public/images/laboratory/water/water-analysis.jpg",
+      "client/public/images/laboratory/water/water-03.jpg",
+      "client/public/images/laboratory/water/water-07.jpg",
+      "client/public/images/laboratory/water/water-06.jpg",
+      "client/public/images/laboratory/water/water-04.jpg",
+      "client/public/images/laboratory/water/water-05.jpg",
+      "client/public/images/hero/home-industrial.jpg"
+    ],
+    "9e6a12ab0dd9a2dce4c91d65ffcb041d24cd9052f4fcbe9265ae06e9b642680d": [
+      "client/public/images/img-mrclab-equipment.jpg",
+      "client/public/images/products/general-machinery/general-machinery-08.jpg",
+      "client/public/images/products/general-machinery/general-machinery-01.jpg",
+      "client/public/images/products/general-machinery/general-machinery-02.jpg",
+      "client/public/images/products/general-machinery/general-machinery-03.jpg",
+      "client/public/images/products/general-machinery/general-machinery-07.jpg",
+      "client/public/images/products/general-machinery/general-machinery-06.jpg",
+      "client/public/images/products/general-machinery/general-machinery-04.jpg",
+      "client/public/images/products/general-machinery/general-machinery-05.jpg",
+      "client/public/images/products/ultrasonic/ultrasonic-02.jpg",
+      "client/public/images/products/ultrasonic/ultrasonic-03.jpg",
+      "client/public/images/products/ultrasonic/ultrasonic-01.jpg",
+      "client/public/images/products/ultrasonic/ultrasonic-04.jpg",
+      "client/public/images/products/ultrasonic/ultrasonic-05.jpg",
+      "client/public/images/products/ultrasonic/ultrasonic-07.jpg",
+      "client/public/images/products/ultrasonic/ultrasonic-06.jpg",
+      "client/public/images/products/ultrasonic/ultrasonic-08.jpg",
+      "client/public/images/products/gas-detection/gas-detection-08.jpg",
+      "client/public/images/products/gas-detection/gas-detection-01.jpg",
+      "client/public/images/products/gas-detection/gas-detection-02.jpg",
+      "client/public/images/products/gas-detection/gas-detection-03.jpg",
+      "client/public/images/products/gas-detection/gas-detection-07.jpg",
+      "client/public/images/products/gas-detection/gas-detection-06.jpg",
+      "client/public/images/products/gas-detection/gas-detection-04.jpg",
+      "client/public/images/products/gas-detection/gas-detection-05.jpg",
+      "client/public/images/laboratory/analytical/analytical-05.jpg",
+      "client/public/images/laboratory/analytical/analytical-04.jpg",
+      "client/public/images/laboratory/analytical/analytical-06.jpg",
+      "client/public/images/laboratory/analytical/analytical-07.jpg",
+      "client/public/images/laboratory/analytical/analytical-03.jpg",
+      "client/public/images/laboratory/analytical/analytical-02.jpg",
+      "client/public/images/laboratory/analytical/analytical-01.jpg",
+      "client/public/images/laboratory/mining/mining-03.jpg",
+      "client/public/images/laboratory/mining/mining-02.jpg",
+      "client/public/images/laboratory/mining/mining-01.jpg",
+      "client/public/images/laboratory/mining/mining-05.jpg",
+      "client/public/images/laboratory/mining/mining-04.jpg",
+      "client/public/images/laboratory/mining/mining-06.jpg",
+      "client/public/images/laboratory/mining/mining-07.jpg",
+      "client/public/images/hero/home-laboratory.jpg",
+      "client/public/images/hero/laboratory-equipment.jpg",
+      "client/public/images/hero/services.jpg",
+      "client/public/images/hero/contact.jpg",
+      "client/public/images/hero/products.jpg",
+      "client/public/images/hero/laboratory.jpg",
+      "client/public/images/hero/about.jpg",
+      "client/public/images/services/pumps/pumps-04.jpg",
+      "client/public/images/services/pumps/pumps-05.jpg",
+      "client/public/images/services/pumps/pumps-06.jpg",
+      "client/public/images/services/pumps/pumps-02.jpg",
+      "client/public/images/services/pumps/pumps-03.jpg",
+      "client/public/images/services/pumps/pumps-01.jpg",
+      "client/public/images/services/laboratory/laboratory-06.jpg",
+      "client/public/images/services/laboratory/laboratory-05.jpg",
+      "client/public/images/services/laboratory/laboratory-04.jpg",
+      "client/public/images/services/laboratory/laboratory-01.jpg",
+      "client/public/images/services/laboratory/laboratory-03.jpg",
+      "client/public/images/services/laboratory/laboratory-02.jpg",
+      "client/public/images/services/hdpe/hdpe-06.jpg",
+      "client/public/images/services/hdpe/hdpe-05.jpg",
+      "client/public/images/services/hdpe/hdpe-04.jpg",
+      "client/public/images/services/hdpe/hdpe-01.jpg",
+      "client/public/images/services/hdpe/hdpe-03.jpg",
+      "client/public/images/services/hdpe/hdpe-02.jpg",
+      "client/public/images/services/testing/testing-06.jpg",
+      "client/public/images/services/testing/testing-05.jpg",
+      "client/public/images/services/testing/testing-04.jpg",
+      "client/public/images/services/testing/testing-01.jpg",
+      "client/public/images/services/testing/testing-03.jpg",
+      "client/public/images/services/testing/testing-02.jpg",
+      "client/public/images/services/fabrication/fabrication-06.jpg",
+      "client/public/images/services/fabrication/fabrication-04.jpg",
+      "client/public/images/services/fabrication/fabrication-05.jpg",
+      "client/public/images/services/fabrication/fabrication-01.jpg",
+      "client/public/images/services/fabrication/fabrication-02.jpg",
+      "client/public/images/services/fabrication/fabrication-03.jpg",
+      "client/public/images/services/maintenance/maintenance-01.jpg",
+      "client/public/images/services/maintenance/maintenance-02.jpg",
+      "client/public/images/services/maintenance/maintenance-03.jpg",
+      "client/public/images/services/maintenance/maintenance-06.jpg",
+      "client/public/images/services/maintenance/maintenance-04.jpg",
+      "client/public/images/services/maintenance/maintenance-05.jpg"
+    ],
+    "666cd2603ef3cd6bd723ce73dd558bd097baad2da8764a0e38c183e955f1dfea": [
+      "client/public/images/products/water-pumps/water-pump-03.webp",
+      "client/public/images/bridge_wax_live_catalogue_images/images/BW-WP-003.webp"
+    ],
+    "09084d776e6877c32026469673ef421b104a348243cb2e94e24d4df65bd03716": [
+      "client/public/images/products/water-pumps/water-pump-15.webp",
+      "client/public/images/bridge_wax_live_catalogue_images/images/BW-DP-008.webp"
+    ],
+    "9ea788a24d00391f59316ea581d1fce0fedd88f27e643f25f069f6a666d1410d": [
+      "client/public/images/products/water-pumps/water-pump-14.webp",
+      "client/public/images/bridge_wax_live_catalogue_images/images/BW-DP-007.webp"
+    ],
+    "7cad5d21c8ea9de1cb821e5c6551c1e8e603772b8495c79440bc4aacd1d3fed3": [
+      "client/public/images/products/water-pumps/water-pump-02.webp",
+      "client/public/images/bridge_wax_live_catalogue_images/images/BW-WP-002.webp"
+    ],
+    "9be2214c26af8f4a4ae13d7a890898c5e8836831dd602c856ab91f6ca7f6711b": [
+      "client/public/images/products/water-pumps/water-pump-09.webp",
+      "client/public/images/bridge_wax_live_catalogue_images/images/BW-DP-002.webp"
+    ],
+    "777de104018b980dcb9c9dc1c1f715f0b2d4d479ab7bbac20caabb3428b05ae2": [
+      "client/public/images/products/water-pumps/water-pump-05.webp",
+      "client/public/images/bridge_wax_live_catalogue_images/images/BW-WP-005.webp"
+    ],
+    "adfe9d1536cf88fe09af8dcb1838afa58c06756888bddb9338e974108864bd14": [
+      "client/public/images/products/water-pumps/water-pump-13.webp",
+      "client/public/images/bridge_wax_live_catalogue_images/images/BW-DP-006.webp"
+    ],
+    "a4686a64592264ae59d190045b6561f5702d8b34c681a518ad8ccf845e2a129c": [
+      "client/public/images/products/water-pumps/water-pump-12.webp",
+      "client/public/images/bridge_wax_live_catalogue_images/images/BW-DP-005.webp"
+    ],
+    "cd8a487bcd444d1bf5627e27b7023810bf371e2ef46871f8f9b7cd491d27d891": [
+      "client/public/images/products/water-pumps/water-pump-04.webp",
+      "client/public/images/bridge_wax_live_catalogue_images/images/BW-WP-004.webp"
+    ],
+    "25c329c65596b9ed390f44ca3e00507fc9506edc7eadc17c73b67c425ebfdca6": [
+      "client/public/images/products/water-pumps/water-pump-08.webp",
+      "client/public/images/bridge_wax_live_catalogue_images/images/BW-DP-001.webp"
+    ],
+    "3deb1cc3fa32491268d05b4a873a30a306388097b020a27ed44da91f34dd4a78": [
+      "client/public/images/products/water-pumps/water-pump-11.webp",
+      "client/public/images/bridge_wax_live_catalogue_images/images/BW-DP-004.webp"
+    ],
+    "5230f15403163e8ede7b51c6bd99b717fec79892da1e927cb65bb5d3f59d0e87": [
+      "client/public/images/products/water-pumps/water-pump-07.webp",
+      "client/public/images/bridge_wax_live_catalogue_images/images/BW-WP-007.webp"
+    ],
+    "e04d4a2287170f1356aefd6532abf04485cf122d0c48a50179d1764e1ee2bd4e": [
+      "client/public/images/products/water-pumps/water-pump-06.webp",
+      "client/public/images/bridge_wax_live_catalogue_images/images/BW-WP-006.webp"
+    ],
+    "79960aa1b733b036a44d3ffdb47d6e937dccac1cd45868a139c6d205448cc26d": [
+      "client/public/images/products/water-pumps/water-pump-10.webp",
+      "client/public/images/bridge_wax_live_catalogue_images/images/BW-DP-003.webp"
+    ],
+    "4a006dbd864e8c7b36e361303d14daca3d254599b7edc702d161b476a74ebf66": [
+      "client/public/images/products/water-pumps/water-pump-01.webp",
+      "client/public/images/bridge_wax_live_catalogue_images/images/BW-WP-001.webp"
+    ]
+  }
+}

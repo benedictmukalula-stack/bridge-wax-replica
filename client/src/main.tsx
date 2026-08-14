@@ -1,11 +1,11 @@
-import { hydrateRoot } from "react-dom/client";
-import { Router } from "wouter";
+import { createRoot } from "react-dom/client";
 import App from "./App";
 import "./index.css";
 
-hydrateRoot(
-  document.getElementById("root")!,
-  <Router>
-    <App />
-  </Router>,
-);
+const rootElement = document.getElementById("root");
+
+if (!rootElement) {
+  throw new Error("Bridge Wax: #root element was not found.");
+}
+
+createRoot(rootElement).render(<App />);

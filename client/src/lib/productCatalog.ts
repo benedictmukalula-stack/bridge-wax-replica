@@ -17,16 +17,16 @@ export type ProductCatalogue = {
 };
 
 const ULTRASONIC_IMAGES = [
-  "/manus-storage/01_8d019003.webp", "/manus-storage/02_265ac748.webp", "/manus-storage/03_1b484a3e.webp", "/manus-storage/04_9262f20d.webp", "/manus-storage/05_dc7c1497.webp", "/manus-storage/replacement-005_a2d2fdf9.webp", "/manus-storage/replacement-001_4347e7bf.webp",
+  "/images/products/ultrasonic/ultrasonic-001.webp", "/images/products/ultrasonic/ultrasonic-002.webp", "/images/products/ultrasonic/ultrasonic-003.webp", "/images/products/ultrasonic/ultrasonic-004.webp", "/images/products/ultrasonic/ultrasonic-005.webp", "/images/products/ultrasonic/ultrasonic-006.webp", "/images/products/ultrasonic/ultrasonic-007.webp",
 ];
 const GAS_IMAGES = [
-  "/manus-storage/01_d398f8c5.webp", "/manus-storage/02_2249379b.webp", "/manus-storage/03_9a793cab.webp", "/manus-storage/04_1be8047a.webp", "/manus-storage/05_d8cef91a.webp", "/manus-storage/replacement-006_8c45131a.webp", "/manus-storage/replacement-003_11dc0ec7.webp",
+  "/images/products/gas-detection/gas-detection-001.webp", "/images/products/gas-detection/gas-detection-002.webp", "/images/products/gas-detection/gas-detection-003.webp", "/images/products/gas-detection/gas-detection-004.webp", "/images/products/gas-detection/gas-detection-005.webp", "/images/products/gas-detection/gas-detection-006.webp", "/images/products/gas-detection/gas-detection-007.webp",
 ];
 const PUMP_IMAGES = [
-  "/manus-storage/01_de0b4de4.webp", "/manus-storage/02_ad0df936.webp", "/manus-storage/03_9327dfd6.webp", "/manus-storage/04_fbe2d936.webp", "/manus-storage/replacement-004_e548a676.webp", "/manus-storage/replacement-007_ce7e15f3.webp", "/manus-storage/07_e8a01119.webp",
+  "/images/products/water-pumps/water-pump-001.webp", "/images/products/water-pumps/water-pump-002.webp", "/images/products/water-pumps/water-pump-003.webp", "/images/products/water-pumps/water-pump-004.webp", "/images/products/water-pumps/water-pump-005.webp", "/images/products/water-pumps/water-pump-006.webp", "/images/products/water-pumps/water-pump-007.webp",
 ];
 const MACHINERY_IMAGES = [
-  "/manus-storage/01_927a9458.webp", "/manus-storage/02_d56b38b6.webp", "/manus-storage/03_b3033e4a.webp", "/manus-storage/04_e6b6a3be.webp", "/manus-storage/replacement-002_bba0d202.webp", "/manus-storage/06_e14a5630.webp", "/manus-storage/07_a3f31355.webp",
+  "/images/products/general-machinery/general-machinery-001.webp", "/images/products/general-machinery/general-machinery-002.webp", "/images/products/general-machinery/general-machinery-003.webp", "/images/products/general-machinery/general-machinery-004.webp", "/images/products/general-machinery/general-machinery-005.webp", "/images/products/general-machinery/general-machinery-006.webp", "/images/products/general-machinery/general-machinery-007.webp",
 ];
 
 export const PRODUCT_CATALOGUES: Record<string, ProductCatalogue> = {
@@ -72,14 +72,14 @@ export const PRODUCT_CATALOGUES: Record<string, ProductCatalogue> = {
       title: "Domestic Pumps",
       summary: "Household and light-commercial pump solutions for homes, gardens, tanks, boreholes, pressure boosting, and water transfer.",
       products: [
-        { code: "BW-DP-001", name: "Domestic Borehole Pump", description: "Slimline submersible pump configuration for borehole and domestic groundwater transfer applications.", image: "/manus-storage/01_1afd5a96.webp" },
-        { code: "BW-DP-002", name: "Domestic Submersible Drainage Pump", description: "Compact submersible pump for basements, sumps, pools, rainwater pits, and household drainage duties.", image: "/manus-storage/02_875f568d.webp" },
-        { code: "BW-DP-003", name: "Household Pressure Booster Pump", description: "Self-priming booster configuration for improving water pressure at taps, showers, and light domestic points of use.", image: "/manus-storage/03_1ef83617.webp" },
-        { code: "BW-DP-004", name: "Domestic Centrifugal Pump", description: "Compact centrifugal pump for clean-water transfer, garden irrigation, and household utility systems.", image: "/manus-storage/04_a84c9fd6.webp" },
-        { code: "BW-DP-005", name: "Compact 24V Water Booster", description: "Low-voltage booster format for small water systems, solar-assisted setups, caravans, and light utility applications.", image: "/manus-storage/05_06d11134.webp" },
-        { code: "BW-DP-006", name: "Domestic Transfer Pump", description: "Portable transfer pump for moving clean water between tanks, containers, gardens, and utility points.", image: "/manus-storage/06_612b0dab.webp" },
-        { code: "BW-DP-007", name: "Domestic Pressure Controller", description: "Automatic pressure-control accessory for pump start-stop management and stable household water delivery.", image: "/manus-storage/07_aba9b8bf.webp" },
-        { code: "BW-DP-008", name: "Automatic Garden Irrigation Pump", description: "Compact self-priming pump configuration for garden irrigation, sprinklers, and small outdoor water systems.", image: "/manus-storage/08_d82a4e53.webp" },
+        { code: "BW-DP-001", name: "Domestic Borehole Pump", description: "Slimline submersible pump configuration for borehole and domestic groundwater transfer applications.", image: "/images/products/water-pumps/domestic-pump-001.webp" },
+        { code: "BW-DP-002", name: "Domestic Submersible Drainage Pump", description: "Compact submersible pump for basements, sumps, pools, rainwater pits, and household drainage duties.", image: "/images/products/water-pumps/domestic-pump-002.webp" },
+        { code: "BW-DP-003", name: "Household Pressure Booster Pump", description: "Self-priming booster configuration for improving water pressure at taps, showers, and light domestic points of use.", image: "/images/products/water-pumps/domestic-pump-003.webp" },
+        { code: "BW-DP-004", name: "Domestic Centrifugal Pump", description: "Compact centrifugal pump for clean-water transfer, garden irrigation, and household utility systems.", image: "/images/products/water-pumps/domestic-pump-004.webp" },
+        { code: "BW-DP-005", name: "Compact 24V Water Booster", description: "Low-voltage booster format for small water systems, solar-assisted setups, caravans, and light utility applications.", image: "/images/products/water-pumps/domestic-pump-005.webp" },
+        { code: "BW-DP-006", name: "Domestic Transfer Pump", description: "Portable transfer pump for moving clean water between tanks, containers, gardens, and utility points.", image: "/images/products/water-pumps/domestic-pump-006.webp" },
+        { code: "BW-DP-007", name: "Domestic Pressure Controller", description: "Automatic pressure-control accessory for pump start-stop management and stable household water delivery.", image: "/images/products/water-pumps/domestic-pump-007.webp" },
+        { code: "BW-DP-008", name: "Automatic Garden Irrigation Pump", description: "Compact self-priming pump configuration for garden irrigation, sprinklers, and small outdoor water systems.", image: "/images/products/water-pumps/domestic-pump-008.webp" },
       ],
     }],
   },

@@ -4,10 +4,10 @@ import { useEffect, useRef, useState } from "react";
 import { Link } from "wouter";
 
 const SLIDES = [
-  { src: "/manus-storage/lab-analytical-room_14145300.webp", alt: "Real laboratory interior with analytical instruments and clean workstations" },
-  { src: "/manus-storage/lab-microscope_5686b983.webp", alt: "Real laboratory microscope and glassware on a clean workbench" },
-  { src: "/manus-storage/lab-bench_a63ce4b2.webp", alt: "Real laboratory bench with pipettes, balances, and sample containers" },
-  { src: "/manus-storage/lab-medical-equipment_acf3aa81.webp", alt: "Real medical laboratory equipment with microscope and sample analyzer" },
+  { src: "/images/hero/hero-slide-1.jpg", alt: "Real laboratory interior with analytical instruments and clean workstations" },
+  { src: "/images/hero/hero-slide-3.jpg", alt: "Real laboratory microscope and glassware on a clean workbench" },
+  { src: "/images/img-mrclab-equipment.jpg", alt: "Real laboratory bench with pipettes, balances, and sample containers" },
+  { src: "/images/cat-medical-lab.jpg", alt: "Real medical laboratory equipment with microscope and sample analyzer" },
 ];
 
 export function HeroSlider() {

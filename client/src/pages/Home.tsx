@@ -12,10 +12,10 @@ const CAPABILITIES = [
 ];
 
 const CATEGORIES = [
-  { title: "Laboratory Equipment", src: "/manus-storage/home-featured-laboratory-no-people_2ecfd627.png" },
-  { title: "Mining Laboratory", src: "/manus-storage/home-featured-mining-no-people_17b91a41.png" },
-  { title: "Industrial Equipment", src: "/manus-storage/home-featured-industrial-no-people_370ecc5a.png" },
-  { title: "Technical Support", src: "/manus-storage/home-featured-support-no-people_0953cb19.png" },
+  { title: "Laboratory Equipment", src: "/images/hero/home-laboratory.jpg" },
+  { title: "Mining Laboratory", src: "/images/hero/home-mining.jpg" },
+  { title: "Industrial Equipment", src: "/images/hero/home-industrial.jpg" },
+  { title: "Technical Support", src: "/images/hero/home-support.png" },
 ];
 
 export default function Home() {
@@ -26,7 +26,7 @@ export default function Home() {
       <section className="section section-white">
         <div className="content-wrap split-layout">
           <div className="image-frame image-frame-square">
-            <img src="/manus-storage/lab-bench_a63ce4b2.webp" alt="Clean laboratory bench with scientific equipment" loading="lazy" decoding="async" />
+            <img src="/images/img-mrclab-equipment.jpg" alt="Clean laboratory bench with scientific equipment" loading="lazy" decoding="async" />
           </div>
           <div className="copy-block">
             <span className="eyebrow">About Bridge Wax</span>

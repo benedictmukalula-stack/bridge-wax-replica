@@ -306,6 +306,11 @@
 - [ ] Configure Vercel to serve the SPA entry point for public client-side catalogue routes after the deployed Water Pumps URL returned a platform 404.
 - [ ] Redeploy and verify all required production URLs no longer return platform 404 responses.
 
+# Vercel Managed Asset Compatibility
+
+- [ ] Configure Vercel to resolve existing managed /manus-storage/ logo, hero, and non-catalogue image paths so production does not contain broken non-product images.
+- [ ] Redeploy and verify the public logo and hero imagery resolve alongside all authoritative catalogue images.
+
 # Resilient Deployed Image Retrieval
 
 - [x] Add bounded retry and retry-delay handling for transient live-image retrieval errors.

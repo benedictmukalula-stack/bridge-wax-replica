@@ -52,6 +52,7 @@ h2 { color: var(--ink); font-size: clamp(2rem, 4vw, 3.2rem); line-height: 1.15; 
 .button { display: inline-flex; min-height: 3rem; align-items: center; justify-content: center; gap: .55rem; border: 1px solid transparent; border-radius: .4rem; padding: .75rem 1.45rem; font-size: .95rem; font-weight: 700; transition: background-color .18s ease, color .18s ease, border-color .18s ease, transform .18s var(--ease-out); }
 .button:active { transform: scale(.97); }
 .button-small { min-height: 2rem; padding: .45rem .8rem; font-size: .82rem; }
+.desktop-contact { min-height: 2.08rem; padding: .35rem .62rem; font-size: .75rem; }
 .button-gold { background: var(--gold); color: var(--cream); }
 .button-gold:hover { background: var(--gold-light); }
 .button-dark { background: var(--ink); color: var(--cream); }
@@ -70,9 +71,9 @@ h2 { color: var(--ink); font-size: clamp(2rem, 4vw, 3.2rem); line-height: 1.15; 
 .brand-copy strong { color: var(--ink); font-size: .84rem; letter-spacing: .02em; line-height: 1; }
 .brand-copy small { color: #71717a; font-size: .58rem; letter-spacing: .17em; line-height: 1; text-transform: uppercase; white-space: nowrap; }
 .desktop-nav { display: none; align-items: center; gap: .1rem; margin-left: auto; }
-.nav-link { border-radius: .35rem; padding: .5rem .62rem; color: rgba(26,26,46,.68); font-size: .84rem; font-weight: 600; transition: background-color .18s ease, color .18s ease; }
+.nav-link { border-radius: .28rem; padding: .38rem .5rem; color: rgba(26,26,46,.68); font-size: .78rem; font-weight: 600; transition: background-color .18s ease, color .18s ease; }
 .nav-link:hover, .nav-link.active { background: rgba(200,150,62,.1); color: var(--gold); }
-.header-actions { display: flex; align-items: center; gap: .55rem; border-left: 1px solid rgba(26,26,46,.1); padding-left: 1rem; }
+.header-actions { display: flex; align-items: center; gap: .4rem; border-left: 1px solid rgba(26,26,46,.1); padding-left: .75rem; }
 .menu-toggle { display: inline-flex; width: 2.35rem; height: 2.35rem; align-items: center; justify-content: center; border: 1px solid rgba(26,26,46,.12); border-radius: .35rem; background: #fff; color: var(--ink); padding: .45rem; }
 .menu-toggle:hover { border-color: rgba(200,150,62,.55); color: var(--gold); }
 .mobile-nav { display: grid; max-height: 0; overflow: hidden; border-top: 1px solid transparent; background: #fff; padding-inline: 1rem; box-shadow: 0 12px 20px rgba(26,26,46,.08); transition: max-height .25s var(--ease-out), padding-block .25s var(--ease-out), border-color .25s ease; }
@@ -179,7 +180,7 @@ h2 { color: var(--ink); font-size: clamp(2rem, 4vw, 3.2rem); line-height: 1.15; 
 .product-search-browse-all { display: flex; align-items: center; justify-content: space-between; gap: .8rem; color: var(--ink); background: rgba(200,150,62,.09); padding: .8rem 1rem; font-size: .8rem; font-weight: 800; transition: background-color .18s ease, color .18s ease; }
 .product-search-browse-all:hover, .product-search-browse-all:focus-visible { background: rgba(200,150,62,.18); color: var(--gold); outline: 0; }
 .products-category-heading { margin-top: 0; }
-.quote-cart-trigger { position: relative; display: inline-flex; min-height: 2.35rem; align-items: center; justify-content: center; gap: .35rem; border: 1px solid rgba(26,26,46,.12); border-radius: .35rem; background: #fff; color: var(--ink); padding: .35rem .65rem; font-size: .78rem; font-weight: 800; transition: border-color .18s ease, background-color .18s ease, color .18s ease, transform .18s var(--ease-out); }
+.quote-cart-trigger { position: relative; display: inline-flex; min-height: 2.08rem; align-items: center; justify-content: center; gap: .25rem; border: 1px solid rgba(26,26,46,.12); border-radius: .28rem; background: #fff; color: var(--ink); padding: .25rem .5rem; font-size: .75rem; font-weight: 800; transition: border-color .18s ease, background-color .18s ease, color .18s ease, transform .18s var(--ease-out); }
 .quote-cart-trigger:hover { border-color: rgba(200,150,62,.55); background: rgba(200,150,62,.08); color: var(--gold); }
 .quote-cart-trigger:active { transform: scale(.97); }
 .quote-cart-trigger b { display: inline-flex; min-width: 1.1rem; height: 1.1rem; align-items: center; justify-content: center; border-radius: 999px; background: var(--gold); color: var(--cream); font-size: .65rem; }

@@ -365,3 +365,8 @@
 
 - [x] Add an accessible Back to Top control in the shared footer with smooth scrolling behavior.
 - [x] Test and visually verify the Back to Top control across desktop and mobile.
+
+# Catalogue Back to Top Navigation
+
+- [x] Add a reusable scroll-aware Back to Top control to long product, service, and laboratory catalogue pages.
+- [x] Test and visually verify the control on representative long catalogue pages across desktop and mobile.

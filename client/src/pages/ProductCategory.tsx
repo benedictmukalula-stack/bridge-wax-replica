@@ -4,6 +4,7 @@ import { ArrowLeft, Mail } from "lucide-react";
 import { Link, useRoute } from "wouter";
 import { PageHero, PageShell } from "../components/PageShell";
 import { AddToQuoteButton } from "../components/QuoteCart";
+import { CatalogueBackToTop } from "../components/CatalogueBackToTop";
 import { PRODUCT_CATALOGUES } from "../lib/productCatalog";
 
 export default function ProductCategory() {
@@ -49,5 +50,6 @@ export default function ProductCategory() {
         </div></div>)}
       </div>
     </section>
+    <CatalogueBackToTop />
   </PageShell>;
 }

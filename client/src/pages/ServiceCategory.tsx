@@ -2,6 +2,7 @@
 import { ArrowLeft, Mail } from "lucide-react";
 import { Link, useRoute } from "wouter";
 import { PageHero, PageShell } from "../components/PageShell";
+import { CatalogueBackToTop } from "../components/CatalogueBackToTop";
 import { SERVICE_CATALOGUES } from "../lib/serviceCatalog";
 
 export default function ServiceCategory() {
@@ -30,5 +31,6 @@ export default function ServiceCategory() {
         </div>
       </div>
     </section>
+    <CatalogueBackToTop />
   </PageShell>;
 }

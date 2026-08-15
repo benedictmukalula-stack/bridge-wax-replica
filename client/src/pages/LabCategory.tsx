@@ -2,6 +2,7 @@
 import { ArrowLeft, Mail } from "lucide-react";
 import { Link, useRoute } from "wouter";
 import { PageHero, PageShell } from "../components/PageShell";
+import { CatalogueBackToTop } from "../components/CatalogueBackToTop";
 import { LAB_CATALOGUES } from "../lib/labCatalog";
 
 export default function LabCategory() {
@@ -20,5 +21,6 @@ export default function LabCategory() {
       <div className="catalogue-notice">Contact us to confirm current specifications, lead times, and availability for each laboratory product.</div>
       <div className="catalogue-grid">{catalogue.products.map((product) => <article className="catalogue-card" key={product.code}><div className="catalogue-card-media"><img src={product.image} alt={`${product.name} reference image`} loading="eager" decoding="sync" /></div><div className="catalogue-card-body"><span className="catalogue-code">{product.code}</span><h2>{product.name}</h2><p>{product.description}</p><Link href={`/contact?product=${encodeURIComponent(product.name)}`} className="catalogue-enquire">Enquire about this product <Mail size={15} /></Link></div></article>)}</div>
     </div></section>
+    <CatalogueBackToTop />
   </PageShell>;
 }

@@ -2,6 +2,7 @@
 import { Menu, X } from "lucide-react";
 import { useEffect, useState } from "react";
 import { Link, useLocation } from "wouter";
+import { MobileProductsNavigation, ProductsMegaMenu } from "./ProductsMegaMenu";
 import ProductSearch from "./ProductSearch";
 import { QuoteCartButton } from "./QuoteCart";
 
@@ -9,13 +10,13 @@ const NAV = [
   { label: "Home", href: "/" },
   { label: "About", href: "/about" },
   { label: "Laboratory", href: "/laboratory" },
-  { label: "Products & Solutions", href: "/products" },
 ];
 
 export function SiteHeader() {
   const [open, setOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
   const [location] = useLocation();
+  const productsActive = location.startsWith("/products") || location === "/services";
 
   useEffect(() => {
     const onScroll = () => setScrolled(window.scrollY > 10);
@@ -38,6 +39,7 @@ export function SiteHeader() {
 
         <div className="desktop-nav">
           {NAV.map((item) => <Link key={item.href} href={item.href} className={isActive(item.href) ? "nav-link active" : "nav-link"} aria-current={isActive(item.href) ? "page" : undefined}>{item.label}</Link>)}
+          <ProductsMegaMenu active={productsActive} />
         </div>
 
         <div className="header-actions">
@@ -48,7 +50,9 @@ export function SiteHeader() {
         </div>
       </nav>
       <div className={`mobile-nav ${open ? "open" : ""}`}>
-        {[...NAV, { label: "Contact", href: "/contact" }].map((item) => <Link key={item.href} href={item.href} className={isActive(item.href) ? "mobile-nav-link active" : "mobile-nav-link"}>{item.label}</Link>)}
+        {NAV.map((item) => <Link key={item.href} href={item.href} className={isActive(item.href) ? "mobile-nav-link active" : "mobile-nav-link"}>{item.label}</Link>)}
+        <MobileProductsNavigation active={productsActive} />
+        <Link href="/contact" className={isActive("/contact") ? "mobile-nav-link active" : "mobile-nav-link"}>Contact</Link>
         <ProductSearch variant="mobile" />
       </div>
     </header>

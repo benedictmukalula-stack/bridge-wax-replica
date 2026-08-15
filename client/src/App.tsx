@@ -11,6 +11,7 @@ import LabCategory from "./pages/LabCategory";
 import Laboratory from "./pages/Laboratory";
 import NotFound from "./pages/NotFound";
 import ProductCategory from "./pages/ProductCategory";
+import ProductDetail from "./pages/ProductDetail";
 import Products from "./pages/Products";
 import ServiceCategory from "./pages/ServiceCategory";
 
@@ -23,6 +24,7 @@ function Router() {
       <Route path={"/laboratory"} component={Laboratory} />
       <Route path={"/laboratory/:category"} component={LabCategory} />
       <Route path={"/products"} component={Products} />
+      <Route path={"/products/:category/:product"} component={ProductDetail} />
       <Route path={"/products/:category"} component={ProductCategory} />
       <Route path={"/services/:service"} component={ServiceCategory} />
       <Route path={"/services"} component={Products} />

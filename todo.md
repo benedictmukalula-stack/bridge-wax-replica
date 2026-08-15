@@ -370,3 +370,15 @@
 
 - [x] Add a reusable scroll-aware Back to Top control to long product, service, and laboratory catalogue pages.
 - [x] Test and visually verify the control on representative long catalogue pages across desktop and mobile.
+
+# Products and Solutions Experience Rebuild
+
+- [x] Audit the 36-product source catalogue, existing routes, image mapping, search, cart, and SEO surfaces; preserve SMTP unchanged.
+- [x] Create source-of-truth catalogue helpers for categories, ranges, products, filtering, SKU lookup, counts, and detail-route slugs.
+- [x] Rebuild the Products and Solutions landing page with premium hero, dynamic category explorer, prominent search, filters, product grid, featured products, supported solutions, and professional quote CTAs.
+- [x] Build an accessible data-driven desktop Products and Solutions mega-menu and expandable mobile equivalent from productCatalog.ts.
+- [x] Add category breadcrumbs, category-level discovery controls, and individual product detail pages without changing product records, SKUs, images, or cart behavior.
+- [x] Extend route-level SEO, structured breadcrumbs, sitemap, robots references, product-image failure handling, and automated 36-image validation.
+- [x] Run type checks, full tests, production build, image checks, and desktop/mobile visual verification for products, categories, details, cart, and quotation flow without modifying SMTP.
+- [ ] Review source-control changes, commit the rebuild, push to the existing repository where authorized, and deploy the existing Vercel project without changing bridgewax.com.
+- [ ] Deliver the complete catalogue, image, UX, SEO, source-control, Vercel, and remaining-issues report.

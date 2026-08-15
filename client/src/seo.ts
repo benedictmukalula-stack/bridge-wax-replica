@@ -1,4 +1,5 @@
 import { LAB_CATALOGUES } from "./lib/labCatalog";
+import { CATALOGUE_PRODUCTS, getProductByPath, getProductPath } from "./lib/catalogueData";
 import { PRODUCT_CATALOGUES } from "./lib/productCatalog";
 import { SERVICE_CATALOGUES } from "./lib/serviceCatalog";
 
@@ -72,6 +73,20 @@ export function getSeoMeta(pathname: string): SeoMeta {
   const path = normalizePath(pathname);
   if (STATIC_META[path]) return STATIC_META[path];
 
+  const productDetailMatch = path.match(/^\/products\/([^/]+)\/([^/]+)$/);
+  if (productDetailMatch) {
+    const product = getProductByPath(productDetailMatch[1], productDetailMatch[2]);
+    if (product) {
+      return {
+        title: `${product.name} (${product.code}) | ${product.categoryTitle} | Bridge Wax`,
+        description: `${product.description} Request a quotation from Bridge Wax for ${product.name} and compatible technical support.`,
+        canonicalPath: getProductPath(product),
+        image: product.image,
+        imageAlt: `${product.name}, product code ${product.code}`,
+      };
+    }
+  }
+
   const productMatch = path.match(/^\/products\/([^/]+)$/);
   if (productMatch) {
     const catalogue = PRODUCT_CATALOGUES[productMatch[1]];
@@ -123,8 +138,33 @@ export function getSeoMeta(pathname: string): SeoMeta {
   };
 }
 
-export function getStructuredData(meta: SeoMeta) {
-  return [
+function getBreadcrumbItems(pathname: string) {
+  const productDetailMatch = pathname.match(/^\/products\/([^/]+)\/([^/]+)$/);
+  if (productDetailMatch) {
+    const product = getProductByPath(productDetailMatch[1], productDetailMatch[2]);
+    if (product) return [
+      { name: "Home", item: SEO_ORIGIN },
+      { name: "Products", item: `${SEO_ORIGIN}/products` },
+      { name: product.categoryTitle, item: `${SEO_ORIGIN}/products/${product.categorySlug}` },
+      { name: product.name, item: `${SEO_ORIGIN}${getProductPath(product)}` },
+    ];
+  }
+
+  const categoryMatch = pathname.match(/^\/products\/([^/]+)$/);
+  if (categoryMatch) {
+    const category = PRODUCT_CATALOGUES[categoryMatch[1]];
+    if (category) return [
+      { name: "Home", item: SEO_ORIGIN },
+      { name: "Products", item: `${SEO_ORIGIN}/products` },
+      { name: category.title, item: `${SEO_ORIGIN}/products/${category.slug}` },
+    ];
+  }
+
+  return [];
+}
+
+export function getStructuredData(meta: SeoMeta, pathname = meta.canonicalPath) {
+  const data: Array<Record<string, unknown>> = [
     {
       "@context": "https://schema.org",
       "@type": "Organization",
@@ -150,6 +190,22 @@ export function getStructuredData(meta: SeoMeta) {
       description: meta.description,
     },
   ];
+
+  const breadcrumbItems = getBreadcrumbItems(normalizePath(pathname));
+  if (breadcrumbItems.length) {
+    data.push({
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      itemListElement: breadcrumbItems.map((item, index) => ({
+        "@type": "ListItem",
+        position: index + 1,
+        name: item.name,
+        item: item.item,
+      })),
+    });
+  }
+
+  return data;
 }
 
 export function getSitemapPaths() {
@@ -160,6 +216,7 @@ export function getSitemapPaths() {
     ...Object.values(LAB_CATALOGUES).map((catalogue) => `/laboratory/${catalogue.slug}`),
     "/products",
     ...Object.values(PRODUCT_CATALOGUES).map((catalogue) => `/products/${catalogue.slug}`),
+    ...CATALOGUE_PRODUCTS.map((product) => getProductPath(product)),
     "/services",
     ...Object.values(SERVICE_CATALOGUES).map((service) => `/services/${service.slug}`),
     "/contact",

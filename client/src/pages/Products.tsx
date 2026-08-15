@@ -1,24 +1,52 @@
-/* Reference-matched products page: featured equipment categories, technical services, and quotation CTA. */
-import { ArrowRight, Cog, Factory, FlaskConical, Gauge, Pipette, Wrench } from "lucide-react";
+import { ArrowRight, ChevronRight, Search, SlidersHorizontal, X } from "lucide-react";
+import { useMemo, useState } from "react";
 import { Link } from "wouter";
-import { PageHero, PageShell } from "../components/PageShell";
+import { CatalogueBackToTop } from "../components/CatalogueBackToTop";
+import { CatalogueProductCard } from "../components/CatalogueProductCard";
+import { PageShell } from "../components/PageShell";
+import { filterCatalogueProducts, getCatalogueCategories, getCatalogueCounts, getCatalogueRanges, getFeaturedProducts } from "../lib/catalogueData";
 
-const CATEGORIES = [
-  { slug: "ultrasonic", title: "Ultrasonic Equipment", src: "/manus-storage/ultrasonic-gauge_86351767.jpg", text: "Precision ultrasonic inspection tools for nondestructive testing." },
-  { slug: "gas-detection", title: "Gas Detection", src: "/manus-storage/gas-detector_43afdc7b.jpeg", text: "Portable industrial gas detection equipment for safe operations." },
-  { slug: "water-pumps", title: "Water Pumps", src: "/manus-storage/water-pump_3bfea3db.jpg", text: "Industrial pumps and flow-control equipment for mining, process, and water applications." },
-  { slug: "general-machinery", title: "General Machinery", src: "/manus-storage/general-machinery_714b5e1f.jpg", text: "Reliable machinery and plant equipment for demanding industrial operations." },
-];
-
-const SERVICES = [
-  { slug: "laboratory", icon: FlaskConical, title: "Laboratory Equipment & Consumables", text: "Instruments, glassware, reagents and consumables for mining, medical, water and research laboratories.", image: "/manus-storage/home-featured-laboratory-no-people_2ecfd627.png" },
-  { slug: "industrial-testing", icon: Gauge, title: "Industrial Testing Instruments", text: "Testing instruments, gauges, detectors and measurement solutions for plant and field use.", image: "/manus-storage/industrial-testing-equipment-no-people_ec338117.png" },
-  { slug: "maintenance", icon: Cog, title: "Plant Maintenance & Spares", text: "Maintenance support and genuine spares to keep production and processing plants running.", image: "/manus-storage/industrial-maintenance-no-people_28fbdb07.png" },
-  { slug: "fabrication", icon: Wrench, title: "Fabrication & Repairs", text: "Workshop fabrication, refurbishment and repair of industrial components and assemblies.", image: "/manus-storage/fabrication-no-people_9c684ae1.png" },
-  { slug: "hdpe", icon: Pipette, title: "HDPE Pipe Systems", text: "HDPE piping, fittings and jointing solutions for water, slurry and process reticulation.", image: "/manus-storage/hdpe-pipe-systems-no-people_8beccb9e.png" },
-  { slug: "pumps", icon: Factory, title: "Pumps & Valves", text: "Pumps, valves and flow-control equipment selected for mining and industrial duty.", image: "/manus-storage/pumps-valves-retry_1ad20416.webp" },
+const SOLUTION_GROUPS = [
+  { title: "Laboratory Solutions", href: "/laboratory", text: "Explore Bridge Wax laboratory equipment and consumables for mining, medical, water analysis, and research workflows." },
+  { title: "Industrial Safety", href: "/products/gas-detection", text: "Portable and fixed-point gas detection equipment for safer field, plant, and confined-space operations." },
+  { title: "Water & Pumping", href: "/products/water-pumps", text: "Industrial and domestic pumping equipment for water, process, dewatering, and site applications." },
+  { title: "Gas Detection", href: "/products/gas-detection", text: "Find monitored-atmosphere equipment, calibration support, and detector-readiness tools by product range." },
+  { title: "Power & Backup", href: "/products/general-machinery", text: "General machinery including diesel generator sets for standby and site-power continuity requirements." },
+  { title: "Technical Equipment", href: "/products/ultrasonic", text: "Ultrasonic inspection equipment for thickness measurement, calibration, and non-destructive technical workflows." },
 ];
 
 export default function Products() {
-  return <PageShell><PageHero eyebrow="Products & Solutions" title="Equipment, Spares and Technical Solutions" subtitle="Explore our range of professional laboratory and industrial equipment, supported by the services and technical expertise behind it." image="/manus-storage/products-hero_dbc3417d.webp" /><section className="section section-white"><div className="content-wrap"><div className="section-heading products-category-heading"><span className="eyebrow">Our Products</span><h2>Featured Categories</h2><p>Choose a category to open its product catalogue with product codes and descriptions. Use the header search to locate a product quickly.</p></div><div className="card-grid card-grid-3">{CATEGORIES.map((category) => <Link href={`/products/${category.slug}`} className="image-card product-card" key={category.title}><div className="image-card-media"><img src={category.src} alt={category.title} loading="lazy" decoding="async" /></div><div className="image-card-copy"><h3>{category.title}</h3><p>{category.text}</p><span className="catalogue-link-label">View catalogue <ArrowRight size={15} /></span></div></Link>)}</div></div></section><section className="section section-muted"><div className="content-wrap"><div className="section-heading"><span className="eyebrow">Our Solutions</span><h2>Services &amp; Technical Support</h2><p>Choose a service to open its service catalogue with scope codes and descriptions.</p></div><div className="card-grid card-grid-3">{SERVICES.map(({ slug, icon: Icon, title, text, image }) => <Link href={`/services/${slug}`} className="info-card service-card" key={title}><div className="service-card-media"><img src={image} alt={title} loading="lazy" decoding="async" /></div><div className="icon-box"><Icon size={24} /></div><h3>{title}</h3><p>{text}</p><span className="catalogue-link-label">View service catalogue <ArrowRight size={15} /></span></Link>)}</div></div></section><section className="section section-dark cta-section"><div className="content-wrap narrow-copy"><h2>Need a Quotation?</h2><p>Send us your specifications and our team will recommend the right solution for your operation.</p><Link href="/contact" className="button button-gold">Request a Quote <ArrowRight size={16} /></Link></div></section></PageShell>;
+  const categories = getCatalogueCategories();
+  const counts = getCatalogueCounts();
+  const [query, setQuery] = useState("");
+  const [category, setCategory] = useState("");
+  const [range, setRange] = useState("");
+  const availableRanges = getCatalogueRanges(category || undefined);
+  const products = useMemo(() => filterCatalogueProducts({ query, category, range }), [query, category, range]);
+  const hasFilters = Boolean(query || category || range);
+
+  const resetFilters = () => {
+    setQuery("");
+    setCategory("");
+    setRange("");
+  };
+
+  return <PageShell>
+    <section className="products-hero">
+      <img src="/manus-storage/products-hero_dbc3417d.webp" alt="Bridge Wax laboratory and industrial equipment" loading="eager" fetchPriority="high" decoding="async" />
+      <div className="products-hero-overlay" />
+      <div className="content-wrap products-hero-copy"><span className="eyebrow">Products &amp; Solutions</span><h1>Equipment selected for work that cannot stop.</h1><p>Explore professional industrial equipment by application, range, or precise product code. Build a quotation basket when you are ready to discuss your requirements.</p><div className="button-row"><a href="#catalogue" className="button button-gold">Explore Products <ArrowRight size={16} /></a><Link href="/contact" className="button button-outline-light">Request a Quote</Link></div><div className="products-hero-stats" aria-label="Catalogue summary"><span><b>{counts.products}</b> Products</span><span><b>{counts.categories}</b> Categories</span><span><b>{counts.ranges}</b> Ranges</span></div></div>
+    </section>
+
+    <section className="section section-white product-explorer-section"><div className="content-wrap"><div className="section-heading products-category-heading"><span className="eyebrow">Structured for procurement</span><h2>Browse the catalogue your way.</h2><p>Every category, range, count, product name, code, description, and product image is derived from the live Bridge Wax product catalogue.</p></div><div className="catalogue-category-explorer">{categories.map((item) => <article className="catalogue-category-card" key={item.slug}><div className="catalogue-category-image"><img src={item.image} alt={item.title} loading="lazy" decoding="async" /></div><div className="catalogue-category-copy"><span className="catalogue-category-count">{item.productCount} products</span><h3>{item.title}</h3><p>{item.summary}</p><div className="catalogue-category-ranges">{item.ranges.map((itemRange) => <span key={itemRange.slug}>{itemRange.title}</span>)}</div><Link href={`/products/${item.slug}`} className="catalogue-product-view">Explore Category <ArrowRight size={15} /></Link></div></article>)}</div></div></section>
+
+    <section className="section section-muted" id="catalogue"><div className="content-wrap"><div className="catalogue-discovery-heading"><div><span className="eyebrow">Find the right equipment</span><h2>Search and filter all products.</h2><p>Search by product name, SKU, category, or range; then add the products you need to your quotation basket.</p></div><p className="catalogue-result-count" aria-live="polite"><strong>{products.length}</strong> of {counts.products} products shown</p></div><div className="catalogue-filter-panel"><div className="catalogue-search-field"><Search size={19} aria-hidden="true" /><label className="sr-only" htmlFor="catalogue-search">Search the Bridge Wax catalogue</label><input id="catalogue-search" value={query} onChange={(event) => setQuery(event.target.value)} placeholder="Search product name, SKU, category or range" /><button type="button" className="catalogue-search-clear" onClick={() => setQuery("")} aria-label="Clear catalogue search" hidden={!query}><X size={16} /></button></div><div className="catalogue-selects"><label><span>Category</span><select value={category} onChange={(event) => { setCategory(event.target.value); setRange(""); }}><option value="">All categories</option>{categories.map((item) => <option value={item.slug} key={item.slug}>{item.title}</option>)}</select></label><label><span>Range / type</span><select value={range} onChange={(event) => setRange(event.target.value)}><option value="">All ranges</option>{availableRanges.map((item) => <option value={item.slug} key={item.slug}>{item.categoryTitle !== category ? `${item.categoryTitle} — ` : ""}{item.title}</option>)}</select></label><button type="button" className="catalogue-clear-filters" disabled={!hasFilters} onClick={resetFilters}><SlidersHorizontal size={15} /> Clear Filters</button></div></div><div className="catalogue-product-grid">{products.map((product, index) => <CatalogueProductCard product={product} eager={index < 3} key={product.code} />)}</div>{products.length === 0 && <div className="catalogue-empty-results"><h3>No matching products found.</h3><p>Try another name, SKU, category, or product range.</p><button type="button" className="button button-dark" onClick={resetFilters}>Clear filters</button></div>}</div></section>
+
+    <section className="section section-white"><div className="content-wrap"><div className="catalogue-section-intro"><div><span className="eyebrow">Selected equipment</span><h2>Featured product lines.</h2></div><a href="#catalogue" className="catalogue-product-view">View every product <ChevronRight size={15} /></a></div><div className="catalogue-product-grid catalogue-product-grid-featured">{getFeaturedProducts().map((product, index) => <CatalogueProductCard product={product} eager={index === 0} key={product.code} />)}</div></div></section>
+
+    <section className="section section-dark"><div className="content-wrap"><div className="section-heading solution-heading"><span className="eyebrow">Solutions by application</span><h2>Start with the work in front of you.</h2><p>Explore supported applications through the relevant product category, then refine the list by range or SKU.</p></div><div className="catalogue-solution-grid">{SOLUTION_GROUPS.map((solution) => <Link href={solution.href} className="catalogue-solution-card" key={solution.title}><span>Solution area</span><h3>{solution.title}</h3><p>{solution.text}</p><strong>Explore products <ArrowRight size={15} /></strong></Link>)}</div></div></section>
+
+    <section className="section section-white catalogue-quote-cta"><div className="content-wrap"><div><span className="eyebrow">Quotation support</span><h2>Need help selecting the right equipment?</h2><p>Add products to your basket, tell us about your operating conditions, and request a considered quotation from Bridge Wax.</p></div><div className="button-row"><a href="#catalogue" className="button button-dark">Build a product list</a><Link href="/contact" className="button button-gold">Request a Quote <ArrowRight size={16} /></Link></div></div></section>
+    <CatalogueBackToTop />
+  </PageShell>;
 }

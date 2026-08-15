@@ -60,7 +60,7 @@ export default function Head() {
       schema.dataset.seo = "structured-data";
       document.head.appendChild(schema);
     }
-    schema.textContent = JSON.stringify(getStructuredData(meta));
+    schema.textContent = JSON.stringify(getStructuredData(meta, location));
   }, [location]);
 
   return null;

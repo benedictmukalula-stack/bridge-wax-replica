@@ -18,6 +18,21 @@ describe("Bridge Wax SEO metadata", () => {
     expect(meta.image).toBe("/images/products/new-authoritative/BW-WP-001.webp");
   });
 
+  it("derives product-detail metadata and ordered breadcrumb structured data from the authoritative SKU", () => {
+    const meta = getSeoMeta("/products/water-pumps/end-suction-centrifugal-pump");
+    expect(meta.title).toContain("End-Suction Centrifugal Pump (BW-WP-001)");
+    expect(meta.canonicalPath).toBe("/products/water-pumps/end-suction-centrifugal-pump");
+    expect(meta.image).toBe("/images/products/new-authoritative/BW-WP-001.webp");
+    const breadcrumb = getStructuredData(meta).find((item) => item["@type"] === "BreadcrumbList");
+    expect(breadcrumb).toMatchObject({
+      itemListElement: expect.arrayContaining([
+        expect.objectContaining({ position: 1, name: "Home" }),
+        expect.objectContaining({ position: 3, name: "Water Pumps" }),
+        expect.objectContaining({ position: 4, name: "End-Suction Centrifugal Pump" }),
+      ]),
+    });
+  });
+
   it("marks unknown paths as non-indexable and creates Organization structured data", () => {
     const meta = getSeoMeta("/not-a-real-route");
     expect(meta.notFound).toBe(true);
@@ -29,9 +44,10 @@ describe("Bridge Wax SEO metadata", () => {
   it("publishes all primary catalogue areas in the sitemap inventory", () => {
     const paths = getSitemapPaths();
     expect(paths).toContain("/products/water-pumps");
+    expect(paths).toContain("/products/water-pumps/end-suction-centrifugal-pump");
     expect(paths).toContain("/services/hdpe");
     expect(paths).toContain("/laboratory/mining");
     expect(paths).toContain("/contact");
-    expect(paths.length).toBeGreaterThan(15);
+    expect(paths.filter((path) => path.startsWith("/products/")).length).toBe(40);
   });
 });

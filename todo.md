@@ -478,3 +478,10 @@
 - [x] Preserve the existing quote submission flow, catalogue image mappings, and SMTP configuration.
 - [x] Add regression coverage for PDF content and the cart download interaction.
 - [x] Run type checks, tests, production build, visual verification, and save a checkpoint.
+
+# PDF Logo and Customer Signature
+
+- [ ] Embed the Bridge Wax company logo cleanly in the generated PDF summary header.
+- [ ] Add a professional customer signature and approval-date block at the end of the PDF summary.
+- [ ] Update automated PDF tests to assert the presence of logo and signature elements.
+- [ ] Run TypeScript checks, non-SMTP test suite, production build, and save a verified checkpoint.

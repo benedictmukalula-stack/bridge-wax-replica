@@ -44,7 +44,7 @@ describe("quote cart PDF summary", () => {
     ]);
   });
 
-  it("creates a readable PDF document with customer approval details", async () => {
+  it("creates a readable PDF document with logo badge and customer approval signature block", async () => {
     const bytes = await generateQuoteCartPdf({
       items: [...items],
       generatedAt: new Date("2026-08-15T10:30:00.000Z"),

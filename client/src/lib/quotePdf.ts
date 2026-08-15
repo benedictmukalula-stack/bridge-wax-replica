@@ -118,10 +118,34 @@ export async function generateQuoteCartPdf(input: QuotePdfInput) {
   const addPage = () => {
     pageNumber += 1;
     page = pdf.addPage([PAGE_WIDTH, PAGE_HEIGHT]);
-    page.drawText("BRIDGE WAX", { x: MARGIN, y: PAGE_HEIGHT - 48, size: 16, font: bold, color: INK });
-    page.drawText("WE EXCEED OUR VISION", { x: MARGIN, y: PAGE_HEIGHT - 62, size: 6.5, font: bold, color: GOLD });
-    page.drawText("Laboratory equipment · Industrial solutions · PPE", { x: MARGIN, y: PAGE_HEIGHT - 78, size: 8, font: regular, color: MUTED });
-    y = PAGE_HEIGHT - 112;
+
+    // Draw professional corporate header with Bridge Wax logo badge
+    const logoBoxWidth = 36;
+    const logoBoxHeight = 36;
+    const logoY = PAGE_HEIGHT - 56;
+    page.drawRectangle({
+      x: MARGIN,
+      y: logoY,
+      width: logoBoxWidth,
+      height: logoBoxHeight,
+      color: INK,
+      borderColor: GOLD,
+      borderWidth: 1,
+    });
+    page.drawText("BW", {
+      x: MARGIN + 8,
+      y: logoY + 11.5,
+      size: 13,
+      font: bold,
+      color: GOLD,
+    });
+
+    const textX = MARGIN + logoBoxWidth + 12;
+    page.drawText("BRIDGE WAX", { x: textX, y: logoY + 22, size: 15, font: bold, color: INK });
+    page.drawText("WE EXCEED OUR VISION", { x: textX, y: logoY + 11, size: 6.5, font: bold, color: GOLD });
+    page.drawText("Laboratory equipment · Industrial solutions · PPE", { x: textX, y: logoY - 1, size: 8, font: regular, color: MUTED });
+
+    y = PAGE_HEIGHT - 110;
     return page;
   };
 
@@ -195,11 +219,38 @@ export async function generateQuoteCartPdf(input: QuotePdfInput) {
     y = drawWrapped(page, input.customer.requirements.trim(), MARGIN, y, CONTENT_WIDTH, regular, 9.5, INK, 14);
   }
 
+  // Customer Signature & Approval Section
+  ensureSpace(120);
+  y -= 16;
+  page.drawText("CUSTOMER APPROVAL & SIGNATURE", { x: MARGIN, y, size: 8, font: bold, color: GOLD });
+  y -= 16;
+  page.drawText("By signing below, the customer acknowledges and approves this quotation summary for formal submission to Bridge Wax.", { x: MARGIN, y, size: 8.5, font: regular, color: MUTED });
+  y -= 24;
+
+  const boxWidth = (CONTENT_WIDTH - 20) / 2;
+  const boxHeight = 52;
+  const sigY = y - boxHeight;
+
+  // Signature box 1: Authorized Signature
+  page.drawRectangle({ x: MARGIN, y: sigY, width: boxWidth, height: boxHeight, color: WHITE, borderColor: RULE, borderWidth: 0.8 });
+  page.drawText("Authorized Signature", { x: MARGIN + 12, y: sigY + boxHeight - 14, size: 7.5, font: bold, color: MUTED });
+  page.drawLine({ start: { x: MARGIN + 12, y: sigY + 16 }, end: { x: MARGIN + boxWidth - 12, y: sigY + 16 }, thickness: 0.6, color: RULE });
+  page.drawText("X", { x: MARGIN + 12, y: sigY + 20, size: 8, font: bold, color: MUTED });
+
+  // Signature box 2: Date & Designation
+  const box2X = MARGIN + boxWidth + 20;
+  page.drawRectangle({ x: box2X, y: sigY, width: boxWidth, height: boxHeight, color: WHITE, borderColor: RULE, borderWidth: 0.8 });
+  page.drawText("Name / Designation / Date", { x: box2X + 12, y: sigY + boxHeight - 14, size: 7.5, font: bold, color: MUTED });
+  page.drawText("Name: _______________________________", { x: box2X + 12, y: sigY + 28, size: 8, font: regular, color: MUTED });
+  page.drawText("Date: ________________________________", { x: box2X + 12, y: sigY + 14, size: 8, font: regular, color: MUTED });
+
+  y = sigY - 24;
+
   ensureSpace(62);
-  y -= 20;
+  y -= 10;
   page.drawRectangle({ x: MARGIN, y: y - 42, width: CONTENT_WIDTH, height: 56, color: INK });
   page.drawText("NEXT STEP", { x: MARGIN + 14, y: y - 9, size: 7.5, font: bold, color: GOLD });
-  page.drawText("Send this summary to your internal approver, then contact Bridge Wax for a formal quotation.", { x: MARGIN + 14, y: y - 27, size: 8.6, font: regular, color: WHITE });
+  page.drawText("Send this signed summary to your internal approver, then contact Bridge Wax for a formal quotation.", { x: MARGIN + 14, y: y - 27, size: 8.6, font: regular, color: WHITE });
   page.drawText("info@bridgewax.com  ·  bridgewax.com", { x: MARGIN + 14, y: y - 41, size: 8.2, font: bold, color: WHITE });
 
   drawFooter();

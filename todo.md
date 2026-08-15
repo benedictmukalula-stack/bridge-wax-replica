@@ -382,3 +382,7 @@
 - [x] Run type checks, full tests, production build, image checks, and desktop/mobile visual verification for products, categories, details, cart, and quotation flow without modifying SMTP.
 - [x] Review source-control changes, commit the rebuild, push to the existing repository where authorized, and deploy the existing Vercel project without changing bridgewax.com.
 - [x] Deliver the complete catalogue, image, UX, SEO, source-control, Vercel, and remaining-issues report.
+
+## Product Documentation Enhancement
+
+- [x] Add a source-linked manufacturer specifications and documents section to product detail pages, with genuine downloads only and a clear request fallback when no verified file has been supplied.

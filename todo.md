@@ -410,3 +410,10 @@
 - [x] Apply neutral original-brightness presentation rules to affected product, laboratory, service, and supporting imagery while preserving intentional hero-text contrast.
 - [x] Add regression coverage and run type checks, scoped tests, production builds, and desktop/mobile visual checks across representative routes.
 - [x] Deploy and verify the site-wide brightness correction on staging without changing SMTP configuration or bridgewax.com production.
+
+## Remaining Safety & PPE Category Visuals
+
+- [x] Confirm the remaining text-led PPE protection areas and select explicitly authorized imagery for each from the approved source.
+- [x] Upload, register, and map category-specific visuals for Eye & Face Protection, Hearing Protection, Respiratory Protection, Welding PPE, and First Aid & Workplace Safety.
+- [x] Expand PPE visual-registry and integration coverage, then run image, type, build, and desktop/mobile visual regression checks.
+- [x] Deploy and verify the completed visual Safety & PPE catalogue on staging without changing SMTP configuration or bridgewax.com production.

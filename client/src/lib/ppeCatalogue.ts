@@ -66,8 +66,13 @@ export const PPE_VISUAL_ASSETS: readonly PpeVisualAsset[] = [
   { id: "safety-footwear", title: "Safety Footwear", groupSlug: "safety-footwear", image: "/manus-storage/ppe-safety-footwear-boot_448bf5e6.webp", alt: "Industrial safety boot" },
   { id: "hand-protection", title: "Hand Protection", groupSlug: "hand-protection", image: "/manus-storage/ppe-hand-protection-glove_3587413e.jpg", alt: "Protective industrial work glove" },
   { id: "head-protection", title: "Safety Helmets", groupSlug: "head-protection", image: "/manus-storage/ppe-head-protection-helmet_8f8bae8d.jpg", alt: "Orange industrial safety helmet" },
+  { id: "eye-face-protection", title: "Eye & Face Protection", groupSlug: "eye-face-protection", image: "/manus-storage/ppe-eye-face-protection-goggle_8c1aea17.jpg", alt: "Clear industrial safety goggles" },
+  { id: "hearing-protection", title: "Hearing Protection", groupSlug: "hearing-protection", image: "/manus-storage/ppe-hearing-protection-earmuff_465b9dcb.jpg", alt: "Blue industrial hearing-protection earmuffs" },
+  { id: "respiratory-protection", title: "Respiratory Protection", groupSlug: "respiratory-protection", image: "/manus-storage/ppe-respiratory-protection-mask_2eaa546f.jpg", alt: "Disposable industrial respiratory protection mask" },
   { id: "fall-protection", title: "Fall Protection Harness", groupSlug: "fall-protection", image: "/manus-storage/ppe-fall-protection-harness_3f7a0a2b.webp", alt: "Full-body industrial fall protection harness" },
   { id: "chemical-protection", title: "Chemical Protection Suit", groupSlug: "chemical-protection", image: "/manus-storage/ppe-chemical-protection-suit_1d126e17.jpg", alt: "Yellow chemical protective coverall" },
+  { id: "welding-ppe", title: "Welding PPE", groupSlug: "welding-ppe", image: "/manus-storage/ppe-welding-protection-specs_3cd02965.jpg", alt: "Green industrial welding protection spectacles" },
+  { id: "first-aid-workplace-safety", title: "First Aid & Workplace Safety", groupSlug: "first-aid-workplace-safety", image: "/manus-storage/ppe-first-aid-workplace-safety-kit_24e708ac.jpg", alt: "Industrial workplace first-aid kit" },
 ];
 
 export function getPpeVisualAssets(groupSlug?: string) {

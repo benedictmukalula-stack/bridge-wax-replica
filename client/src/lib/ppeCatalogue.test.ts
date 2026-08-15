@@ -15,12 +15,18 @@ describe("Bridge Wax Safety & PPE taxonomy", () => {
   });
 
   it("registers only managed, user-authorized visual references for relevant PPE discovery areas", () => {
-    expect(PPE_VISUAL_ASSETS).toHaveLength(10);
+    expect(PPE_VISUAL_ASSETS).toHaveLength(15);
     expect(getPpeVisualAssets("safety-footwear")[0]?.image).toContain("/manus-storage/ppe-safety-footwear-boot_");
     expect(getPpeVisualAssets("hand-protection")[0]?.image).toContain("/manus-storage/ppe-hand-protection-glove_");
     expect(getPpeVisualAssets("head-protection")[0]?.image).toContain("/manus-storage/ppe-head-protection-helmet_");
+    expect(getPpeVisualAssets("eye-face-protection")[0]?.image).toContain("/manus-storage/ppe-eye-face-protection-goggle_");
+    expect(getPpeVisualAssets("hearing-protection")[0]?.image).toContain("/manus-storage/ppe-hearing-protection-earmuff_");
+    expect(getPpeVisualAssets("respiratory-protection")[0]?.image).toContain("/manus-storage/ppe-respiratory-protection-mask_");
     expect(getPpeVisualAssets("fall-protection")[0]?.image).toContain("/manus-storage/ppe-fall-protection-harness_");
     expect(getPpeVisualAssets("chemical-protection")[0]?.image).toContain("/manus-storage/ppe-chemical-protection-suit_");
+    expect(getPpeVisualAssets("welding-ppe")[0]?.image).toContain("/manus-storage/ppe-welding-protection-specs_");
+    expect(getPpeVisualAssets("first-aid-workplace-safety")[0]?.image).toContain("/manus-storage/ppe-first-aid-workplace-safety-kit_");
     expect(getPpeVisualAssets("high-visibility")[0]?.image).toContain("/manus-storage/ppe-workwear-hi-vis");
+    expect(PPE_CATEGORY_GROUPS.every((group) => getPpeVisualAssets(group.slug).length > 0)).toBe(true);
   });
 });

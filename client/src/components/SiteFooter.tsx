@@ -1,5 +1,5 @@
 /* Reference-matched shared footer: navy information band, gold divider, and the supplied business details. */
-import { Globe, Mail, MapPin, Phone } from "lucide-react";
+import { ArrowUp, Globe, Mail, MapPin, Phone } from "lucide-react";
 import type { IconType } from "react-icons";
 import { FaFacebookF, FaInstagram, FaLinkedinIn, FaTiktok, FaXTwitter, FaYoutube } from "react-icons/fa6";
 import { Link } from "wouter";
@@ -29,6 +29,11 @@ const SOCIAL_LINKS: Array<{ label: string; href: string; icon: IconType }> = [
   { label: "LinkedIn", href: "#social-linkedin", icon: FaLinkedinIn },
   { label: "YouTube", href: "#social-youtube", icon: FaYoutube },
 ];
+
+function scrollToPageTop() {
+  const prefersReducedMotion = typeof window !== "undefined" && window.matchMedia?.("(prefers-reduced-motion: reduce)").matches;
+  window.scrollTo({ top: 0, behavior: prefersReducedMotion ? "auto" : "smooth" });
+}
 
 export function SiteFooter() {
   return (
@@ -78,6 +83,7 @@ export function SiteFooter() {
           <p>© {new Date().getFullYear()} Bridge Wax Ltd. All rights reserved.</p>
           <p>Stand No. LUS/5180/5181, Chishango Road, Lusaka, Zambia</p>
           <p className="footer-powered-by">Powered by: <strong>Knowledge Camp Business Solutions</strong><span aria-hidden="true">·</span><a href="tel:+260779721772">+260 779 721 772</a><span aria-hidden="true">·</span><a href="mailto:info@knowledgecampglobal.co.za">info@knowledgecampglobal.co.za</a></p>
+          <button type="button" className="footer-back-to-top" onClick={scrollToPageTop}><ArrowUp aria-hidden="true" size={14} />Back to Top</button>
         </div>
       </div>
     </footer>

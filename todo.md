@@ -360,3 +360,8 @@
 
 - [x] Add descriptive hover and keyboard-focus tooltips for every footer social-media icon placeholder.
 - [x] Test and visually verify tooltip content, placement, and accessibility across desktop and mobile.
+
+# Footer Back to Top Control
+
+- [x] Add an accessible Back to Top control in the shared footer with smooth scrolling behavior.
+- [x] Test and visually verify the Back to Top control across desktop and mobile.

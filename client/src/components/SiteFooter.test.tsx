@@ -1,11 +1,15 @@
 import React from "react";
 import { cleanup, render, screen } from "@testing-library/react";
+import userEvent from "@testing-library/user-event";
 import { Router } from "wouter";
-import { afterEach, describe, expect, it } from "vitest";
+import { afterEach, describe, expect, it, vi } from "vitest";
 import { SiteFooter } from "./SiteFooter";
 
 describe("SiteFooter social placeholders", () => {
-  afterEach(() => cleanup());
+  afterEach(() => {
+    cleanup();
+    vi.unstubAllGlobals();
+  });
 
   it("renders all requested accessible social profile placeholders without publishing destination URLs", () => {
     render(<Router><SiteFooter /></Router>);
@@ -30,5 +34,15 @@ describe("SiteFooter social placeholders", () => {
     expect(screen.getByText("Knowledge Camp Business Solutions")).toBeTruthy();
     expect(screen.getByRole("link", { name: "+260 779 721 772" }).getAttribute("href")).toBe("tel:+260779721772");
     expect(screen.getByRole("link", { name: "info@knowledgecampglobal.co.za" }).getAttribute("href")).toBe("mailto:info@knowledgecampglobal.co.za");
+  });
+
+  it("smoothly scrolls to the top when Back to Top is activated", async () => {
+    const user = userEvent.setup();
+    const scrollTo = vi.fn();
+    vi.stubGlobal("scrollTo", scrollTo);
+    render(<Router><SiteFooter /></Router>);
+
+    await user.click(screen.getByRole("button", { name: "Back to Top" }));
+    expect(scrollTo).toHaveBeenCalledWith({ top: 0, behavior: "smooth" });
   });
 });

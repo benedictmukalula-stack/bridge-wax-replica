@@ -1,5 +1,4 @@
-// Bridge Wax design reminder: keep quotation capture practical and editorial,
-// using the existing ink, gold, cream, and restrained card language.
+// Cart context with item notes supporting individual product specifications in the quotation flow.
 import { createContext, useContext, useEffect, useMemo, useState, type ReactNode } from "react";
 
 export type QuoteProduct = {
@@ -10,7 +9,10 @@ export type QuoteProduct = {
   rangeTitle?: string;
 };
 
-export type QuoteItem = QuoteProduct & { quantity: number };
+export type QuoteItem = QuoteProduct & {
+  quantity: number;
+  notes?: string;
+};
 
 type QuoteCartContextValue = {
   items: QuoteItem[];
@@ -19,6 +21,7 @@ type QuoteCartContextValue = {
   addItem: (product: QuoteProduct) => void;
   removeItem: (code: string) => void;
   setQuantity: (code: string, quantity: number) => void;
+  setItemNotes: (code: string, notes: string) => void;
   clearCart: () => void;
   openCart: () => void;
   closeCart: () => void;
@@ -32,7 +35,12 @@ function readStoredItems(): QuoteItem[] {
   try {
     const stored = JSON.parse(window.localStorage.getItem(STORAGE_KEY) || "[]");
     if (!Array.isArray(stored)) return [];
-    return stored.filter((item): item is QuoteItem => item && typeof item.code === "string" && typeof item.name === "string" && typeof item.quantity === "number" && item.quantity > 0);
+    return stored
+      .filter((item): item is QuoteItem => item && typeof item.code === "string" && typeof item.name === "string" && typeof item.quantity === "number" && item.quantity > 0)
+      .map((item) => ({
+        ...item,
+        notes: typeof item.notes === "string" ? item.notes : undefined,
+      }));
   } catch {
     return [];
   }
@@ -44,7 +52,7 @@ export function QuoteCartProvider({ children }: { children: ReactNode }) {
   const [hasRestoredItems, setHasRestoredItems] = useState(false);
 
   useEffect(() => {
-    setItems((current) => current.length > 0 ? current : readStoredItems());
+    setItems((current) => (current.length > 0 ? current : readStoredItems()));
     setHasRestoredItems(true);
   }, []);
 
@@ -53,27 +61,40 @@ export function QuoteCartProvider({ children }: { children: ReactNode }) {
     window.localStorage.setItem(STORAGE_KEY, JSON.stringify(items));
   }, [hasRestoredItems, items]);
 
-  const value = useMemo<QuoteCartContextValue>(() => ({
-    items,
-    itemCount: items.reduce((total, item) => total + item.quantity, 0),
-    isOpen,
-    addItem: (product) => setItems((current) => {
-      const existing = current.find((item) => item.code === product.code);
-      if (existing) return current.map((item) => item.code === product.code ? { ...item, quantity: item.quantity + 1 } : item);
-      return [...current, { ...product, quantity: 1 }];
+  const value = useMemo<QuoteCartContextValue>(
+    () => ({
+      items,
+      itemCount: items.reduce((total, item) => total + item.quantity, 0),
+      isOpen,
+      addItem: (product) =>
+        setItems((current) => {
+          const existing = current.find((item) => item.code === product.code);
+          if (existing) {
+            return current.map((item) => (item.code === product.code ? { ...item, quantity: item.quantity + 1 } : item));
+          }
+          return [...current, { ...product, quantity: 1, notes: "" }];
+        }),
+      removeItem: (code) => setItems((current) => current.filter((item) => item.code !== code)),
+      setQuantity: (code, quantity) =>
+        setItems((current) =>
+          quantity > 0
+            ? current.map((item) => (item.code === code ? { ...item, quantity: Math.min(99, Math.max(1, quantity)) } : item))
+            : current.filter((item) => item.code !== code)
+        ),
+      setItemNotes: (code, notes) =>
+        setItems((current) => current.map((item) => (item.code === code ? { ...item, notes } : item))),
+      clearCart: () => setItems([]),
+      openCart: () => setIsOpen(true),
+      closeCart: () => setIsOpen(false),
     }),
-    removeItem: (code) => setItems((current) => current.filter((item) => item.code !== code)),
-    setQuantity: (code, quantity) => setItems((current) => quantity > 0 ? current.map((item) => item.code === code ? { ...item, quantity: Math.min(99, Math.max(1, quantity)) } : item) : current.filter((item) => item.code !== code)),
-    clearCart: () => setItems([]),
-    openCart: () => setIsOpen(true),
-    closeCart: () => setIsOpen(false),
-  }), [isOpen, items]);
+    [isOpen, items]
+  );
 
   return <QuoteCartContext.Provider value={value}>{children}</QuoteCartContext.Provider>;
 }
 
 export function useQuoteCart() {
   const context = useContext(QuoteCartContext);
-  if (!context) throw new Error("useQuoteCart must be used within QuoteCartProvider");
+  if (!context) throw new Error("useQuoteCart must be used within a QuoteCartProvider");
   return context;
 }

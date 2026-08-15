@@ -1,4 +1,3 @@
-/* Bridge Wax mail delivery: all quote requests are sent server-side through the configured domain mailbox. */
 import nodemailer from "nodemailer";
 
 export type QuotationEmailInput = {
@@ -12,6 +11,7 @@ export type QuotationEmailInput = {
     categoryTitle: string;
     rangeTitle?: string;
     quantity: number;
+    notes?: string;
   }>;
 };
 
@@ -23,7 +23,11 @@ function requiredSecret(key: string): string {
 
 export function formatQuotationEmail(input: QuotationEmailInput): string {
   const products = input.products
-    .map((product) => `- ${product.name} (${product.code}) — Quantity: ${product.quantity} — ${product.categoryTitle}${product.rangeTitle ? ` · ${product.rangeTitle}` : ""}`)
+    .map((product) => {
+      const base = `- ${product.name} (${product.code}) — Quantity: ${product.quantity} — ${product.categoryTitle}${product.rangeTitle ? ` · ${product.rangeTitle}` : ""}`;
+      const noteLine = product.notes ? `  Notes: ${product.notes}` : "";
+      return noteLine ? `${base}\n${noteLine}` : base;
+    })
     .join("\n");
 
   return [
@@ -42,7 +46,11 @@ export function formatQuotationEmail(input: QuotationEmailInput): string {
 
 export function formatCustomerConfirmationEmail(input: QuotationEmailInput): string {
   const products = input.products
-    .map((product) => `- ${product.name} (${product.code}) — Quantity: ${product.quantity}`)
+    .map((product) => {
+      const base = `- ${product.name} (${product.code}) — Quantity: ${product.quantity}`;
+      const noteLine = product.notes ? `  Notes: ${product.notes}` : "";
+      return noteLine ? `${base}\n${noteLine}` : base;
+    })
     .join("\n");
 
   return [
@@ -118,9 +126,10 @@ export async function sendCustomerConfirmationEmail(input: QuotationEmailInput):
   });
 
   const customerAccepted = result.accepted.some((recipient) => {
-    const acceptedAddress = typeof recipient === "string" ? recipient : recipient.address;
-    return acceptedAddress.toLowerCase() === input.email.toLowerCase();
+    const address = typeof recipient === "string" ? recipient : recipient.address;
+    return address.toLowerCase() === input.email.toLowerCase();
   });
+
   if (!customerAccepted) {
     throw new Error("The customer confirmation email was not accepted by the mail server");
   }

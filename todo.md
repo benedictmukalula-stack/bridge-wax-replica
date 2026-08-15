@@ -380,5 +380,5 @@
 - [x] Add category breadcrumbs, category-level discovery controls, and individual product detail pages without changing product records, SKUs, images, or cart behavior.
 - [x] Extend route-level SEO, structured breadcrumbs, sitemap, robots references, product-image failure handling, and automated 36-image validation.
 - [x] Run type checks, full tests, production build, image checks, and desktop/mobile visual verification for products, categories, details, cart, and quotation flow without modifying SMTP.
-- [ ] Review source-control changes, commit the rebuild, push to the existing repository where authorized, and deploy the existing Vercel project without changing bridgewax.com.
-- [ ] Deliver the complete catalogue, image, UX, SEO, source-control, Vercel, and remaining-issues report.
+- [x] Review source-control changes, commit the rebuild, push to the existing repository where authorized, and deploy the existing Vercel project without changing bridgewax.com.
+- [x] Deliver the complete catalogue, image, UX, SEO, source-control, Vercel, and remaining-issues report.

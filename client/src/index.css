@@ -419,8 +419,8 @@ h2 { color: var(--ink); font-size: clamp(2rem, 4vw, 3.2rem); line-height: 1.15; 
 .catalogue-product-card { display: flex; min-width: 0; flex-direction: column; overflow: hidden; border: 1px solid rgba(26,26,46,.12); background: #fff; box-shadow: 0 10px 25px rgba(26,26,46,.05); transition: border-color .2s ease, box-shadow .2s ease, transform .2s var(--ease-out); }
 .catalogue-product-card:hover { border-color: rgba(200,150,62,.55); box-shadow: 0 18px 34px rgba(26,26,46,.1); transform: translateY(-3px); }
 .catalogue-product-card:focus-within { border-color: var(--gold); box-shadow: 0 0 0 3px rgba(200,150,62,.14), 0 18px 34px rgba(26,26,46,.1); }
-.catalogue-product-media { display: flex; aspect-ratio: 4 / 3; align-items: center; justify-content: center; overflow: hidden; background: linear-gradient(145deg, #fbfbf8, #f1f1eb); padding: 1rem; }
-.catalogue-product-image { display: block; width: 100%; height: 100%; object-fit: contain; mix-blend-mode: multiply; transition: transform .25s var(--ease-out); }
+.catalogue-product-media { display: flex; aspect-ratio: 4 / 3; align-items: center; justify-content: center; overflow: hidden; background: #fff; padding: 1rem; }
+.catalogue-product-image { display: block; width: 100%; height: 100%; object-fit: contain; background: #fff; filter: none; mix-blend-mode: normal; transition: transform .25s var(--ease-out); }
 .catalogue-product-card:hover .catalogue-product-image { transform: scale(1.035); }
 .catalogue-product-image-fallback { display: grid; width: 100%; height: 100%; place-content: center; gap: .45rem; color: var(--muted-ink); text-align: center; }
 .catalogue-product-image-fallback span { font-size: .72rem; font-weight: 800; letter-spacing: .08em; }
@@ -503,7 +503,7 @@ h2 { color: var(--ink); font-size: clamp(2rem, 4vw, 3.2rem); line-height: 1.15; 
 .products-mega-range-list a:hover svg, .products-mega-range-list a:focus-visible svg { transform: translateX(3px); }
 .products-mega-category-link { display: inline-flex; align-items: center; gap: .3rem; margin-top: auto; color: var(--gold-deep); font-size: .73rem; font-weight: 800; letter-spacing: .04em; text-transform: uppercase; }
 .products-mega-featured-item { display: flex; min-width: 0; align-items: center; gap: .65rem; color: var(--ink); }
-.products-mega-featured-item img { width: 2.8rem; height: 2.8rem; flex: 0 0 auto; border: 1px solid rgba(26,26,46,.1); background: #f6f6f1; object-fit: contain; padding: .2rem; }
+.products-mega-featured-item img { width: 2.8rem; height: 2.8rem; flex: 0 0 auto; border: 1px solid rgba(26,26,46,.1); background: #fff; filter: none; object-fit: contain; padding: .2rem; }
 .products-mega-featured-item span { display: grid; gap: .2rem; min-width: 0; }
 .products-mega-featured-item small { color: var(--gold-deep); font-size: .6rem; font-weight: 800; letter-spacing: .07em; }
 .products-mega-featured-item strong { overflow: hidden; color: var(--ink); font-size: .75rem; line-height: 1.25; text-overflow: ellipsis; white-space: nowrap; }
@@ -549,7 +549,7 @@ h2 { color: var(--ink); font-size: clamp(2rem, 4vw, 3.2rem); line-height: 1.15; 
 .category-selects { grid-template-columns: minmax(0, 1fr) auto; align-items: end; }
 .product-detail-section { padding-top: 8.5rem; }
 .product-detail-layout { display: grid; gap: 2.5rem; align-items: center; }
-.product-detail-media { display: flex; aspect-ratio: 1 / .88; align-items: center; justify-content: center; overflow: hidden; border: 1px solid rgba(26,26,46,.1); background: linear-gradient(145deg, #fbfbf8, #f0f0ea); padding: 2rem; }
+.product-detail-media { display: flex; aspect-ratio: 1 / .88; align-items: center; justify-content: center; overflow: hidden; border: 1px solid rgba(26,26,46,.1); background: #fff; padding: 2rem; }
 .product-detail-media .catalogue-product-image, .product-detail-media .catalogue-product-image-fallback { width: 100%; height: 100%; }
 .product-detail-copy { display: flex; flex-direction: column; align-items: flex-start; }
 .product-detail-category { margin: .65rem 0 .9rem; color: var(--body-text); font-size: .8rem; font-weight: 700; letter-spacing: .035em; text-transform: uppercase; }

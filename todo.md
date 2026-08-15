@@ -403,3 +403,10 @@
 - [x] Correct CSS or presentation-layer brightness while preserving the authorized original imagery and the existing PPE taxonomy.
 - [x] Run PPE regression tests, build checks, and desktop/mobile visual verification before redeploying the corrected staging build.
 - [x] Deploy and verify the brighter PPE catalogue on staging without changing SMTP configuration or promoting it to bridgewax.com production.
+
+## Site-wide Original-Brightness Image Treatment
+
+- [x] Audit every shared and page-level image treatment for darkening blend modes, filters, opacity, or overlays that alter original asset brightness.
+- [x] Apply neutral original-brightness presentation rules to affected product, laboratory, service, and supporting imagery while preserving intentional hero-text contrast.
+- [x] Add regression coverage and run type checks, scoped tests, production builds, and desktop/mobile visual checks across representative routes.
+- [x] Deploy and verify the site-wide brightness correction on staging without changing SMTP configuration or bridgewax.com production.

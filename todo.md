@@ -297,29 +297,34 @@
 - [x] Update productCatalog.ts to reference only the validated authoritative SKU image library.
 - [x] Add and run automated catalogue image-integrity validation without changing SMTP configuration.
 - [x] Run pnpm check, pnpm test, pnpm build, git status, and git diff; report SMTP connectivity accurately if tested.
-- [ ] Commit and push the verified changes to the existing GitHub remote.
-- [ ] Deploy the existing project to Vercel and verify bridgewax.com functionality, SEO URLs, sitemap, robots.txt, cart, and quotation form.
+- [x] Commit verified changes; push to the existing GitHub remote was attempted but blocked by remote 403 authorization.
+- [x] Deploy the existing project to Vercel and verify bridgewax.com functionality, SEO URLs, sitemap, robots.txt, cart, and quotation form, including the documented SMTP-blocked automatic-delivery outcome.
 - [ ] Deliver the final validation and deployment status report.
 
 # Vercel Production Route Fallback Correction
 
-- [ ] Configure Vercel to serve the SPA entry point for public client-side catalogue routes after the deployed Water Pumps URL returned a platform 404.
-- [ ] Redeploy and verify all required production URLs no longer return platform 404 responses.
+- [x] Configure Vercel to serve the SPA entry point for public client-side catalogue routes after the deployed Water Pumps URL returned a platform 404.
+- [x] Redeploy and verify all required production URLs no longer return platform 404 responses.
 
 # Vercel Managed Asset Compatibility
 
-- [ ] Configure Vercel to resolve existing managed /manus-storage/ logo, hero, and non-catalogue image paths so production does not contain broken non-product images.
-- [ ] Redeploy and verify the public logo and hero imagery resolve alongside all authoritative catalogue images.
+- [x] Configure Vercel to resolve existing managed /manus-storage/ logo, hero, and non-catalogue image paths so production does not contain broken non-product images.
+- [x] Redeploy and verify the public logo and hero imagery resolve alongside all authoritative catalogue images.
 
 # Production Sitemap Canonical Domain Correction
 
-- [ ] Replace the legacy manus.space sitemap canonical URLs with bridgewax.com URLs for the Vercel production deployment.
-- [ ] Redeploy and verify bridgewax.com sitemap and robots.txt reference the production domain.
+- [x] Replace the legacy manus.space sitemap canonical URLs with bridgewax.com URLs for the Vercel production deployment.
+- [x] Redeploy and verify bridgewax.com sitemap and robots.txt reference the production domain.
 
 # Vercel Quotation API Compatibility
 
-- [ ] Route /api/trpc quotation requests from Vercel to the existing deployed Bridge Wax server without changing SMTP credentials or transport settings.
-- [ ] Redeploy and verify the quotation API no longer resolves to the SPA document before reporting quotation-form readiness.
+- [x] Route /api/trpc quotation requests from Vercel to the existing deployed Bridge Wax server without changing SMTP credentials or transport settings.
+- [x] Redeploy and verify the quotation API no longer resolves to the SPA document before reporting quotation-form readiness.
+
+# Final Production Verification Completion
+
+- [x] Submit one controlled end-to-end quotation from bridgewax.com after user confirmation and record the SMTP-blocked automatic-delivery outcome.
+- [x] Verify all public service and laboratory catalogue routes in addition to the product catalogue routes, then complete the Vercel production verification item.
 
 # Resilient Deployed Image Retrieval
 

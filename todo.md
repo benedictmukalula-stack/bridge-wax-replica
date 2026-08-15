@@ -301,6 +301,11 @@
 - [ ] Deploy the existing project to Vercel and verify bridgewax.com functionality, SEO URLs, sitemap, robots.txt, cart, and quotation form.
 - [ ] Deliver the final validation and deployment status report.
 
+# Vercel Production Route Fallback Correction
+
+- [ ] Configure Vercel to serve the SPA entry point for public client-side catalogue routes after the deployed Water Pumps URL returned a platform 404.
+- [ ] Redeploy and verify all required production URLs no longer return platform 404 responses.
+
 # Resilient Deployed Image Retrieval
 
 - [x] Add bounded retry and retry-delay handling for transient live-image retrieval errors.

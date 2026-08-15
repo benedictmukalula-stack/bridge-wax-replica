@@ -18,6 +18,14 @@ describe("Bridge Wax SEO metadata", () => {
     expect(meta.image).toBe("/images/products/new-authoritative/BW-WP-001.webp");
   });
 
+  it("publishes indexable metadata and breadcrumbs for the Safety and PPE overview", () => {
+    const meta = getSeoMeta("/products/safety-ppe");
+    expect(meta.title).toContain("Safety & PPE");
+    expect(meta.canonicalPath).toBe("/products/safety-ppe");
+    const breadcrumb = getStructuredData(meta).find((item) => item["@type"] === "BreadcrumbList");
+    expect(breadcrumb).toMatchObject({ itemListElement: expect.arrayContaining([expect.objectContaining({ position: 3, name: "Safety & PPE" })]) });
+  });
+
   it("derives product-detail metadata and ordered breadcrumb structured data from the authoritative SKU", () => {
     const meta = getSeoMeta("/products/water-pumps/end-suction-centrifugal-pump");
     expect(meta.title).toContain("End-Suction Centrifugal Pump (BW-WP-001)");
@@ -48,6 +56,6 @@ describe("Bridge Wax SEO metadata", () => {
     expect(paths).toContain("/services/hdpe");
     expect(paths).toContain("/laboratory/mining");
     expect(paths).toContain("/contact");
-    expect(paths.filter((path) => path.startsWith("/products/")).length).toBe(40);
+    expect(paths.filter((path) => path.startsWith("/products/")).length).toBe(41);
   });
 });

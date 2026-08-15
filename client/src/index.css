@@ -604,6 +604,67 @@ h2 { color: var(--ink); font-size: clamp(2rem, 4vw, 3.2rem); line-height: 1.15; 
 .product-detail-support p { color: rgba(245,240,232,.72); }
 .product-detail-support a { display: inline-flex; align-items: center; gap: .35rem; margin-top: 1rem; color: var(--gold-light); font-size: .75rem; font-weight: 800; letter-spacing: .04em; text-transform: uppercase; }
 .product-detail-support a:hover, .product-detail-support a:focus-visible { color: var(--cream); outline: 0; }
+.catalogue-category-card-ppe { border-color: rgba(200,150,62,.44); }
+.catalogue-ppe-symbol { display: grid; place-items: center; min-height: 13.5rem; background: linear-gradient(135deg, #1a1a2e, #2e2b42); color: var(--gold-light); }
+.ppe-hero { position: relative; overflow: hidden; background: #171727; color: #fff; padding: 8.7rem 0 5.3rem; }
+.ppe-hero-grid { position: absolute; inset: 0; opacity: .24; background-image: linear-gradient(rgba(200,150,62,.22) 1px, transparent 1px), linear-gradient(90deg, rgba(200,150,62,.22) 1px, transparent 1px); background-size: 3.4rem 3.4rem; mask-image: linear-gradient(to right, #000, transparent 85%); }
+.ppe-hero-copy { position: relative; max-width: 910px; }
+.ppe-hero h1 { max-width: 800px; margin: .55rem 0 1.1rem; color: #fff; font-size: clamp(3rem, 6vw, 5.3rem); line-height: .98; }
+.ppe-hero p { max-width: 720px; color: rgba(255,255,255,.8); font-size: 1.05rem; line-height: 1.75; }
+.ppe-hero-stats { display: flex; flex-wrap: wrap; gap: 1rem 2rem; margin-top: 2rem; color: rgba(255,255,255,.76); font-size: .76rem; font-weight: 700; letter-spacing: .05em; text-transform: uppercase; }
+.ppe-hero-stats b { margin-right: .32rem; color: var(--gold-light); font-family: var(--font-display); font-size: 1.55rem; }
+.ppe-heading { max-width: 860px; }
+.ppe-assurance-grid { display: grid; gap: 1rem; margin-top: 2rem; }
+.ppe-assurance-grid article { display: flex; align-items: flex-start; gap: .75rem; border-top: 1px solid rgba(26,26,46,.14); padding-top: 1rem; }
+.ppe-assurance-grid svg { flex: 0 0 auto; color: var(--gold-deep); }
+.ppe-assurance-grid h3 { margin: 0 0 .35rem; color: var(--ink); font-size: 1rem; }
+.ppe-assurance-grid p { margin: 0; color: var(--body-text); font-size: .88rem; line-height: 1.65; }
+.ppe-search { display: flex; align-items: center; gap: .65rem; border: 1px solid rgba(26,26,46,.16); background: #fff; padding: .72rem .85rem; }
+.ppe-search svg { color: var(--gold-deep); }
+.ppe-search input { min-width: 0; flex: 1; border: 0; outline: 0; color: var(--ink); font: inherit; }
+.ppe-search button { display: grid; place-items: center; border: 0; background: transparent; color: var(--ink); cursor: pointer; }
+.ppe-visual-showcase { padding-bottom: 1.5rem; }
+.ppe-visual-grid { display: grid; gap: 1rem; margin-top: 1.2rem; }
+.ppe-visual-card { overflow: hidden; border: 1px solid rgba(26,26,46,.12); background: #fff; }
+.ppe-visual-image { display: grid; min-height: 180px; place-items: center; overflow: hidden; background: #fff; }
+.ppe-visual-image img { width: 100%; height: 100%; min-height: 180px; object-fit: contain; background: #fff; filter: none; mix-blend-mode: normal; }
+.ppe-visual-image.image-failed { background: linear-gradient(135deg, #1a1a2e, #393648); }
+.ppe-visual-card > div:last-child { padding: 1rem; }
+.ppe-visual-card span { color: var(--gold-deep); font-size: .62rem; font-weight: 800; letter-spacing: .1em; text-transform: uppercase; }
+.ppe-visual-card h3 { margin: .45rem 0 .85rem; color: var(--ink); font-size: 1.05rem; }
+.ppe-visual-card a { display: inline-flex; align-items: center; gap: .35rem; color: var(--ink); font-size: .7rem; font-weight: 800; letter-spacing: .04em; text-transform: uppercase; }
+.ppe-visual-card a:hover, .ppe-visual-card a:focus-visible { color: var(--gold-deep); outline: 0; }
+.ppe-category-grid { display: grid; gap: 1rem; margin-top: 1.4rem; }
+.ppe-category-card { display: flex; min-height: 100%; flex-direction: column; border: 1px solid rgba(26,26,46,.12); background: #fff; padding: 1.25rem; }
+.ppe-category-image { display: grid; min-height: 150px; place-items: center; margin: -1.25rem -1.25rem 1rem; overflow: hidden; background: #fff; }
+.ppe-category-image img { width: 100%; height: 150px; object-fit: contain; background: #fff; filter: none; mix-blend-mode: normal; }
+.ppe-category-image.image-failed { background: linear-gradient(135deg, #1a1a2e, #393648); }
+.ppe-category-card-header { display: flex; align-items: center; justify-content: space-between; gap: .75rem; color: var(--gold-deep); font-size: .62rem; font-weight: 800; letter-spacing: .1em; text-transform: uppercase; }
+.ppe-category-card-header strong { color: var(--body-text); font-size: .62rem; }
+.ppe-category-card h3 { margin: .7rem 0 .5rem; color: var(--ink); font-size: 1.35rem; }
+.ppe-category-card p { margin: 0; color: var(--body-text); font-size: .86rem; line-height: 1.65; }
+.ppe-category-card ul { display: grid; gap: .28rem; margin: 1rem 0 1.2rem; padding: 0; list-style: none; }
+.ppe-category-card li { border-left: 2px solid rgba(200,150,62,.55); color: var(--ink); padding-left: .55rem; font-size: .77rem; line-height: 1.35; }
+.ppe-category-request { display: inline-flex; align-items: center; gap: .35rem; margin-top: auto; color: var(--gold-deep); font-size: .72rem; font-weight: 800; letter-spacing: .04em; text-transform: uppercase; }
+.ppe-category-request:hover, .ppe-category-request:focus-visible { color: var(--ink); outline: 0; }
+.ppe-cta { display: flex; flex-wrap: wrap; align-items: end; justify-content: space-between; gap: 1.5rem; }
+.ppe-cta h2 { margin: .55rem 0 .75rem; color: #fff; }
+.ppe-cta p { max-width: 700px; margin: 0; color: rgba(255,255,255,.74); line-height: 1.7; }
+.products-mega-panel-ppe .products-mega-ranges { min-height: 445px; }
+.products-mega-ppe-list { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: .15rem .8rem; margin: 1rem 0; }
+.products-mega-ppe-list a { display: grid; gap: .12rem; border-bottom: 1px solid rgba(26,26,46,.08); color: var(--ink); padding: .42rem 0; }
+.products-mega-ppe-list a span { font-size: .73rem; font-weight: 800; line-height: 1.25; }
+.products-mega-ppe-list a small { color: var(--body-text); font-size: .6rem; }
+.products-mega-ppe-list a:hover span, .products-mega-ppe-list a:focus-visible span { color: var(--gold-deep); }
+.products-mega-ppe-list a:focus-visible { outline: 2px solid var(--gold); outline-offset: 2px; }
+.products-mega-ppe-callout { margin-top: .4rem; }
+.products-mega-ppe-callout svg { color: var(--gold-deep); }
+.products-mega-ppe-callout h3 { margin: .6rem 0; color: var(--ink); font-size: 1.15rem; }
+.products-mega-ppe-callout p { color: var(--body-text); font-size: .78rem; line-height: 1.6; }
+.products-mega-route-copy { display: grid; gap: .65rem; margin: 1.3rem 0; color: var(--body-text); }
+.products-mega-route-copy svg { color: var(--gold-deep); }
+@media (min-width: 640px) { .ppe-assurance-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); } .ppe-category-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); } .ppe-visual-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+@media (min-width: 1080px) { .ppe-category-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); } .ppe-visual-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); } }
 @media (min-width: 640px) {
   .product-detail-info-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .product-documents-empty { grid-template-columns: auto minmax(0, 1fr) auto; }
@@ -622,4 +683,8 @@ h2 { color: var(--ink); font-size: clamp(2rem, 4vw, 3.2rem); line-height: 1.15; 
   .product-document-actions { grid-column: 1 / -1; justify-content: flex-start; }
   .product-document-dialog { padding: 1rem !important; }
   .product-document-frame { height: 58vh; }
+  .ppe-hero { padding-top: 6.6rem; }
+  .ppe-hero h1 { font-size: 2.85rem; }
+  .ppe-hero-stats { gap: .75rem 1rem; }
+  .products-mega-ppe-list { grid-template-columns: 1fr; }
 }

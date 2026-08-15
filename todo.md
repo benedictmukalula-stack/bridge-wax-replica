@@ -387,3 +387,19 @@
 
 - [x] Add a source-linked manufacturer specifications and documents section to product detail pages, with genuine downloads only and a clear request fallback when no verified file has been supplied.
 - [x] Add an accessible in-page document preview modal with Preview and Download controls for verified manufacturer files.
+
+## Safety & PPE Catalogue Expansion
+
+- [x] Add a premium Safety & PPE catalogue with the supplied workwear, safety equipment, and workplace-safety taxonomy, preserving the existing laboratory and industrial catalogue, 36 authoritative image mappings, SMTP settings, and quotation email behavior; do not commit or deploy automatically.
+- [x] Acquire the explicitly authorized PPE reference imagery, map it transparently to Bridge Wax Safety & PPE categories, and build visual product-family catalogue cards locally without committing or deploying.
+- [x] Add explicitly authorized category-specific imagery for Safety Footwear, Hand Protection, and Head Protection to the local Safety & PPE catalogue without committing or deploying.
+- [x] Add explicitly authorized category-specific imagery for Fall Protection and Chemical Protection to the local Safety & PPE catalogue without committing or deploying.
+- [x] Run full local integration validation for all authorized Safety & PPE categories, visual assets, discovery filters, quotation links, and protected existing catalogue behavior without committing or deploying.
+- [x] Deploy the validated Safety & PPE catalogue and product-detail updates to staging, then verify staging routes, managed images, navigation, search, quotation links, and SEO without changing SMTP configuration.
+
+## Safety & PPE Visual Brightness Correction
+
+- [x] Compare the staged PPE image treatment against the explicitly authorized original assets and identify the source of the dark presentation.
+- [x] Correct CSS or presentation-layer brightness while preserving the authorized original imagery and the existing PPE taxonomy.
+- [x] Run PPE regression tests, build checks, and desktop/mobile visual verification before redeploying the corrected staging build.
+- [x] Deploy and verify the brighter PPE catalogue on staging without changing SMTP configuration or promoting it to bridgewax.com production.

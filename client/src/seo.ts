@@ -48,6 +48,13 @@ const STATIC_META: Record<string, SeoMeta> = {
     image: "/manus-storage/products-hero_dbc3417d.webp",
     imageAlt: "Bridge Wax laboratory and industrial product range",
   },
+  "/products/safety-ppe": {
+    title: "Safety & PPE | Workwear & Workplace Protection | Bridge Wax",
+    description: "Explore Bridge Wax Safety & PPE product families for workwear, footwear, hand, head, eye, respiratory, fall, chemical, welding, and workplace safety requirements.",
+    canonicalPath: "/products/safety-ppe",
+    image: "/manus-storage/products-hero_dbc3417d.webp",
+    imageAlt: "Bridge Wax Safety and PPE product-family catalogue",
+  },
   "/services": {
     title: "Technical Services & Industrial Support | Bridge Wax",
     description: "Bridge Wax provides laboratory equipment supply, industrial testing, plant maintenance, fabrication, HDPE pipe systems, pumps, valves, and technical support.",
@@ -151,6 +158,11 @@ function getBreadcrumbItems(pathname: string) {
   }
 
   const categoryMatch = pathname.match(/^\/products\/([^/]+)$/);
+  if (pathname === "/products/safety-ppe") return [
+    { name: "Home", item: SEO_ORIGIN },
+    { name: "Products", item: `${SEO_ORIGIN}/products` },
+    { name: "Safety & PPE", item: `${SEO_ORIGIN}/products/safety-ppe` },
+  ];
   if (categoryMatch) {
     const category = PRODUCT_CATALOGUES[categoryMatch[1]];
     if (category) return [
@@ -215,6 +227,7 @@ export function getSitemapPaths() {
     "/laboratory",
     ...Object.values(LAB_CATALOGUES).map((catalogue) => `/laboratory/${catalogue.slug}`),
     "/products",
+    "/products/safety-ppe",
     ...Object.values(PRODUCT_CATALOGUES).map((catalogue) => `/products/${catalogue.slug}`),
     ...CATALOGUE_PRODUCTS.map((product) => getProductPath(product)),
     "/services",

@@ -13,6 +13,7 @@ import NotFound from "./pages/NotFound";
 import ProductCategory from "./pages/ProductCategory";
 import ProductDetail from "./pages/ProductDetail";
 import Products from "./pages/Products";
+import SafetyPpe from "./pages/SafetyPpe";
 import ServiceCategory from "./pages/ServiceCategory";
 
 function Router() {
@@ -24,6 +25,7 @@ function Router() {
       <Route path={"/laboratory"} component={Laboratory} />
       <Route path={"/laboratory/:category"} component={LabCategory} />
       <Route path={"/products"} component={Products} />
+      <Route path={"/products/safety-ppe"} component={SafetyPpe} />
       <Route path={"/products/:category/:product"} component={ProductDetail} />
       <Route path={"/products/:category"} component={ProductCategory} />
       <Route path={"/services/:service"} component={ServiceCategory} />

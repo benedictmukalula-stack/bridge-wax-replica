@@ -461,3 +461,12 @@
 - [x] Integrate quotation cart actions with per-item notes and SMTP mailer.
 - [x] Run validation report, TypeScript checks, and regression tests.
 - [x] Save checkpoint and deliver verified deployment.
+
+# Production Deployment to bridgewax.com
+
+- [ ] Run required validation: `pnpm check`, `pnpm test`, `pnpm build`.
+- [ ] Verify local working state of Products & Solutions, PPE, mega-menu, cart, and SEO.
+- [ ] Inspect GitHub remote and push current build (or document 403 permission state).
+- [ ] Inspect Vercel production deployment status and domain binding for `bridgewax.com`.
+- [ ] Verify production URL responses for root, `/products`, and `/products/ppe`.
+- [ ] Complete the final validation report matching user criteria.

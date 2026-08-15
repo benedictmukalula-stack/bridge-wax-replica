@@ -340,3 +340,8 @@
 - [x] Add accessible social-media icon links for Facebook, X/Twitter, Instagram, TikTok, LinkedIn, and YouTube to the shared footer.
 - [x] Defer official Bridge Wax profile URLs until the corresponding social pages are created; use clearly labelled non-destination placeholders meanwhile.
 - [x] Test and visually verify the footer social-link layout across the site.
+
+# Footer Partner Signature
+
+- [x] Add the Knowledge Camp Business Solutions powered-by signature with accessible phone and email links to the footer bottom.
+- [x] Test and visually verify the footer signature layout across desktop and mobile.

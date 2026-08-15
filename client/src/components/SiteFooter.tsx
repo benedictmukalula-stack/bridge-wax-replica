@@ -70,7 +70,11 @@ export function SiteFooter() {
             <a href="https://www.bridgewax.com" target="_blank" rel="noreferrer"><Globe size={16} />www.bridgewax.com</a>
           </div></div>
         </div>
-        <div className="footer-bottom"><p>© {new Date().getFullYear()} Bridge Wax Ltd. All rights reserved.</p><p>Stand No. LUS/5180/5181, Chishango Road, Lusaka, Zambia</p></div>
+        <div className="footer-bottom">
+          <p>© {new Date().getFullYear()} Bridge Wax Ltd. All rights reserved.</p>
+          <p>Stand No. LUS/5180/5181, Chishango Road, Lusaka, Zambia</p>
+          <p className="footer-powered-by">Powered by: <strong>Knowledge Camp Business Solutions</strong><span aria-hidden="true">·</span><a href="tel:+260779721772">+260 779 721 772</a><span aria-hidden="true">·</span><a href="mailto:info@knowledgecampglobal.co.za">info@knowledgecampglobal.co.za</a></p>
+        </div>
       </div>
     </footer>
   );

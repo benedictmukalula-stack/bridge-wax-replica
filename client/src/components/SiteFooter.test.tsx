@@ -19,4 +19,12 @@ describe("SiteFooter social placeholders", () => {
       expect(link.getAttribute("data-social-placeholder")).toBe(label);
     });
   });
+
+  it("renders the Knowledge Camp Business Solutions signature with direct contact links", () => {
+    render(<Router><SiteFooter /></Router>);
+
+    expect(screen.getByText("Knowledge Camp Business Solutions")).toBeTruthy();
+    expect(screen.getByRole("link", { name: "+260 779 721 772" }).getAttribute("href")).toBe("tel:+260779721772");
+    expect(screen.getByRole("link", { name: "info@knowledgecampglobal.co.za" }).getAttribute("href")).toBe("mailto:info@knowledgecampglobal.co.za");
+  });
 });

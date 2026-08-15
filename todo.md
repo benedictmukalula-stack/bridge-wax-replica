@@ -451,3 +451,13 @@
 - [x] Push to GitHub remote repository (Note: HTTP 403 authorization encountered on `benedictmukalula-stack/bridge-wax-replica.git`; deployment successfully maintained on Manus and Vercel staging).
 - [x] Deploy to Vercel and configure bridgewax.com.
 - [x] Verify live production routes, SEO assets, and quotation workflow.
+
+# Bridge Wax Industrial & PPE Catalogue Expansion
+
+- [ ] Audit existing product files, routing, and quotation flow.
+- [ ] Implement robust multi-level mega-menu and category hierarchy.
+- [ ] Expand PPE, workwear, laboratory, and industrial catalogues with 100+ unique items and verified assets.
+- [ ] Build advanced filtering, sorting, industry discovery, and reusable product detail pages.
+- [ ] Integrate quotation cart actions with per-item notes and SMTP mailer.
+- [ ] Run validation report, TypeScript checks, and regression tests.
+- [ ] Save checkpoint and deliver verified deployment.

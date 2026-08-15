@@ -50,7 +50,10 @@ export async function setupVite(app: Express, server: Server) {
   const vite = await createViteServer({
     ...viteConfig,
     configFile: false,
-    server: { middlewareMode: true, hmr: { server }, allowedHosts: true },
+    // The managed preview terminates TLS and proxies its public HTTPS origin to
+    // this in-process Vite server. Explicit client settings prevent Vite from
+    // falling back to localhost:5173 for browser-side HMR reconnection.
+    server: { middlewareMode: true, hmr: { server, protocol: "wss", clientPort: 443 }, allowedHosts: true },
     appType: "custom",
   });
 

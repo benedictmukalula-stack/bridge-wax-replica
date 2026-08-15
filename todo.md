@@ -345,3 +345,8 @@
 
 - [x] Add the Knowledge Camp Business Solutions powered-by signature with accessible phone and email links to the footer bottom.
 - [x] Test and visually verify the footer signature layout across desktop and mobile.
+
+# Development Preview HMR Repair
+
+- [x] Diagnose the Vite HMR WebSocket connection failure reported on the mining laboratory route.
+- [x] Apply the minimal development-only configuration repair and verify the preview reconnects without affecting production behavior.

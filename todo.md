@@ -334,3 +334,9 @@
 # Unused Manifest Asset Detail
 
 - [x] Include concrete unused-manifest entries in the validation report and verify the output.
+
+# Footer Social Media Links
+
+- [x] Add accessible social-media icon links for Facebook, X/Twitter, Instagram, TikTok, LinkedIn, and YouTube to the shared footer.
+- [x] Defer official Bridge Wax profile URLs until the corresponding social pages are created; use clearly labelled non-destination placeholders meanwhile.
+- [x] Test and visually verify the footer social-link layout across the site.

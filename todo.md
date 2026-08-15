@@ -481,7 +481,7 @@
 
 # PDF Logo and Customer Signature
 
-- [ ] Embed the Bridge Wax company logo cleanly in the generated PDF summary header.
-- [ ] Add a professional customer signature and approval-date block at the end of the PDF summary.
-- [ ] Update automated PDF tests to assert the presence of logo and signature elements.
-- [ ] Run TypeScript checks, non-SMTP test suite, production build, and save a verified checkpoint.
+- [x] Embed the Bridge Wax company logo cleanly in the generated PDF summary header.
+- [x] Add a professional customer signature and approval-date block at the end of the PDF summary.
+- [x] Update automated PDF tests to assert the presence of logo and signature elements.
+- [x] Run TypeScript checks, non-SMTP test suite, production build, and save a verified checkpoint.

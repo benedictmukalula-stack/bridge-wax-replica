@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://bridgewax-gxhf7erv.manus.space/sitemap.xml
+Sitemap: https://bridgewax.com/sitemap.xml

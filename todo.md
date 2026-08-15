@@ -311,6 +311,11 @@
 - [ ] Configure Vercel to resolve existing managed /manus-storage/ logo, hero, and non-catalogue image paths so production does not contain broken non-product images.
 - [ ] Redeploy and verify the public logo and hero imagery resolve alongside all authoritative catalogue images.
 
+# Production Sitemap Canonical Domain Correction
+
+- [ ] Replace the legacy manus.space sitemap canonical URLs with bridgewax.com URLs for the Vercel production deployment.
+- [ ] Redeploy and verify bridgewax.com sitemap and robots.txt reference the production domain.
+
 # Resilient Deployed Image Retrieval
 
 - [x] Add bounded retry and retry-delay handling for transient live-image retrieval errors.

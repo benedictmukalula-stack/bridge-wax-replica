@@ -2,7 +2,7 @@ import { LAB_CATALOGUES } from "./lib/labCatalog";
 import { PRODUCT_CATALOGUES } from "./lib/productCatalog";
 import { SERVICE_CATALOGUES } from "./lib/serviceCatalog";
 
-export const SEO_ORIGIN = "https://bridgewax-gxhf7erv.manus.space";
+export const SEO_ORIGIN = "https://bridgewax.com";
 export const SEO_SITE_NAME = "Bridge Wax";
 export const SEO_DEFAULT_DESCRIPTION = "Bridge Wax supplies laboratory equipment, mining laboratory solutions, medical laboratory products, analytical instruments, water pumps, industrial equipment, and technical services across Zambia and Southern Africa.";
 export const SEO_DEFAULT_IMAGE = "/manus-storage/lab-analytical-room_14145300.webp";

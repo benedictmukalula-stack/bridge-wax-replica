@@ -26,6 +26,16 @@ function OpenEmptyCart() {
   return <QuoteCart />;
 }
 
+function AddPpeSelectionImmediately() {
+  const { addItem, items } = useQuoteCart();
+  useEffect(() => {
+    addItem({ code: "PPE-CATEGORY-WORKWEAR", name: "Workwear selection", categorySlug: "safety-ppe", categoryTitle: "Safety & PPE", rangeTitle: "Workwear · 9 families" });
+    // This deliberately represents a user selecting a card during the initial restore window.
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, []);
+  return <span>{items.map((item) => item.name).join(",")}</span>;
+}
+
 describe("QuoteCart empty state", () => {
   beforeEach(() => {
     window.history.replaceState({}, "", "/");
@@ -51,5 +61,11 @@ describe("QuoteCart empty state", () => {
 
     await waitFor(() => expect(screen.queryByRole("dialog")).toBeNull());
     expect(window.location.pathname).toBe("/products");
+  });
+
+  it("preserves an immediate PPE catalogue selection while stored cart state is restored", async () => {
+    render(<QuoteCartProvider><AddPpeSelectionImmediately /></QuoteCartProvider>);
+
+    await waitFor(() => expect(screen.getByText("Workwear selection")).toBeTruthy());
   });
 });

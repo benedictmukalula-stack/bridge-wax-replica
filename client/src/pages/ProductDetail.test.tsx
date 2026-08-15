@@ -19,7 +19,7 @@ describe("ProductDetail", () => {
     expect(screen.getAllByText("BW-WP-001").length).toBeGreaterThan(0);
     expect(screen.getByText((_, element) => Boolean(element?.classList.contains("product-detail-category") && element.textContent?.trim() === "Water Pumps · Water Pumps"))).toBeTruthy();
     expect(screen.getByRole("link", { name: "Water Pumps" }).getAttribute("href")).toBe("/products/water-pumps");
-    expect(screen.getByRole("button", { name: /Add End-Suction Centrifugal Pump to quotation basket/i })).toBeTruthy();
+    expect(screen.getByRole("button", { name: "Add End-Suction Centrifugal Pump to cart" })).toBeTruthy();
     expect(screen.getByRole("link", { name: /Request a Quote/i }).getAttribute("href")).toContain("/contact?product=");
   });
 });

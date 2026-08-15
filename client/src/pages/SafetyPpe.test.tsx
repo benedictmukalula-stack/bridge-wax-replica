@@ -1,18 +1,20 @@
 import { cleanup, render, screen } from "@testing-library/react";
 import userEvent from "@testing-library/user-event";
 import type { ReactNode } from "react";
-import { afterEach, describe, expect, it, vi } from "vitest";
+import { afterEach, beforeEach, describe, expect, it, vi } from "vitest";
+import { QuoteCartProvider } from "../contexts/QuoteCartContext";
 import SafetyPpe from "./SafetyPpe";
 
 vi.mock("../components/PageShell", () => ({ PageShell: ({ children }: { children: ReactNode }) => <main>{children}</main> }));
 vi.mock("../components/CatalogueBackToTop", () => ({ CatalogueBackToTop: () => null }));
 
 describe("SafetyPpe", () => {
+  beforeEach(() => window.localStorage.clear());
   afterEach(() => cleanup());
 
   it("renders the supplied PPE taxonomy and filters product families without affecting existing catalogues", async () => {
     const user = userEvent.setup();
-    render(<SafetyPpe />);
+    render(<QuoteCartProvider><SafetyPpe /></QuoteCartProvider>);
 
     expect(screen.getByRole("heading", { name: "Protection planned for the work ahead." })).toBeTruthy();
     expect(screen.getByAltText("Reflective industrial workwear featured for Bridge Wax Safety and PPE").getAttribute("src")).toContain("/manus-storage/ppe-workwear-hi-vis-navy-orange_");
@@ -26,7 +28,9 @@ describe("SafetyPpe", () => {
     expect(screen.getByAltText("Orange industrial safety helmet").getAttribute("src")).toContain("/manus-storage/ppe-head-protection-helmet_");
     expect(screen.getByAltText("Full-body industrial fall protection harness").getAttribute("src")).toContain("/manus-storage/ppe-fall-protection-harness_");
     expect(screen.getByAltText("Yellow chemical protective coverall").getAttribute("src")).toContain("/manus-storage/ppe-chemical-protection-suit_");
-    expect(screen.getByRole("link", { name: /Request Workwear/i }).getAttribute("href")).toContain("/contact?product=Safety%20%26%20PPE%20%E2%80%94%20Workwear");
+    const addWorkwear = screen.getByRole("button", { name: "Add Workwear selection to cart" });
+    await user.click(addWorkwear);
+    expect(screen.getByRole("button", { name: "Workwear selection is in the cart" })).toBeTruthy();
 
     await user.type(screen.getByLabelText("Search Safety and PPE product families"), "fall");
     expect(screen.getByRole("heading", { name: "Fall Protection" })).toBeTruthy();

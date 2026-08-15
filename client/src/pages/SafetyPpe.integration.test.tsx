@@ -1,8 +1,9 @@
 import { cleanup, render, screen } from "@testing-library/react";
 import userEvent from "@testing-library/user-event";
 import type { ReactNode } from "react";
-import { afterEach, describe, expect, it, vi } from "vitest";
+import { afterEach, beforeEach, describe, expect, it, vi } from "vitest";
 import { CATALOGUE_CATEGORIES, CATALOGUE_PRODUCTS, getCatalogueCounts } from "../lib/catalogueData";
+import { QuoteCartProvider } from "../contexts/QuoteCartContext";
 import { getPpeVisualAssets, PPE_CATEGORY_GROUPS, PPE_PRODUCT_FAMILIES, PPE_VISUAL_ASSETS } from "../lib/ppeCatalogue";
 import SafetyPpe from "./SafetyPpe";
 
@@ -10,11 +11,12 @@ vi.mock("../components/PageShell", () => ({ PageShell: ({ children }: { children
 vi.mock("../components/CatalogueBackToTop", () => ({ CatalogueBackToTop: () => null }));
 
 describe("Safety & PPE authorised catalogue integration", () => {
+  beforeEach(() => window.localStorage.clear());
   afterEach(() => cleanup());
 
-  it("renders every category, managed visual, filter flow, and quotation request without changing the existing catalogue", async () => {
+  it("renders every category, managed visual, filter flow, and cart action without changing the existing catalogue", async () => {
     const user = userEvent.setup();
-    render(<SafetyPpe />);
+    render(<QuoteCartProvider><SafetyPpe /></QuoteCartProvider>);
 
     expect(PPE_CATEGORY_GROUPS).toHaveLength(12);
     expect(PPE_PRODUCT_FAMILIES).toHaveLength(70);
@@ -28,7 +30,7 @@ describe("Safety & PPE authorised catalogue integration", () => {
       expect(categoryCard).toBeTruthy();
       expect(categoryCard?.textContent).toContain(group.title);
       expect(categoryCard?.textContent).toContain(`${group.families.length} families`);
-      expect(screen.getByRole("link", { name: `Request ${group.title}` }).getAttribute("href")).toBe(`/contact?product=${encodeURIComponent(`Safety & PPE — ${group.title}`)}`);
+      expect(screen.getByRole("button", { name: `Add ${group.title} selection to cart` })).toBeTruthy();
       expect(getPpeVisualAssets(group.slug)).not.toHaveLength(0);
     }
 
@@ -37,8 +39,7 @@ describe("Safety & PPE authorised catalogue integration", () => {
       expect(image.getAttribute("src")).toBe(asset.image);
       const visualCard = image.closest(".ppe-visual-card");
       expect(visualCard?.textContent).toContain(asset.title);
-      const quoteLink = visualCard?.querySelector('a[href^="/contact?product="]');
-      expect(quoteLink?.getAttribute("href")).toBe(`/contact?product=${encodeURIComponent(`Safety & PPE — ${asset.title}`)}`);
+      expect(visualCard?.querySelector(`button[aria-label="Add ${asset.title} to cart"]`)).toBeTruthy();
     }
 
     const search = screen.getByLabelText("Search Safety and PPE product families");

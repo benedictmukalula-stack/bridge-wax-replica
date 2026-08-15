@@ -1,8 +1,9 @@
 /* Service catalogue detail page: service scope cards with service codes and clean reference imagery. */
-import { ArrowLeft, Mail } from "lucide-react";
+import { ArrowLeft } from "lucide-react";
 import { Link, useRoute } from "wouter";
 import { PageHero, PageShell } from "../components/PageShell";
 import { CatalogueBackToTop } from "../components/CatalogueBackToTop";
+import { AddToQuoteButton } from "../components/QuoteCart";
 import { SERVICE_CATALOGUES } from "../lib/serviceCatalog";
 
 export default function ServiceCategory() {
@@ -26,7 +27,7 @@ export default function ServiceCategory() {
         <div className="catalogue-grid">
           {catalogue.offers.map((offer) => <article className="catalogue-card" key={offer.code}>
             <div className="catalogue-card-media"><img src={offer.image} alt={`${offer.name} reference image`} loading="eager" decoding="sync" /></div>
-            <div className="catalogue-card-body"><span className="catalogue-code">{offer.code}</span><h2>{offer.name}</h2><p>{offer.description}</p><Link href={`/contact?service=${encodeURIComponent(offer.name)}`} className="catalogue-enquire">Enquire about this service <Mail size={15} /></Link></div>
+            <div className="catalogue-card-body"><span className="catalogue-code">{offer.code}</span><h2>{offer.name}</h2><p>{offer.description}</p><AddToQuoteButton product={{ ...offer, categorySlug: catalogue.slug, categoryTitle: catalogue.title, rangeTitle: "Service scope" }} /></div>
           </article>)}
         </div>
       </div>

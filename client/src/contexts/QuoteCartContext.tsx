@@ -44,7 +44,7 @@ export function QuoteCartProvider({ children }: { children: ReactNode }) {
   const [hasRestoredItems, setHasRestoredItems] = useState(false);
 
   useEffect(() => {
-    setItems(readStoredItems());
+    setItems((current) => current.length > 0 ? current : readStoredItems());
     setHasRestoredItems(true);
   }, []);
 

@@ -424,3 +424,11 @@
 - [x] Implement a dedicated responsive hero image with readable copy and preserve existing catalogue navigation and quotation calls to action.
 - [x] Add hero-image regression coverage and run type, focused test, build, and desktop/mobile visual checks.
 - [x] Deploy and verify the updated Safety & PPE hero on staging without changing SMTP configuration or bridgewax.com production.
+
+## Unified Catalogue Cart and Products Tab
+
+- [x] Audit all catalogue action controls, the existing cart data model, quotation payload, and Products & Solutions tab markup and styling.
+- [x] Add cart-selection actions for Safety & PPE categories and make all website catalogue actions consistently add selections to the existing quotation cart.
+- [x] Correct the Products & Solutions tab presentation with clear text hierarchy and a visible premium background treatment across desktop and mobile.
+- [x] Add regression coverage and run type, focused interaction, build, and desktop/mobile visual checks for cart, quotation, and navigation behavior.
+- [x] Deploy and verify the unified catalogue-cart and Products & Solutions tab update on staging without changing SMTP configuration or bridgewax.com production.

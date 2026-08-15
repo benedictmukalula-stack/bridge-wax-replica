@@ -443,3 +443,11 @@
 - [x] Reduce Home, About, Laboratory, Cart, and Contact desktop controls to a tighter compact size while preserving readable text and focus states.
 - [x] Verify the compact header across desktop and responsive layouts with regression checks.
 - [x] Save a checkpoint for the remaining header tab size revision.
+
+# GitHub and Vercel Deployment for bridgewax.com
+
+- [ ] Inspect git remote, authentication, and Vercel project configuration.
+- [ ] Commit all verified header, cart, and catalogue changes.
+- [ ] Push to GitHub remote repository.
+- [ ] Deploy to Vercel and bind bridgewax.com production domain.
+- [ ] Verify live production routes, SEO assets, and quotation workflow.

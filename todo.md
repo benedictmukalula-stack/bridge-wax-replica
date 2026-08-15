@@ -316,6 +316,11 @@
 - [ ] Replace the legacy manus.space sitemap canonical URLs with bridgewax.com URLs for the Vercel production deployment.
 - [ ] Redeploy and verify bridgewax.com sitemap and robots.txt reference the production domain.
 
+# Vercel Quotation API Compatibility
+
+- [ ] Route /api/trpc quotation requests from Vercel to the existing deployed Bridge Wax server without changing SMTP credentials or transport settings.
+- [ ] Redeploy and verify the quotation API no longer resolves to the SPA document before reporting quotation-form readiness.
+
 # Resilient Deployed Image Retrieval
 
 - [x] Add bounded retry and retry-delay handling for transient live-image retrieval errors.

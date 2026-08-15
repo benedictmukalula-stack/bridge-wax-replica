@@ -432,3 +432,8 @@
 - [x] Correct the Products & Solutions tab presentation with clear text hierarchy and a visible premium background treatment across desktop and mobile.
 - [x] Add regression coverage and run type, focused interaction, build, and desktop/mobile visual checks for cart, quotation, and navigation behavior.
 - [x] Deploy and verify the unified catalogue-cart and Products & Solutions tab update on staging without changing SMTP configuration or bridgewax.com production.
+
+# Compact Products & Solutions Tab
+- [x] Reduce the desktop Products & Solutions navigation tab to a minimal compact size while preserving readable text, focus states, and responsive behavior.
+- [x] Verify the compact Products & Solutions tab visually and with regression checks.
+- [x] Save a checkpoint for the compact navigation-tab update.

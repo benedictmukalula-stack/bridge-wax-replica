@@ -14,9 +14,13 @@ describe("SiteFooter social placeholders", () => {
     expect(socialProfiles).toBeTruthy();
 
     ["Facebook", "X / Twitter", "Instagram", "TikTok", "LinkedIn", "YouTube"].forEach((label) => {
-      const link = screen.getByRole("link", { name: `${label} profile coming soon` });
+      const link = screen.getByRole("link", { name: label });
       expect(link.getAttribute("aria-disabled")).toBe("true");
       expect(link.getAttribute("data-social-placeholder")).toBe(label);
+      const tooltipId = link.getAttribute("aria-describedby");
+      const tooltip = tooltipId ? document.getElementById(tooltipId) : null;
+      expect(tooltip?.getAttribute("role")).toBe("tooltip");
+      expect(tooltip?.textContent).toContain(`${label} profile coming soon`);
     });
   });
 

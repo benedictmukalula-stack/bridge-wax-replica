@@ -355,3 +355,8 @@
 
 - [x] Add subtle accessible hover and focus animations to the footer social-media icon placeholders.
 - [x] Test and visually verify the social icon interaction styling across desktop and mobile.
+
+# Footer Social Icon Tooltips
+
+- [x] Add descriptive hover and keyboard-focus tooltips for every footer social-media icon placeholder.
+- [x] Test and visually verify tooltip content, placement, and accessibility across desktop and mobile.

@@ -42,20 +42,24 @@ export function SiteFooter() {
             <div className="footer-social" role="group" aria-label="Bridge Wax social profiles">
               <span className="footer-social-label">Social profiles coming soon</span>
               <div className="footer-social-links">
-                {SOCIAL_LINKS.map(({ label, href, icon: Icon }) => (
-                  <a
-                    key={label}
-                    className="footer-social-link"
-                    href={href}
-                    aria-label={`${label} profile coming soon`}
-                    aria-disabled="true"
-                    data-social-placeholder={label}
-                    title={`${label} profile coming soon`}
-                    onClick={(event) => event.preventDefault()}
-                  >
-                    <Icon aria-hidden="true" focusable="false" />
-                  </a>
-                ))}
+                {SOCIAL_LINKS.map(({ label, href, icon: Icon }) => {
+                  const tooltipId = `footer-social-tooltip-${label.toLowerCase().replace(/[^a-z0-9]+/g, "-")}`;
+                  return (
+                    <a
+                      key={label}
+                      className="footer-social-link"
+                      href={href}
+                      aria-label={label}
+                      aria-describedby={tooltipId}
+                      aria-disabled="true"
+                      data-social-placeholder={label}
+                      onClick={(event) => event.preventDefault()}
+                    >
+                      <Icon aria-hidden="true" focusable="false" />
+                      <span id={tooltipId} className="footer-social-tooltip" role="tooltip"><span aria-hidden="true">{label}</span><span> profile coming soon</span></span>
+                    </a>
+                  );
+                })}
               </div>
             </div>
           </div>

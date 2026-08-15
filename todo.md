@@ -350,3 +350,8 @@
 
 - [x] Diagnose the Vite HMR WebSocket connection failure reported on the mining laboratory route.
 - [x] Apply the minimal development-only configuration repair and verify the preview reconnects without affecting production behavior.
+
+# Footer Social Icon Interaction
+
+- [x] Add subtle accessible hover and focus animations to the footer social-media icon placeholders.
+- [x] Test and visually verify the social icon interaction styling across desktop and mobile.

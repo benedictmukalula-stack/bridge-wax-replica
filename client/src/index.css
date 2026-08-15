@@ -608,11 +608,17 @@ h2 { color: var(--ink); font-size: clamp(2rem, 4vw, 3.2rem); line-height: 1.15; 
 .catalogue-ppe-symbol { display: grid; place-items: center; min-height: 13.5rem; background: linear-gradient(135deg, #1a1a2e, #2e2b42); color: var(--gold-light); }
 .ppe-hero { position: relative; overflow: hidden; background: #171727; color: #fff; padding: 8.7rem 0 5.3rem; }
 .ppe-hero-grid { position: absolute; inset: 0; opacity: .24; background-image: linear-gradient(rgba(200,150,62,.22) 1px, transparent 1px), linear-gradient(90deg, rgba(200,150,62,.22) 1px, transparent 1px); background-size: 3.4rem 3.4rem; mask-image: linear-gradient(to right, #000, transparent 85%); }
+.ppe-hero-layout { position: relative; display: grid; gap: 2.25rem; align-items: center; }
 .ppe-hero-copy { position: relative; max-width: 910px; }
+.ppe-hero-media { position: relative; display: grid; min-height: 17rem; place-items: center; overflow: hidden; border: 1px solid rgba(200,150,62,.65); background: linear-gradient(145deg, #fff, #eeeae2); box-shadow: 1.1rem 1.1rem 0 rgba(200,150,62,.18); padding: 1.25rem; }
+.ppe-hero-media::before { position: absolute; inset: .65rem; border: 1px solid rgba(26,26,46,.12); content: ""; pointer-events: none; }
+.ppe-hero-media img { position: relative; z-index: 1; display: block; width: 100%; max-width: 27rem; height: 100%; min-height: 15rem; object-fit: contain; background: #fff; filter: none; mix-blend-mode: normal; }
 .ppe-hero h1 { max-width: 800px; margin: .55rem 0 1.1rem; color: #fff; font-size: clamp(3rem, 6vw, 5.3rem); line-height: .98; }
 .ppe-hero p { max-width: 720px; color: rgba(255,255,255,.8); font-size: 1.05rem; line-height: 1.75; }
 .ppe-hero-stats { display: flex; flex-wrap: wrap; gap: 1rem 2rem; margin-top: 2rem; color: rgba(255,255,255,.76); font-size: .76rem; font-weight: 700; letter-spacing: .05em; text-transform: uppercase; }
 .ppe-hero-stats b { margin-right: .32rem; color: var(--gold-light); font-family: var(--font-display); font-size: 1.55rem; }
+@media (min-width: 900px) { .ppe-hero-layout { grid-template-columns: minmax(0, 1.25fr) minmax(19rem, .75fr); } .ppe-hero-media { min-height: 27rem; } }
+@media (max-width: 699px) { .ppe-hero-media { width: min(100%, 22rem); min-height: 14rem; margin-inline: auto; padding: .85rem; } .ppe-hero-media img { min-height: 12rem; } }
 .ppe-heading { max-width: 860px; }
 .ppe-assurance-grid { display: grid; gap: 1rem; margin-top: 2rem; }
 .ppe-assurance-grid article { display: flex; align-items: flex-start; gap: .75rem; border-top: 1px solid rgba(26,26,46,.14); padding-top: 1rem; }

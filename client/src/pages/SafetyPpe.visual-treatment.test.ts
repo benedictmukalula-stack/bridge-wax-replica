@@ -21,4 +21,10 @@ describe("Safety & PPE visual treatment", () => {
     expect(stylesheet).toContain(".product-detail-media { display: flex; aspect-ratio: 1 / .88; align-items: center; justify-content: center; overflow: hidden; border: 1px solid rgba(26,26,46,.1); background: #fff; padding: 2rem; }");
     expect(stylesheet).not.toContain(".catalogue-product-image { display: block; width: 100%; height: 100%; object-fit: contain; mix-blend-mode: multiply; transition: transform .25s var(--ease-out); }");
   });
+
+  it("presents the dedicated PPE hero image on a neutral, high-contrast media surface", () => {
+    expect(stylesheet).toContain(".ppe-hero-layout { position: relative; display: grid; gap: 2.25rem; align-items: center; }");
+    expect(stylesheet).toContain(".ppe-hero-media { position: relative; display: grid; min-height: 17rem; place-items: center; overflow: hidden; border: 1px solid rgba(200,150,62,.65); background: linear-gradient(145deg, #fff, #eeeae2); box-shadow: 1.1rem 1.1rem 0 rgba(200,150,62,.18); padding: 1.25rem; }");
+    expect(stylesheet).toContain(".ppe-hero-media img { position: relative; z-index: 1; display: block; width: 100%; max-width: 27rem; height: 100%; min-height: 15rem; object-fit: contain; background: #fff; filter: none; mix-blend-mode: normal; }");
+  });
 });

@@ -50,6 +50,11 @@ export const PPE_CATALOGUE = {
   groups: PPE_CATEGORY_GROUPS,
 } as const;
 
+export const PPE_HERO_VISUAL = {
+  image: "/manus-storage/ppe-workwear-hi-vis-navy-orange_8c3cc939.jpg",
+  alt: "Reflective industrial workwear featured for Bridge Wax Safety and PPE",
+} as const;
+
 export const PPE_PRODUCT_FAMILIES = PPE_CATEGORY_GROUPS.flatMap((group) => group.families.map((item) => ({ ...item, groupSlug: group.slug, groupTitle: group.title })));
 
 /**

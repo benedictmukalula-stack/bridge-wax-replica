@@ -15,6 +15,7 @@ describe("SafetyPpe", () => {
     render(<SafetyPpe />);
 
     expect(screen.getByRole("heading", { name: "Protection planned for the work ahead." })).toBeTruthy();
+    expect(screen.getByAltText("Reflective industrial workwear featured for Bridge Wax Safety and PPE").getAttribute("src")).toContain("/manus-storage/ppe-workwear-hi-vis-navy-orange_");
     expect(screen.getByText("70", { selector: ".ppe-hero-stats b" })).toBeTruthy();
     expect(screen.getByRole("heading", { name: "Workwear" })).toBeTruthy();
     expect(screen.getByText("Premium Workwear")).toBeTruthy();

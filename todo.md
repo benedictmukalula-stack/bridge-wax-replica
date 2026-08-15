@@ -417,3 +417,10 @@
 - [x] Upload, register, and map category-specific visuals for Eye & Face Protection, Hearing Protection, Respiratory Protection, Welding PPE, and First Aid & Workplace Safety.
 - [x] Expand PPE visual-registry and integration coverage, then run image, type, build, and desktop/mobile visual regression checks.
 - [x] Deploy and verify the completed visual Safety & PPE catalogue on staging without changing SMTP configuration or bridgewax.com production.
+
+## Safety & PPE Hero Image
+
+- [x] Review the Safety & PPE hero markup and select a suitable authorised no-human PPE visual treatment.
+- [x] Implement a dedicated responsive hero image with readable copy and preserve existing catalogue navigation and quotation calls to action.
+- [x] Add hero-image regression coverage and run type, focused test, build, and desktop/mobile visual checks.
+- [x] Deploy and verify the updated Safety & PPE hero on staging without changing SMTP configuration or bridgewax.com production.

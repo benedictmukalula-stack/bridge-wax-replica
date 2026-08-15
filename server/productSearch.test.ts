@@ -5,7 +5,7 @@ describe("expanded product search index", () => {
   it("finds individual products by product terms and codes", () => {
     expect(searchProducts("centrifugal").some((product) => product.code === "BW-WP-001")).toBe(true);
     expect(searchProducts("BW-WP-001")[0]?.name).toBe("End-Suction Centrifugal Pump");
-    expect(searchProducts("BW-WP-001")[0]?.image).toMatch(/^\/manus-storage\//);
+    expect(searchProducts("BW-WP-001")[0]?.image).toBe("/images/products/new-authoritative/BW-WP-001.webp");
   });
 
   it("finds product categories and returns their catalogue destinations", () => {

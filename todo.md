@@ -250,8 +250,62 @@
 - [x] Review the current empty-cart Continue browsing link.
 - [x] Route Continue browsing to the Products & Solutions page.
 - [x] Add coverage and verify empty-cart navigation.
-- [ ] Save and deliver the cart navigation correction.
+- [x] Save and deliver the cart navigation correction.
 
 # Cart Empty-State Component Coverage
 
 - [x] Test Continue browsing from the rendered empty-cart UI, including drawer close and `/products` navigation.
+
+# Image Asset Export
+
+- [x] Inventory all managed Bridge Wax image assets and available source files.
+- [x] Assemble an export archive with the image files and an identifying manifest.
+- [x] Verify archive contents and deliver the downloadable image export.
+
+# Image Optimization Script
+
+- [x] Review export formats and choose safe web compression defaults.
+- [x] Create a reusable image optimization script with original preservation and size reporting.
+- [x] Run the script on a representative subset and verify optimized output.
+- [x] Deliver the script and usage guide.
+
+# Terminal Image ZIP Package
+
+- [x] Review the image export layout and terminal extraction requirements.
+- [x] Create a terminal-ready ZIP with images, manifest, and extraction instructions.
+- [x] Verify archive integrity and terminal extraction, then deliver the package.
+
+# Manifest Catalogue Image Validator
+
+- [x] Review manifest fields and product catalogue image reference patterns.
+- [x] Create a Python validator with missing, unused, and invalid image-reference reporting.
+- [x] Run the validator against the Bridge Wax catalogue and verify the results.
+- [x] Deliver the validator script, usage guide, and validation report.
+
+# Deployed-to-Terminal Catalogue Image Mapping
+
+- [x] Extract the live product-catalogue image references and their deployed image contents.
+- [x] Build a terminal package containing the deployed product images and an exact code-to-file mapping.
+- [x] Verify all terminal catalogue product mappings match deployed assets and have unique contents.
+- [x] Deliver the corrected terminal catalogue image package.
+
+# Authoritative Catalogue Image Redeployment
+
+- [x] Inspect the current 36-SKU catalogue, source-control state, authoritative image package, and external deployment constraints.
+- [x] Import 36 authoritative SKU-specific images under client/public/images/products/new-authoritative/ using deterministic SKU filenames.
+- [x] Validate expected SKUs, paths, image count, distinct SHA-256 hashes, and zero duplicate assignments before changing productCatalog.ts.
+- [x] Update productCatalog.ts to reference only the validated authoritative SKU image library.
+- [x] Add and run automated catalogue image-integrity validation without changing SMTP configuration.
+- [x] Run pnpm check, pnpm test, pnpm build, git status, and git diff; report SMTP connectivity accurately if tested.
+- [ ] Commit and push the verified changes to the existing GitHub remote.
+- [ ] Deploy the existing project to Vercel and verify bridgewax.com functionality, SEO URLs, sitemap, robots.txt, cart, and quotation form.
+- [ ] Deliver the final validation and deployment status report.
+
+# Resilient Deployed Image Retrieval
+
+- [x] Add bounded retry and retry-delay handling for transient live-image retrieval errors.
+- [x] Add an optional terminal-curl fallback when Python HTTPS retries are exhausted.
+
+# Unused Manifest Asset Detail
+
+- [x] Include concrete unused-manifest entries in the validation report and verify the output.

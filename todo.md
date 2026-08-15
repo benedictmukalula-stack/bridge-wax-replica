@@ -386,3 +386,4 @@
 ## Product Documentation Enhancement
 
 - [x] Add a source-linked manufacturer specifications and documents section to product detail pages, with genuine downloads only and a clear request fallback when no verified file has been supplied.
+- [x] Add an accessible in-page document preview modal with Preview and Download controls for verified manufacturer files.

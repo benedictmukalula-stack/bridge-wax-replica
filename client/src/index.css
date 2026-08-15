@@ -701,3 +701,12 @@ h2 { color: var(--ink); font-size: clamp(2rem, 4vw, 3.2rem); line-height: 1.15; 
 .quote-cart-item { display: flex; align-items: center; justify-content: space-between; gap: 1rem; }
 .quote-cart-item-notes { width: 100%; border: 1px solid var(--border); border-radius: .3rem; background: #fafaf7; color: var(--ink); outline: 0; padding: .45rem .6rem; font-size: .78rem; font-family: inherit; transition: border-color .18s ease, background-color .18s ease, box-shadow .18s ease; resize: vertical; min-height: 2.2rem; }
 .quote-cart-item-notes:focus { border-color: var(--gold); background: #fff; box-shadow: 0 0 0 2px rgba(200,150,62,.12); }
+
+.quote-cart-pdf-actions { display: grid; gap: .55rem; margin: .15rem 0 .1rem; }
+.quote-cart-pdf-button { width: 100%; justify-content: center; border-color: rgba(31, 40, 56, .26); background: #fff; color: var(--ink); }
+.quote-cart-pdf-button:hover:not(:disabled) { border-color: var(--gold); background: rgba(200,150,62,.10); color: var(--ink); }
+.quote-cart-pdf-button:disabled { cursor: wait; opacity: .7; }
+.quote-cart-pdf-error { margin: 0; border-left: 3px solid #9f2f2f; background: #fff8f6; color: #7f2424; padding: .65rem .75rem; font-size: .75rem; line-height: 1.45; }
+@media (min-width: 640px) {
+  .quote-cart-pdf-button { justify-self: start; width: auto; min-width: 13rem; }
+}

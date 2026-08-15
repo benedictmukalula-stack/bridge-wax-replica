@@ -470,3 +470,11 @@
 - [x] Inspect Vercel production deployment status and domain binding for `bridgewax.com`.
 - [x] Verify production URL responses for root, `/products`, and `/products/ppe`.
 - [x] Complete the final validation report matching user criteria.
+
+# Quote Cart PDF Summary
+
+- [x] Add a professional PDF summary generator for the current quote cart, including item codes, quantities, categories, and per-item notes.
+- [x] Add a download control to the quote cart drawer with empty/loading/error states and accessible labeling.
+- [x] Preserve the existing quote submission flow, catalogue image mappings, and SMTP configuration.
+- [x] Add regression coverage for PDF content and the cart download interaction.
+- [x] Run type checks, tests, production build, visual verification, and save a checkpoint.

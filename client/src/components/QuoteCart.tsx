@@ -1,9 +1,10 @@
-import { Minus, Plus, Send, ShoppingBag, Trash2, X } from "lucide-react";
+import { Download, Minus, Plus, Send, ShoppingBag, Trash2, X } from "lucide-react";
 import { useEffect, useState, type FormEvent } from "react";
 import { useLocation } from "wouter";
 import { trpc } from "../lib/trpc";
 import { useQuoteCart } from "../contexts/QuoteCartContext";
 import { quotationSubmissionSuccessMessage } from "../lib/quoteConfirmation";
+import { downloadQuoteCartPdf } from "../lib/quotePdf";
 
 export const CONTINUE_BROWSING_PATH = "/products";
 
@@ -30,6 +31,8 @@ export default function QuoteCart() {
   const [submitError, setSubmitError] = useState("");
   const [submitted, setSubmitted] = useState(false);
   const [customerConfirmationSent, setCustomerConfirmationSent] = useState(false);
+  const [pdfGenerating, setPdfGenerating] = useState(false);
+  const [pdfError, setPdfError] = useState("");
   const quoteRequest = trpc.quoteRequest.send.useMutation();
 
   useEffect(() => {
@@ -63,6 +66,21 @@ export default function QuoteCart() {
   const continueBrowsing = () => {
     closeCart();
     setLocation(CONTINUE_BROWSING_PATH);
+  };
+
+  const downloadPdfSummary = async () => {
+    setPdfError("");
+    setPdfGenerating(true);
+    try {
+      await downloadQuoteCartPdf({
+        items,
+        customer: { name, email, company, requirements },
+      });
+    } catch {
+      setPdfError("We could not prepare the PDF summary. Please try again or use the quotation form below.");
+    } finally {
+      setPdfGenerating(false);
+    }
   };
 
   const submit = async (event: FormEvent<HTMLFormElement>) => {
@@ -109,6 +127,12 @@ export default function QuoteCart() {
           </div>
           <textarea className="quote-cart-item-notes" value={item.notes || ""} onChange={(e) => setItemNotes(item.code, e.target.value)} placeholder="Add specifications or notes for this item (optional)" rows={2} aria-label={`Notes for ${item.name}`} />
         </div>)}</div>
+        <div className="quote-cart-pdf-actions">
+          <button type="button" className="button button-outline-dark quote-cart-pdf-button" onClick={downloadPdfSummary} disabled={pdfGenerating} aria-busy={pdfGenerating}>
+            <Download size={15} /> {pdfGenerating ? "Preparing PDF…" : "Download PDF summary"}
+          </button>
+          {pdfError && <p className="quote-cart-pdf-error" role="alert">{pdfError}</p>}
+        </div>
         <form className="quote-cart-form" onSubmit={submit}><div className="quote-cart-form-heading"><h3>Send request for quotation</h3><button type="button" className="quote-cart-clear" onClick={() => setShowClearConfirm(true)} aria-label="Clear cart"><Trash2 size={14} /> Clear Cart</button></div>{showClearConfirm && <div className="clear-cart-confirmation" role="alertdialog" aria-labelledby="clear-cart-title" aria-describedby="clear-cart-description"><div><strong id="clear-cart-title">Clear all selected products?</strong><p id="clear-cart-description">This will remove every item from your cart. You can add products again at any time.</p></div><div className="clear-cart-confirmation-actions"><button type="button" className="button button-small button-outline-dark" onClick={() => setShowClearConfirm(false)}>Cancel</button><button type="button" className="button button-small button-danger" onClick={() => { clearCart(); setShowClearConfirm(false); }}>Clear Cart</button></div></div>}{submitError && <div className="quote-cart-submit-error" role="alert"><span>{submitError}</span><button type="button" className="button button-small button-outline-dark" onClick={openMailtoFallback}>Open email app</button></div>}<div className="quote-cart-form-row"><input required value={name} onChange={(event) => setName(event.target.value)} placeholder="Full name" aria-label="Full name" /><input required type="email" value={email} onChange={(event) => setEmail(event.target.value)} placeholder="Email address" aria-label="Email address" /></div><input value={company} onChange={(event) => setCompany(event.target.value)} placeholder="Company (optional)" aria-label="Company" /><textarea value={requirements} onChange={(event) => setRequirements(event.target.value)} rows={3} placeholder="Tell us about your requirements (optional)" aria-label="Additional requirements" /><p className="quote-cart-recipient">Your request will be sent securely from <strong>info@bridgewax.com</strong> and delivered only to <strong>info@bridgewax.com</strong>.</p><button type="submit" className="button button-gold quote-cart-submit" disabled={quoteRequest.isPending}><Send size={16} /> {quoteRequest.isPending ? "Sending request…" : "Send quotation request"}</button></form>
       </>}
     </aside>

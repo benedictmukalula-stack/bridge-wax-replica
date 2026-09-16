@@ -6,10 +6,6 @@
       "destination": "https://bridgewax-gxhf7erv.manus.space/api/:path*"
     },
     {
-      "source": "/manus-storage/:path*",
-      "destination": "https://bridgewax-gxhf7erv.manus.space/manus-storage/:path*"
-    },
-    {
       "source": "/(.*)",
       "destination": "/index.html"
     }
